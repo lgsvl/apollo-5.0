@@ -4,7 +4,7 @@ header:
     stamp:
         secs: 0
         nsecs: 0
-    frame_id: velodyne64
+    frame_id: velodyne128
 child_frame_id: front_6mm
 transform:
     rotation:
