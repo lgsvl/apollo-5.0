@@ -1,0 +1,17 @@
+header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: velodyne64
+child_frame_id: radar_front
+transform:
+  translation:
+    x: 0
+    y: 2.63992
+    z: -1.286314
+  rotation:
+    x: 0
+    y: 0
+    z: 0.7071068
+    w: 0.7071068
