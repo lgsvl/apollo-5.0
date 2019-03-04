@@ -24,6 +24,9 @@
 #include <sensor_msgs/PointCloud2.h>
 #include <tf2_msgs/TFMessage.h>
 
+#include <sensor_msgs/Image.h>
+#include <sensor_msgs/CompressedImage.h>
+
 #include <cstdint>
 #include <cstdlib>
 #include <iostream>
@@ -57,8 +60,8 @@ void PrintUsage() {
             << "  rosbag_to_record input.bag output.record" << std::endl;
 }
 
-bool convert_PointCloud(std::shared_ptr<apollo::drivers::PointCloud> proto,
-                        sensor_msgs::PointCloud2::ConstPtr rawdata) {
+int convert_PointCloud(std::shared_ptr<apollo::drivers::PointCloud> proto,
+                       sensor_msgs::PointCloud2::ConstPtr rawdata) {
   auto header = proto->mutable_header();
   header->set_timestamp_sec(rawdata->header.stamp.toSec());
   header->set_frame_id(rawdata->header.frame_id);
@@ -91,7 +94,7 @@ bool convert_PointCloud(std::shared_ptr<apollo::drivers::PointCloud> proto,
       stamp_offset == -1 || intensity_offset == -1) {
     std::cerr << "Field not contains x, y, z, timestamp, instensity"
               << std::endl;
-    return false;
+    return 0;
   }
 
   int total = rawdata->width * rawdata->height;
@@ -108,13 +111,45 @@ bool convert_PointCloud(std::shared_ptr<apollo::drivers::PointCloud> proto,
         *reinterpret_cast<double *>(&data[offset + stamp_offset]) * 1e9));
   }
 
-  return true;
+  return 1;
+}
+
+
+int convert_Image(std::shared_ptr<apollo::drivers::Image> proto,
+                       sensor_msgs::Image::ConstPtr rawdata) {
+  auto header = proto->mutable_header();
+  header->set_timestamp_sec(rawdata->header.stamp.toSec());
+  header->set_frame_id(rawdata->header.frame_id);
+  header->set_sequence_num(rawdata->header.seq);
+  proto->set_frame_id(rawdata->header.frame_id);
+  proto->set_measurement_time(rawdata->header.stamp.toSec());
+  proto->set_width(rawdata->width);
+  proto->set_height(rawdata->height);
+  proto->set_encoding(rawdata->encoding);
+
+  proto->set_data(rawdata->data.data(), rawdata->data.size());
+  return 1;
+}
+
+int convert_CompressedImage(std::shared_ptr<apollo::drivers::CompressedImage> proto,
+                       sensor_msgs::CompressedImage::ConstPtr rawdata) {
+  auto header = proto->mutable_header();
+  header->set_timestamp_sec(rawdata->header.stamp.toSec());
+  header->set_frame_id(rawdata->header.frame_id);
+  header->set_sequence_num(rawdata->header.seq);
+  proto->set_frame_id(rawdata->header.frame_id);
+  proto->set_measurement_time(rawdata->header.stamp.toSec());
+  proto->set_format(rawdata->format);
+
+  proto->set_data(rawdata->data.data(), rawdata->data.size());
+  return 1;
+
 }
 
 int main(int argc, char **argv) {
   if (argc != 3) {
     PrintUsage();
-    return 0;
+    return -1;
   }
 
   const std::string rosbag_file_name = argv[1];
@@ -149,7 +184,7 @@ int main(int argc, char **argv) {
     auto desc = channel_info->GetProtoDesc(channel_name);
     auto record_message_type = channel_info->GetMessageType(channel_name);
     if (desc == "" || record_message_type == "") {
-      AWARN << "Cannot find desc or message type for channel: " << channel_name
+      AWARN << "can not find desc or message type for channel: " << channel_name
             << "; desc:" << desc << ";type:" << record_message_type;
     }
 
@@ -160,7 +195,7 @@ int main(int argc, char **argv) {
     if (std::find(channel_write_flag.begin(), channel_write_flag.end(),
                   channel_name) == channel_write_flag.end() &&
         !record_writer->WriteChannel(channel_name, record_message_type, desc)) {
-      AERROR << "Failed to write channel info, channel: " << channel_name;
+      AERROR << "write channel info failed";
     } else {
       channel_write_flag.push_back(channel_name);
     }
@@ -292,23 +327,92 @@ int main(int argc, char **argv) {
     } else if (channel_name == "/apollo/sensor/gnss/rtk_obs") {
       auto pb_msg = m.instantiate<apollo::drivers::gnss::EpochObservation>();
       pb_msg->SerializeToString(&serialized_str);
-    } else if (channel_name ==
+    }
+
+
+    else if (channel_name ==
+               "/apollo/sensor/camera/front_6mm/image") {
+      auto ros_msg = m.instantiate<sensor_msgs::Image>();
+      auto pb_msg = std::make_shared<apollo::drivers::Image>();
+      convert_Image(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+    else if (channel_name ==
+               "/apollo/sensor/camera/front_12mm/image") {
+      auto ros_msg = m.instantiate<sensor_msgs::Image>();
+      auto pb_msg = std::make_shared<apollo::drivers::Image>();
+      convert_Image(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+    else if (channel_name ==
+               "/apollo/sensor/camera/front_6mm/image/compressed") {
+      auto ros_msg = m.instantiate<sensor_msgs::CompressedImage>();
+      auto pb_msg = std::make_shared<apollo::drivers::CompressedImage>();
+      convert_CompressedImage(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+   else if (channel_name ==
+               "/apollo/sensor/camera/front_12mm/image/compressed") {
+      auto ros_msg = m.instantiate<sensor_msgs::CompressedImage>();
+      auto pb_msg = std::make_shared<apollo::drivers::CompressedImage>();
+      convert_CompressedImage(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+    else if (channel_name ==
+               "/apollo/sensor/camera/traffic/image_long/compressed") {
+      auto ros_msg = m.instantiate<sensor_msgs::CompressedImage>();
+      auto pb_msg = std::make_shared<apollo::drivers::CompressedImage>();
+      convert_CompressedImage(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+
+    else if (channel_name ==
+               "/apollo/sensor/camera/traffic/image_short/compressed") {
+      auto ros_msg = m.instantiate<sensor_msgs::CompressedImage>();
+      auto pb_msg = std::make_shared<apollo::drivers::CompressedImage>();
+      convert_CompressedImage(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+    else if (channel_name ==
+               "/apollo/sensor/camera/traffic/image_long") {
+      auto ros_msg = m.instantiate<sensor_msgs::Image>();
+      auto pb_msg = std::make_shared<apollo::drivers::Image>();
+      convert_Image(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+
+    else if (channel_name ==
+               "/apollo/sensor/camera/traffic/image_short") {
+      auto ros_msg = m.instantiate<sensor_msgs::Image>();
+      auto pb_msg = std::make_shared<apollo::drivers::Image>();
+      convert_Image(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+
+    else if (channel_name ==
                "/apollo/sensor/velodyne64/compensator/PointCloud2") {
       auto ros_msg = m.instantiate<sensor_msgs::PointCloud2>();
       auto pb_msg = std::make_shared<apollo::drivers::PointCloud>();
-      if (!convert_PointCloud(pb_msg, ros_msg)) {
-        AERROR << "Failed to convert PointCloud for channel: " << channel_name;
-      }
+      convert_PointCloud(pb_msg, ros_msg);
       pb_msg->SerializeToString(&serialized_str);
-    } else {
-      AWARN << "Unsupported channel: " << channel_name;
+    }
+    else if (channel_name ==
+               "/apollo/sensor/velodyne128/compensator/PointCloud2") {
+      auto ros_msg = m.instantiate<sensor_msgs::PointCloud2>();
+      auto pb_msg = std::make_shared<apollo::drivers::PointCloud>();
+      convert_PointCloud(pb_msg, ros_msg);
+      pb_msg->SerializeToString(&serialized_str);
+    }
+
+    else {
+      AWARN << "Unsupported channel:" << channel_name;
       continue;
     }
 
     auto raw_msg =
         std::make_shared<apollo::cyber::message::RawMessage>(serialized_str);
     if (!record_writer->WriteMessage(channel_name, raw_msg, nsec)) {
-      AERROR << "Failed to write single message for channel: " << channel_name;
+      AERROR << "write single msg fail";
     }
   }
 
@@ -316,9 +420,9 @@ int main(int argc, char **argv) {
   record_writer = nullptr;
   std::cout << "Info of record file" << std::endl;
   std::string command_line = "cyber_recorder info " + record_file_name;
-  int ret = system(command_line.c_str());
+  int res = system(command_line.c_str());
 
-  std::cout << "Conversion finished! Took " << ros::Time::now() - start_time
+  std::cout << "Convertion finished! Took " << ros::Time::now() - start_time
             << " seconds in total." << std::endl;
-  return ret;
+  return res;
 }

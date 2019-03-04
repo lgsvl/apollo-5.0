@@ -110,6 +110,33 @@ void ChannelInfo::InitChannels() {
   InitChannelInfo<apollo::drivers::PointCloud>(
       "/apollo/sensor/velodyne64/compensator/PointCloud2",
       "apollo.drivers.PointCloud");
+  InitChannelInfo<apollo::drivers::PointCloud>(
+      "/apollo/sensor/velodyne128/compensator/PointCloud2",
+      "apollo.drivers.PointCloud");
+  InitChannelInfo<apollo::drivers::Image>(
+      "/apollo/sensor/camera/front_6mm/image",
+      "apollo.drivers.Image");
+  InitChannelInfo<apollo::drivers::Image>(
+      "/apollo/sensor/camera/front_12mm/image",
+      "apollo.drivers.Image");    
+  InitChannelInfo<apollo::drivers::CompressedImage>(
+      "/apollo/sensor/camera/front_6mm/image/compressed",
+      "apollo.drivers.CompressedImage");   
+  InitChannelInfo<apollo::drivers::CompressedImage>(
+      "/apollo/sensor/camera/front_12mm/image/compressed",
+      "apollo.drivers.CompressedImage");
+  InitChannelInfo<apollo::drivers::CompressedImage>(
+      "/apollo/sensor/camera/traffic/image_long/compressed",
+      "apollo.drivers.CompressedImage");      
+  InitChannelInfo<apollo::drivers::CompressedImage>(
+      "/apollo/sensor/camera/traffic/image_short/compressed",
+      "apollo.drivers.CompressedImage");   
+  InitChannelInfo<apollo::drivers::Image>(
+      "/apollo/sensor/camera/traffic/image_long",
+      "apollo.drivers.Image");      
+  InitChannelInfo<apollo::drivers::Image>(
+      "/apollo/sensor/camera/traffic/image_short",
+      "apollo.drivers.Image");     
 }
 
 }  // namespace data

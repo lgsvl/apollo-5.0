@@ -53,6 +53,9 @@
 #include "modules/prediction/proto/prediction_obstacle.pb.h"
 #include "modules/routing/proto/routing.pb.h"
 
+#include "modules/drivers/proto/sensor_image.pb.h"
+
+
 namespace apollo {
 namespace data {
 
