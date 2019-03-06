@@ -986,6 +986,7 @@ void Visualizer::Draw2Dand3D_all_info_single_camera(
   for (const auto &object : frame.lane_objects) {
     cv::Scalar lane_color = colormapline[object.pos_type];
     cv::Point p_prev;
+    if (object.curve_image_point_set.empty()) continue;
     p_prev.x = static_cast<int>(object.curve_image_point_set[0].x);
     p_prev.y = static_cast<int>(object.curve_image_point_set[0].y);
     Eigen::Vector2d p_prev_ground = image2ground(p_prev);

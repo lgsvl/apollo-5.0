@@ -445,7 +445,7 @@ void DarkSCNNLanePostprocessor::PolyFitCameraLaneline(CameraFrame* frame) {
         lane_objects[line_index].curve_camera_point_set;
     // z: longitudinal direction
     // x: latitudinal direction
-    float x_start = camera_point_set[0].z;
+    float x_start = FLT_MAX; //camera_point_set[0].z;
     float x_end = 0.0f;
     Eigen::Matrix<float, max_poly_order + 1, 1> camera_coeff;
     std::vector<Eigen::Matrix<float, 2, 1>> camera_pos_vec;
