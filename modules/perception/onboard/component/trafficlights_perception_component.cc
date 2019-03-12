@@ -680,7 +680,8 @@ bool TrafficLightsPerceptionComponent::GetPoseFromTF(
     const double timestamp, const std::string& frame_id,
     const std::string& child_frame_id, Eigen::Matrix4d* pose_matrix) {
   PERCEPTION_PERF_FUNCTION();
-  apollo::cyber::Time query_time(timestamp);
+  // apollo::cyber::Time query_time(timestamp);
+  apollo::cyber::Time query_time(0);
   std::string err_string;
   if (!tf2_buffer_->canTransform(frame_id, child_frame_id, query_time,
                                  static_cast<float>(tf2_timeout_second_),
