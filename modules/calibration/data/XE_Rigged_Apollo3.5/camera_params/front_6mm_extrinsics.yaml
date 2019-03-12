@@ -1,19 +1,17 @@
-#MKZ8
 header:
-    seq: 0
-    stamp:
-        secs: 0
-        nsecs: 0
-    frame_id: velodyne128
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: velodyne128
 child_frame_id: front_6mm
 transform:
-    rotation:
-        x: 0.4984705
-        y: -0.4984705
-        z: 0.5015248
-        w: -0.5015248
-    translation:
-        x: 1.269
-        y: -0.028
-        z: 1.786   # when Z=0 is ground
-#        z: 1.476  # when Z=0 is the rear wheel axle
+  translation:
+    x: 0
+    y: 0.1679201
+    z: -0.2753141
+  rotation:
+    x: 0.7071068
+    y: 0
+    z: 0
+    w: -0.7071068
