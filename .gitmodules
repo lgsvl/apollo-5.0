@@ -1,0 +1,4 @@
+[submodule "lg_pkgs/lgsvl_msgs"]
+	path = lgsvl_pkgs/lgsvl_msgs
+	url = ../lgsvl_msgs.git
+	branch = apollo_3_5
