@@ -1,4 +1,4 @@
-FROM apolloauto/apollo:dev-x86_64-20181210_1500
+FROM apolloauto/apollo:dev-x86_64-20190307_1502
 
 COPY --from=nvidia/opengl:1.1-glvnd-runtime-ubuntu14.04 \
  /usr/local/lib/x86_64-linux-gnu \
