@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2019 LG Electronics, Inc.
+ *
+ * This software contains code licensed as described in LICENSE.
+ *
+ */
 #include "node.h"
 #include "client.h"
 
@@ -100,7 +106,7 @@ void Node::add_reader(const std::string& channel, const std::string& type, std::
     reader.clients.insert(client);
 
     std::lock_guard<std::mutex> lock(mutex);
-    readers.insert(std::make_pair(channel, reader));    
+    readers.insert(std::make_pair(channel, reader));
 }
 
 void Node::add_writer(const std::string& channel, const std::string& type, std::shared_ptr<Client> client)

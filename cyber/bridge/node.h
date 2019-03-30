@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2019 LG Electronics, Inc.
+ *
+ * This software contains code licensed as described in LICENSE.
+ *
+ */
 #pragma once
 
 #include <mutex>
@@ -6,8 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
-namespace apollo 
-{ 
+namespace apollo
+{
     namespace cyber
     {
         class Node;

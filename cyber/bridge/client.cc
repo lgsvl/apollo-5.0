@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2019 LG Electronics, Inc.
+ *
+ * This software contains code licensed as described in LICENSE.
+ *
+ */
 #include "client.h"
 #include "clients.h"
 #include "node.h"
@@ -99,7 +105,7 @@ void Client::handle_read(const boost::system::error_code& ec, std::size_t size)
         node.remove(shared_from_this());
         return;
     }
-    
+
     if (ec != boost::asio::error::operation_aborted)
     {
         AERROR << "Client read failed, disconnecting" << ec;
@@ -209,7 +215,7 @@ void Client::handle_add_reader()
 
     node.add_reader(channel, type, shared_from_this());
 
-    buffer.erase(buffer.begin(), buffer.begin() + offset);    
+    buffer.erase(buffer.begin(), buffer.begin() + offset);
 }
 
 // [3] [channel] [type]
@@ -286,7 +292,7 @@ void Client::handle_publish()
 
     node.publish(channel, message);
 
-    buffer.erase(buffer.begin(), buffer.begin() + offset);    
+    buffer.erase(buffer.begin(), buffer.begin() + offset);
 }
 
 void Client::publish(const std::string& channel, const std::string& msg)

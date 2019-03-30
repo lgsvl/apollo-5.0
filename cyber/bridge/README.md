@@ -39,7 +39,4 @@ In one more terminal launch example listener:
 
 Now you should see talker and listener sending & receiving message with incrementing integer.
 
-Now open Unity project. Change bridge IP in `CyberTest.cs` file and run the projec. You should
-see in console log output same integer as talker.py is publishing. If you press `[space]` key
-Unity will send message to Cyber - you should see current time as integer & string appearing
-in listener.py terminal.
+
