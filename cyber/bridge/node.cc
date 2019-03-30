@@ -140,7 +140,7 @@ void Node::publish(const std::string& channel, const std::string& data)
     auto writer = writers.find(channel);
     if (writer == writers.end())
     {
-        AERROR << "No writer registered on channel " << channel;
+        AWARN << "No writer registered on channel " << channel;
         return;
     }
 
