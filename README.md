@@ -1,4 +1,4 @@
-# LG Silicon Valley Lab Apollo Fork
+# LG Silicon Valley Lab Apollo 3.5 Fork
 This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) maintained by the LG Electronics Silicon Valley Lab which has modified and configured to facilitate use with [LG's Automotive Simulator](https://github.com/lgsvl/simulator).
 
 **The software and source code in this repository are intended only for use with LG Automotive Simulator and *should not* be used in a real vehicle.**
@@ -10,7 +10,7 @@ This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) main
 3. [Setup](#setup)
     - [Docker](#docker)
     - [Cloning the Repository](#cloning-the-repository)
-    - [Building Apollo and Rosbridge](#building-apollo-and-rosbridge)
+    - [Building Apollo and Bridge](#building-apollo-and-bridge)
 4. [Launching Apollo Alongside the Simulator](#launching-apollo-alongside-the-simulator)
 
 ## Getting Started
@@ -71,10 +71,10 @@ To pull the image use the following command:
 ### Cloning the Repository
 This repository includes a couple of submodules for HD Maps and lgsvl msgs. To make sure that the submodules are also cloned use the following command:
 
-    git clone --recurse-submodules git@github.com:lgsvl/apollo-3.5.git
+    git clone --recurse-submodules https://github.com/lgsvl/apollo-3.5.git
 
 
-### Building Apollo and rosbridge
+### Building Apollo and bridge
 Now everything should be in place to build apollo. Apollo must be built from the container. To launch the container navigate to the directory where the repository was cloned and enter:
 
     ./docker/scripts/dev_start.sh
@@ -88,10 +88,6 @@ To get into the container:
 Build Apollo:
 
     ./apollo.sh build_gpu
-
-(optional) to build without gpu:
-
-    ./apollo.sh build
 
 
 ## Launching Apollo alongside the simulator
