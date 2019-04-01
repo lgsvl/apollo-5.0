@@ -364,7 +364,7 @@ bool RouteSegments::CanDriveFrom(const LaneWaypoint &waypoint) const {
   auto segment_projected_point =
       segment_waypoint.lane->GetSmoothPoint(segment_waypoint.s);
   double dist = common::util::DistanceXY(point, segment_projected_point);
-  const double kLaneSeparationDistance = 0.3;
+  const double kLaneSeparationDistance = 0.7;
   if (route_sl.l() < 0) {  // waypoint at right side
     if (dist >
         waypoint_left_width + segment_right_width + kLaneSeparationDistance) {
