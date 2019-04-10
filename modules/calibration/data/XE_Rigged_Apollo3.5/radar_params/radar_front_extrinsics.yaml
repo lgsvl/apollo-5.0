@@ -3,15 +3,16 @@ header:
   stamp:
     secs: 0
     nsecs: 0
-  frame_id: velodyne64
+  frame_id: velodyne128
 child_frame_id: radar_front
 transform:
   translation:
-    x: 0
-    y: 2.63992
+    x: 2.63992
+    y: 0
     z: -1.623
   rotation:
     x: 0
     y: 0
-    z: 0.7071068
-    w: 0.7071068
+    z: 0
+    w: 1
+

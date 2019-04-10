@@ -3,7 +3,7 @@ header:
   stamp:
     secs: 0
     nsecs: 0
-  frame_id: short_camera
+  frame_id: front_6mm
 child_frame_id: radar
 transform:
   translation:
