@@ -21,7 +21,7 @@ The guide outlines the steps required to setup Apollo for use with the LG Automo
 * Nvidia graphics card (required for Perception)
     - Nvidia proprietary driver must be installed
     - The current version of Apollo does not support Volta and Turing architectures (this includes Titan V and RTX 2080 GPUs).
-   
+
 
 
 ## Setup
@@ -92,6 +92,8 @@ Build Apollo:
 
 ## Launching Apollo alongside the simulator
 
+[![](images/apollo3-5_simulator.png)](images/full_size_images/apollo3-5_simulator.png)
+
 Here we only describe only a simple case of driving from point A to point B using Apollo and the simulator. 
 
 To launch apollo, first launch and enter a container as described in the previous steps.
@@ -110,6 +112,9 @@ To launch apollo, first launch and enter a container as described in the previou
     - Select the `San Francisco` map and the `XE-Rigged-apollo_3_5` vehicle.
     - Enable GPS, IMU, LIDAR, Main Camera, and Telephoto Camera.
     - (optional) Enable Sensor Effects, Traffic and Pedestrian.
+
+[![](images/apollo3-5.png)](images/full_size_images/apollo3-5.png)
+
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
     - Select the `XE_Rigged_Apollo3.5` vehicle and `San Francisco` map in the top right corner.
