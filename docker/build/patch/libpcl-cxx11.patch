@@ -1,0 +1,20 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f0a5600..42c182e 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -7,6 +7,15 @@ endif()
+ 
+ set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "possible configurations" FORCE)
+ 
++if (CMAKE_VERSION VERSION_LESS "3.1")
++# if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
++    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
++    message("Build with c++11 support")
++# endif ()
++else ()
++  set (CMAKE_CXX_STANDARD 11)
++endif ()
++
+ # In case the user does not setup CMAKE_BUILD_TYPE, assume it's RelWithDebInfo
+ if("${CMAKE_BUILD_TYPE}" STREQUAL "")
+   set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "build type default to RelWithDebInfo, set to Release to improve performance" FORCE)

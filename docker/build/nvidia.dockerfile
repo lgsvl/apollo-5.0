@@ -1,5 +1,26 @@
 FROM apolloauto/apollo:dev-x86_64-20190307_1502
 
+# compile and include libpcl 1.7.2 without avx2
+
+COPY patch/*.patch /tmp/
+
+RUN set -eu \
+    && cd /mnt \
+    && wget -q -O - https://github.com/PointCloudLibrary/pcl/archive/pcl-1.7.2.tar.gz | tar -xz \
+    && cd pcl-pcl-1.7.2 \
+    && patch -i /tmp/libpcl-cxx11.patch \
+    && patch -p 1 -i /tmp/libpcl-remove-native-march.patch \
+    && mkdir build \
+    && cd build \
+    && cmake .. -DCMAKE_BUILD_TYPE=Release \
+    && make -j`nproc` \
+    && cp -a lib/* /usr/local/lib/ \
+    && ldconfig \
+    && cd /apollo \
+    && rm -rf pcl-pcl-1.7.2
+
+# nvidia runtime
+
 COPY --from=nvidia/opengl:1.1-glvnd-runtime-ubuntu14.04 \
  /usr/local/lib/x86_64-linux-gnu \
  /usr/local/lib/x86_64-linux-gnu
