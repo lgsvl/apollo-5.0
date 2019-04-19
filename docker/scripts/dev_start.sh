@@ -291,7 +291,7 @@ function main(){
     setup_device
 
     USER_ID=$(id -u)
-    GRP=$(id -g -n)
+    GRP=apollo
     GRP_ID=$(id -g)
     LOCAL_HOST=`hostname`
     DOCKER_HOME="/home/$USER"
