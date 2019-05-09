@@ -193,8 +193,11 @@ void DataParser::DispatchMessage(Parser::MessageType type, MessagePtr message) {
 
     case Parser::MessageType::INS:
       CheckInsStatus(As<::apollo::drivers::gnss::Ins>(message));
-      PublishCorrimu(message);
       PublishOdometry(message);
+      break;
+
+    case Parser::MessageType::INS_CORRIMU:
+      PublishCorrimu(message);
       break;
 
     case Parser::MessageType::INS_STAT:

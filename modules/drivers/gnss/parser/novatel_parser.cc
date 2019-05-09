@@ -368,7 +368,7 @@ Parser::MessageType NovatelParser::PrepareMessage(MessagePtr* message_ptr) {
 
       if (HandleCorrImuData(reinterpret_cast<novatel::CorrImuData*>(message))) {
         *message_ptr = &ins_;
-        return MessageType::INS;
+        return MessageType::INS_CORRIMU;
       }
       break;
 
