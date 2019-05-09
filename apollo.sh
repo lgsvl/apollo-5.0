@@ -82,7 +82,7 @@ function check_esd_files() {
 
   if [ -f ./third_party/can_card_library/esd_can/include/ntcan.h \
       -a -f ./third_party/can_card_library/esd_can/lib/libntcan.so.4 \
-      -a -f ./third_party/can_card_library/esd_can/lib/libntcan.so.4.0.1 ]; then
+      -a -f ./third_party/can_card_library/esd_can/lib/libntcan.so.4.2.2 ]; then
       USE_ESD_CAN=true
       CAN_CARD="esd_can"
   else
