@@ -81,7 +81,6 @@ class Parser {
     GNSS_RANGE,
     IMU,
     INS,
-    INS_CORRIMU,
     INS_STAT,
     WHEEL,
     EPHEMERIDES,
