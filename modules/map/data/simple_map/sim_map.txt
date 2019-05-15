@@ -13,6 +13,535 @@ header {
   bottom: 37.398079
   vendor: "LGSVL"
 }
+junction {
+  id {
+    id: "junction_0_0"
+  }
+  polygon {
+    point {
+      x: 590344.04000091553
+      y: 4140266.3457183838
+    }
+    point {
+      x: 590345.66004753113
+      y: 4140275.734919548
+    }
+    point {
+      x: 590353.9855670929
+      y: 4140276.8400001526
+    }
+    point {
+      x: 590354.53185462952
+      y: 4140293.1900024414
+    }
+    point {
+      x: 590346.00000095367
+      y: 4140294.2200069427
+    }
+    point {
+      x: 590343.76000022888
+      y: 4140302.9169082642
+    }
+    point {
+      x: 590328.20999908447
+      y: 4140303.0791168213
+    }
+    point {
+      x: 590326.90999603271
+      y: 4140295.25
+    }
+    point {
+      x: 590318.13520431519
+      y: 4140292.7100009918
+    }
+    point {
+      x: 590317.50592422485
+      y: 4140277.2400007248
+    }
+    point {
+      x: 590325.84999465942
+      y: 4140275.72999382
+    }
+    point {
+      x: 590328.09000396729
+      y: 4140266.880607605
+    }
+    point {
+      x: 590344.04000091553
+      y: 4140266.3457183838
+    }
+    point {
+      x: 590345.66004753113
+      y: 4140275.734919548
+    }
+    point {
+      x: 590353.9855670929
+      y: 4140276.8400001526
+    }
+    point {
+      x: 590354.53185462952
+      y: 4140293.1900024414
+    }
+    point {
+      x: 590346.00000095367
+      y: 4140294.2200069427
+    }
+    point {
+      x: 590343.76000022888
+      y: 4140302.9169082642
+    }
+    point {
+      x: 590328.20999908447
+      y: 4140303.0791168213
+    }
+    point {
+      x: 590326.90999603271
+      y: 4140295.25
+    }
+    point {
+      x: 590318.13520431519
+      y: 4140292.7100009918
+    }
+    point {
+      x: 590317.50592422485
+      y: 4140277.2400007248
+    }
+    point {
+      x: 590325.84999465942
+      y: 4140275.72999382
+    }
+    point {
+      x: 590328.09000396729
+      y: 4140266.880607605
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_1_0"
+  }
+  polygon {
+    point {
+      x: 590408.02703475952
+      y: 4140277.4499998093
+    }
+    point {
+      x: 590417.00587844849
+      y: 4140275.4527368546
+    }
+    point {
+      x: 590418.00999832153
+      y: 4140266.3007278442
+    }
+    point {
+      x: 590433.91000366211
+      y: 4140265.9888687134
+    }
+    point {
+      x: 590433.91000366211
+      y: 4140302.7780056
+    }
+    point {
+      x: 590418.27000045776
+      y: 4140302.902299881
+    }
+    point {
+      x: 590416.32387542725
+      y: 4140294.8786697388
+    }
+    point {
+      x: 590407.87129974365
+      y: 4140292.8900003433
+    }
+    point {
+      x: 590408.02703475952
+      y: 4140277.4499998093
+    }
+    point {
+      x: 590417.00587844849
+      y: 4140275.4527368546
+    }
+    point {
+      x: 590418.00999832153
+      y: 4140266.3007278442
+    }
+    point {
+      x: 590433.91000366211
+      y: 4140265.9888687134
+    }
+    point {
+      x: 590433.91000366211
+      y: 4140302.7780056
+    }
+    point {
+      x: 590418.27000045776
+      y: 4140302.902299881
+    }
+    point {
+      x: 590416.32387542725
+      y: 4140294.8786697388
+    }
+    point {
+      x: 590407.87129974365
+      y: 4140292.8900003433
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_2_0"
+  }
+  polygon {
+    point {
+      x: 590278.54586791992
+      y: 4140292.7999992371
+    }
+    point {
+      x: 590270.795249939
+      y: 4140294.0962057114
+    }
+    point {
+      x: 590268.80000305176
+      y: 4140303.5729637146
+    }
+    point {
+      x: 590253.09999847412
+      y: 4140303.3501777649
+    }
+    point {
+      x: 590253.09999847412
+      y: 4140266.7487869263
+    }
+    point {
+      x: 590268.40000152588
+      y: 4140266.5996551514
+    }
+    point {
+      x: 590270.23941802979
+      y: 4140276.0435028076
+    }
+    point {
+      x: 590279.48413085938
+      y: 4140276.8000001907
+    }
+    point {
+      x: 590278.54586791992
+      y: 4140292.7999992371
+    }
+    point {
+      x: 590270.795249939
+      y: 4140294.0962057114
+    }
+    point {
+      x: 590268.80000305176
+      y: 4140303.5729637146
+    }
+    point {
+      x: 590253.09999847412
+      y: 4140303.3501777649
+    }
+    point {
+      x: 590253.09999847412
+      y: 4140266.7487869263
+    }
+    point {
+      x: 590268.40000152588
+      y: 4140266.5996551514
+    }
+    point {
+      x: 590270.23941802979
+      y: 4140276.0435028076
+    }
+    point {
+      x: 590279.48413085938
+      y: 4140276.8000001907
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_3_0"
+  }
+  polygon {
+    point {
+      x: 590353.67092895508
+      y: 4140366.9000015259
+    }
+    point {
+      x: 590353.66858100891
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590318.05567169189
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590318.72724533081
+      y: 4140367
+    }
+    point {
+      x: 590327.106426239
+      y: 4140364.1449356079
+    }
+    point {
+      x: 590328.29999923706
+      y: 4140356.5568847656
+    }
+    point {
+      x: 590343.89999771118
+      y: 4140356.765953064
+    }
+    point {
+      x: 590345.03677177429
+      y: 4140366.4419250488
+    }
+    point {
+      x: 590353.67092895508
+      y: 4140366.9000015259
+    }
+    point {
+      x: 590353.66858100891
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590318.05567169189
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590318.72724533081
+      y: 4140367
+    }
+    point {
+      x: 590327.106426239
+      y: 4140364.1449356079
+    }
+    point {
+      x: 590328.29999923706
+      y: 4140356.5568847656
+    }
+    point {
+      x: 590343.89999771118
+      y: 4140356.765953064
+    }
+    point {
+      x: 590345.03677177429
+      y: 4140366.4419250488
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_4_0"
+  }
+  polygon {
+    point {
+      x: 590443.20758056641
+      y: 4140367
+    }
+    point {
+      x: 590436.80000305176
+      y: 4140366.3000030518
+    }
+    point {
+      x: 590433.80000305176
+      y: 4140357.3700408936
+    }
+    point {
+      x: 590417.84577560425
+      y: 4140357.325630188
+    }
+    point {
+      x: 590416.837688446
+      y: 4140364.6366500854
+    }
+    point {
+      x: 590407.74491882324
+      y: 4140367.1000061035
+    }
+    point {
+      x: 590407.62003707886
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590444.31652832031
+      y: 4140382.0999984741
+    }
+    point {
+      x: 590443.20758056641
+      y: 4140367
+    }
+    point {
+      x: 590436.80000305176
+      y: 4140366.3000030518
+    }
+    point {
+      x: 590433.80000305176
+      y: 4140357.3700408936
+    }
+    point {
+      x: 590417.84577560425
+      y: 4140357.325630188
+    }
+    point {
+      x: 590416.837688446
+      y: 4140364.6366500854
+    }
+    point {
+      x: 590407.74491882324
+      y: 4140367.1000061035
+    }
+    point {
+      x: 590407.62003707886
+      y: 4140382.8000030518
+    }
+    point {
+      x: 590444.31652832031
+      y: 4140382.0999984741
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_5_0"
+  }
+  polygon {
+    point {
+      x: 590355.27655220032
+      y: 4140177.1100006104
+    }
+    point {
+      x: 590317.69819259644
+      y: 4140177.1100006104
+    }
+    point {
+      x: 590317.95333480835
+      y: 4140192.4800033569
+    }
+    point {
+      x: 590326.21346664429
+      y: 4140194.8504486084
+    }
+    point {
+      x: 590327.77000427246
+      y: 4140203.2266845703
+    }
+    point {
+      x: 590343.51000022888
+      y: 4140202.7688827515
+    }
+    point {
+      x: 590345.590007782
+      y: 4140194.7899932861
+    }
+    point {
+      x: 590355.08744239807
+      y: 4140192.5599975586
+    }
+    point {
+      x: 590355.27655220032
+      y: 4140177.1100006104
+    }
+    point {
+      x: 590317.69819259644
+      y: 4140177.1100006104
+    }
+    point {
+      x: 590317.95333480835
+      y: 4140192.4800033569
+    }
+    point {
+      x: 590326.21346664429
+      y: 4140194.8504486084
+    }
+    point {
+      x: 590327.77000427246
+      y: 4140203.2266845703
+    }
+    point {
+      x: 590343.51000022888
+      y: 4140202.7688827515
+    }
+    point {
+      x: 590345.590007782
+      y: 4140194.7899932861
+    }
+    point {
+      x: 590355.08744239807
+      y: 4140192.5599975586
+    }
+  }
+}
+junction {
+  id {
+    id: "junction_6_0"
+  }
+  polygon {
+    point {
+      x: 590443.75999450684
+      y: 4140177.75
+    }
+    point {
+      x: 590407.57350921631
+      y: 4140177.2399978638
+    }
+    point {
+      x: 590407.57530975342
+      y: 4140192.7200012207
+    }
+    point {
+      x: 590416.06369018555
+      y: 4140194.505897522
+    }
+    point {
+      x: 590418.38999938965
+      y: 4140203.5745849609
+    }
+    point {
+      x: 590433.44000244141
+      y: 4140203.1932525635
+    }
+    point {
+      x: 590434.62999725342
+      y: 4140194.8299865723
+    }
+    point {
+      x: 590443.172706604
+      y: 4140193.1100006104
+    }
+    point {
+      x: 590443.75999450684
+      y: 4140177.75
+    }
+    point {
+      x: 590407.57350921631
+      y: 4140177.2399978638
+    }
+    point {
+      x: 590407.57530975342
+      y: 4140192.7200012207
+    }
+    point {
+      x: 590416.06369018555
+      y: 4140194.505897522
+    }
+    point {
+      x: 590418.38999938965
+      y: 4140203.5745849609
+    }
+    point {
+      x: 590433.44000244141
+      y: 4140203.1932525635
+    }
+    point {
+      x: 590434.62999725342
+      y: 4140194.8299865723
+    }
+    point {
+      x: 590443.172706604
+      y: 4140193.1100006104
+    }
+  }
+}
 lane {
   id {
     id: "lane_0"
@@ -114,6 +643,9 @@ lane {
   }
   length: 36.902389526367188
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_0"
+  }
   overlap_id {
     id: "signal_lane_overlap_6"
   }
@@ -228,6 +760,9 @@ lane {
   }
   length: 36.902389526367188
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_1"
+  }
   overlap_id {
     id: "signal_lane_overlap_4"
   }
@@ -367,6 +902,9 @@ lane {
   length: 33.953956604003906
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_2"
+  }
+  overlap_id {
     id: "signal_lane_overlap_12"
   }
   predecessor_id {
@@ -469,6 +1007,9 @@ lane {
   length: 36.901088714599609
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_3"
+  }
+  overlap_id {
     id: "signal_lane_overlap_13"
   }
   predecessor_id {
@@ -558,6 +1099,9 @@ lane {
   }
   length: 36.899997711181641
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_4"
+  }
   overlap_id {
     id: "signal_lane_overlap_14"
   }
@@ -701,6 +1245,9 @@ lane {
   length: 35.898532867431641
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_5"
+  }
+  overlap_id {
     id: "signal_lane_overlap_5"
   }
   predecessor_id {
@@ -802,6 +1349,9 @@ lane {
   }
   length: 36.920291900634766
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_6"
+  }
   overlap_id {
     id: "signal_lane_overlap_2"
   }
@@ -916,6 +1466,9 @@ lane {
   }
   length: 36.922016143798828
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_7"
+  }
   overlap_id {
     id: "signal_lane_overlap_0"
   }
@@ -1055,6 +1608,9 @@ lane {
   length: 35.233085632324219
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_8"
+  }
+  overlap_id {
     id: "signal_lane_overlap_10"
   }
   predecessor_id {
@@ -1169,6 +1725,9 @@ lane {
   length: 36.92547607421875
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_9"
+  }
+  overlap_id {
     id: "signal_lane_overlap_11"
   }
   predecessor_id {
@@ -1258,6 +1817,9 @@ lane {
   }
   length: 36.920013427734375
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_10"
+  }
   overlap_id {
     id: "signal_lane_overlap_8"
   }
@@ -1401,6 +1963,9 @@ lane {
   length: 35.500339508056641
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_11"
+  }
+  overlap_id {
     id: "signal_lane_overlap_1"
   }
   predecessor_id {
@@ -1514,6 +2079,9 @@ lane {
   }
   length: 23.810909271240234
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_12"
+  }
   overlap_id {
     id: "signal_lane_overlap_3"
   }
@@ -1648,6 +2216,9 @@ lane {
   }
   length: 23.048095703125
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_0_0_lane_0_13"
+  }
   overlap_id {
     id: "signal_lane_overlap_7"
   }
@@ -1787,6 +2358,9 @@ lane {
   length: 23.431316375732422
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_14"
+  }
+  overlap_id {
     id: "signal_lane_overlap_15"
   }
   predecessor_id {
@@ -1921,6 +2495,9 @@ lane {
   length: 22.934978485107422
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_0_0_lane_0_15"
+  }
+  overlap_id {
     id: "signal_lane_overlap_9"
   }
   predecessor_id {
@@ -2010,6 +2587,9 @@ lane {
   }
   length: 36.144195556640625
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_1_0_lane_1_0"
+  }
   overlap_id {
     id: "signal_lane_overlap_18"
   }
@@ -2101,6 +2681,9 @@ lane {
   length: 36.244461059570312
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_1_0_lane_1_1"
+  }
+  overlap_id {
     id: "signal_lane_overlap_16"
   }
   predecessor_id {
@@ -2191,6 +2774,9 @@ lane {
   length: 36.545265197753906
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_1_0_lane_1_2"
+  }
+  overlap_id {
     id: "signal_lane_overlap_21"
   }
   predecessor_id {
@@ -2280,6 +2866,9 @@ lane {
   }
   length: 36.444999694824219
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_1_0_lane_1_3"
+  }
   overlap_id {
     id: "signal_lane_overlap_19"
   }
@@ -2419,6 +3008,9 @@ lane {
   length: 35.142478942871094
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_1_0_lane_1_4"
+  }
+  overlap_id {
     id: "signal_lane_overlap_17"
   }
   predecessor_id {
@@ -2552,6 +3144,9 @@ lane {
   }
   length: 34.407852172851562
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_1_0_lane_1_5"
+  }
   overlap_id {
     id: "signal_lane_overlap_22"
   }
@@ -2691,6 +3286,9 @@ lane {
   length: 23.325002670288086
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_1_0_lane_1_6"
+  }
+  overlap_id {
     id: "signal_lane_overlap_23"
   }
   predecessor_id {
@@ -2825,6 +3423,9 @@ lane {
   length: 22.350276947021484
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_1_0_lane_1_7"
+  }
+  overlap_id {
     id: "signal_lane_overlap_20"
   }
   predecessor_id {
@@ -2947,6 +3548,9 @@ lane {
   length: 23.537042617797852
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_2_0_lane_2_0"
+  }
+  overlap_id {
     id: "signal_lane_overlap_25"
   }
   predecessor_id {
@@ -3049,6 +3653,9 @@ lane {
   length: 36.771404266357422
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_2_0_lane_2_1"
+  }
+  overlap_id {
     id: "signal_lane_overlap_26"
   }
   predecessor_id {
@@ -3138,6 +3745,9 @@ lane {
   }
   length: 36.700786590576172
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_2_0_lane_2_2"
+  }
   overlap_id {
     id: "signal_lane_overlap_24"
   }
@@ -3277,6 +3887,9 @@ lane {
   length: 35.47406005859375
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_2_0_lane_2_3"
+  }
+  overlap_id {
     id: "signal_lane_overlap_29"
   }
   predecessor_id {
@@ -3379,6 +3992,9 @@ lane {
   length: 36.390430450439453
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_2_0_lane_2_4"
+  }
+  overlap_id {
     id: "signal_lane_overlap_30"
   }
   predecessor_id {
@@ -3480,6 +4096,9 @@ lane {
   }
   length: 36.390232086181641
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_2_0_lane_2_5"
+  }
   overlap_id {
     id: "signal_lane_overlap_31"
   }
@@ -3594,6 +4213,9 @@ lane {
   }
   length: 23.480379104614258
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_2_0_lane_2_6"
+  }
   overlap_id {
     id: "signal_lane_overlap_27"
   }
@@ -3737,6 +4359,9 @@ lane {
   length: 35.644374847412109
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_2_0_lane_2_7"
+  }
+  overlap_id {
     id: "signal_lane_overlap_28"
   }
   predecessor_id {
@@ -3838,6 +4463,9 @@ lane {
   }
   length: 36.047927856445312
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_3_0_lane_3_0"
+  }
   overlap_id {
     id: "signal_lane_overlap_39"
   }
@@ -3952,6 +4580,9 @@ lane {
   }
   length: 35.854331970214844
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_3_0_lane_3_1"
+  }
   overlap_id {
     id: "signal_lane_overlap_37"
   }
@@ -4087,6 +4718,9 @@ lane {
   length: 34.931369781494141
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_3_0_lane_3_2"
+  }
+  overlap_id {
     id: "signal_lane_overlap_35"
   }
   predecessor_id {
@@ -4201,6 +4835,9 @@ lane {
   length: 36.1526985168457
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_3_0_lane_3_3"
+  }
+  overlap_id {
     id: "signal_lane_overlap_36"
   }
   predecessor_id {
@@ -4302,6 +4939,9 @@ lane {
   }
   length: 35.879547119140625
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_3_0_lane_3_4"
+  }
   overlap_id {
     id: "signal_lane_overlap_34"
   }
@@ -4441,6 +5081,9 @@ lane {
   length: 35.230987548828125
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_3_0_lane_3_5"
+  }
+  overlap_id {
     id: "signal_lane_overlap_32"
   }
   predecessor_id {
@@ -4579,6 +5222,9 @@ lane {
   length: 23.150157928466797
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_3_0_lane_3_6"
+  }
+  overlap_id {
     id: "signal_lane_overlap_33"
   }
   predecessor_id {
@@ -4712,6 +5358,9 @@ lane {
   }
   length: 22.644079208374023
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_3_0_lane_3_7"
+  }
   overlap_id {
     id: "signal_lane_overlap_38"
   }
@@ -4851,6 +5500,9 @@ lane {
   length: 36.074226379394531
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_4_0_lane_4_0"
+  }
+  overlap_id {
     id: "signal_lane_overlap_42"
   }
   predecessor_id {
@@ -4989,6 +5641,9 @@ lane {
   length: 36.118503570556641
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_4_0_lane_4_1"
+  }
+  overlap_id {
     id: "signal_lane_overlap_43"
   }
   predecessor_id {
@@ -5114,6 +5769,9 @@ lane {
   }
   length: 36.148605346679688
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_4_0_lane_4_2"
+  }
   overlap_id {
     id: "signal_lane_overlap_45"
   }
@@ -5252,6 +5910,9 @@ lane {
   }
   length: 36.195674896240234
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_4_0_lane_4_3"
+  }
   overlap_id {
     id: "signal_lane_overlap_46"
   }
@@ -5427,6 +6088,9 @@ lane {
   length: 35.769107818603516
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_4_0_lane_4_4"
+  }
+  overlap_id {
     id: "signal_lane_overlap_44"
   }
   predecessor_id {
@@ -5565,6 +6229,9 @@ lane {
   length: 21.125999450683594
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_4_0_lane_4_5"
+  }
+  overlap_id {
     id: "signal_lane_overlap_41"
   }
   predecessor_id {
@@ -5678,6 +6345,9 @@ lane {
   }
   length: 20.871864318847656
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_4_0_lane_4_6"
+  }
   overlap_id {
     id: "signal_lane_overlap_47"
   }
@@ -5813,6 +6483,9 @@ lane {
   length: 34.756782531738281
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_4_0_lane_4_7"
+  }
+  overlap_id {
     id: "signal_lane_overlap_40"
   }
   predecessor_id {
@@ -5915,6 +6588,9 @@ lane {
   length: 36.771820068359375
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_5_0_lane_5_0"
+  }
+  overlap_id {
     id: "signal_lane_overlap_48"
   }
   predecessor_id {
@@ -6016,6 +6692,9 @@ lane {
   }
   length: 36.584754943847656
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_5_0_lane_5_1"
+  }
   overlap_id {
     id: "signal_lane_overlap_50"
   }
@@ -6191,6 +6870,9 @@ lane {
   length: 35.167366027832031
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_5_0_lane_5_2"
+  }
+  overlap_id {
     id: "signal_lane_overlap_53"
   }
   predecessor_id {
@@ -6317,6 +6999,9 @@ lane {
   length: 36.785789489746094
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_5_0_lane_5_3"
+  }
+  overlap_id {
     id: "signal_lane_overlap_54"
   }
   predecessor_id {
@@ -6442,6 +7127,9 @@ lane {
   }
   length: 36.760017395019531
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_5_0_lane_5_4"
+  }
   overlap_id {
     id: "signal_lane_overlap_55"
   }
@@ -6581,6 +7269,9 @@ lane {
   length: 23.240209579467773
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_5_0_lane_5_5"
+  }
+  overlap_id {
     id: "signal_lane_overlap_49"
   }
   predecessor_id {
@@ -6714,6 +7405,9 @@ lane {
   }
   length: 22.732168197631836
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_5_0_lane_5_6"
+  }
   overlap_id {
     id: "signal_lane_overlap_51"
   }
@@ -6857,6 +7551,9 @@ lane {
   length: 35.711765289306641
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_5_0_lane_5_7"
+  }
+  overlap_id {
     id: "signal_lane_overlap_52"
   }
   predecessor_id {
@@ -6994,6 +7691,9 @@ lane {
   }
   length: 36.696769714355469
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_6_0_lane_6_0"
+  }
   overlap_id {
     id: "signal_lane_overlap_63"
   }
@@ -7133,6 +7833,9 @@ lane {
   length: 36.177089691162109
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_6_0_lane_6_1"
+  }
+  overlap_id {
     id: "signal_lane_overlap_61"
   }
   predecessor_id {
@@ -7259,6 +7962,9 @@ lane {
   length: 35.777107238769531
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_6_0_lane_6_2"
+  }
+  overlap_id {
     id: "signal_lane_overlap_56"
   }
   predecessor_id {
@@ -7384,6 +8090,9 @@ lane {
   }
   length: 35.522518157958984
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_6_0_lane_6_3"
+  }
   overlap_id {
     id: "signal_lane_overlap_57"
   }
@@ -7519,6 +8228,9 @@ lane {
   length: 34.950489044189453
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_6_0_lane_6_4"
+  }
+  overlap_id {
     id: "signal_lane_overlap_62"
   }
   predecessor_id {
@@ -7653,6 +8365,9 @@ lane {
   length: 22.736513137817383
   speed_limit: 20
   overlap_id {
+    id: "overlap_junction_6_0_lane_6_5"
+  }
+  overlap_id {
     id: "signal_lane_overlap_59"
   }
   predecessor_id {
@@ -7786,6 +8501,9 @@ lane {
   }
   length: 23.393266677856445
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_6_0_lane_6_6"
+  }
   overlap_id {
     id: "signal_lane_overlap_58"
   }
@@ -7960,6 +8678,9 @@ lane {
   }
   length: 35.815666198730469
   speed_limit: 20
+  overlap_id {
+    id: "overlap_junction_6_0_lane_6_7"
+  }
   overlap_id {
     id: "signal_lane_overlap_60"
   }
@@ -13998,6 +14719,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_3"
   }
+  overlap_id {
+    id: "overlap_junction_0_0_signal_0_0"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14088,6 +14812,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_7"
+  }
+  overlap_id {
+    id: "overlap_junction_0_0_signal_0_1"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -14180,6 +14907,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_11"
   }
+  overlap_id {
+    id: "overlap_junction_0_0_signal_0_2"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14271,6 +15001,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_15"
   }
+  overlap_id {
+    id: "overlap_junction_0_0_signal_0_3"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14358,6 +15091,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_18"
+  }
+  overlap_id {
+    id: "overlap_junction_1_0_signal_1_0"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -14447,6 +15183,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_21"
   }
+  overlap_id {
+    id: "overlap_junction_1_0_signal_1_1"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14531,6 +15270,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_23"
+  }
+  overlap_id {
+    id: "overlap_junction_1_0_signal_1_2"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -14620,6 +15362,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_26"
   }
+  overlap_id {
+    id: "overlap_junction_2_0_signal_2_0"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14704,6 +15449,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_28"
+  }
+  overlap_id {
+    id: "overlap_junction_2_0_signal_2_1"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -14793,6 +15541,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_31"
   }
+  overlap_id {
+    id: "overlap_junction_2_0_signal_2_2"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -14877,6 +15628,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_33"
+  }
+  overlap_id {
+    id: "overlap_junction_3_0_signal_3_0"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -14966,6 +15720,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_36"
   }
+  overlap_id {
+    id: "overlap_junction_3_0_signal_3_1"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15054,6 +15811,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_39"
   }
+  overlap_id {
+    id: "overlap_junction_3_0_signal_3_2"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15138,6 +15898,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_41"
+  }
+  overlap_id {
+    id: "overlap_junction_4_0_signal_4_0"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -15227,6 +15990,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_44"
   }
+  overlap_id {
+    id: "overlap_junction_4_0_signal_4_1"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15314,6 +16080,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_47"
+  }
+  overlap_id {
+    id: "overlap_junction_4_0_signal_4_2"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -15403,6 +16172,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_50"
   }
+  overlap_id {
+    id: "overlap_junction_5_0_signal_5_0"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15487,6 +16259,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_52"
+  }
+  overlap_id {
+    id: "overlap_junction_5_0_signal_5_1"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -15576,6 +16351,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_55"
   }
+  overlap_id {
+    id: "overlap_junction_5_0_signal_5_2"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15664,6 +16442,9 @@ signal {
   overlap_id {
     id: "signal_lane_overlap_58"
   }
+  overlap_id {
+    id: "overlap_junction_6_0_signal_6_0"
+  }
   type: MIX_3_VERTICAL
   stop_line {
     segment {
@@ -15748,6 +16529,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_60"
+  }
+  overlap_id {
+    id: "overlap_junction_6_0_signal_6_1"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -15836,6 +16620,9 @@ signal {
   }
   overlap_id {
     id: "signal_lane_overlap_63"
+  }
+  overlap_id {
+    id: "overlap_junction_6_0_signal_6_2"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -17137,6 +17924,2120 @@ overlap {
     }
   }
 }
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_0"
+  }
+  object {
+    id {
+      id: "lane_0"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.902389526367188
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_1"
+  }
+  object {
+    id {
+      id: "lane_1"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.902389526367188
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_2"
+  }
+  object {
+    id {
+      id: "lane_2"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 33.953956604003906
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_3"
+  }
+  object {
+    id {
+      id: "lane_3"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.901088714599609
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_4"
+  }
+  object {
+    id {
+      id: "lane_4"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.899997711181641
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_5"
+  }
+  object {
+    id {
+      id: "lane_5"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.898532867431641
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_6"
+  }
+  object {
+    id {
+      id: "lane_6"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.920291900634766
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_7"
+  }
+  object {
+    id {
+      id: "lane_7"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.922016143798828
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_8"
+  }
+  object {
+    id {
+      id: "lane_8"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.233085632324219
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_9"
+  }
+  object {
+    id {
+      id: "lane_9"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.92547607421875
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_10"
+  }
+  object {
+    id {
+      id: "lane_10"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.920013427734375
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_11"
+  }
+  object {
+    id {
+      id: "lane_11"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.500339508056641
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_12"
+  }
+  object {
+    id {
+      id: "lane_12"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.810909271240234
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_13"
+  }
+  object {
+    id {
+      id: "lane_13"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.048095703125
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_14"
+  }
+  object {
+    id {
+      id: "lane_14"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.431316375732422
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_lane_0_15"
+  }
+  object {
+    id {
+      id: "lane_15"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 22.934978485107422
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign0"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign1"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign2"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction0_stopsign3"
+  }
+  object {
+    stop_sign_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_signal_0_0"
+  }
+  object {
+    id {
+      id: "signal_0"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_signal_0_1"
+  }
+  object {
+    id {
+      id: "signal_1"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_signal_0_2"
+  }
+  object {
+    id {
+      id: "signal_2"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_0_0_signal_0_3"
+  }
+  object {
+    id {
+      id: "signal_3"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_0_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_0"
+  }
+  object {
+    id {
+      id: "lane_16"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.144195556640625
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_1"
+  }
+  object {
+    id {
+      id: "lane_17"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.244461059570312
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_2"
+  }
+  object {
+    id {
+      id: "lane_18"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.545265197753906
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_3"
+  }
+  object {
+    id {
+      id: "lane_19"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.444999694824219
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_4"
+  }
+  object {
+    id {
+      id: "lane_20"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.142478942871094
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_5"
+  }
+  object {
+    id {
+      id: "lane_21"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 34.407852172851562
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_6"
+  }
+  object {
+    id {
+      id: "lane_22"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.325002670288086
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_lane_1_7"
+  }
+  object {
+    id {
+      id: "lane_23"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 22.350276947021484
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_signal_1_0"
+  }
+  object {
+    id {
+      id: "signal_4"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_signal_1_1"
+  }
+  object {
+    id {
+      id: "signal_5"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_1_0_signal_1_2"
+  }
+  object {
+    id {
+      id: "signal_6"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_1_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_0"
+  }
+  object {
+    id {
+      id: "lane_24"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.537042617797852
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_1"
+  }
+  object {
+    id {
+      id: "lane_25"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.771404266357422
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_2"
+  }
+  object {
+    id {
+      id: "lane_26"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.700786590576172
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_3"
+  }
+  object {
+    id {
+      id: "lane_27"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.47406005859375
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_4"
+  }
+  object {
+    id {
+      id: "lane_28"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.390430450439453
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_5"
+  }
+  object {
+    id {
+      id: "lane_29"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.390232086181641
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_6"
+  }
+  object {
+    id {
+      id: "lane_30"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.480379104614258
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_lane_2_7"
+  }
+  object {
+    id {
+      id: "lane_31"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.644374847412109
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_signal_2_0"
+  }
+  object {
+    id {
+      id: "signal_7"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_signal_2_1"
+  }
+  object {
+    id {
+      id: "signal_8"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_2_0_signal_2_2"
+  }
+  object {
+    id {
+      id: "signal_9"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_2_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_0"
+  }
+  object {
+    id {
+      id: "lane_32"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.047927856445312
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_1"
+  }
+  object {
+    id {
+      id: "lane_33"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.854331970214844
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_2"
+  }
+  object {
+    id {
+      id: "lane_34"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 34.931369781494141
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_3"
+  }
+  object {
+    id {
+      id: "lane_35"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.1526985168457
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_4"
+  }
+  object {
+    id {
+      id: "lane_36"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.879547119140625
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_5"
+  }
+  object {
+    id {
+      id: "lane_37"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.230987548828125
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_6"
+  }
+  object {
+    id {
+      id: "lane_38"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.150157928466797
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_lane_3_7"
+  }
+  object {
+    id {
+      id: "lane_39"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 22.644079208374023
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_signal_3_0"
+  }
+  object {
+    id {
+      id: "signal_10"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_signal_3_1"
+  }
+  object {
+    id {
+      id: "signal_11"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_3_0_signal_3_2"
+  }
+  object {
+    id {
+      id: "signal_12"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_3_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_0"
+  }
+  object {
+    id {
+      id: "lane_40"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.074226379394531
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_1"
+  }
+  object {
+    id {
+      id: "lane_41"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.118503570556641
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_2"
+  }
+  object {
+    id {
+      id: "lane_42"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.148605346679688
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_3"
+  }
+  object {
+    id {
+      id: "lane_43"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.195674896240234
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_4"
+  }
+  object {
+    id {
+      id: "lane_44"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.769107818603516
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_5"
+  }
+  object {
+    id {
+      id: "lane_45"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 21.125999450683594
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_6"
+  }
+  object {
+    id {
+      id: "lane_46"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 20.871864318847656
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_lane_4_7"
+  }
+  object {
+    id {
+      id: "lane_47"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 34.756782531738281
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_signal_4_0"
+  }
+  object {
+    id {
+      id: "signal_13"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_signal_4_1"
+  }
+  object {
+    id {
+      id: "signal_14"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_4_0_signal_4_2"
+  }
+  object {
+    id {
+      id: "signal_15"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_4_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_0"
+  }
+  object {
+    id {
+      id: "lane_48"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.771820068359375
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_1"
+  }
+  object {
+    id {
+      id: "lane_49"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.584754943847656
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_2"
+  }
+  object {
+    id {
+      id: "lane_50"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.167366027832031
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_3"
+  }
+  object {
+    id {
+      id: "lane_51"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.785789489746094
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_4"
+  }
+  object {
+    id {
+      id: "lane_52"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.760017395019531
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_5"
+  }
+  object {
+    id {
+      id: "lane_53"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.240209579467773
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_6"
+  }
+  object {
+    id {
+      id: "lane_54"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 22.732168197631836
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_lane_5_7"
+  }
+  object {
+    id {
+      id: "lane_55"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.711765289306641
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_signal_5_0"
+  }
+  object {
+    id {
+      id: "signal_16"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_signal_5_1"
+  }
+  object {
+    id {
+      id: "signal_17"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_5_0_signal_5_2"
+  }
+  object {
+    id {
+      id: "signal_18"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_5_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_0"
+  }
+  object {
+    id {
+      id: "lane_56"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.696769714355469
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_1"
+  }
+  object {
+    id {
+      id: "lane_57"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 36.177089691162109
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_2"
+  }
+  object {
+    id {
+      id: "lane_58"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.777107238769531
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_3"
+  }
+  object {
+    id {
+      id: "lane_59"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.522518157958984
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_4"
+  }
+  object {
+    id {
+      id: "lane_60"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 34.950489044189453
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_5"
+  }
+  object {
+    id {
+      id: "lane_61"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 22.736513137817383
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_6"
+  }
+  object {
+    id {
+      id: "lane_62"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 23.393266677856445
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_lane_6_7"
+  }
+  object {
+    id {
+      id: "lane_63"
+    }
+    lane_overlap_info {
+      start_s: 0.1
+      end_s: 35.815666198730469
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_signal_6_0"
+  }
+  object {
+    id {
+      id: "signal_19"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_signal_6_1"
+  }
+  object {
+    id {
+      id: "signal_20"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "overlap_junction_6_0_signal_6_2"
+  }
+  object {
+    id {
+      id: "signal_21"
+    }
+    signal_overlap_info {
+    }
+  }
+  object {
+    id {
+      id: "junction_6_0"
+    }
+    junction_overlap_info {
+    }
+  }
+}
 road {
   id {
     id: "road_0"
@@ -17242,6 +20143,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -17350,6 +20254,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -17456,6 +20363,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -17564,6 +20474,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -17670,6 +20583,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -17778,6 +20694,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -17884,6 +20803,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -17992,6 +20914,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -18098,6 +21023,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -18206,6 +21134,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -18312,6 +21243,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -18420,6 +21354,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -18502,6 +21439,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -18586,6 +21526,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -18669,6 +21612,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_0_0"
+  }
 }
 road {
   id {
@@ -18751,6 +21697,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_0_0"
   }
 }
 road {
@@ -18859,6 +21808,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_1_0"
+  }
 }
 road {
   id {
@@ -18965,6 +21917,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_1_0"
   }
 }
 road {
@@ -19073,6 +22028,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_1_0"
+  }
 }
 road {
   id {
@@ -19179,6 +22137,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_1_0"
   }
 }
 road {
@@ -19287,6 +22248,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_1_0"
+  }
 }
 road {
   id {
@@ -19394,6 +22358,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_1_0"
+  }
 }
 road {
   id {
@@ -19476,6 +22443,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_1_0"
   }
 }
 road {
@@ -19560,6 +22530,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_1_0"
+  }
 }
 road {
   id {
@@ -19642,6 +22615,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_2_0"
   }
 }
 road {
@@ -19726,6 +22702,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_2_0"
+  }
 }
 road {
   id {
@@ -19808,6 +22787,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_2_0"
   }
 }
 road {
@@ -19916,6 +22898,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_2_0"
+  }
 }
 road {
   id {
@@ -19998,6 +22983,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_2_0"
   }
 }
 road {
@@ -20082,6 +23070,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_2_0"
+  }
 }
 road {
   id {
@@ -20164,6 +23155,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_2_0"
   }
 }
 road {
@@ -20272,6 +23266,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_2_0"
+  }
 }
 road {
   id {
@@ -20355,6 +23352,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_3_0"
+  }
 }
 road {
   id {
@@ -20437,6 +23437,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_3_0"
   }
 }
 road {
@@ -20545,6 +23548,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_3_0"
+  }
 }
 road {
   id {
@@ -20628,6 +23634,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_3_0"
+  }
 }
 road {
   id {
@@ -20710,6 +23719,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_3_0"
   }
 }
 road {
@@ -20818,6 +23830,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_3_0"
+  }
 }
 road {
   id {
@@ -20900,6 +23915,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_3_0"
   }
 }
 road {
@@ -20984,6 +24002,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_3_0"
+  }
 }
 road {
   id {
@@ -21066,6 +24087,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_4_0"
   }
 }
 road {
@@ -21150,6 +24174,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_4_0"
+  }
 }
 road {
   id {
@@ -21233,6 +24260,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_4_0"
+  }
 }
 road {
   id {
@@ -21315,6 +24345,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_4_0"
   }
 }
 road {
@@ -21423,6 +24456,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_4_0"
+  }
 }
 road {
   id {
@@ -21506,6 +24542,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_4_0"
+  }
 }
 road {
   id {
@@ -21588,6 +24627,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_4_0"
   }
 }
 road {
@@ -21696,6 +24738,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_4_0"
+  }
 }
 road {
   id {
@@ -21802,6 +24847,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_5_0"
   }
 }
 road {
@@ -21910,6 +24958,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_5_0"
+  }
 }
 road {
   id {
@@ -22016,6 +25067,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_5_0"
   }
 }
 road {
@@ -22124,6 +25178,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_5_0"
+  }
 }
 road {
   id {
@@ -22231,6 +25288,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_5_0"
+  }
 }
 road {
   id {
@@ -22314,6 +25374,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_5_0"
+  }
 }
 road {
   id {
@@ -22396,6 +25459,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_5_0"
   }
 }
 road {
@@ -22504,6 +25570,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_5_0"
+  }
 }
 road {
   id {
@@ -22610,6 +25679,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_6_0"
   }
 }
 road {
@@ -22718,6 +25790,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_6_0"
+  }
 }
 road {
   id {
@@ -22824,6 +25899,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_6_0"
   }
 }
 road {
@@ -22932,6 +26010,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_6_0"
+  }
 }
 road {
   id {
@@ -23039,6 +26120,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_6_0"
+  }
 }
 road {
   id {
@@ -23122,6 +26206,9 @@ road {
       }
     }
   }
+  junction_id {
+    id: "junction_6_0"
+  }
 }
 road {
   id {
@@ -23204,6 +26291,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_6_0"
   }
 }
 road {
@@ -23311,6 +26401,9 @@ road {
         }
       }
     }
+  }
+  junction_id {
+    id: "junction_6_0"
   }
 }
 road {
