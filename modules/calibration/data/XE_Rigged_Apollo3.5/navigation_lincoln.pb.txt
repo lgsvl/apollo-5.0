@@ -18,10 +18,10 @@ lat_controller_conf {
   preview_window: 0
   cf: 155494.663
   cr: 155494.663
-  mass_fl: 520
-  mass_fr: 520
-  mass_rl: 520
-  mass_rr: 520
+  mass_fl: 530
+  mass_fr: 530
+  mass_rl: 530
+  mass_rr: 530
   eps: 0.01
   matrix_q: 0.005
   matrix_q: 0.0
