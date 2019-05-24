@@ -118,9 +118,10 @@ To launch apollo, first launch and enter a container as described in the previou
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
     - Select the `XE_Rigged_Apollo3.5` vehicle and `San Francisco` map in the top right corner.
-    - Open the **Module Controller** tap (on the left bar).
-    - Enable **Localization**, **Transform**, **Perception**, **Traffic Light**, **Planning**, **Prediction**, **Routing**, and **Control**.
+    - Open the **Module Controller** tab (on the left bar).
+    - Enable **Localization**, **Transform**, **Perception**, **Traffic Light**, **Planning**, **Prediction**, **Routing**.
     - Navigate to the **Route Editing** tab.
     - Select a destination by clicking on a lane line and clicking **Submit Route**.
+    - Enable **Control** in **Module Controller** tab.
     - Watch the vehicle navigate to the destination.
     - To stop the docker container run the `dev_start.sh stop` script in `apollo/docker/scripts` in a new terminal (not in the docker container).
