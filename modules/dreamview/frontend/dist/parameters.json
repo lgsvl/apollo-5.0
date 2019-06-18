@@ -42,6 +42,15 @@
 			"yorigin": 4140800,
 			"type": "default",
 			"tileRange": 4
+		},
+		"san_francisco": {
+			"mpp": 0.125,
+			"xres": 15360,
+			"yres": 16384,
+			"xorigin": 553024,
+			"yorigin": 4182528,
+			"type": "default",
+			"tileRange": 4
 		}
 	},
 	"planning": {

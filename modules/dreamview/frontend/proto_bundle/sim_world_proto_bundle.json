@@ -2919,7 +2919,7 @@
                   "type": "bool",
                   "id": 9,
                   "options": {
-                    "default": false
+                    "default": true
                   }
                 }
               }
@@ -3625,7 +3625,7 @@
             },
             "FemPosDeviationSmootherConfig": {
               "fields": {
-                "weightFemPosDeviation": {
+                "weightFemPoseDeviation": {
                   "type": "double",
                   "id": 2,
                   "options": {
@@ -3646,95 +3646,39 @@
                     "default": 1
                   }
                 },
-                "applyCurvatureConstraint": {
-                  "type": "bool",
-                  "id": 5,
-                  "options": {
-                    "default": false
-                  }
-                },
-                "weightCurvatureConstraintSlackVar": {
-                  "type": "double",
-                  "id": 6,
-                  "options": {
-                    "default": 100
-                  }
-                },
-                "curvatureConstraint": {
-                  "type": "double",
-                  "id": 7,
-                  "options": {
-                    "default": 0.2
-                  }
-                },
                 "maxIter": {
                   "type": "int32",
-                  "id": 10,
+                  "id": 5,
                   "options": {
                     "default": 500
                   }
                 },
                 "timeLimit": {
                   "type": "double",
-                  "id": 11,
+                  "id": 6,
                   "options": {
                     "default": 0
                   }
                 },
                 "verbose": {
                   "type": "bool",
-                  "id": 12,
+                  "id": 7,
                   "options": {
                     "default": false
                   }
                 },
                 "scaledTermination": {
                   "type": "bool",
-                  "id": 13,
+                  "id": 8,
                   "options": {
                     "default": true
                   }
                 },
                 "warmStart": {
                   "type": "bool",
-                  "id": 14,
+                  "id": 9,
                   "options": {
                     "default": true
-                  }
-                },
-                "printLevel": {
-                  "type": "int32",
-                  "id": 20,
-                  "options": {
-                    "default": 0
-                  }
-                },
-                "maxNumOfIterations": {
-                  "type": "int32",
-                  "id": 21,
-                  "options": {
-                    "default": 500
-                  }
-                },
-                "acceptableNumOfIterations": {
-                  "type": "int32",
-                  "id": 22,
-                  "options": {
-                    "default": 15
-                  }
-                },
-                "tol": {
-                  "type": "double",
-                  "id": 23,
-                  "options": {
-                    "default": 1e-8
-                  }
-                },
-                "acceptableTol": {
-                  "type": "double",
-                  "id": 24,
-                  "options": {
-                    "default": 0.1
                   }
                 }
               }
@@ -4357,7 +4301,7 @@
                   "type": "double",
                   "id": 10
                 },
-                "curbHeadingTangentChangeUppperLimit": {
+                "boundWidthChangeRatioUppperLimit": {
                   "type": "double",
                   "id": 11,
                   "options": {
@@ -4436,13 +4380,6 @@
                   "id": 12,
                   "options": {
                     "default": 0.95
-                  }
-                },
-                "linearVelocityThresholdOnEgo": {
-                  "type": "double",
-                  "id": 13,
-                  "options": {
-                    "default": 0.2
                   }
                 }
               }
@@ -5055,11 +4992,11 @@
                     "default": false
                   }
                 },
-                "isNearDestinationThetaThreshold": {
-                  "type": "double",
+                "enableLinearInterpolation": {
+                  "type": "bool",
                   "id": 11,
                   "options": {
-                    "default": 0.05
+                    "default": false
                   }
                 }
               }
