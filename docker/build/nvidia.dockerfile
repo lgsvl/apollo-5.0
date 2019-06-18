@@ -1,4 +1,4 @@
-FROM apolloauto/apollo:dev-x86_64-20190307_1502
+FROM apolloauto/apollo:dev-x86_64-20190617_1100
 
 # nvidia runtime
 
