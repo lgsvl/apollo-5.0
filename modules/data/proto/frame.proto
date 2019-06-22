@@ -1,5 +1,7 @@
 syntax = "proto2";
 
+package apollo.data;
+
 message Vector3 {
   optional double x = 1;
   optional double y = 2;
