@@ -2919,7 +2919,7 @@
                   "type": "bool",
                   "id": 9,
                   "options": {
-                    "default": true
+                    "default": false
                   }
                 }
               }
@@ -3625,7 +3625,7 @@
             },
             "FemPosDeviationSmootherConfig": {
               "fields": {
-                "weightFemPoseDeviation": {
+                "weightFemPosDeviation": {
                   "type": "double",
                   "id": 2,
                   "options": {
@@ -3646,39 +3646,95 @@
                     "default": 1
                   }
                 },
+                "applyCurvatureConstraint": {
+                  "type": "bool",
+                  "id": 5,
+                  "options": {
+                    "default": false
+                  }
+                },
+                "weightCurvatureConstraintSlackVar": {
+                  "type": "double",
+                  "id": 6,
+                  "options": {
+                    "default": 100
+                  }
+                },
+                "curvatureConstraint": {
+                  "type": "double",
+                  "id": 7,
+                  "options": {
+                    "default": 0.2
+                  }
+                },
                 "maxIter": {
                   "type": "int32",
-                  "id": 5,
+                  "id": 10,
                   "options": {
                     "default": 500
                   }
                 },
                 "timeLimit": {
                   "type": "double",
-                  "id": 6,
+                  "id": 11,
                   "options": {
                     "default": 0
                   }
                 },
                 "verbose": {
                   "type": "bool",
-                  "id": 7,
+                  "id": 12,
                   "options": {
                     "default": false
                   }
                 },
                 "scaledTermination": {
                   "type": "bool",
-                  "id": 8,
+                  "id": 13,
                   "options": {
                     "default": true
                   }
                 },
                 "warmStart": {
                   "type": "bool",
-                  "id": 9,
+                  "id": 14,
                   "options": {
                     "default": true
+                  }
+                },
+                "printLevel": {
+                  "type": "int32",
+                  "id": 20,
+                  "options": {
+                    "default": 0
+                  }
+                },
+                "maxNumOfIterations": {
+                  "type": "int32",
+                  "id": 21,
+                  "options": {
+                    "default": 500
+                  }
+                },
+                "acceptableNumOfIterations": {
+                  "type": "int32",
+                  "id": 22,
+                  "options": {
+                    "default": 15
+                  }
+                },
+                "tol": {
+                  "type": "double",
+                  "id": 23,
+                  "options": {
+                    "default": 1e-8
+                  }
+                },
+                "acceptableTol": {
+                  "type": "double",
+                  "id": 24,
+                  "options": {
+                    "default": 0.1
                   }
                 }
               }
@@ -4301,7 +4357,7 @@
                   "type": "double",
                   "id": 10
                 },
-                "boundWidthChangeRatioUppperLimit": {
+                "curbHeadingTangentChangeUppperLimit": {
                   "type": "double",
                   "id": 11,
                   "options": {
@@ -4380,6 +4436,13 @@
                   "id": 12,
                   "options": {
                     "default": 0.95
+                  }
+                },
+                "linearVelocityThresholdOnEgo": {
+                  "type": "double",
+                  "id": 13,
+                  "options": {
+                    "default": 0.2
                   }
                 }
               }
@@ -4992,11 +5055,11 @@
                     "default": false
                   }
                 },
-                "enableLinearInterpolation": {
-                  "type": "bool",
+                "isNearDestinationThetaThreshold": {
+                  "type": "double",
                   "id": 11,
                   "options": {
-                    "default": false
+                    "default": 0.05
                   }
                 }
               }
@@ -6669,7 +6732,7 @@
                   }
                 },
                 "routingRequest": {
-                  "type": "routing.RoutingRequest",
+                  "type": "apollo.routing.RoutingRequest",
                   "id": 3
                 }
               }
@@ -8728,7 +8791,7 @@
                   "id": 2
                 },
                 "position": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 3
                 },
                 "theta": {
@@ -8748,7 +8811,7 @@
                   "id": 7
                 },
                 "velocity": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 8
                 },
                 "type": {
@@ -8776,7 +8839,7 @@
                   "id": 1
                 },
                 "position": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 2
                 },
                 "theta": {
@@ -8784,7 +8847,7 @@
                   "id": 3
                 },
                 "velocity": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 4
                 },
                 "length": {
@@ -8801,7 +8864,7 @@
                 },
                 "polygonPoint": {
                   "rule": "repeated",
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 8
                 },
                 "trackingTime": {
@@ -8837,18 +8900,18 @@
                 },
                 "drops": {
                   "rule": "repeated",
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 15,
                   "options": {
                     "deprecated": true
                   }
                 },
                 "acceleration": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 16
                 },
                 "anchorPoint": {
-                  "type": "common.Point3D",
+                  "type": "apollo.common.Point3D",
                   "id": 17
                 },
                 "bbox2d": {
@@ -9017,11 +9080,11 @@
                   "id": 1
                 },
                 "header": {
-                  "type": "common.Header",
+                  "type": "apollo.common.Header",
                   "id": 2
                 },
                 "errorCode": {
-                  "type": "common.ErrorCode",
+                  "type": "apollo.common.ErrorCode",
                   "id": 3,
                   "options": {
                     "default": "OK"
@@ -9811,6 +9874,60 @@
                 }
               }
             },
+            "Passage": {
+              "fields": {
+                "id": {
+                  "type": "Id",
+                  "id": 1
+                },
+                "signalId": {
+                  "rule": "repeated",
+                  "type": "Id",
+                  "id": 2
+                },
+                "yieldId": {
+                  "rule": "repeated",
+                  "type": "Id",
+                  "id": 3
+                },
+                "stopSignId": {
+                  "rule": "repeated",
+                  "type": "Id",
+                  "id": 4
+                },
+                "laneId": {
+                  "rule": "repeated",
+                  "type": "Id",
+                  "id": 5
+                },
+                "type": {
+                  "type": "Type",
+                  "id": 6
+                }
+              },
+              "nested": {
+                "Type": {
+                  "values": {
+                    "UNKNOWN": 0,
+                    "ENTRANCE": 1,
+                    "EXIT": 2
+                  }
+                }
+              }
+            },
+            "PassageGroup": {
+              "fields": {
+                "id": {
+                  "type": "Id",
+                  "id": 1
+                },
+                "passage": {
+                  "rule": "repeated",
+                  "type": "Passage",
+                  "id": 2
+                }
+              }
+            },
             "PNCJunction": {
               "fields": {
                 "id": {
@@ -9825,6 +9942,11 @@
                   "rule": "repeated",
                   "type": "Id",
                   "id": 3
+                },
+                "passageGroup": {
+                  "rule": "repeated",
+                  "type": "PassageGroup",
+                  "id": 4
                 }
               }
             },
@@ -9986,7 +10108,7 @@
                   "id": 1
                 },
                 "boundary": {
-                  "type": "Polygon",
+                  "type": "apollo.hdmap.Polygon",
                   "id": 2
                 },
                 "subsignal": {
@@ -10446,7 +10568,7 @@
                 },
                 "shortTermPredictedTrajectoryPoints": {
                   "rule": "repeated",
-                  "type": "common.TrajectoryPoint",
+                  "type": "apollo.common.TrajectoryPoint",
                   "id": 32
                 },
                 "predictedTrajectory": {
@@ -10456,7 +10578,7 @@
                 },
                 "adcTrajectoryPoint": {
                   "rule": "repeated",
-                  "type": "common.TrajectoryPoint",
+                  "type": "apollo.common.TrajectoryPoint",
                   "id": 34
                 }
               }
