@@ -360,6 +360,15 @@ bool ControlComponent::Proc() {
     return true;
   }
 
+  if (local_view_.trajectory.gear() == canbus::Chassis::GEAR_REVERSE)
+  {
+    control_command.set_gear_location(canbus::Chassis::GEAR_REVERSE);
+  }
+  else if (local_view_.trajectory.gear() == canbus::Chassis::GEAR_DRIVE)
+  {
+    control_command.set_gear_location(canbus::Chassis::GEAR_DRIVE);
+  }
+
   control_cmd_writer_->Write(std::make_shared<ControlCommand>(control_command));
 
   return true;
