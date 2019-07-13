@@ -142,10 +142,10 @@ lon_controller_conf {
   }
   reverse_speed_pid_conf {
     integrator_enable: true
-    integrator_saturation_level: 0.1
-    kp: 0.05
-    ki: 0.0
-    kd: 0.0
+    integrator_saturation_level: 0.2
+    kp: 0.1
+    ki: 0.05
+    kd: 0.02
   }
   reverse_station_leadlag_conf {
     innerstate_saturation_level: 1000
