@@ -1,4 +1,4 @@
-# LG Silicon Valley Lab Apollo 3.5 Fork
+# LG Silicon Valley Lab Apollo 5.0 Fork
 This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) maintained by the LG Electronics Silicon Valley Lab which has modified and configured to facilitate use with [LG's Automotive Simulator](https://github.com/lgsvl/simulator).
 
 **The software and source code in this repository are intended only for use with LG Automotive Simulator and *should not* be used in a real vehicle.**
@@ -62,16 +62,16 @@ To test if nvidia drivers are properly installed enter `nvidia-smi` in a termina
 The installation steps for nvidia-docker are available at the [official repo](https://github.com/NVIDIA/nvidia-docker). 
 
 #### Pulling LGSVL Docker image
-LGSVL maintains a docker image to be used alongside this repository. The docker image is available [here](https://hub.docker.com/r/lgsvl/apollo-3.5/).
+LGSVL maintains a docker image to be used alongside this repository. The docker image is available [here](https://hub.docker.com/r/lgsvl/apollo-5.0/).
 
 To pull the image use the following command:
 
-    docker pull lgsvl/apollo-3.5
+    docker pull lgsvl/apollo-5.0
 
 ### Cloning the Repository
 This repository includes a couple of submodules for HD Maps and lgsvl msgs. To make sure that the submodules are also cloned use the following command:
 
-    git clone --recurse-submodules https://github.com/lgsvl/apollo-3.5.git
+    git clone --recurse-submodules https://github.com/lgsvl/apollo-5.0.git
 
 
 ### Building Apollo and bridge
@@ -92,7 +92,7 @@ Build Apollo:
 
 ## Launching Apollo alongside the simulator
 
-[![](images/apollo3-5_simulator.png)](images/full_size_images/apollo3-5_simulator.png)
+[![](images/apollo_simulator.png)](images/full_size_images/apollo_simulator.png)
 
 Here we only describe only a simple case of driving from point A to point B using Apollo and the simulator. 
 
@@ -109,15 +109,15 @@ To launch apollo, first launch and enter a container as described in the previou
         bridge.sh
 
 * Run the LG SVL Simulator outside of docker. See instructions in the [simulator repository](https://github.com/lgsvl/simulator)
-    - Select the `San Francisco` map and the `XE-Rigged-apollo_3_5` vehicle.
+    - Select the `San Francisco` map and the `XE-Rigged` vehicle.
     - Enable GPS, IMU, LIDAR, Main Camera, and Telephoto Camera.
     - (optional) Enable Sensor Effects, Traffic and Pedestrian.
 
-[![](images/apollo3-5.png)](images/full_size_images/apollo3-5.png)
+[![](images/apollo.png)](images/full_size_images/apollo.png)
 
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
-    - Select the `XE_Rigged_Apollo3.5` vehicle and `San Francisco` map in the top right corner.
+    - Select the `XE_Rigged` vehicle and `San Francisco` map in the top right corner.
     - Open the **Module Controller** tab (on the left bar).
     - Enable **Localization**, **Transform**, **Perception**, **Traffic Light**, **Planning**, **Prediction**, **Routing**.
     - Navigate to the **Route Editing** tab.

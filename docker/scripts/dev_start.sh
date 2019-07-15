@@ -191,7 +191,7 @@ fi
 #fi
 
 
-IMG=lgsvl/apollo-3.5:${VERSION}
+IMG=lgsvl/apollo-5.0:${VERSION}
 
 function local_volumes() {
     # Apollo root and bazel cache dirs are required.
