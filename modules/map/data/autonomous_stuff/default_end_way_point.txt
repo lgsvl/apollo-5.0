@@ -1,0 +1,447 @@
+landmark {
+    name: "Unit Test - Parking Space_20_lane_0",
+    parking_space_id: "PS_20",
+    waypoint {
+      pose {
+        x: 596553.78596496582
+        y: 4137666.2331428528
+      }
+    }
+    waypoint {
+      pose {
+        x: 596578.38958740234
+        y: 4137628.7424087524
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_20_lane_1",
+    parking_space_id: "PS_20",
+    waypoint {
+      pose {
+        x: 596578.35205078125
+        y: 4137628.6063728333
+      }
+    }
+    waypoint {
+      pose {
+        x: 596551.38610839844
+        y: 4137676.2937431335
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_66_lane_4",
+    parking_space_id: "PS_66",
+    waypoint {
+      pose {
+        x: 596549.028076
+        y: 4137686.627808
+      }
+    }
+    waypoint {
+      pose {
+        x: 596592.435410
+        y: 4137769.818573
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_65_lane_5",
+    parking_space_id: "PS_65",
+    waypoint {
+      pose {
+        x: 596592.572716
+        y: 4137769.851639
+      }
+    }
+    waypoint {
+      pose {
+        x: 596549.165382
+        y: 4137686.660870
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_115_lane_8",
+    parking_space_id: "PS_115",
+    waypoint {
+      pose {
+        x: 596601.394226
+        y: 4137776.447083
+      }
+    }
+    waypoint {
+      pose {
+        x: 596645.751486
+        y: 4137760.958786
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_115_lane_9",
+    parking_space_id: "PS_115",
+    waypoint {
+      pose {
+        x: 596645.813093
+        y: 4137760.831970
+      }
+    }
+    waypoint {
+      pose {
+        x: 596601.455841
+        y: 4137776.320267
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_145_lane_12",
+    parking_space_id: "PS_145",
+    waypoint {
+      pose {
+        x: 596655.423800
+        y: 4137748.988556
+      }
+    }
+    waypoint {
+      pose {
+        x: 596680.157890
+        y: 4137719.146229
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_145_lane_13",
+    parking_space_id: "PS_145",
+    waypoint {
+      pose {
+        x: 596680.144646
+        y: 4137719.005497
+      }
+    }
+    waypoint {
+      pose {
+        x: 596655.410555
+        y: 4137748.847824
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_180_lane_20",
+    parking_space_id: "PS_180",
+    waypoint {
+      pose {
+        x: 596679.781860
+        y: 4137711.715000
+      }
+    }
+    waypoint {
+      pose {
+        x: 596655.973436
+        y: 4137667.450138
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_180_lane_21",
+    parking_space_id: "PS_180",
+    waypoint {
+      pose {
+        x: 596655.838045
+        y: 4137667.410084
+      }
+    }
+    waypoint {
+      pose {
+        x: 596679.646461
+        y: 4137711.674946
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_206_lane_11",
+    parking_space_id: "PS_206",
+    waypoint {
+      pose {
+        x: 596644.852797
+        y: 4137751.578674
+      }
+    }
+    waypoint {
+      pose {
+        x: 596555.209000
+        y: 4137682.069401
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Parking Space_206_lane_10",
+    parking_space_id: "PS_206",
+    waypoint {
+      pose {
+        x: 596555.069160
+        y: 4137682.087509
+      }
+    }
+    waypoint {
+      pose {
+        x: 596644.852797
+        y: 4137751.578674
+      }
+    }
+}
+
+
+
+landmark {
+    name: "Unit Test - Routing and Parking Space_20_lane_0",
+    parking_space_id: "PS_20",
+    waypoint {
+      pose {
+        x: 596584.946533
+        y: 4137787.774673
+      }
+    }
+    waypoint {
+      pose {
+        x: 596553.78596496582
+        y: 4137666.2331428528
+      }
+    }
+    waypoint {
+      pose {
+        x: 596578.38958740234
+        y: 4137628.7424087524
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_20_lane_1",
+    parking_space_id: "PS_20",
+    waypoint {
+      pose {
+        x: 596578.35205078125
+        y: 4137628.6063728333
+      }
+    }
+    waypoint {
+      pose {
+        x: 596551.38610839844
+        y: 4137676.2937431335
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_66_lane_4",
+    parking_space_id: "PS_66",
+    waypoint {
+      pose {
+        x: 596531.611115
+        y: 4137676.148327
+      }
+    }
+    waypoint {
+      pose {
+        x: 596549.028076
+        y: 4137686.627808
+      }
+    }
+    waypoint {
+      pose {
+        x: 596592.435410
+        y: 4137769.818573
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_65_lane_5",
+    parking_space_id: "PS_65",
+    waypoint {
+      pose {
+        x: 596645.813093
+        y: 4137760.831970
+      }
+    }
+    waypoint {
+      pose {
+        x: 596592.572716
+        y: 4137769.851639
+      }
+    }
+    waypoint {
+      pose {
+        x: 596549.165382
+        y: 4137686.660870
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_115_lane_8",
+    parking_space_id: "PS_115",
+    waypoint {
+      pose {
+        x: 596584.946533
+        y: 4137787.774673
+      }
+    }
+    waypoint {
+      pose {
+        x: 596601.394226
+        y: 4137776.447083
+      }
+    }
+    waypoint {
+      pose {
+        x: 596645.751486
+        y: 4137760.958786
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_115_lane_9",
+    parking_space_id: "PS_115",
+    waypoint {
+      pose {
+        x: 596680.144646
+        y: 4137719.005497
+      }
+    }
+    waypoint {
+      pose {
+        x: 596645.813093
+        y: 4137760.831970
+      }
+    }
+    waypoint {
+      pose {
+        x: 596601.455841
+        y: 4137776.320267
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_145_lane_12",
+    parking_space_id: "PS_145",
+    waypoint {
+      pose {
+        x: 596555.069160
+        y: 4137682.087509
+      }
+    }
+    waypoint {
+      pose {
+        x: 596655.423800
+        y: 4137748.988556
+      }
+    }
+    waypoint {
+      pose {
+        x: 596680.157890
+        y: 4137719.146229
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_145_lane_13",
+    parking_space_id: "PS_145",
+    waypoint {
+      pose {
+        x: 596691.509422
+        y: 4137720.144711
+      }
+    }
+    waypoint {
+      pose {
+        x: 596680.144646
+        y: 4137719.005497
+      }
+    }
+    waypoint {
+      pose {
+        x: 596655.410555
+        y: 4137748.847824
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_180_lane_20",
+    parking_space_id: "PS_180",
+    waypoint {
+      pose {
+        x: 596655.423800
+        y: 4137748.988556
+      }
+    }
+    waypoint {
+      pose {
+        x: 596679.781860
+        y: 4137711.715000
+      }
+    }
+    waypoint {
+      pose {
+        x: 596655.973436
+        y: 4137667.450138
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_180_lane_21",
+    parking_space_id: "PS_180",
+    waypoint {
+      pose {
+        x: 596655.838045
+        y: 4137667.410084
+      }
+    }
+    waypoint {
+      pose {
+        x: 596679.646461
+        y: 4137711.674946
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_205_lane_11",
+    parking_space_id: "PS_205",
+    waypoint {
+      pose {
+        x: 596680.144646
+        y: 4137719.005497
+      }
+    }
+    waypoint {
+      pose {
+        x: 596644.852797
+        y: 4137751.578674
+      }
+    }
+    waypoint {
+      pose {
+        x: 596555.209000
+        y: 4137682.069401
+      }
+    }
+}
+landmark {
+    name: "Unit Test - Routing and Parking Space_206_lane_10",
+    parking_space_id: "PS_206",
+    waypoint {
+      pose {
+        x: 596531.611115
+        y: 4137676.148327
+      }
+    }
+    waypoint {
+      pose {
+        x: 596555.069160
+        y: 4137682.087509
+      }
+    }
+    waypoint {
+      pose {
+        x: 596644.852797
+        y: 4137751.578674
+      }
+    }
+}
