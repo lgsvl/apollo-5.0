@@ -51,6 +51,15 @@
 			"yorigin": 4182528,
 			"type": "default",
 			"tileRange": 4
+		},
+		"gomentum": {
+			"mpp": 0.125,
+			"xres": 9216,
+			"yres": 6144,
+			"xorigin": 586816,
+			"yorigin": 4208000,
+			"type": "default",
+			"tileRange": 4
 		}
 	},
 	"planning": {
