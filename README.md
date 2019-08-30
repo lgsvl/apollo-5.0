@@ -109,7 +109,7 @@ To launch apollo, first launch and enter a container as described in the previou
         bridge.sh
 
 * Run the LG SVL Simulator outside of docker. See instructions in the [simulator repository](https://github.com/lgsvl/simulator)
-    - Select the `San Francisco` map and the `XE-Rigged` vehicle.
+    - Select the `BorregasAve` map and the `Lincoln2017MKZ (Apollo 5.0)` vehicle.
     - Enable GPS, IMU, LIDAR, Main Camera, and Telephoto Camera.
     - (optional) Enable Sensor Effects, Traffic and Pedestrian.
 
@@ -117,7 +117,7 @@ To launch apollo, first launch and enter a container as described in the previou
 
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
-    - Select the `XE_Rigged` vehicle and `San Francisco` map in the top right corner.
+    - Select the `Lincoln2017MKZ` vehicle and `BorregasAve` map in the top right corner.
     - Open the **Module Controller** tab (on the left bar).
     - Enable **Localization**, **Transform**, **Perception**, **Traffic Light**, **Planning**, **Prediction**, **Routing**.
     - Navigate to the **Route Editing** tab.
