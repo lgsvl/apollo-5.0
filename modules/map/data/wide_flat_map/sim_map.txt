@@ -1,0 +1,168 @@
+header {
+  version: "1.500000"
+  date: "2018-03-23T13:27:54"
+  projection {
+    proj: "+proj=utm +zone=10 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+  }
+  district: "0"
+  rev_major: "1"
+  rev_minor: "0"
+  left: -121.982277
+  top: 37.398079
+  right: -121.971998
+  bottom: 37.398079
+  vendor: "LGSVL"
+}
+lane {
+  id {
+    id: "lane_0"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 3.6413850784301758
+          y: -4755.349609375
+        }
+        point {
+          x: -3.6774797439575195
+          y: 4944.6474609375
+        }
+      }
+      s: 0
+      start_position {
+        x: 3.6413850784301758
+        y: -4755.349609375
+        z: 0
+      }
+      length: 9700
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 1.891385555267334
+            y: -4755.35107421875
+          }
+          point {
+            x: -5.4274792671203613
+            y: 4944.64599609375
+          }
+        }
+        s: 0
+        start_position {
+          x: 1.891385555267334
+          y: -4755.35107421875
+        }
+        length: 9700
+      }
+    }
+    length: 9700
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOTTED_WHITE
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 5.3913846015930176
+            y: -4755.34814453125
+          }
+          point {
+            x: -1.9274803400039673
+            y: 4944.64892578125
+          }
+        }
+        s: 0
+        start_position {
+          x: 1.891385555267334
+          y: -4755.35107421875
+        }
+        length: 9700
+      }
+    }
+    length: 9700
+    virtual: true
+    boundary_type {
+      types: DOTTED_WHITE
+    }
+  }
+  length: 9700
+  speed_limit: 25
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+road {
+  id {
+    id: "road_0"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_0"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 1.891385555267334
+                  y: -4755.35107421875
+                }
+                point {
+                  x: -1.8812251091003418
+                  y: 244.64762878417969
+                }
+                point {
+                  x: -2.0661578178405762
+                  y: 489.7462158203125
+                }
+                point {
+                  x: -5.4274792671203613
+                  y: 4944.64599609375
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 5.3913846015930176
+                  y: -4755.34814453125
+                }
+                point {
+                  x: 1.6187739372253418
+                  y: 244.65028381347656
+                }
+                point {
+                  x: 1.4338412284851074
+                  y: 489.74884033203125
+                }
+                point {
+                  x: -1.9274803400039673
+                  y: 4944.64892578125
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
