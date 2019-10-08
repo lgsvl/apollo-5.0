@@ -1,0 +1,5028 @@
+header {
+  version: "1.500000"
+  date: "2018-03-23T13:27:54"
+  projection {
+    proj: "+proj=utm +zone=10 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+  }
+  district: "0"
+  rev_major: "1"
+  rev_minor: "0"
+  left: -121.982277
+  top: 37.398079
+  right: -121.971998
+  bottom: 37.398079
+  vendor: "LGSVL"
+}
+lane {
+  id {
+    id: "lane_0"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592777.00000762939
+          y: 4134468.2788619995
+        }
+        point {
+          x: 592777.043674469
+          y: 4134473.97654438
+        }
+        point {
+          x: 592774.71000289917
+          y: 4134479.1125300229
+        }
+        point {
+          x: 592769.71029663086
+          y: 4134482.062820673
+        }
+        point {
+          x: 592762.84464263916
+          y: 4134482.5714616776
+        }
+      }
+      s: 0
+      start_position {
+        x: 592777.00000762939
+        y: 4134468.2788619995
+        z: 0
+      }
+      length: 24.028909683227539
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592775.25005722046
+            y: 4134468.2922735214
+          }
+          point {
+            x: 592775.33150863647
+            y: 4134473.6146287918
+          }
+          point {
+            x: 592769.22053146362
+            y: 4134480.3827522993
+          }
+          point {
+            x: 592762.71534729
+            y: 4134480.8262444735
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25005722046
+          y: 4134468.2922735214
+        }
+        length: 21.426265716552734
+      }
+    }
+    length: 21.426265716552734
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592778.74995803833
+            y: 4134468.2654504776
+          }
+          point {
+            x: 592778.75584030151
+            y: 4134474.3384599686
+          }
+          point {
+            x: 592776.00631713867
+            y: 4134480.2881456614
+          }
+          point {
+            x: 592770.2000617981
+            y: 4134483.7428889275
+          }
+          point {
+            x: 592762.97393798828
+            y: 4134484.3166790009
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25005722046
+          y: 4134468.2922735214
+        }
+        length: 21.426265716552734
+      }
+    }
+    length: 26.632484436035156
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 24.028909683227539
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_0"
+  }
+  predecessor_id {
+    id: "lane_17"
+  }
+  successor_id {
+    id: "lane_12"
+  }
+  type: CITY_DRIVING
+  turn: LEFT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_1"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592762.74602890015
+          y: 4134475.7631754875
+        }
+        point {
+          x: 592765.76634979248
+          y: 4134475.6596479416
+        }
+        point {
+          x: 592769.10849761963
+          y: 4134474.3817420006
+        }
+        point {
+          x: 592770.36549377441
+          y: 4134471.4034543037
+        }
+        point {
+          x: 592770.23999786377
+          y: 4134468.2120132446
+        }
+      }
+      s: 0
+      start_position {
+        x: 592762.74602890015
+        y: 4134475.7631754875
+        z: 0
+      }
+      length: 13.026812553405762
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.80597686768
+            y: 4134477.5121483803
+          }
+          point {
+            x: 592770.29711914062
+            y: 4134475.6661396027
+          }
+          point {
+            x: 592771.98864746094
+            y: 4134468.1432514191
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.80597686768
+          y: 4134477.5121483803
+        }
+        length: 15.740581512451172
+      }
+    }
+    length: 15.740581512451172
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.68608093262
+            y: 4134474.0142025948
+          }
+          point {
+            x: 592765.39503860474
+            y: 4134473.949493885
+          }
+          point {
+            x: 592767.91987609863
+            y: 4134473.0973443985
+          }
+          point {
+            x: 592768.644203186
+            y: 4134471.0877771378
+          }
+          point {
+            x: 592768.4913482666
+            y: 4134468.28077507
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.80597686768
+          y: 4134477.5121483803
+        }
+        length: 15.740581512451172
+      }
+    }
+    length: 10.321774482727051
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 13.026812553405762
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_2"
+  }
+  predecessor_id {
+    id: "lane_13"
+  }
+  successor_id {
+    id: "lane_16"
+  }
+  type: CITY_DRIVING
+  turn: RIGHT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_2"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592770.230758667
+          y: 4134489.7718353271
+        }
+        point {
+          x: 592770.23999786377
+          y: 4134468.2120132446
+        }
+      }
+      s: 0
+      start_position {
+        x: 592770.230758667
+        y: 4134489.7718353271
+        z: 0
+      }
+      length: 21.55982780456543
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592771.980758667
+            y: 4134489.7740926743
+          }
+          point {
+            x: 592771.98999786377
+            y: 4134468.2120132446
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.980758667
+          y: 4134489.7740926743
+        }
+        length: 21.562084197998047
+      }
+    }
+    length: 21.562084197998047
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592768.480758667
+            y: 4134489.76957798
+          }
+          point {
+            x: 592768.48999786377
+            y: 4134468.2120132446
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.980758667
+          y: 4134489.7740926743
+        }
+        length: 21.562084197998047
+      }
+    }
+    length: 21.557571411132812
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 21.55982780456543
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_4"
+  }
+  predecessor_id {
+    id: "lane_14"
+  }
+  successor_id {
+    id: "lane_16"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_3"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592762.74602890015
+          y: 4134475.7631754875
+        }
+        point {
+          x: 592769.24782943726
+          y: 4134475.6291394234
+        }
+        point {
+          x: 592776.77131271362
+          y: 4134482.2940762043
+        }
+        point {
+          x: 592777.0000038147
+          y: 4134490.0188598633
+        }
+      }
+      s: 0
+      start_position {
+        x: 592762.74602890015
+        y: 4134475.7631754875
+        z: 0
+      }
+      length: 24.731601715087891
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.78209686279
+            y: 4134477.512803793
+          }
+          point {
+            x: 592768.961315155
+            y: 4134477.3555256128
+          }
+          point {
+            x: 592772.58486175537
+            y: 4134478.8985569477
+          }
+          point {
+            x: 592775.07838439941
+            y: 4134482.7373497486
+          }
+          point {
+            x: 592775.25077056885
+            y: 4134490.0706453323
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.78209686279
+          y: 4134477.512803793
+        }
+        length: 22.032499313354492
+      }
+    }
+    length: 22.032499313354492
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.7099609375
+            y: 4134474.0135469437
+          }
+          point {
+            x: 592769.53434371948
+            y: 4134473.9027533531
+          }
+          point {
+            x: 592774.90573120117
+            y: 4134476.2787196636
+          }
+          point {
+            x: 592778.46424102783
+            y: 4134481.85080266
+          }
+          point {
+            x: 592778.74923706055
+            y: 4134489.9670743942
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.78209686279
+          y: 4134477.512803793
+        }
+        length: 22.032499313354492
+      }
+    }
+    length: 27.431407928466797
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 24.731601715087891
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_3"
+  }
+  predecessor_id {
+    id: "lane_13"
+  }
+  successor_id {
+    id: "lane_15"
+  }
+  type: CITY_DRIVING
+  turn: LEFT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_4"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592777.00000762939
+          y: 4134468.2788619995
+        }
+        point {
+          x: 592777.0000038147
+          y: 4134490.0188598633
+        }
+      }
+      s: 0
+      start_position {
+        x: 592777.00000762939
+        y: 4134468.2788619995
+        z: 0
+      }
+      length: 21.739997863769531
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592775.25000762939
+            y: 4134468.2788600922
+          }
+          point {
+            x: 592775.2500038147
+            y: 4134490.018860817
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25000762939
+          y: 4134468.2788600922
+        }
+        length: 21.740001678466797
+      }
+    }
+    length: 21.740001678466797
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592778.75000762939
+            y: 4134468.2788639069
+          }
+          point {
+            x: 592778.7500038147
+            y: 4134490.0188589096
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25000762939
+          y: 4134468.2788600922
+        }
+        length: 21.740001678466797
+      }
+    }
+    length: 21.739994049072266
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 21.739997863769531
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_1"
+  }
+  predecessor_id {
+    id: "lane_17"
+  }
+  successor_id {
+    id: "lane_15"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_5"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592770.230758667
+          y: 4134489.7718353271
+        }
+        point {
+          x: 592770.45123291016
+          y: 4134485.8016629219
+        }
+        point {
+          x: 592769.28415298462
+          y: 4134483.1157245636
+        }
+        point {
+          x: 592766.14956283569
+          y: 4134482.5204045773
+        }
+        point {
+          x: 592762.84464263916
+          y: 4134482.5714616776
+        }
+      }
+      s: 0
+      start_position {
+        x: 592770.230758667
+        y: 4134489.7718353271
+        z: 0
+      }
+      length: 13.400764465332031
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592771.97806549072
+            y: 4134489.8688678741
+          }
+          point {
+            x: 592772.18379974365
+            y: 4134485.5552639961
+          }
+          point {
+            x: 592770.34550476074
+            y: 4134481.7243111134
+          }
+          point {
+            x: 592766.29694747925
+            y: 4134480.7766218185
+          }
+          point {
+            x: 592762.81761169434
+            y: 4134480.8216705322
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.97806549072
+          y: 4134489.8688678741
+        }
+        length: 16.205310821533203
+      }
+    }
+    length: 16.205310821533203
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592768.48345184326
+            y: 4134489.67480278
+          }
+          point {
+            x: 592768.71866607666
+            y: 4134486.0480618477
+          }
+          point {
+            x: 592768.2228012085
+            y: 4134484.5071382523
+          }
+          point {
+            x: 592766.00217819214
+            y: 4134484.264187336
+          }
+          point {
+            x: 592762.871673584
+            y: 4134484.3212528229
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.97806549072
+          y: 4134489.8688678741
+        }
+        length: 16.205310821533203
+      }
+    }
+    length: 10.618000984191895
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 13.400764465332031
+  speed_limit: 15
+  overlap_id {
+    id: "signal_lane_overlap_5"
+  }
+  predecessor_id {
+    id: "lane_14"
+  }
+  successor_id {
+    id: "lane_12"
+  }
+  type: CITY_DRIVING
+  turn: RIGHT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_6"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592669.905002594
+          y: 4134468.2932872772
+        }
+        point {
+          x: 592671.55599594116
+          y: 4134474.0320253372
+        }
+        point {
+          x: 592677.2727394104
+          y: 4134475.621158123
+        }
+      }
+      s: 0
+      start_position {
+        x: 592669.905002594
+        y: 4134468.2932872772
+        z: 0
+      }
+      length: 12.049708366394043
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592668.172668457
+            y: 4134468.5413036346
+          }
+          point {
+            x: 592670.33488082886
+            y: 4134475.2855725288
+          }
+          point {
+            x: 592677.07069396973
+            y: 4134477.3594551086
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.172668457
+          y: 4134468.5413036346
+        }
+        length: 14.320650100708008
+      }
+    }
+    length: 14.320650100708008
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592671.637336731
+            y: 4134468.04527092
+          }
+          point {
+            x: 592674.6689491272
+            y: 4134473.5779657364
+          }
+          point {
+            x: 592677.47478485107
+            y: 4134473.8828611374
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.172668457
+          y: 4134468.5413036346
+        }
+        length: 14.320650100708008
+      }
+    }
+    length: 9.7840480804443359
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 12.049708366394043
+  speed_limit: 15
+  successor_id {
+    id: "lane_13"
+  }
+  type: CITY_DRIVING
+  turn: RIGHT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_7"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592677.10431671143
+          y: 4134482.2293863297
+        }
+        point {
+          x: 592673.149772644
+          y: 4134482.0999660492
+        }
+        point {
+          x: 592670.1745223999
+          y: 4134483.850151062
+        }
+        point {
+          x: 592669.88718795776
+          y: 4134486.8297386169
+        }
+        point {
+          x: 592670.103603363
+          y: 4134489.7452011108
+        }
+      }
+      s: 0
+      start_position {
+        x: 592677.10431671143
+        y: 4134482.2293863297
+        z: 0
+      }
+      length: 13.325404167175293
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.16156005859
+            y: 4134480.4803227186
+          }
+          point {
+            x: 592672.75123214722
+            y: 4134480.3959516287
+          }
+          point {
+            x: 592668.733997345
+            y: 4134482.8564796448
+          }
+          point {
+            x: 592668.13731384277
+            y: 4134486.80868721
+          }
+          point {
+            x: 592668.35840606689
+            y: 4134489.8747472763
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.16156005859
+          y: 4134480.4803227186
+        }
+        length: 16.193029403686523
+      }
+    }
+    length: 16.193029403686523
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.04707336426
+            y: 4134483.9784498215
+          }
+          point {
+            x: 592673.54831314087
+            y: 4134483.8039803505
+          }
+          point {
+            x: 592671.61504745483
+            y: 4134484.8438224792
+          }
+          point {
+            x: 592671.63706207275
+            y: 4134486.8507900238
+          }
+          point {
+            x: 592671.84880065918
+            y: 4134489.6156549454
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.16156005859
+          y: 4134480.4803227186
+        }
+        length: 16.193029403686523
+      }
+    }
+    length: 10.478330612182617
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 13.325404167175293
+  speed_limit: 15
+  overlap_id {
+    id: "stopsign_lane_overlap_6"
+  }
+  predecessor_id {
+    id: "lane_12"
+  }
+  successor_id {
+    id: "lane_14"
+  }
+  type: CITY_DRIVING
+  turn: RIGHT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_8"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592663.24824142456
+          y: 4134489.4921569824
+        }
+        point {
+          x: 592663.29999542236
+          y: 4134479.1399999857
+        }
+        point {
+          x: 592663.29999542236
+          y: 4134468.2051305771
+        }
+      }
+      s: 0
+      start_position {
+        x: 592663.24824142456
+        y: 4134489.4921569824
+        z: 0
+      }
+      length: 21.287303924560547
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592664.99814224243
+            y: 4134489.5108995438
+          }
+          point {
+            x: 592665.04999542236
+            y: 4134479.1399999857
+          }
+          point {
+            x: 592665.04999542236
+            y: 4134468.2051277161
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.99814224243
+          y: 4134489.5108995438
+        }
+        length: 21.306049346923828
+      }
+    }
+    length: 21.306049346923828
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592661.49834060669
+            y: 4134489.4734144211
+          }
+          point {
+            x: 592661.54999542236
+            y: 4134479.1399999857
+          }
+          point {
+            x: 592661.54999542236
+            y: 4134468.2051334381
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.99814224243
+          y: 4134489.5108995438
+        }
+        length: 21.306049346923828
+      }
+    }
+    length: 21.268556594848633
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 21.287303924560547
+  speed_limit: 15
+  overlap_id {
+    id: "stopsign_lane_overlap_8"
+  }
+  predecessor_id {
+    id: "lane_15"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_9"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592663.24824142456
+          y: 4134489.4921569824
+        }
+        point {
+          x: 592663.43740081787
+          y: 4134482.9842128754
+        }
+        point {
+          x: 592670.51407241821
+          y: 4134475.9517292976
+        }
+        point {
+          x: 592677.2727394104
+          y: 4134475.621158123
+        }
+      }
+      s: 0
+      start_position {
+        x: 592663.24824142456
+        y: 4134489.4921569824
+        z: 0
+      }
+      length: 23.624444961547852
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592664.99750137329
+            y: 4134489.5430011749
+          }
+          point {
+            x: 592665.14156723022
+            y: 4134483.3821110725
+          }
+          point {
+            x: 592670.97300338745
+            y: 4134477.6404812336
+          }
+          point {
+            x: 592677.35823059082
+            y: 4134477.3690686226
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.99750137329
+          y: 4134489.5430011749
+        }
+        length: 21.040254592895508
+      }
+    }
+    length: 21.040254592895508
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592661.49898147583
+            y: 4134489.44131279
+          }
+          point {
+            x: 592661.73323440552
+            y: 4134482.5863146782
+          }
+          point {
+            x: 592664.52262496948
+            y: 4134477.5095582008
+          }
+          point {
+            x: 592670.055141449
+            y: 4134474.2629776
+          }
+          point {
+            x: 592677.18724823
+            y: 4134473.8732476234
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.99750137329
+          y: 4134489.5430011749
+        }
+        length: 21.040254592895508
+      }
+    }
+    length: 26.209091186523438
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 23.624444961547852
+  speed_limit: 15
+  overlap_id {
+    id: "stopsign_lane_overlap_9"
+  }
+  predecessor_id {
+    id: "lane_15"
+  }
+  successor_id {
+    id: "lane_13"
+  }
+  type: CITY_DRIVING
+  turn: LEFT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_10"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592677.10431671143
+          y: 4134482.2293863297
+        }
+        point {
+          x: 592671.23736572266
+          y: 4134482.0649213791
+        }
+        point {
+          x: 592663.89347457886
+          y: 4134475.5044560432
+        }
+        point {
+          x: 592663.545249939
+          y: 4134468.1711759567
+        }
+      }
+      s: 0
+      start_position {
+        x: 592677.10431671143
+        y: 4134482.2293863297
+        z: 0
+      }
+      length: 23.354093551635742
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.15335464478
+            y: 4134480.480073452
+          }
+          point {
+            x: 592671.6282081604
+            y: 4134480.3591243029
+          }
+          point {
+            x: 592665.57189941406
+            y: 4134475.0090866089
+          }
+          point {
+            x: 592665.29328155518
+            y: 4134468.0881700516
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.15335464478
+          y: 4134480.480073452
+        }
+        length: 20.767023086547852
+      }
+    }
+    length: 20.767023086547852
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.05527877808
+            y: 4134483.9786992073
+          }
+          point {
+            x: 592670.84652328491
+            y: 4134483.7707185745
+          }
+          point {
+            x: 592665.84602737427
+            y: 4134481.2220482826
+          }
+          point {
+            x: 592662.21504974365
+            y: 4134475.9998254776
+          }
+          point {
+            x: 592661.79721832275
+            y: 4134468.2541818619
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.15335464478
+          y: 4134480.480073452
+        }
+        length: 20.767023086547852
+      }
+    }
+    length: 25.942161560058594
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 23.354093551635742
+  speed_limit: 15
+  overlap_id {
+    id: "stopsign_lane_overlap_7"
+  }
+  predecessor_id {
+    id: "lane_12"
+  }
+  type: CITY_DRIVING
+  turn: LEFT_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_11"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592669.84697341919
+          y: 4134468.3557958603
+        }
+        point {
+          x: 592670.103603363
+          y: 4134489.7452011108
+        }
+      }
+      s: 0
+      start_position {
+        x: 592669.84697341919
+        y: 4134468.3557958603
+        z: 0
+      }
+      length: 21.390945434570312
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592668.0970993042
+            y: 4134468.3767900467
+          }
+          point {
+            x: 592668.353729248
+            y: 4134489.7661972046
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.0970993042
+          y: 4134468.3767900467
+        }
+        length: 21.390947341918945
+      }
+    }
+    length: 21.390947341918945
+    virtual: true
+    boundary_type {
+      s: 0
+      types: UNKNOWN
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592671.59684753418
+            y: 4134468.3348016739
+          }
+          point {
+            x: 592671.853477478
+            y: 4134489.7242050171
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.0970993042
+          y: 4134468.3767900467
+        }
+        length: 21.390947341918945
+      }
+    }
+    length: 21.390941619873047
+    virtual: true
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 21.390945434570312
+  speed_limit: 15
+  successor_id {
+    id: "lane_14"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_12"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592762.84463500977
+          y: 4134482.571461916
+        }
+        point {
+          x: 592720.650003314
+          y: 4134482.3699998856
+        }
+        point {
+          x: 592677.10432434082
+          y: 4134482.229385376
+        }
+      }
+      s: 0
+      start_position {
+        x: 592762.84463500977
+        y: 4134482.571461916
+        z: 0
+      }
+      length: 85.741691589355469
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.86030197144
+            y: 4134480.8215321302
+          }
+          point {
+            x: 592720.6500031352
+            y: 4134480.6199998856
+          }
+          point {
+            x: 592677.11629486084
+            y: 4134480.4794262648
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.86030197144
+          y: 4134480.8215321302
+        }
+        length: 85.745391845703125
+      }
+    }
+    length: 85.745391845703125
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592762.8289680481
+            y: 4134484.3213915825
+          }
+          point {
+            x: 592720.65000349283
+            y: 4134484.1199998856
+          }
+          point {
+            x: 592677.0923538208
+            y: 4134483.979344368
+          }
+        }
+        s: 0
+        start_position {
+          x: 592762.86030197144
+          y: 4134480.8215321302
+        }
+        length: 85.745391845703125
+      }
+    }
+    length: 85.737998962402344
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 85.741691589355469
+  speed_limit: 15
+  predecessor_id {
+    id: "lane_0"
+  }
+  predecessor_id {
+    id: "lane_5"
+  }
+  successor_id {
+    id: "lane_7"
+  }
+  successor_id {
+    id: "lane_10"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_13"
+  }
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_13"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592677.2727355957
+          y: 4134475.6211557388
+        }
+        point {
+          x: 592762.74603271484
+          y: 4134475.7631762028
+        }
+      }
+      s: 0
+      start_position {
+        x: 592677.2727355957
+        y: 4134475.6211557388
+        z: 0
+      }
+      length: 85.474037170410156
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.26350402832
+            y: 4134477.37113142
+          }
+          point {
+            x: 592762.73619842529
+            y: 4134477.513148427
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.26350402832
+          y: 4134477.37113142
+        }
+        length: 85.473434448242188
+      }
+    }
+    length: 85.473434448242188
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592677.28196716309
+            y: 4134473.8711800575
+          }
+          point {
+            x: 592762.75586700439
+            y: 4134474.0132040977
+          }
+        }
+        s: 0
+        start_position {
+          x: 592677.26350402832
+          y: 4134477.37113142
+        }
+        length: 85.473434448242188
+      }
+    }
+    length: 85.474639892578125
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 85.474037170410156
+  speed_limit: 15
+  predecessor_id {
+    id: "lane_6"
+  }
+  predecessor_id {
+    id: "lane_9"
+  }
+  successor_id {
+    id: "lane_1"
+  }
+  successor_id {
+    id: "lane_3"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_12"
+  }
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_14"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592670.10359954834
+          y: 4134489.7452001572
+        }
+        point {
+          x: 592670.06981658936
+          y: 4134518.1521377563
+        }
+        point {
+          x: 592672.05312347412
+          y: 4134522.2767524719
+        }
+        point {
+          x: 592674.94879150391
+          y: 4134525.8064613342
+        }
+        point {
+          x: 592678.28077316284
+          y: 4134528.0670661926
+        }
+        point {
+          x: 592683.15974807739
+          y: 4134529.0188789368
+        }
+        point {
+          x: 592733.06098270416
+          y: 4134529.0179519653
+        }
+        point {
+          x: 592758.28943634033
+          y: 4134529.0575065613
+        }
+        point {
+          x: 592761.66122436523
+          y: 4134528.0660057068
+        }
+        point {
+          x: 592764.83464813232
+          y: 4134526.2417755127
+        }
+        point {
+          x: 592767.25437545776
+          y: 4134523.9813270569
+        }
+        point {
+          x: 592769.23774719238
+          y: 4134520.7294540405
+        }
+        point {
+          x: 592769.951789856
+          y: 4134514.7806510925
+        }
+        point {
+          x: 592770.23076248169
+          y: 4134489.77183342
+        }
+      }
+      s: 0
+      start_position {
+        x: 592670.10359954834
+        y: 4134489.7452001572
+        z: 0
+      }
+      length: 166.97395324707031
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592668.35360717773
+            y: 4134489.7396039963
+          }
+          point {
+            x: 592668.278301239
+            y: 4134513.2911224365
+          }
+          point {
+            x: 592668.36264419556
+            y: 4134518.5369224548
+          }
+          point {
+            x: 592670.577419281
+            y: 4134523.2173881531
+          }
+          point {
+            x: 592673.75717544556
+            y: 4134527.08808136
+          }
+          point {
+            x: 592677.64317321777
+            y: 4134529.6967773438
+          }
+          point {
+            x: 592683.04275894165
+            y: 4134530.7649650574
+          }
+          point {
+            x: 592733.06352043152
+            y: 4134530.7679519653
+          }
+          point {
+            x: 592758.40615081787
+            y: 4134530.8036117554
+          }
+          point {
+            x: 592762.35279083252
+            y: 4134529.6735610962
+          }
+          point {
+            x: 592765.86674499512
+            y: 4134527.6550254822
+          }
+          point {
+            x: 592768.621711731
+            y: 4134525.0735206604
+          }
+          point {
+            x: 592770.91706466675
+            y: 4134521.2217903137
+          }
+          point {
+            x: 592771.69912338257
+            y: 4134514.8772163391
+          }
+          point {
+            x: 592771.98063659668
+            y: 4134489.7928762436
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.35360717773
+          y: 4134489.7396039963
+        }
+        length: 172.42927551269531
+      }
+    }
+    length: 172.42927551269531
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592671.853591919
+            y: 4134489.7507963181
+          }
+          point {
+            x: 592671.77698898315
+            y: 4134517.7673530579
+          }
+          point {
+            x: 592673.52882766724
+            y: 4134521.3361167908
+          }
+          point {
+            x: 592676.14040756226
+            y: 4134524.5248413086
+          }
+          point {
+            x: 592678.91837310791
+            y: 4134526.4373550415
+          }
+          point {
+            x: 592683.27673721313
+            y: 4134527.2727928162
+          }
+          point {
+            x: 592733.05844497681
+            y: 4134527.2679519653
+          }
+          point {
+            x: 592758.17272186279
+            y: 4134527.3114013672
+          }
+          point {
+            x: 592760.969657898
+            y: 4134526.4584503174
+          }
+          point {
+            x: 592763.80255126953
+            y: 4134524.8285255432
+          }
+          point {
+            x: 592765.88703918457
+            y: 4134522.8891334534
+          }
+          point {
+            x: 592767.558429718
+            y: 4134520.2371177673
+          }
+          point {
+            x: 592768.20445632935
+            y: 4134514.6840858459
+          }
+          point {
+            x: 592768.4808883667
+            y: 4134489.750790596
+          }
+        }
+        s: 0
+        start_position {
+          x: 592668.35360717773
+          y: 4134489.7396039963
+        }
+        length: 172.42927551269531
+      }
+    }
+    length: 161.52027893066406
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 166.97395324707031
+  speed_limit: 15
+  predecessor_id {
+    id: "lane_7"
+  }
+  predecessor_id {
+    id: "lane_11"
+  }
+  successor_id {
+    id: "lane_2"
+  }
+  successor_id {
+    id: "lane_5"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_15"
+  }
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_15"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592777
+          y: 4134490.018860817
+        }
+        point {
+          x: 592777.0062789917
+          y: 4134514.8217926025
+        }
+        point {
+          x: 592776.00937271118
+          y: 4134521.0014152527
+        }
+        point {
+          x: 592774.09534454346
+          y: 4134525.9849052429
+        }
+        point {
+          x: 592770.38692474365
+          y: 4134530.3666267395
+        }
+        point {
+          x: 592765.03085327148
+          y: 4134534.0674819946
+        }
+        point {
+          x: 592759.58771514893
+          y: 4134535.7656021118
+        }
+        point {
+          x: 592750.02227401733
+          y: 4134536.0033340454
+        }
+        point {
+          x: 592693.06917762756
+          y: 4134535.9725227356
+        }
+        point {
+          x: 592683.01863098145
+          y: 4134535.9722557068
+        }
+        point {
+          x: 592676.46648025513
+          y: 4134534.4603538513
+        }
+        point {
+          x: 592671.30780410767
+          y: 4134531.288444519
+        }
+        point {
+          x: 592667.06809616089
+          y: 4134526.7529563904
+        }
+        point {
+          x: 592664.07364273071
+          y: 4134520.0830688477
+        }
+        point {
+          x: 592662.94700241089
+          y: 4134513.0871009827
+        }
+        point {
+          x: 592662.96392059326
+          y: 4134503.220375061
+        }
+        point {
+          x: 592663.24824523926
+          y: 4134489.49215889
+        }
+      }
+      s: 0
+      start_position {
+        x: 592777
+        y: 4134490.018860817
+        z: 0
+      }
+      length: 187.91021728515625
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592775.25001144409
+            y: 4134490.0121889114
+          }
+          point {
+            x: 592775.25973510742
+            y: 4134514.7118721008
+          }
+          point {
+            x: 592774.31599807739
+            y: 4134520.5598449707
+          }
+          point {
+            x: 592772.59496688843
+            y: 4134525.0841445923
+          }
+          point {
+            x: 592769.22225570679
+            y: 4134529.0604705811
+          }
+          point {
+            x: 592764.24830245972
+            y: 4134532.5021972656
+          }
+          point {
+            x: 592759.36384963989
+            y: 4134534.0299797058
+          }
+          point {
+            x: 592750.0027256012
+            y: 4134534.2534446716
+          }
+          point {
+            x: 592693.07616043091
+            y: 4134534.2225379944
+          }
+          point {
+            x: 592683.17736434937
+            y: 4134534.2294692993
+          }
+          point {
+            x: 592677.1163520813
+            y: 4134532.8354949951
+          }
+          point {
+            x: 592672.41750717163
+            y: 4134529.9352760315
+          }
+          point {
+            x: 592668.53832244873
+            y: 4134525.8037834167
+          }
+          point {
+            x: 592665.74911880493
+            y: 4134519.5778121948
+          }
+          point {
+            x: 592664.6932258606
+            y: 4134512.9721832275
+          }
+          point {
+            x: 592664.71377944946
+            y: 4134503.2427158356
+          }
+          point {
+            x: 592664.99787139893
+            y: 4134489.5283956528
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25001144409
+          y: 4134490.0121889114
+        }
+        length: 182.40115356445312
+      }
+    }
+    length: 182.40115356445312
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592778.74998855591
+            y: 4134490.0255327225
+          }
+          point {
+            x: 592778.752822876
+            y: 4134514.9317131042
+          }
+          point {
+            x: 592777.702747345
+            y: 4134521.4429855347
+          }
+          point {
+            x: 592775.59572219849
+            y: 4134526.8856658936
+          }
+          point {
+            x: 592771.55159378052
+            y: 4134531.6727828979
+          }
+          point {
+            x: 592765.81340408325
+            y: 4134535.6327667236
+          }
+          point {
+            x: 592759.811580658
+            y: 4134537.5012245178
+          }
+          point {
+            x: 592750.04182243347
+            y: 4134537.7532234192
+          }
+          point {
+            x: 592693.06219482422
+            y: 4134537.7225074768
+          }
+          point {
+            x: 592682.85989761353
+            y: 4134537.7150421143
+          }
+          point {
+            x: 592675.816608429
+            y: 4134536.0852127075
+          }
+          point {
+            x: 592670.1981010437
+            y: 4134532.6416130066
+          }
+          point {
+            x: 592665.597869873
+            y: 4134527.702129364
+          }
+          point {
+            x: 592662.39816665649
+            y: 4134520.5883255005
+          }
+          point {
+            x: 592661.20077896118
+            y: 4134513.2020187378
+          }
+          point {
+            x: 592661.21406173706
+            y: 4134503.1980342865
+          }
+          point {
+            x: 592661.49861907959
+            y: 4134489.4559221268
+          }
+        }
+        s: 0
+        start_position {
+          x: 592775.25001144409
+          y: 4134490.0121889114
+        }
+        length: 182.40115356445312
+      }
+    }
+    length: 193.41941833496094
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 187.91021728515625
+  speed_limit: 15
+  predecessor_id {
+    id: "lane_3"
+  }
+  predecessor_id {
+    id: "lane_4"
+  }
+  successor_id {
+    id: "lane_8"
+  }
+  successor_id {
+    id: "lane_9"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_14"
+  }
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_16"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592770.24000167847
+          y: 4134468.2120132446
+        }
+        point {
+          x: 592769.93019104
+          y: 4134439.8078613281
+        }
+        point {
+          x: 592767.94687652588
+          y: 4134435.6832466125
+        }
+        point {
+          x: 592765.05120849609
+          y: 4134432.1535377502
+        }
+        point {
+          x: 592761.71922683716
+          y: 4134429.8929367065
+        }
+        point {
+          x: 592756.84025192261
+          y: 4134428.9411201477
+        }
+        point {
+          x: 592706.93901729584
+          y: 4134428.9420509338
+        }
+        point {
+          x: 592681.710559845
+          y: 4134428.9024963379
+        }
+        point {
+          x: 592678.33877563477
+          y: 4134429.8939933777
+        }
+        point {
+          x: 592675.16535186768
+          y: 4134431.7182235718
+        }
+        point {
+          x: 592672.74563217163
+          y: 4134433.978679657
+        }
+        point {
+          x: 592670.762260437
+          y: 4134437.2305488586
+        }
+        point {
+          x: 592670.048210144
+          y: 4134443.1793479919
+        }
+        point {
+          x: 592669.87059402466
+          y: 4134458.7141571045
+        }
+      }
+      s: 0
+      start_position {
+        x: 592770.24000167847
+        y: 4134468.2120132446
+        z: 0
+      }
+      length: 157.49807739257812
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592771.98988723755
+            y: 4134468.1920728683
+          }
+          point {
+            x: 592771.63736343384
+            y: 4134439.4230766296
+          }
+          point {
+            x: 592769.422580719
+            y: 4134434.7426109314
+          }
+          point {
+            x: 592766.24282455444
+            y: 4134430.8719177246
+          }
+          point {
+            x: 592762.35682678223
+            y: 4134428.2632217407
+          }
+          point {
+            x: 592756.957244873
+            y: 4134427.1950340271
+          }
+          point {
+            x: 592706.93648052216
+            y: 4134427.1920509338
+          }
+          point {
+            x: 592681.59384536743
+            y: 4134427.1563911438
+          }
+          point {
+            x: 592677.64720916748
+            y: 4134428.2864379883
+          }
+          point {
+            x: 592674.13325119019
+            y: 4134430.3049736023
+          }
+          point {
+            x: 592671.37829208374
+            y: 4134432.8864860535
+          }
+          point {
+            x: 592669.08294296265
+            y: 4134436.7382125854
+          }
+          point {
+            x: 592668.3024520874
+            y: 4134443.057559967
+          }
+          point {
+            x: 592668.1206703186
+            y: 4134458.698009491
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.98988723755
+          y: 4134468.1920728683
+        }
+        length: 162.93281555175781
+      }
+    }
+    length: 162.93281555175781
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592768.49011611938
+            y: 4134468.2319536209
+          }
+          point {
+            x: 592768.22301864624
+            y: 4134440.1926460266
+          }
+          point {
+            x: 592766.47117233276
+            y: 4134436.6238822937
+          }
+          point {
+            x: 592763.85959243774
+            y: 4134433.4351577759
+          }
+          point {
+            x: 592761.08162689209
+            y: 4134431.5226516724
+          }
+          point {
+            x: 592756.72325897217
+            y: 4134430.6872062683
+          }
+          point {
+            x: 592706.94155406952
+            y: 4134430.6920509338
+          }
+          point {
+            x: 592681.82727432251
+            y: 4134430.648601532
+          }
+          point {
+            x: 592679.030342102
+            y: 4134431.5015487671
+          }
+          point {
+            x: 592676.19745254517
+            y: 4134433.1314735413
+          }
+          point {
+            x: 592674.11297225952
+            y: 4134435.0708732605
+          }
+          point {
+            x: 592672.44157791138
+            y: 4134437.7228851318
+          }
+          point {
+            x: 592671.79396820068
+            y: 4134443.3011360168
+          }
+          point {
+            x: 592671.62051773071
+            y: 4134458.730304718
+          }
+        }
+        s: 0
+        start_position {
+          x: 592771.98988723755
+          y: 4134468.1920728683
+        }
+        length: 162.93281555175781
+      }
+    }
+    length: 152.06501770019531
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 157.49807739257812
+  speed_limit: 15
+  predecessor_id {
+    id: "lane_1"
+  }
+  predecessor_id {
+    id: "lane_2"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_17"
+  }
+  direction: FORWARD
+}
+lane {
+  id {
+    id: "lane_17"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 592662.99505615234
+          y: 4134458.8479309082
+        }
+        point {
+          x: 592663.06747817993
+          y: 4134448.6187286377
+        }
+        point {
+          x: 592662.9937210083
+          y: 4134443.1382064819
+        }
+        point {
+          x: 592663.99062347412
+          y: 4134436.9585800171
+        }
+        point {
+          x: 592665.90465164185
+          y: 4134431.9750900269
+        }
+        point {
+          x: 592669.61307525635
+          y: 4134427.593372345
+        }
+        point {
+          x: 592674.96914672852
+          y: 4134423.89251709
+        }
+        point {
+          x: 592680.41228103638
+          y: 4134422.194393158
+        }
+        point {
+          x: 592689.97772789
+          y: 4134421.9566650391
+        }
+        point {
+          x: 592746.93082237244
+          y: 4134421.9874763489
+        }
+        point {
+          x: 592756.98137283325
+          y: 4134421.9877471924
+        }
+        point {
+          x: 592763.53352355957
+          y: 4134423.4996414185
+        }
+        point {
+          x: 592768.69219589233
+          y: 4134426.6715545654
+        }
+        point {
+          x: 592772.93190002441
+          y: 4134431.2070541382
+        }
+        point {
+          x: 592775.92635726929
+          y: 4134437.8769226074
+        }
+        point {
+          x: 592777.05300521851
+          y: 4134444.8728904724
+        }
+        point {
+          x: 592777
+          y: 4134468.2788600922
+        }
+      }
+      s: 0
+      start_position {
+        x: 592662.99505615234
+        y: 4134458.8479309082
+        z: 0
+      }
+      length: 178.62548828125
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592664.745010376
+            y: 4134458.8603210449
+          }
+          point {
+            x: 592664.81747817993
+            y: 4134448.6185798645
+          }
+          point {
+            x: 592664.73826217651
+            y: 4134443.2763252258
+          }
+          point {
+            x: 592665.68399810791
+            y: 4134437.4001502991
+          }
+          point {
+            x: 592667.40502929688
+            y: 4134432.8758506775
+          }
+          point {
+            x: 592670.77774429321
+            y: 4134428.8995323181
+          }
+          point {
+            x: 592675.75169754028
+            y: 4134425.4578018188
+          }
+          point {
+            x: 592680.63614654541
+            y: 4134423.930015564
+          }
+          point {
+            x: 592689.99727630615
+            y: 4134423.7065544128
+          }
+          point {
+            x: 592746.92383766174
+            y: 4134423.73746109
+          }
+          point {
+            x: 592756.82263946533
+            y: 4134423.7305336
+          }
+          point {
+            x: 592762.8836517334
+            y: 4134425.1245002747
+          }
+          point {
+            x: 592767.58249282837
+            y: 4134428.0247192383
+          }
+          point {
+            x: 592771.46167373657
+            y: 4134432.1562309265
+          }
+          point {
+            x: 592774.25088500977
+            y: 4134438.382183075
+          }
+          point {
+            x: 592775.3067817688
+            y: 4134444.9878082275
+          }
+          point {
+            x: 592775.25000762939
+            y: 4134468.2741966248
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.745010376
+          y: 4134458.8603210449
+        }
+        length: 173.15374755859375
+      }
+    }
+    length: 173.15374755859375
+    virtual: true
+    boundary_type {
+      s: 0
+      types: DOUBLE_YELLOW
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 592661.24510192871
+            y: 4134458.8355407715
+          }
+          point {
+            x: 592661.31747817993
+            y: 4134448.6188774109
+          }
+          point {
+            x: 592661.24917984009
+            y: 4134443.000087738
+          }
+          point {
+            x: 592662.29724884033
+            y: 4134436.5170097351
+          }
+          point {
+            x: 592664.40427398682
+            y: 4134431.0743293762
+          }
+          point {
+            x: 592668.44840621948
+            y: 4134426.2872123718
+          }
+          point {
+            x: 592674.18659591675
+            y: 4134422.3272323608
+          }
+          point {
+            x: 592680.18841552734
+            y: 4134420.458770752
+          }
+          point {
+            x: 592689.95817947388
+            y: 4134420.2067756653
+          }
+          point {
+            x: 592746.93780708313
+            y: 4134420.2374916077
+          }
+          point {
+            x: 592757.14010620117
+            y: 4134420.2449607849
+          }
+          point {
+            x: 592764.18339538574
+            y: 4134421.8747825623
+          }
+          point {
+            x: 592769.8018989563
+            y: 4134425.3183898926
+          }
+          point {
+            x: 592774.40212631226
+            y: 4134430.25787735
+          }
+          point {
+            x: 592777.60182952881
+            y: 4134437.37166214
+          }
+          point {
+            x: 592778.79922866821
+            y: 4134444.7579727173
+          }
+          point {
+            x: 592778.74999237061
+            y: 4134468.2835235596
+          }
+        }
+        s: 0
+        start_position {
+          x: 592664.745010376
+          y: 4134458.8603210449
+        }
+        length: 173.15374755859375
+      }
+    }
+    length: 184.097412109375
+    virtual: true
+    boundary_type {
+      types: CURB
+    }
+  }
+  length: 178.62548828125
+  speed_limit: 15
+  successor_id {
+    id: "lane_0"
+  }
+  successor_id {
+    id: "lane_4"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_16"
+  }
+  direction: FORWARD
+}
+stop_sign {
+  id {
+    id: "stopsign_0"
+  }
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592677.31999588013
+          y: 4134479.0886259079
+        }
+        point {
+          x: 592677.31999969482
+          y: 4134482.2246260643
+        }
+        point {
+          x: 592677.31999969482
+          y: 4134485.2884044647
+        }
+      }
+    }
+  }
+  overlap_id {
+    id: "stopsign_lane_overlap_6"
+  }
+  overlap_id {
+    id: "stopsign_lane_overlap_7"
+  }
+  type: UNKNOWN
+}
+stop_sign {
+  id {
+    id: "stopsign_1"
+  }
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592666.55236053467
+          y: 4134468.1099996567
+        }
+        point {
+          x: 592669.57131958008
+          y: 4134468.1100006104
+        }
+        point {
+          x: 592672.82500457764
+          y: 4134468.109998703
+        }
+      }
+    }
+  }
+  type: UNKNOWN
+}
+stop_sign {
+  id {
+    id: "stopsign_2"
+  }
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592666.39548492432
+          y: 4134489.8599996567
+        }
+        point {
+          x: 592662.82165527344
+          y: 4134489.860001564
+        }
+        point {
+          x: 592660.00824356079
+          y: 4134489.8599996567
+        }
+      }
+    }
+  }
+  overlap_id {
+    id: "stopsign_lane_overlap_8"
+  }
+  overlap_id {
+    id: "stopsign_lane_overlap_9"
+  }
+  type: UNKNOWN
+}
+signal {
+  id {
+    id: "signal_0"
+  }
+  boundary {
+    point {
+      x: 592776.375
+      y: 4134486.7500004768
+      z: 6.3280000686645508
+    }
+    point {
+      x: 592777.02500152588
+      y: 4134486.7500004768
+      z: 6.3280000686645508
+    }
+    point {
+      x: 592777.02500152588
+      y: 4134486.7500004768
+      z: 4.8280000686645508
+    }
+    point {
+      x: 592776.375
+      y: 4134486.7500004768
+      z: 4.8280000686645508
+    }
+  }
+  subsignal {
+    id {
+      id: "0"
+    }
+    type: CIRCLE
+    location {
+      x: 592776.70000076294
+      y: 4134486.7500004768
+      z: 5.9780001640319824
+    }
+  }
+  subsignal {
+    id {
+      id: "1"
+    }
+    type: CIRCLE
+    location {
+      x: 592776.70000076294
+      y: 4134486.7500004768
+      z: 5.5780000686645508
+    }
+  }
+  subsignal {
+    id {
+      id: "2"
+    }
+    type: CIRCLE
+    location {
+      x: 592776.70000076294
+      y: 4134486.7500004768
+      z: 5.1779999732971191
+    }
+  }
+  overlap_id {
+    id: "signal_lane_overlap_0"
+  }
+  overlap_id {
+    id: "signal_lane_overlap_1"
+  }
+  type: MIX_3_VERTICAL
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592773.603439331
+          y: 4134468.0999984741
+        }
+        point {
+          x: 592776.95627975464
+          y: 4134468.0999994278
+        }
+        point {
+          x: 592779.99012756348
+          y: 4134468.0999994278
+        }
+      }
+    }
+  }
+}
+signal {
+  id {
+    id: "signal_1"
+  }
+  boundary {
+    point {
+      x: 592778.94099807739
+      y: 4134475.7850000858
+      z: 6.23799991607666
+    }
+    point {
+      x: 592778.94099807739
+      y: 4134475.1349999905
+      z: 6.23799991607666
+    }
+    point {
+      x: 592778.94099807739
+      y: 4134475.1349999905
+      z: 4.73799991607666
+    }
+    point {
+      x: 592778.94099807739
+      y: 4134475.7850000858
+      z: 4.73799991607666
+    }
+  }
+  subsignal {
+    id {
+      id: "0"
+    }
+    type: CIRCLE
+    location {
+      x: 592778.94099807739
+      y: 4134475.4600000381
+      z: 5.8880000114440918
+    }
+  }
+  subsignal {
+    id {
+      id: "1"
+    }
+    type: CIRCLE
+    location {
+      x: 592778.94099807739
+      y: 4134475.4600000381
+      z: 5.48799991607666
+    }
+  }
+  subsignal {
+    id {
+      id: "2"
+    }
+    type: CIRCLE
+    location {
+      x: 592778.94099807739
+      y: 4134475.4600000381
+      z: 5.0879998207092285
+    }
+  }
+  overlap_id {
+    id: "signal_lane_overlap_2"
+  }
+  overlap_id {
+    id: "signal_lane_overlap_3"
+  }
+  type: MIX_3_VERTICAL
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592762.62999725342
+          y: 4134478.9932890236
+        }
+        point {
+          x: 592762.62999725342
+          y: 4134475.7999999523
+        }
+        point {
+          x: 592762.62999725342
+          y: 4134472.549571991
+        }
+      }
+    }
+  }
+}
+signal {
+  id {
+    id: "signal_2"
+  }
+  boundary {
+    point {
+      x: 592770.19499969482
+      y: 4134471.2699999809
+      z: 6.2280001640319824
+    }
+    point {
+      x: 592769.544998169
+      y: 4134471.2699999809
+      z: 6.2280001640319824
+    }
+    point {
+      x: 592769.544998169
+      y: 4134471.2699999809
+      z: 4.7280001640319824
+    }
+    point {
+      x: 592770.19499969482
+      y: 4134471.2699999809
+      z: 4.7280001640319824
+    }
+  }
+  subsignal {
+    id {
+      id: "0"
+    }
+    type: CIRCLE
+    location {
+      x: 592769.86999893188
+      y: 4134471.2699999809
+      z: 5.8780002593994141
+    }
+  }
+  subsignal {
+    id {
+      id: "1"
+    }
+    type: CIRCLE
+    location {
+      x: 592769.86999893188
+      y: 4134471.2699999809
+      z: 5.4780001640319824
+    }
+  }
+  subsignal {
+    id {
+      id: "2"
+    }
+    type: CIRCLE
+    location {
+      x: 592769.86999893188
+      y: 4134471.2699999809
+      z: 5.0780000686645508
+    }
+  }
+  overlap_id {
+    id: "signal_lane_overlap_4"
+  }
+  overlap_id {
+    id: "signal_lane_overlap_5"
+  }
+  type: MIX_3_VERTICAL
+  stop_line {
+    segment {
+      line_segment {
+        point {
+          x: 592773.54674530029
+          y: 4134489.9100008011
+        }
+        point {
+          x: 592770.2799949646
+          y: 4134489.9099998474
+        }
+        point {
+          x: 592767.12929153442
+          y: 4134489.9099998474
+        }
+      }
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_0"
+  }
+  object {
+    id {
+      id: "lane_0"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_0"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_1"
+  }
+  object {
+    id {
+      id: "lane_4"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_0"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_2"
+  }
+  object {
+    id {
+      id: "lane_1"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_1"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_3"
+  }
+  object {
+    id {
+      id: "lane_3"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_1"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_4"
+  }
+  object {
+    id {
+      id: "lane_2"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_2"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "signal_lane_overlap_5"
+  }
+  object {
+    id {
+      id: "lane_5"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "signal_2"
+    }
+    signal_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "stopsign_lane_overlap_6"
+  }
+  object {
+    id {
+      id: "lane_7"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "stopsign_0"
+    }
+    stop_sign_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "stopsign_lane_overlap_7"
+  }
+  object {
+    id {
+      id: "lane_10"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "stopsign_0"
+    }
+    stop_sign_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "stopsign_lane_overlap_8"
+  }
+  object {
+    id {
+      id: "lane_8"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "stopsign_2"
+    }
+    stop_sign_overlap_info {
+    }
+  }
+}
+overlap {
+  id {
+    id: "stopsign_lane_overlap_9"
+  }
+  object {
+    id {
+      id: "lane_9"
+    }
+    lane_overlap_info {
+      start_s: 0
+      end_s: 0.699999988079071
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "stopsign_2"
+    }
+    stop_sign_overlap_info {
+    }
+  }
+}
+road {
+  id {
+    id: "road_0"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_0"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592775.25005722046
+                  y: 4134468.2922735214
+                }
+                point {
+                  x: 592775.33150863647
+                  y: 4134473.6146287918
+                }
+                point {
+                  x: 592773.41368865967
+                  y: 4134477.9369143248
+                }
+                point {
+                  x: 592769.22053146362
+                  y: 4134480.3827522993
+                }
+                point {
+                  x: 592762.71534729
+                  y: 4134480.8262444735
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592778.74995803833
+                  y: 4134468.2654504776
+                }
+                point {
+                  x: 592778.75584030151
+                  y: 4134474.3384599686
+                }
+                point {
+                  x: 592776.00631713867
+                  y: 4134480.2881456614
+                }
+                point {
+                  x: 592770.2000617981
+                  y: 4134483.7428889275
+                }
+                point {
+                  x: 592762.97393798828
+                  y: 4134484.3166790009
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_1"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_1"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.80597686768
+                  y: 4134477.5121483803
+                }
+                point {
+                  x: 592766.13766098022
+                  y: 4134477.3698019981
+                }
+                point {
+                  x: 592770.29711914062
+                  y: 4134475.6661396027
+                }
+                point {
+                  x: 592772.08678436279
+                  y: 4134471.7191314697
+                }
+                point {
+                  x: 592771.98864746094
+                  y: 4134468.1432514191
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.68608093262
+                  y: 4134474.0142025948
+                }
+                point {
+                  x: 592765.39503860474
+                  y: 4134473.949493885
+                }
+                point {
+                  x: 592767.91987609863
+                  y: 4134473.0973443985
+                }
+                point {
+                  x: 592768.644203186
+                  y: 4134471.0877771378
+                }
+                point {
+                  x: 592768.4913482666
+                  y: 4134468.28077507
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_2"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_2"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592771.980758667
+                  y: 4134489.7740926743
+                }
+                point {
+                  x: 592771.98999786377
+                  y: 4134482.6111221313
+                }
+                point {
+                  x: 592771.98999786377
+                  y: 4134475.3699996471
+                }
+                point {
+                  x: 592771.98999786377
+                  y: 4134468.2120132446
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592768.480758667
+                  y: 4134489.76957798
+                }
+                point {
+                  x: 592768.48999786377
+                  y: 4134482.6088767052
+                }
+                point {
+                  x: 592768.48999786377
+                  y: 4134475.3699996471
+                }
+                point {
+                  x: 592768.48999786377
+                  y: 4134468.2120132446
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_3"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_3"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.78209686279
+                  y: 4134477.512803793
+                }
+                point {
+                  x: 592768.961315155
+                  y: 4134477.3555256128
+                }
+                point {
+                  x: 592772.58486175537
+                  y: 4134478.8985569477
+                }
+                point {
+                  x: 592775.07838439941
+                  y: 4134482.7373497486
+                }
+                point {
+                  x: 592775.25077056885
+                  y: 4134490.0706453323
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.7099609375
+                  y: 4134474.0135469437
+                }
+                point {
+                  x: 592769.53434371948
+                  y: 4134473.9027533531
+                }
+                point {
+                  x: 592774.90573120117
+                  y: 4134476.2787196636
+                }
+                point {
+                  x: 592778.46424102783
+                  y: 4134481.85080266
+                }
+                point {
+                  x: 592778.74923706055
+                  y: 4134489.9670743942
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_4"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_4"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592775.25000762939
+                  y: 4134468.2788600922
+                }
+                point {
+                  x: 592775.25
+                  y: 4134475.7188601494
+                }
+                point {
+                  x: 592775.25
+                  y: 4134482.4788606167
+                }
+                point {
+                  x: 592775.2500038147
+                  y: 4134490.018860817
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592778.75000762939
+                  y: 4134468.2788639069
+                }
+                point {
+                  x: 592778.75
+                  y: 4134475.7188620567
+                }
+                point {
+                  x: 592778.75
+                  y: 4134482.478859663
+                }
+                point {
+                  x: 592778.7500038147
+                  y: 4134490.0188589096
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_5"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_5"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592771.97806549072
+                  y: 4134489.8688678741
+                }
+                point {
+                  x: 592772.18379974365
+                  y: 4134485.5552639961
+                }
+                point {
+                  x: 592770.34550476074
+                  y: 4134481.7243111134
+                }
+                point {
+                  x: 592766.29694747925
+                  y: 4134480.7766218185
+                }
+                point {
+                  x: 592762.81761169434
+                  y: 4134480.8216705322
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592768.48345184326
+                  y: 4134489.67480278
+                }
+                point {
+                  x: 592768.71866607666
+                  y: 4134486.0480618477
+                }
+                point {
+                  x: 592768.2228012085
+                  y: 4134484.5071382523
+                }
+                point {
+                  x: 592766.00217819214
+                  y: 4134484.264187336
+                }
+                point {
+                  x: 592762.871673584
+                  y: 4134484.3212528229
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_6"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_6"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592668.172668457
+                  y: 4134468.5413036346
+                }
+                point {
+                  x: 592668.686832428
+                  y: 4134472.0153713226
+                }
+                point {
+                  x: 592670.33488082886
+                  y: 4134475.2855725288
+                }
+                point {
+                  x: 592673.73156356812
+                  y: 4134476.9501032829
+                }
+                point {
+                  x: 592677.07069396973
+                  y: 4134477.3594551086
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592671.637336731
+                  y: 4134468.04527092
+                }
+                point {
+                  x: 592672.050403595
+                  y: 4134471.0476961136
+                }
+                point {
+                  x: 592672.77711105347
+                  y: 4134472.7784781456
+                }
+                point {
+                  x: 592674.6689491272
+                  y: 4134473.5779657364
+                }
+                point {
+                  x: 592677.47478485107
+                  y: 4134473.8828611374
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_7"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_7"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.16156005859
+                  y: 4134480.4803227186
+                }
+                point {
+                  x: 592672.75123214722
+                  y: 4134480.3959516287
+                }
+                point {
+                  x: 592668.733997345
+                  y: 4134482.8564796448
+                }
+                point {
+                  x: 592668.13731384277
+                  y: 4134486.80868721
+                }
+                point {
+                  x: 592668.35840606689
+                  y: 4134489.8747472763
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.04707336426
+                  y: 4134483.9784498215
+                }
+                point {
+                  x: 592673.54831314087
+                  y: 4134483.8039803505
+                }
+                point {
+                  x: 592671.61504745483
+                  y: 4134484.8438224792
+                }
+                point {
+                  x: 592671.63706207275
+                  y: 4134486.8507900238
+                }
+                point {
+                  x: 592671.84880065918
+                  y: 4134489.6156549454
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_8"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_8"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592664.99814224243
+                  y: 4134489.5108995438
+                }
+                point {
+                  x: 592665.04998016357
+                  y: 4134484.6682562828
+                }
+                point {
+                  x: 592665.04999542236
+                  y: 4134479.1399999857
+                }
+                point {
+                  x: 592665.05000305176
+                  y: 4134473.3581395149
+                }
+                point {
+                  x: 592665.04999542236
+                  y: 4134468.2051277161
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592661.49834060669
+                  y: 4134489.4734144211
+                }
+                point {
+                  x: 592661.55002593994
+                  y: 4134484.65075922
+                }
+                point {
+                  x: 592661.54999542236
+                  y: 4134479.1399999857
+                }
+                point {
+                  x: 592661.55000305176
+                  y: 4134473.3581395149
+                }
+                point {
+                  x: 592661.54999542236
+                  y: 4134468.2051334381
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_9"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_9"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592664.99750137329
+                  y: 4134489.5430011749
+                }
+                point {
+                  x: 592665.14156723022
+                  y: 4134483.3821110725
+                }
+                point {
+                  x: 592666.98973464966
+                  y: 4134479.9921708107
+                }
+                point {
+                  x: 592670.97300338745
+                  y: 4134477.6404812336
+                }
+                point {
+                  x: 592677.35823059082
+                  y: 4134477.3690686226
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592661.49898147583
+                  y: 4134489.44131279
+                }
+                point {
+                  x: 592661.73323440552
+                  y: 4134482.5863146782
+                }
+                point {
+                  x: 592664.52262496948
+                  y: 4134477.5095582008
+                }
+                point {
+                  x: 592670.055141449
+                  y: 4134474.2629776
+                }
+                point {
+                  x: 592677.18724823
+                  y: 4134473.8732476234
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_10"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_10"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.15335464478
+                  y: 4134480.480073452
+                }
+                point {
+                  x: 592671.6282081604
+                  y: 4134480.3591243029
+                }
+                point {
+                  x: 592668.17776107788
+                  y: 4134478.6118706465
+                }
+                point {
+                  x: 592665.57189941406
+                  y: 4134475.0090866089
+                }
+                point {
+                  x: 592665.29328155518
+                  y: 4134468.0881700516
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.05527877808
+                  y: 4134483.9786992073
+                }
+                point {
+                  x: 592670.84652328491
+                  y: 4134483.7707185745
+                }
+                point {
+                  x: 592665.84602737427
+                  y: 4134481.2220482826
+                }
+                point {
+                  x: 592662.21504974365
+                  y: 4134475.9998254776
+                }
+                point {
+                  x: 592661.79721832275
+                  y: 4134468.2541818619
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_11"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_11"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592668.0970993042
+                  y: 4134468.3767900467
+                }
+                point {
+                  x: 592668.15553283691
+                  y: 4134473.2473378181
+                }
+                point {
+                  x: 592668.22012710571
+                  y: 4134478.6309959888
+                }
+                point {
+                  x: 592668.2629776001
+                  y: 4134482.2025256157
+                }
+                point {
+                  x: 592668.353729248
+                  y: 4134489.7661972046
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592671.59684753418
+                  y: 4134468.3348016739
+                }
+                point {
+                  x: 592671.65528106689
+                  y: 4134473.2053484917
+                }
+                point {
+                  x: 592671.71987533569
+                  y: 4134478.5890058279
+                }
+                point {
+                  x: 592671.76272583008
+                  y: 4134482.1605348587
+                }
+                point {
+                  x: 592671.853477478
+                  y: 4134489.7242050171
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_12"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_12"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.86030197144
+                  y: 4134480.8215321302
+                }
+                point {
+                  x: 592740.348367691
+                  y: 4134480.6200178862
+                }
+                point {
+                  x: 592720.6500031352
+                  y: 4134480.6199998856
+                }
+                point {
+                  x: 592697.66563797
+                  y: 4134480.620010972
+                }
+                point {
+                  x: 592677.11629486084
+                  y: 4134480.4794262648
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592762.8289680481
+                  y: 4134484.3213915825
+                }
+                point {
+                  x: 592740.33165550232
+                  y: 4134484.119977951
+                }
+                point {
+                  x: 592720.65000349283
+                  y: 4134484.1199998856
+                }
+                point {
+                  x: 592697.654335022
+                  y: 4134484.119992733
+                }
+                point {
+                  x: 592677.0923538208
+                  y: 4134483.979344368
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_13"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_13"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.26350402832
+                  y: 4134477.37113142
+                }
+                point {
+                  x: 592697.58776092529
+                  y: 4134477.4783533812
+                }
+                point {
+                  x: 592720.69380754232
+                  y: 4134477.4281036854
+                }
+                point {
+                  x: 592740.096414566
+                  y: 4134477.385884881
+                }
+                point {
+                  x: 592762.73619842529
+                  y: 4134477.513148427
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592677.28196716309
+                  y: 4134473.8711800575
+                }
+                point {
+                  x: 592697.5923538208
+                  y: 4134473.9783563614
+                }
+                point {
+                  x: 592720.68619447947
+                  y: 4134473.92811203
+                }
+                point {
+                  x: 592740.10349464417
+                  y: 4134473.8858923912
+                }
+                point {
+                  x: 592762.75586700439
+                  y: 4134474.0132040977
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_14"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_14"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592668.35360717773
+                  y: 4134489.7396039963
+                }
+                point {
+                  x: 592668.278301239
+                  y: 4134513.2911224365
+                }
+                point {
+                  x: 592668.36264419556
+                  y: 4134518.5369224548
+                }
+                point {
+                  x: 592670.577419281
+                  y: 4134523.2173881531
+                }
+                point {
+                  x: 592673.75717544556
+                  y: 4134527.08808136
+                }
+                point {
+                  x: 592677.64317321777
+                  y: 4134529.6967773438
+                }
+                point {
+                  x: 592683.04275894165
+                  y: 4134530.7649650574
+                }
+                point {
+                  x: 592693.07639884949
+                  y: 4134530.8083953857
+                }
+                point {
+                  x: 592705.33357715607
+                  y: 4134530.7684402466
+                }
+                point {
+                  x: 592719.97076864727
+                  y: 4134530.8076896667
+                }
+                point {
+                  x: 592733.06352043152
+                  y: 4134530.7679519653
+                }
+                point {
+                  x: 592747.41784477234
+                  y: 4134530.7678833008
+                }
+                point {
+                  x: 592758.40615081787
+                  y: 4134530.8036117554
+                }
+                point {
+                  x: 592762.35279083252
+                  y: 4134529.6735610962
+                }
+                point {
+                  x: 592765.86674499512
+                  y: 4134527.6550254822
+                }
+                point {
+                  x: 592768.621711731
+                  y: 4134525.0735206604
+                }
+                point {
+                  x: 592770.91706466675
+                  y: 4134521.2217903137
+                }
+                point {
+                  x: 592771.69912338257
+                  y: 4134514.8772163391
+                }
+                point {
+                  x: 592771.78102111816
+                  y: 4134506.392539978
+                }
+                point {
+                  x: 592771.98063659668
+                  y: 4134489.7928762436
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592671.853591919
+                  y: 4134489.7507963181
+                }
+                point {
+                  x: 592671.778301239
+                  y: 4134513.2952880859
+                }
+                point {
+                  x: 592671.77698898315
+                  y: 4134517.7673530579
+                }
+                point {
+                  x: 592673.52882766724
+                  y: 4134521.3361167908
+                }
+                point {
+                  x: 592676.14040756226
+                  y: 4134524.5248413086
+                }
+                point {
+                  x: 592678.91837310791
+                  y: 4134526.4373550415
+                }
+                point {
+                  x: 592683.27673721313
+                  y: 4134527.2727928162
+                }
+                point {
+                  x: 592693.07633018494
+                  y: 4134527.3083953857
+                }
+                point {
+                  x: 592705.33348560333
+                  y: 4134527.2684402466
+                }
+                point {
+                  x: 592719.97070701234
+                  y: 4134527.3076896667
+                }
+                point {
+                  x: 592733.05844497681
+                  y: 4134527.2679519653
+                }
+                point {
+                  x: 592747.4233341217
+                  y: 4134527.26789093
+                }
+                point {
+                  x: 592758.17272186279
+                  y: 4134527.3114013672
+                }
+                point {
+                  x: 592760.969657898
+                  y: 4134526.4584503174
+                }
+                point {
+                  x: 592763.80255126953
+                  y: 4134524.8285255432
+                }
+                point {
+                  x: 592765.88703918457
+                  y: 4134522.8891334534
+                }
+                point {
+                  x: 592767.558429718
+                  y: 4134520.2371177673
+                }
+                point {
+                  x: 592768.20445632935
+                  y: 4134514.6840858459
+                }
+                point {
+                  x: 592768.28124237061
+                  y: 4134506.3535003662
+                }
+                point {
+                  x: 592768.4808883667
+                  y: 4134489.750790596
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_15"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_15"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592775.25001144409
+                  y: 4134490.0121889114
+                }
+                point {
+                  x: 592775.18814468384
+                  y: 4134506.24433136
+                }
+                point {
+                  x: 592775.25973510742
+                  y: 4134514.7118721008
+                }
+                point {
+                  x: 592774.31599807739
+                  y: 4134520.5598449707
+                }
+                point {
+                  x: 592772.59496688843
+                  y: 4134525.0841445923
+                }
+                point {
+                  x: 592769.22225570679
+                  y: 4134529.0604705811
+                }
+                point {
+                  x: 592764.24830245972
+                  y: 4134532.5021972656
+                }
+                point {
+                  x: 592759.36384963989
+                  y: 4134534.0299797058
+                }
+                point {
+                  x: 592750.0027256012
+                  y: 4134534.2534446716
+                }
+                point {
+                  x: 592733.02904605865
+                  y: 4134534.3122558594
+                }
+                point {
+                  x: 592719.98928537127
+                  y: 4134534.3416671753
+                }
+                point {
+                  x: 592705.44002723694
+                  y: 4134534.3117141724
+                }
+                point {
+                  x: 592693.07616043091
+                  y: 4134534.2225379944
+                }
+                point {
+                  x: 592683.17736434937
+                  y: 4134534.2294692993
+                }
+                point {
+                  x: 592677.1163520813
+                  y: 4134532.8354949951
+                }
+                point {
+                  x: 592672.41750717163
+                  y: 4134529.9352760315
+                }
+                point {
+                  x: 592668.53832244873
+                  y: 4134525.8037834167
+                }
+                point {
+                  x: 592665.74911880493
+                  y: 4134519.5778121948
+                }
+                point {
+                  x: 592664.6932258606
+                  y: 4134512.9721832275
+                }
+                point {
+                  x: 592664.71377944946
+                  y: 4134503.2427158356
+                }
+                point {
+                  x: 592664.99787139893
+                  y: 4134489.5283956528
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592778.74998855591
+                  y: 4134490.0255327225
+                }
+                point {
+                  x: 592778.68814468384
+                  y: 4134506.24344635
+                }
+                point {
+                  x: 592778.752822876
+                  y: 4134514.9317131042
+                }
+                point {
+                  x: 592777.702747345
+                  y: 4134521.4429855347
+                }
+                point {
+                  x: 592775.59572219849
+                  y: 4134526.8856658936
+                }
+                point {
+                  x: 592771.55159378052
+                  y: 4134531.6727828979
+                }
+                point {
+                  x: 592765.81340408325
+                  y: 4134535.6327667236
+                }
+                point {
+                  x: 592759.811580658
+                  y: 4134537.5012245178
+                }
+                point {
+                  x: 592750.04182243347
+                  y: 4134537.7532234192
+                }
+                point {
+                  x: 592733.03934001923
+                  y: 4134537.8122406006
+                }
+                point {
+                  x: 592719.98921523336
+                  y: 4134537.8416671753
+                }
+                point {
+                  x: 592705.42453765869
+                  y: 4134537.8116760254
+                }
+                point {
+                  x: 592693.06219482422
+                  y: 4134537.7225074768
+                }
+                point {
+                  x: 592682.85989761353
+                  y: 4134537.7150421143
+                }
+                point {
+                  x: 592675.816608429
+                  y: 4134536.0852127075
+                }
+                point {
+                  x: 592670.1981010437
+                  y: 4134532.6416130066
+                }
+                point {
+                  x: 592665.597869873
+                  y: 4134527.702129364
+                }
+                point {
+                  x: 592662.39816665649
+                  y: 4134520.5883255005
+                }
+                point {
+                  x: 592661.20077896118
+                  y: 4134513.2020187378
+                }
+                point {
+                  x: 592661.21406173706
+                  y: 4134503.1980342865
+                }
+                point {
+                  x: 592661.49861907959
+                  y: 4134489.4559221268
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_16"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_16"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592771.98988723755
+                  y: 4134468.1920728683
+                }
+                point {
+                  x: 592771.72159576416
+                  y: 4134444.6477088928
+                }
+                point {
+                  x: 592771.63736343384
+                  y: 4134439.4230766296
+                }
+                point {
+                  x: 592769.422580719
+                  y: 4134434.7426109314
+                }
+                point {
+                  x: 592766.24282455444
+                  y: 4134430.8719177246
+                }
+                point {
+                  x: 592762.35682678223
+                  y: 4134428.2632217407
+                }
+                point {
+                  x: 592756.957244873
+                  y: 4134427.1950340271
+                }
+                point {
+                  x: 592746.92360305786
+                  y: 4134427.1516036987
+                }
+                point {
+                  x: 592734.66642284393
+                  y: 4134427.1915550232
+                }
+                point {
+                  x: 592720.02923087031
+                  y: 4134427.1523132324
+                }
+                point {
+                  x: 592706.93648052216
+                  y: 4134427.1920509338
+                }
+                point {
+                  x: 592692.58215904236
+                  y: 4134427.192111969
+                }
+                point {
+                  x: 592681.59384536743
+                  y: 4134427.1563911438
+                }
+                point {
+                  x: 592677.64720916748
+                  y: 4134428.2864379883
+                }
+                point {
+                  x: 592674.13325119019
+                  y: 4134430.3049736023
+                }
+                point {
+                  x: 592671.37829208374
+                  y: 4134432.8864860535
+                }
+                point {
+                  x: 592669.08294296265
+                  y: 4134436.7382125854
+                }
+                point {
+                  x: 592668.3024520874
+                  y: 4134443.057559967
+                }
+                point {
+                  x: 592668.21325302124
+                  y: 4134448.6656150818
+                }
+                point {
+                  x: 592668.1206703186
+                  y: 4134458.698009491
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592768.49011611938
+                  y: 4134468.2319536209
+                }
+                point {
+                  x: 592768.22180175781
+                  y: 4134444.6858787537
+                }
+                point {
+                  x: 592768.22301864624
+                  y: 4134440.1926460266
+                }
+                point {
+                  x: 592766.47117233276
+                  y: 4134436.6238822937
+                }
+                point {
+                  x: 592763.85959243774
+                  y: 4134433.4351577759
+                }
+                point {
+                  x: 592761.08162689209
+                  y: 4134431.5226516724
+                }
+                point {
+                  x: 592756.72325897217
+                  y: 4134430.6872062683
+                }
+                point {
+                  x: 592746.92367172241
+                  y: 4134430.6516036987
+                }
+                point {
+                  x: 592734.66651439667
+                  y: 4134430.6915550232
+                }
+                point {
+                  x: 592720.02929347008
+                  y: 4134430.6523132324
+                }
+                point {
+                  x: 592706.94155406952
+                  y: 4134430.6920509338
+                }
+                point {
+                  x: 592692.576669693
+                  y: 4134430.6921043396
+                }
+                point {
+                  x: 592681.82727432251
+                  y: 4134430.648601532
+                }
+                point {
+                  x: 592679.030342102
+                  y: 4134431.5015487671
+                }
+                point {
+                  x: 592676.19745254517
+                  y: 4134433.1314735413
+                }
+                point {
+                  x: 592674.11297225952
+                  y: 4134435.0708732605
+                }
+                point {
+                  x: 592672.44157791138
+                  y: 4134437.7228851318
+                }
+                point {
+                  x: 592671.79396820068
+                  y: 4134443.3011360168
+                }
+                point {
+                  x: 592671.7130241394
+                  y: 4134448.7056312561
+                }
+                point {
+                  x: 592671.62051773071
+                  y: 4134458.730304718
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
+road {
+  id {
+    id: "road_17"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_17"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592664.745010376
+                  y: 4134458.8603210449
+                }
+                point {
+                  x: 592664.81747817993
+                  y: 4134448.6185798645
+                }
+                point {
+                  x: 592664.73826217651
+                  y: 4134443.2763252258
+                }
+                point {
+                  x: 592665.68399810791
+                  y: 4134437.4001502991
+                }
+                point {
+                  x: 592667.40502929688
+                  y: 4134432.8758506775
+                }
+                point {
+                  x: 592670.77774429321
+                  y: 4134428.8995323181
+                }
+                point {
+                  x: 592675.75169754028
+                  y: 4134425.4578018188
+                }
+                point {
+                  x: 592680.63614654541
+                  y: 4134423.930015564
+                }
+                point {
+                  x: 592689.99727630615
+                  y: 4134423.7065544128
+                }
+                point {
+                  x: 592706.97095394135
+                  y: 4134423.6477432251
+                }
+                point {
+                  x: 592720.01071511209
+                  y: 4134423.6183319092
+                }
+                point {
+                  x: 592734.55997657776
+                  y: 4134423.6482772827
+                }
+                point {
+                  x: 592746.92383766174
+                  y: 4134423.73746109
+                }
+                point {
+                  x: 592756.82263946533
+                  y: 4134423.7305336
+                }
+                point {
+                  x: 592762.8836517334
+                  y: 4134425.1245002747
+                }
+                point {
+                  x: 592767.58249282837
+                  y: 4134428.0247192383
+                }
+                point {
+                  x: 592771.46167373657
+                  y: 4134432.1562309265
+                }
+                point {
+                  x: 592774.25088500977
+                  y: 4134438.382183075
+                }
+                point {
+                  x: 592775.3067817688
+                  y: 4134444.9878082275
+                }
+                point {
+                  x: 592775.28608322144
+                  y: 4134454.735660553
+                }
+                point {
+                  x: 592775.25000762939
+                  y: 4134468.2741966248
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 592661.24510192871
+                  y: 4134458.8355407715
+                }
+                point {
+                  x: 592661.31747817993
+                  y: 4134448.6188774109
+                }
+                point {
+                  x: 592661.24917984009
+                  y: 4134443.000087738
+                }
+                point {
+                  x: 592662.29724884033
+                  y: 4134436.5170097351
+                }
+                point {
+                  x: 592664.40427398682
+                  y: 4134431.0743293762
+                }
+                point {
+                  x: 592668.44840621948
+                  y: 4134426.2872123718
+                }
+                point {
+                  x: 592674.18659591675
+                  y: 4134422.3272323608
+                }
+                point {
+                  x: 592680.18841552734
+                  y: 4134420.458770752
+                }
+                point {
+                  x: 592689.95817947388
+                  y: 4134420.2067756653
+                }
+                point {
+                  x: 592706.96065998077
+                  y: 4134420.1477584839
+                }
+                point {
+                  x: 592720.01078428328
+                  y: 4134420.1183319092
+                }
+                point {
+                  x: 592734.575466156
+                  y: 4134420.1483154297
+                }
+                point {
+                  x: 592746.93780708313
+                  y: 4134420.2374916077
+                }
+                point {
+                  x: 592757.14010620117
+                  y: 4134420.2449607849
+                }
+                point {
+                  x: 592764.18339538574
+                  y: 4134421.8747825623
+                }
+                point {
+                  x: 592769.8018989563
+                  y: 4134425.3183898926
+                }
+                point {
+                  x: 592774.40212631226
+                  y: 4134430.25787735
+                }
+                point {
+                  x: 592777.60182952881
+                  y: 4134437.37166214
+                }
+                point {
+                  x: 592778.79922866821
+                  y: 4134444.7579727173
+                }
+                point {
+                  x: 592778.786075592
+                  y: 4134454.7435874939
+                }
+                point {
+                  x: 592778.74999237061
+                  y: 4134468.2835235596
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
