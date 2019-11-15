@@ -7,10 +7,10 @@ header {
   district: "0"
   rev_major: "1"
   rev_minor: "0"
-  left: -121.982277
-  top: 37.398079
-  right: -121.971998
-  bottom: 37.398079
+  left: -121.95376484077559
+  top: 37.352927563787389
+  right: -121.95240956327645
+  bottom: 37.3518469869874
   vendor: "LGSVL"
 }
 lane {
@@ -21,8 +21,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592777.00000762939
-          y: 4134468.2788619995
+          x: 592777
+          y: 4134468.2788600922
         }
         point {
           x: 592777.043674469
@@ -37,17 +37,17 @@ lane {
           y: 4134482.062820673
         }
         point {
-          x: 592762.84464263916
-          y: 4134482.5714616776
+          x: 592762.84463500977
+          y: 4134482.571461916
         }
       }
       s: 0
       start_position {
-        x: 592777.00000762939
-        y: 4134468.2788619995
+        x: 592777
+        y: 4134468.2788600922
         z: 0
       }
-      length: 24.028909683227539
+      length: 24.028919219970703
     }
   }
   left_boundary {
@@ -55,32 +55,31 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592775.25005722046
+            x: 592775.25004959106
             y: 4134468.2922735214
           }
           point {
             x: 592775.33150863647
-            y: 4134473.6146287918
+            y: 4134473.6146302223
           }
           point {
             x: 592769.22053146362
-            y: 4134480.3827522993
+            y: 4134480.3827520609
           }
           point {
-            x: 592762.71534729
-            y: 4134480.8262444735
+            x: 592762.71533966064
+            y: 4134480.8262447119
           }
         }
         s: 0
         start_position {
-          x: 592775.25005722046
+          x: 592775.25004959106
           y: 4134468.2922735214
         }
-        length: 21.426265716552734
+        length: 21.426273345947266
       }
     }
-    length: 21.426265716552734
-    virtual: true
+    length: 21.426273345947266
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -91,12 +90,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592778.74995803833
-            y: 4134468.2654504776
+            x: 592778.74995040894
+            y: 4134468.2654466629
           }
           point {
             x: 592778.75584030151
-            y: 4134474.3384599686
+            y: 4134474.3384585381
           }
           point {
             x: 592776.00631713867
@@ -104,31 +103,30 @@ lane {
           }
           point {
             x: 592770.2000617981
-            y: 4134483.7428889275
+            y: 4134483.7428894043
           }
           point {
-            x: 592762.97393798828
+            x: 592762.97393035889
             y: 4134484.3166790009
           }
         }
         s: 0
         start_position {
-          x: 592775.25005722046
+          x: 592775.25004959106
           y: 4134468.2922735214
         }
-        length: 21.426265716552734
+        length: 21.426273345947266
       }
     }
-    length: 26.632484436035156
-    virtual: true
+    length: 26.632495880126953
     boundary_type {
       types: UNKNOWN
     }
   }
-  length: 24.028909683227539
+  length: 24.028919219970703
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_0"
+    id: "overlap_signal_0_lane_0"
   }
   predecessor_id {
     id: "lane_17"
@@ -148,8 +146,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592762.74602890015
-          y: 4134475.7631754875
+          x: 592762.74603271484
+          y: 4134475.7631762028
         }
         point {
           x: 592765.76634979248
@@ -164,17 +162,17 @@ lane {
           y: 4134471.4034543037
         }
         point {
-          x: 592770.23999786377
+          x: 592770.24000167847
           y: 4134468.2120132446
         }
       }
       s: 0
       start_position {
-        x: 592762.74602890015
-        y: 4134475.7631754875
+        x: 592762.74603271484
+        y: 4134475.7631762028
         z: 0
       }
-      length: 13.026812553405762
+      length: 13.02680778503418
     }
   }
   left_boundary {
@@ -182,28 +180,27 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592762.80597686768
-            y: 4134477.5121483803
+            x: 592762.80598449707
+            y: 4134477.5121490955
           }
           point {
             x: 592770.29711914062
             y: 4134475.6661396027
           }
           point {
-            x: 592771.98864746094
-            y: 4134468.1432514191
+            x: 592771.98865127563
+            y: 4134468.14325428
           }
         }
         s: 0
         start_position {
-          x: 592762.80597686768
-          y: 4134477.5121483803
+          x: 592762.80598449707
+          y: 4134477.5121490955
         }
-        length: 15.740581512451172
+        length: 15.740571022033691
       }
     }
-    length: 15.740581512451172
-    virtual: true
+    length: 15.740571022033691
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -215,7 +212,7 @@ lane {
         line_segment {
           point {
             x: 592762.68608093262
-            y: 4134474.0142025948
+            y: 4134474.0142030716
           }
           point {
             x: 592765.39503860474
@@ -227,31 +224,30 @@ lane {
           }
           point {
             x: 592768.644203186
-            y: 4134471.0877771378
+            y: 4134471.0877761841
           }
           point {
-            x: 592768.4913482666
-            y: 4134468.28077507
+            x: 592768.4913520813
+            y: 4134468.2807722092
           }
         }
         s: 0
         start_position {
-          x: 592762.80597686768
-          y: 4134477.5121483803
+          x: 592762.80598449707
+          y: 4134477.5121490955
         }
-        length: 15.740581512451172
+        length: 15.740571022033691
       }
     }
-    length: 10.321774482727051
-    virtual: true
+    length: 10.32177734375
     boundary_type {
       types: CURB
     }
   }
-  length: 13.026812553405762
+  length: 13.02680778503418
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_2"
+    id: "overlap_signal_1_lane_1"
   }
   predecessor_id {
     id: "lane_13"
@@ -271,21 +267,21 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592770.230758667
-          y: 4134489.7718353271
+          x: 592770.23076248169
+          y: 4134489.77183342
         }
         point {
-          x: 592770.23999786377
+          x: 592770.24000167847
           y: 4134468.2120132446
         }
       }
       s: 0
       start_position {
-        x: 592770.230758667
-        y: 4134489.7718353271
+        x: 592770.23076248169
+        y: 4134489.77183342
         z: 0
       }
-      length: 21.55982780456543
+      length: 21.559825897216797
     }
   }
   left_boundary {
@@ -293,24 +289,23 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592771.980758667
-            y: 4134489.7740926743
+            x: 592771.98076248169
+            y: 4134489.7740898132
           }
           point {
-            x: 592771.98999786377
-            y: 4134468.2120132446
+            x: 592771.99000167847
+            y: 4134468.2120141983
           }
         }
         s: 0
         start_position {
-          x: 592771.980758667
-          y: 4134489.7740926743
+          x: 592771.98076248169
+          y: 4134489.7740898132
         }
-        length: 21.562084197998047
+        length: 21.562080383300781
       }
     }
-    length: 21.562084197998047
-    virtual: true
+    length: 21.562080383300781
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -321,32 +316,31 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592768.480758667
-            y: 4134489.76957798
+            x: 592768.48076248169
+            y: 4134489.7695770264
           }
           point {
-            x: 592768.48999786377
-            y: 4134468.2120132446
+            x: 592768.49000167847
+            y: 4134468.212012291
           }
         }
         s: 0
         start_position {
-          x: 592771.980758667
-          y: 4134489.7740926743
+          x: 592771.98076248169
+          y: 4134489.7740898132
         }
-        length: 21.562084197998047
+        length: 21.562080383300781
       }
     }
     length: 21.557571411132812
-    virtual: true
     boundary_type {
       types: UNKNOWN
     }
   }
-  length: 21.55982780456543
+  length: 21.559825897216797
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_4"
+    id: "overlap_signal_2_lane_2"
   }
   predecessor_id {
     id: "lane_14"
@@ -366,8 +360,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592762.74602890015
-          y: 4134475.7631754875
+          x: 592762.74603271484
+          y: 4134475.7631762028
         }
         point {
           x: 592769.24782943726
@@ -378,17 +372,17 @@ lane {
           y: 4134482.2940762043
         }
         point {
-          x: 592777.0000038147
-          y: 4134490.0188598633
+          x: 592777
+          y: 4134490.018860817
         }
       }
       s: 0
       start_position {
-        x: 592762.74602890015
-        y: 4134475.7631754875
+        x: 592762.74603271484
+        y: 4134475.7631762028
         z: 0
       }
-      length: 24.731601715087891
+      length: 24.731597900390625
     }
   }
   left_boundary {
@@ -396,8 +390,8 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592762.78209686279
-            y: 4134477.512803793
+            x: 592762.78210067749
+            y: 4134477.5128045082
           }
           point {
             x: 592768.961315155
@@ -409,23 +403,22 @@ lane {
           }
           point {
             x: 592775.07838439941
-            y: 4134482.7373497486
+            y: 4134482.7373492718
           }
           point {
-            x: 592775.25077056885
+            x: 592775.25076675415
             y: 4134490.0706453323
           }
         }
         s: 0
         start_position {
-          x: 592762.78209686279
-          y: 4134477.512803793
+          x: 592762.78210067749
+          y: 4134477.5128045082
         }
-        length: 22.032499313354492
+        length: 22.032493591308594
       }
     }
-    length: 22.032499313354492
-    virtual: true
+    length: 22.032493591308594
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -436,8 +429,8 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592762.7099609375
-            y: 4134474.0135469437
+            x: 592762.7099647522
+            y: 4134474.0135478973
           }
           point {
             x: 592769.53434371948
@@ -449,31 +442,30 @@ lane {
           }
           point {
             x: 592778.46424102783
-            y: 4134481.85080266
+            y: 4134481.8508031368
           }
           point {
-            x: 592778.74923706055
-            y: 4134489.9670743942
+            x: 592778.74923324585
+            y: 4134489.9670763016
           }
         }
         s: 0
         start_position {
-          x: 592762.78209686279
-          y: 4134477.512803793
+          x: 592762.78210067749
+          y: 4134477.5128045082
         }
-        length: 22.032499313354492
+        length: 22.032493591308594
       }
     }
-    length: 27.431407928466797
-    virtual: true
+    length: 27.431406021118164
     boundary_type {
       types: UNKNOWN
     }
   }
-  length: 24.731601715087891
+  length: 24.731597900390625
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_3"
+    id: "overlap_signal_1_lane_3"
   }
   predecessor_id {
     id: "lane_13"
@@ -493,21 +485,21 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592777.00000762939
-          y: 4134468.2788619995
+          x: 592777
+          y: 4134468.2788600922
         }
         point {
-          x: 592777.0000038147
-          y: 4134490.0188598633
+          x: 592777
+          y: 4134490.018860817
         }
       }
       s: 0
       start_position {
-        x: 592777.00000762939
-        y: 4134468.2788619995
+        x: 592777
+        y: 4134468.2788600922
         z: 0
       }
-      length: 21.739997863769531
+      length: 21.740001678466797
     }
   }
   left_boundary {
@@ -515,24 +507,23 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592775.25000762939
+            x: 592775.25
             y: 4134468.2788600922
           }
           point {
-            x: 592775.2500038147
+            x: 592775.25
             y: 4134490.018860817
           }
         }
         s: 0
         start_position {
-          x: 592775.25000762939
+          x: 592775.25
           y: 4134468.2788600922
         }
         length: 21.740001678466797
       }
     }
     length: 21.740001678466797
-    virtual: true
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -543,32 +534,31 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592778.75000762939
-            y: 4134468.2788639069
+            x: 592778.75
+            y: 4134468.2788600922
           }
           point {
-            x: 592778.7500038147
-            y: 4134490.0188589096
+            x: 592778.75
+            y: 4134490.018860817
           }
         }
         s: 0
         start_position {
-          x: 592775.25000762939
+          x: 592775.25
           y: 4134468.2788600922
         }
         length: 21.740001678466797
       }
     }
-    length: 21.739994049072266
-    virtual: true
+    length: 21.740001678466797
     boundary_type {
       types: CURB
     }
   }
-  length: 21.739997863769531
+  length: 21.740001678466797
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_1"
+    id: "overlap_signal_0_lane_4"
   }
   predecessor_id {
     id: "lane_17"
@@ -588,8 +578,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592770.230758667
-          y: 4134489.7718353271
+          x: 592770.23076248169
+          y: 4134489.77183342
         }
         point {
           x: 592770.45123291016
@@ -604,17 +594,17 @@ lane {
           y: 4134482.5204045773
         }
         point {
-          x: 592762.84464263916
-          y: 4134482.5714616776
+          x: 592762.84463500977
+          y: 4134482.571461916
         }
       }
       s: 0
       start_position {
-        x: 592770.230758667
-        y: 4134489.7718353271
+        x: 592770.23076248169
+        y: 4134489.77183342
         z: 0
       }
-      length: 13.400764465332031
+      length: 13.40077018737793
     }
   }
   left_boundary {
@@ -622,12 +612,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592771.97806549072
-            y: 4134489.8688678741
+            x: 592771.97806930542
+            y: 4134489.8688640594
           }
           point {
             x: 592772.18379974365
-            y: 4134485.5552639961
+            y: 4134485.5552630424
           }
           point {
             x: 592770.34550476074
@@ -638,20 +628,19 @@ lane {
             y: 4134480.7766218185
           }
           point {
-            x: 592762.81761169434
-            y: 4134480.8216705322
+            x: 592762.81760406494
+            y: 4134480.8216707706
           }
         }
         s: 0
         start_position {
-          x: 592771.97806549072
-          y: 4134489.8688678741
+          x: 592771.97806930542
+          y: 4134489.8688640594
         }
-        length: 16.205310821533203
+        length: 16.205314636230469
       }
     }
-    length: 16.205310821533203
-    virtual: true
+    length: 16.205314636230469
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -662,12 +651,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592768.48345184326
+            x: 592768.483455658
             y: 4134489.67480278
           }
           point {
             x: 592768.71866607666
-            y: 4134486.0480618477
+            y: 4134486.0480628014
           }
           point {
             x: 592768.2228012085
@@ -678,28 +667,27 @@ lane {
             y: 4134484.264187336
           }
           point {
-            x: 592762.871673584
+            x: 592762.87166595459
             y: 4134484.3212528229
           }
         }
         s: 0
         start_position {
-          x: 592771.97806549072
-          y: 4134489.8688678741
+          x: 592771.97806930542
+          y: 4134489.8688640594
         }
-        length: 16.205310821533203
+        length: 16.205314636230469
       }
     }
-    length: 10.618000984191895
-    virtual: true
+    length: 10.618007659912109
     boundary_type {
       types: CURB
     }
   }
-  length: 13.400764465332031
+  length: 13.40077018737793
   speed_limit: 15
   overlap_id {
-    id: "signal_lane_overlap_5"
+    id: "overlap_signal_2_lane_5"
   }
   predecessor_id {
     id: "lane_14"
@@ -727,8 +715,8 @@ lane {
           y: 4134474.0320253372
         }
         point {
-          x: 592677.2727394104
-          y: 4134475.621158123
+          x: 592677.2727355957
+          y: 4134475.6211557388
         }
       }
       s: 0
@@ -737,7 +725,7 @@ lane {
         y: 4134468.2932872772
         z: 0
       }
-      length: 12.049708366394043
+      length: 12.049704551696777
     }
   }
   left_boundary {
@@ -753,8 +741,8 @@ lane {
             y: 4134475.2855725288
           }
           point {
-            x: 592677.07069396973
-            y: 4134477.3594551086
+            x: 592677.070690155
+            y: 4134477.3594529629
           }
         }
         s: 0
@@ -762,11 +750,10 @@ lane {
           x: 592668.172668457
           y: 4134468.5413036346
         }
-        length: 14.320650100708008
+        length: 14.320646286010742
       }
     }
-    length: 14.320650100708008
-    virtual: true
+    length: 14.320646286010742
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -781,12 +768,12 @@ lane {
             y: 4134468.04527092
           }
           point {
-            x: 592674.6689491272
+            x: 592674.6689453125
             y: 4134473.5779657364
           }
           point {
-            x: 592677.47478485107
-            y: 4134473.8828611374
+            x: 592677.47478103638
+            y: 4134473.8828582764
           }
         }
         s: 0
@@ -794,16 +781,15 @@ lane {
           x: 592668.172668457
           y: 4134468.5413036346
         }
-        length: 14.320650100708008
+        length: 14.320646286010742
       }
     }
-    length: 9.7840480804443359
-    virtual: true
+    length: 9.7840433120727539
     boundary_type {
       types: CURB
     }
   }
-  length: 12.049708366394043
+  length: 12.049704551696777
   speed_limit: 15
   successor_id {
     id: "lane_13"
@@ -820,8 +806,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592677.10431671143
-          y: 4134482.2293863297
+          x: 592677.10432434082
+          y: 4134482.229385376
         }
         point {
           x: 592673.149772644
@@ -836,17 +822,17 @@ lane {
           y: 4134486.8297386169
         }
         point {
-          x: 592670.103603363
-          y: 4134489.7452011108
+          x: 592670.10359954834
+          y: 4134489.7452001572
         }
       }
       s: 0
       start_position {
-        x: 592677.10431671143
-        y: 4134482.2293863297
+        x: 592677.10432434082
+        y: 4134482.229385376
         z: 0
       }
-      length: 13.325404167175293
+      length: 13.325410842895508
     }
   }
   left_boundary {
@@ -854,12 +840,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592677.16156005859
-            y: 4134480.4803227186
+            x: 592677.16156387329
+            y: 4134480.4803217649
           }
           point {
             x: 592672.75123214722
-            y: 4134480.3959516287
+            y: 4134480.3959515095
           }
           point {
             x: 592668.733997345
@@ -867,23 +853,22 @@ lane {
           }
           point {
             x: 592668.13731384277
-            y: 4134486.80868721
+            y: 4134486.8086862564
           }
           point {
-            x: 592668.35840606689
-            y: 4134489.8747472763
+            x: 592668.3584022522
+            y: 4134489.8747444153
           }
         }
         s: 0
         start_position {
-          x: 592677.16156005859
-          y: 4134480.4803227186
+          x: 592677.16156387329
+          y: 4134480.4803217649
         }
-        length: 16.193029403686523
+        length: 16.193031311035156
       }
     }
-    length: 16.193029403686523
-    virtual: true
+    length: 16.193031311035156
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -894,12 +879,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592677.04707336426
-            y: 4134483.9784498215
+            x: 592677.04708480835
+            y: 4134483.9784488678
           }
           point {
             x: 592673.54831314087
-            y: 4134483.8039803505
+            y: 4134483.8039808273
           }
           point {
             x: 592671.61504745483
@@ -907,31 +892,30 @@ lane {
           }
           point {
             x: 592671.63706207275
-            y: 4134486.8507900238
+            y: 4134486.8507909775
           }
           point {
-            x: 592671.84880065918
-            y: 4134489.6156549454
+            x: 592671.84879684448
+            y: 4134489.615655899
           }
         }
         s: 0
         start_position {
-          x: 592677.16156005859
-          y: 4134480.4803227186
+          x: 592677.16156387329
+          y: 4134480.4803217649
         }
-        length: 16.193029403686523
+        length: 16.193031311035156
       }
     }
-    length: 10.478330612182617
-    virtual: true
+    length: 10.478342056274414
     boundary_type {
       types: CURB
     }
   }
-  length: 13.325404167175293
+  length: 13.325410842895508
   speed_limit: 15
   overlap_id {
-    id: "stopsign_lane_overlap_6"
+    id: "overlap_stopsign_0_lane_7"
   }
   predecessor_id {
     id: "lane_12"
@@ -951,8 +935,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592663.24824142456
-          y: 4134489.4921569824
+          x: 592663.24824523926
+          y: 4134489.49215889
         }
         point {
           x: 592663.29999542236
@@ -965,11 +949,11 @@ lane {
       }
       s: 0
       start_position {
-        x: 592663.24824142456
-        y: 4134489.4921569824
+        x: 592663.24824523926
+        y: 4134489.49215889
         z: 0
       }
-      length: 21.287303924560547
+      length: 21.28730583190918
     }
   }
   left_boundary {
@@ -977,8 +961,8 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592664.99814224243
-            y: 4134489.5108995438
+            x: 592664.99814605713
+            y: 4134489.5109004974
           }
           point {
             x: 592665.04999542236
@@ -991,14 +975,13 @@ lane {
         }
         s: 0
         start_position {
-          x: 592664.99814224243
-          y: 4134489.5108995438
+          x: 592664.99814605713
+          y: 4134489.5109004974
         }
         length: 21.306049346923828
       }
     }
     length: 21.306049346923828
-    virtual: true
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -1009,8 +992,8 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592661.49834060669
-            y: 4134489.4734144211
+            x: 592661.49834442139
+            y: 4134489.4734172821
           }
           point {
             x: 592661.54999542236
@@ -1023,22 +1006,21 @@ lane {
         }
         s: 0
         start_position {
-          x: 592664.99814224243
-          y: 4134489.5108995438
+          x: 592664.99814605713
+          y: 4134489.5109004974
         }
         length: 21.306049346923828
       }
     }
-    length: 21.268556594848633
-    virtual: true
+    length: 21.2685604095459
     boundary_type {
       types: CURB
     }
   }
-  length: 21.287303924560547
+  length: 21.28730583190918
   speed_limit: 15
   overlap_id {
-    id: "stopsign_lane_overlap_8"
+    id: "overlap_stopsign_2_lane_8"
   }
   predecessor_id {
     id: "lane_15"
@@ -1055,8 +1037,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592663.24824142456
-          y: 4134489.4921569824
+          x: 592663.24824523926
+          y: 4134489.49215889
         }
         point {
           x: 592663.43740081787
@@ -1067,17 +1049,17 @@ lane {
           y: 4134475.9517292976
         }
         point {
-          x: 592677.2727394104
-          y: 4134475.621158123
+          x: 592677.2727355957
+          y: 4134475.6211557388
         }
       }
       s: 0
       start_position {
-        x: 592663.24824142456
-        y: 4134489.4921569824
+        x: 592663.24824523926
+        y: 4134489.49215889
         z: 0
       }
-      length: 23.624444961547852
+      length: 23.624443054199219
     }
   }
   left_boundary {
@@ -1085,32 +1067,31 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592664.99750137329
-            y: 4134489.5430011749
+            x: 592664.997505188
+            y: 4134489.5430021286
           }
           point {
             x: 592665.14156723022
-            y: 4134483.3821110725
+            y: 4134483.3821101189
           }
           point {
             x: 592670.97300338745
-            y: 4134477.6404812336
+            y: 4134477.6404809952
           }
           point {
-            x: 592677.35823059082
-            y: 4134477.3690686226
+            x: 592677.35822677612
+            y: 4134477.3690662384
           }
         }
         s: 0
         start_position {
-          x: 592664.99750137329
-          y: 4134489.5430011749
+          x: 592664.997505188
+          y: 4134489.5430021286
         }
-        length: 21.040254592895508
+        length: 21.040252685546875
       }
     }
-    length: 21.040254592895508
-    virtual: true
+    length: 21.040252685546875
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -1121,12 +1102,12 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592661.49898147583
-            y: 4134489.44131279
+            x: 592661.49898529053
+            y: 4134489.4413156509
           }
           point {
             x: 592661.73323440552
-            y: 4134482.5863146782
+            y: 4134482.5863153934
           }
           point {
             x: 592664.52262496948
@@ -1137,28 +1118,27 @@ lane {
             y: 4134474.2629776
           }
           point {
-            x: 592677.18724823
-            y: 4134473.8732476234
+            x: 592677.18724441528
+            y: 4134473.8732452393
           }
         }
         s: 0
         start_position {
-          x: 592664.99750137329
-          y: 4134489.5430011749
+          x: 592664.997505188
+          y: 4134489.5430021286
         }
-        length: 21.040254592895508
+        length: 21.040252685546875
       }
     }
-    length: 26.209091186523438
-    virtual: true
+    length: 26.20909309387207
     boundary_type {
       types: UNKNOWN
     }
   }
-  length: 23.624444961547852
+  length: 23.624443054199219
   speed_limit: 15
   overlap_id {
-    id: "stopsign_lane_overlap_9"
+    id: "overlap_stopsign_2_lane_9"
   }
   predecessor_id {
     id: "lane_15"
@@ -1178,8 +1158,8 @@ lane {
     segment {
       line_segment {
         point {
-          x: 592677.10431671143
-          y: 4134482.2293863297
+          x: 592677.10432434082
+          y: 4134482.229385376
         }
         point {
           x: 592671.23736572266
@@ -1196,11 +1176,11 @@ lane {
       }
       s: 0
       start_position {
-        x: 592677.10431671143
-        y: 4134482.2293863297
+        x: 592677.10432434082
+        y: 4134482.229385376
         z: 0
       }
-      length: 23.354093551635742
+      length: 23.354101181030273
     }
   }
   left_boundary {
@@ -1208,11 +1188,11 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592677.15335464478
-            y: 4134480.480073452
+            x: 592677.15336227417
+            y: 4134480.4800724983
           }
           point {
-            x: 592671.6282081604
+            x: 592671.6282043457
             y: 4134480.3591243029
           }
           point {
@@ -1226,14 +1206,13 @@ lane {
         }
         s: 0
         start_position {
-          x: 592677.15335464478
-          y: 4134480.480073452
+          x: 592677.15336227417
+          y: 4134480.4800724983
         }
-        length: 20.767023086547852
+        length: 20.767032623291016
       }
     }
-    length: 20.767023086547852
-    virtual: true
+    length: 20.767032623291016
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -1244,11 +1223,11 @@ lane {
       segment {
         line_segment {
           point {
-            x: 592677.05527877808
-            y: 4134483.9786992073
+            x: 592677.05528640747
+            y: 4134483.9786982536
           }
           point {
-            x: 592670.84652328491
+            x: 592670.84652709961
             y: 4134483.7707185745
           }
           point {
@@ -1266,22 +1245,21 @@ lane {
         }
         s: 0
         start_position {
-          x: 592677.15335464478
-          y: 4134480.480073452
+          x: 592677.15336227417
+          y: 4134480.4800724983
         }
-        length: 20.767023086547852
+        length: 20.767032623291016
       }
     }
-    length: 25.942161560058594
-    virtual: true
+    length: 25.942169189453125
     boundary_type {
       types: UNKNOWN
     }
   }
-  length: 23.354093551635742
+  length: 23.354101181030273
   speed_limit: 15
   overlap_id {
-    id: "stopsign_lane_overlap_7"
+    id: "overlap_stopsign_0_lane_10"
   }
   predecessor_id {
     id: "lane_12"
@@ -1302,8 +1280,8 @@ lane {
           y: 4134468.3557958603
         }
         point {
-          x: 592670.103603363
-          y: 4134489.7452011108
+          x: 592670.10359954834
+          y: 4134489.7452001572
         }
       }
       s: 0
@@ -1324,8 +1302,8 @@ lane {
             y: 4134468.3767900467
           }
           point {
-            x: 592668.353729248
-            y: 4134489.7661972046
+            x: 592668.35372543335
+            y: 4134489.7661952972
           }
         }
         s: 0
@@ -1333,11 +1311,10 @@ lane {
           x: 592668.0970993042
           y: 4134468.3767900467
         }
-        length: 21.390947341918945
+        length: 21.390945434570312
       }
     }
-    length: 21.390947341918945
-    virtual: true
+    length: 21.390945434570312
     boundary_type {
       s: 0
       types: UNKNOWN
@@ -1352,7 +1329,7 @@ lane {
             y: 4134468.3348016739
           }
           point {
-            x: 592671.853477478
+            x: 592671.85347366333
             y: 4134489.7242050171
           }
         }
@@ -1361,11 +1338,10 @@ lane {
           x: 592668.0970993042
           y: 4134468.3767900467
         }
-        length: 21.390947341918945
+        length: 21.390945434570312
       }
     }
     length: 21.390941619873047
-    virtual: true
     boundary_type {
       types: UNKNOWN
     }
@@ -1434,10 +1410,9 @@ lane {
       }
     }
     length: 85.745391845703125
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -1466,7 +1441,6 @@ lane {
       }
     }
     length: 85.737998962402344
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -1487,9 +1461,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_13"
-  }
   direction: FORWARD
 }
 lane {
@@ -1539,10 +1510,9 @@ lane {
       }
     }
     length: 85.473434448242188
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -1567,7 +1537,6 @@ lane {
       }
     }
     length: 85.474639892578125
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -1588,9 +1557,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_12"
-  }
   direction: FORWARD
 }
 lane {
@@ -1740,10 +1706,9 @@ lane {
       }
     }
     length: 172.42927551269531
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -1816,7 +1781,6 @@ lane {
       }
     }
     length: 161.52027893066406
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -1837,9 +1801,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_15"
-  }
   direction: FORWARD
 }
 lane {
@@ -2009,10 +1970,9 @@ lane {
       }
     }
     length: 182.40115356445312
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -2097,7 +2057,6 @@ lane {
       }
     }
     length: 193.41941833496094
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -2118,9 +2077,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_14"
-  }
   direction: FORWARD
 }
 lane {
@@ -2266,10 +2222,9 @@ lane {
       }
     }
     length: 162.93281555175781
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -2342,7 +2297,6 @@ lane {
       }
     }
     length: 152.06501770019531
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -2357,9 +2311,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_17"
-  }
   direction: FORWARD
 }
 lane {
@@ -2529,10 +2480,9 @@ lane {
       }
     }
     length: 173.15374755859375
-    virtual: true
     boundary_type {
       s: 0
-      types: DOUBLE_YELLOW
+      types: DOTTED_YELLOW
     }
   }
   right_boundary {
@@ -2617,7 +2567,6 @@ lane {
       }
     }
     length: 184.097412109375
-    virtual: true
     boundary_type {
       types: CURB
     }
@@ -2632,9 +2581,6 @@ lane {
   }
   type: CITY_DRIVING
   turn: NO_TURN
-  left_neighbor_reverse_lane_id {
-    id: "lane_16"
-  }
   direction: FORWARD
 }
 stop_sign {
@@ -2660,10 +2606,10 @@ stop_sign {
     }
   }
   overlap_id {
-    id: "stopsign_lane_overlap_6"
+    id: "overlap_stopsign_0_lane_7"
   }
   overlap_id {
-    id: "stopsign_lane_overlap_7"
+    id: "overlap_stopsign_0_lane_10"
   }
   type: UNKNOWN
 }
@@ -2714,10 +2660,10 @@ stop_sign {
     }
   }
   overlap_id {
-    id: "stopsign_lane_overlap_8"
+    id: "overlap_stopsign_2_lane_8"
   }
   overlap_id {
-    id: "stopsign_lane_overlap_9"
+    id: "overlap_stopsign_2_lane_9"
   }
   type: UNKNOWN
 }
@@ -2781,10 +2727,10 @@ signal {
     }
   }
   overlap_id {
-    id: "signal_lane_overlap_0"
+    id: "overlap_signal_0_lane_0"
   }
   overlap_id {
-    id: "signal_lane_overlap_1"
+    id: "overlap_signal_0_lane_4"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -2866,10 +2812,10 @@ signal {
     }
   }
   overlap_id {
-    id: "signal_lane_overlap_2"
+    id: "overlap_signal_1_lane_1"
   }
   overlap_id {
-    id: "signal_lane_overlap_3"
+    id: "overlap_signal_1_lane_3"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -2951,10 +2897,10 @@ signal {
     }
   }
   overlap_id {
-    id: "signal_lane_overlap_4"
+    id: "overlap_signal_2_lane_2"
   }
   overlap_id {
-    id: "signal_lane_overlap_5"
+    id: "overlap_signal_2_lane_5"
   }
   type: MIX_3_VERTICAL
   stop_line {
@@ -2978,7 +2924,7 @@ signal {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_0"
+    id: "overlap_signal_0_lane_0"
   }
   object {
     id {
@@ -3000,7 +2946,7 @@ overlap {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_1"
+    id: "overlap_signal_0_lane_4"
   }
   object {
     id {
@@ -3022,7 +2968,7 @@ overlap {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_2"
+    id: "overlap_signal_1_lane_1"
   }
   object {
     id {
@@ -3044,7 +2990,7 @@ overlap {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_3"
+    id: "overlap_signal_1_lane_3"
   }
   object {
     id {
@@ -3066,7 +3012,7 @@ overlap {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_4"
+    id: "overlap_signal_2_lane_2"
   }
   object {
     id {
@@ -3088,7 +3034,7 @@ overlap {
 }
 overlap {
   id {
-    id: "signal_lane_overlap_5"
+    id: "overlap_signal_2_lane_5"
   }
   object {
     id {
@@ -3110,7 +3056,7 @@ overlap {
 }
 overlap {
   id {
-    id: "stopsign_lane_overlap_6"
+    id: "overlap_stopsign_0_lane_7"
   }
   object {
     id {
@@ -3132,7 +3078,7 @@ overlap {
 }
 overlap {
   id {
-    id: "stopsign_lane_overlap_7"
+    id: "overlap_stopsign_0_lane_10"
   }
   object {
     id {
@@ -3154,7 +3100,7 @@ overlap {
 }
 overlap {
   id {
-    id: "stopsign_lane_overlap_8"
+    id: "overlap_stopsign_2_lane_8"
   }
   object {
     id {
@@ -3176,7 +3122,7 @@ overlap {
 }
 overlap {
   id {
-    id: "stopsign_lane_overlap_9"
+    id: "overlap_stopsign_2_lane_9"
   }
   object {
     id {
@@ -3214,12 +3160,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592775.25005722046
+                  x: 592775.25004959106
                   y: 4134468.2922735214
                 }
                 point {
                   x: 592775.33150863647
-                  y: 4134473.6146287918
+                  y: 4134473.6146302223
                 }
                 point {
                   x: 592773.41368865967
@@ -3227,11 +3173,11 @@ road {
                 }
                 point {
                   x: 592769.22053146362
-                  y: 4134480.3827522993
+                  y: 4134480.3827520609
                 }
                 point {
-                  x: 592762.71534729
-                  y: 4134480.8262444735
+                  x: 592762.71533966064
+                  y: 4134480.8262447119
                 }
               }
             }
@@ -3243,12 +3189,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592778.74995803833
-                  y: 4134468.2654504776
+                  x: 592778.74995040894
+                  y: 4134468.2654466629
                 }
                 point {
                   x: 592778.75584030151
-                  y: 4134474.3384599686
+                  y: 4134474.3384585381
                 }
                 point {
                   x: 592776.00631713867
@@ -3256,10 +3202,10 @@ road {
                 }
                 point {
                   x: 592770.2000617981
-                  y: 4134483.7428889275
+                  y: 4134483.7428894043
                 }
                 point {
-                  x: 592762.97393798828
+                  x: 592762.97393035889
                   y: 4134484.3166790009
                 }
               }
@@ -3289,12 +3235,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592762.80597686768
-                  y: 4134477.5121483803
+                  x: 592762.80598449707
+                  y: 4134477.5121490955
                 }
                 point {
                   x: 592766.13766098022
-                  y: 4134477.3698019981
+                  y: 4134477.3698018789
                 }
                 point {
                   x: 592770.29711914062
@@ -3302,11 +3248,11 @@ road {
                 }
                 point {
                   x: 592772.08678436279
-                  y: 4134471.7191314697
+                  y: 4134471.7191324234
                 }
                 point {
-                  x: 592771.98864746094
-                  y: 4134468.1432514191
+                  x: 592771.98865127563
+                  y: 4134468.14325428
                 }
               }
             }
@@ -3319,7 +3265,7 @@ road {
               line_segment {
                 point {
                   x: 592762.68608093262
-                  y: 4134474.0142025948
+                  y: 4134474.0142030716
                 }
                 point {
                   x: 592765.39503860474
@@ -3331,11 +3277,11 @@ road {
                 }
                 point {
                   x: 592768.644203186
-                  y: 4134471.0877771378
+                  y: 4134471.0877761841
                 }
                 point {
-                  x: 592768.4913482666
-                  y: 4134468.28077507
+                  x: 592768.4913520813
+                  y: 4134468.2807722092
                 }
               }
             }
@@ -3364,20 +3310,20 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592771.980758667
-                  y: 4134489.7740926743
+                  x: 592771.98076248169
+                  y: 4134489.7740898132
                 }
                 point {
                   x: 592771.98999786377
-                  y: 4134482.6111221313
+                  y: 4134482.6111216545
                 }
                 point {
                   x: 592771.98999786377
-                  y: 4134475.3699996471
+                  y: 4134475.370000124
                 }
                 point {
-                  x: 592771.98999786377
-                  y: 4134468.2120132446
+                  x: 592771.99000167847
+                  y: 4134468.2120141983
                 }
               }
             }
@@ -3389,20 +3335,20 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592768.480758667
-                  y: 4134489.76957798
+                  x: 592768.48076248169
+                  y: 4134489.7695770264
                 }
                 point {
                   x: 592768.48999786377
-                  y: 4134482.6088767052
+                  y: 4134482.608877182
                 }
                 point {
                   x: 592768.48999786377
-                  y: 4134475.3699996471
+                  y: 4134475.3699991703
                 }
                 point {
-                  x: 592768.48999786377
-                  y: 4134468.2120132446
+                  x: 592768.49000167847
+                  y: 4134468.212012291
                 }
               }
             }
@@ -3431,8 +3377,8 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592762.78209686279
-                  y: 4134477.512803793
+                  x: 592762.78210067749
+                  y: 4134477.5128045082
                 }
                 point {
                   x: 592768.961315155
@@ -3444,10 +3390,10 @@ road {
                 }
                 point {
                   x: 592775.07838439941
-                  y: 4134482.7373497486
+                  y: 4134482.7373492718
                 }
                 point {
-                  x: 592775.25077056885
+                  x: 592775.25076675415
                   y: 4134490.0706453323
                 }
               }
@@ -3460,8 +3406,8 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592762.7099609375
-                  y: 4134474.0135469437
+                  x: 592762.7099647522
+                  y: 4134474.0135478973
                 }
                 point {
                   x: 592769.53434371948
@@ -3473,11 +3419,11 @@ road {
                 }
                 point {
                   x: 592778.46424102783
-                  y: 4134481.85080266
+                  y: 4134481.8508031368
                 }
                 point {
-                  x: 592778.74923706055
-                  y: 4134489.9670743942
+                  x: 592778.74923324585
+                  y: 4134489.9670763016
                 }
               }
             }
@@ -3506,19 +3452,19 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592775.25000762939
+                  x: 592775.25
                   y: 4134468.2788600922
                 }
                 point {
                   x: 592775.25
-                  y: 4134475.7188601494
+                  y: 4134475.7188611031
                 }
                 point {
                   x: 592775.25
-                  y: 4134482.4788606167
+                  y: 4134482.47886014
                 }
                 point {
-                  x: 592775.2500038147
+                  x: 592775.25
                   y: 4134490.018860817
                 }
               }
@@ -3531,20 +3477,20 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592778.75000762939
-                  y: 4134468.2788639069
+                  x: 592778.75
+                  y: 4134468.2788600922
                 }
                 point {
                   x: 592778.75
-                  y: 4134475.7188620567
+                  y: 4134475.7188611031
                 }
                 point {
                   x: 592778.75
-                  y: 4134482.478859663
+                  y: 4134482.47886014
                 }
                 point {
-                  x: 592778.7500038147
-                  y: 4134490.0188589096
+                  x: 592778.75
+                  y: 4134490.018860817
                 }
               }
             }
@@ -3573,12 +3519,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592771.97806549072
-                  y: 4134489.8688678741
+                  x: 592771.97806930542
+                  y: 4134489.8688640594
                 }
                 point {
                   x: 592772.18379974365
-                  y: 4134485.5552639961
+                  y: 4134485.5552630424
                 }
                 point {
                   x: 592770.34550476074
@@ -3589,8 +3535,8 @@ road {
                   y: 4134480.7766218185
                 }
                 point {
-                  x: 592762.81761169434
-                  y: 4134480.8216705322
+                  x: 592762.81760406494
+                  y: 4134480.8216707706
                 }
               }
             }
@@ -3602,12 +3548,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592768.48345184326
+                  x: 592768.483455658
                   y: 4134489.67480278
                 }
                 point {
                   x: 592768.71866607666
-                  y: 4134486.0480618477
+                  y: 4134486.0480628014
                 }
                 point {
                   x: 592768.2228012085
@@ -3618,7 +3564,7 @@ road {
                   y: 4134484.264187336
                 }
                 point {
-                  x: 592762.871673584
+                  x: 592762.87166595459
                   y: 4134484.3212528229
                 }
               }
@@ -3660,12 +3606,12 @@ road {
                   y: 4134475.2855725288
                 }
                 point {
-                  x: 592673.73156356812
-                  y: 4134476.9501032829
+                  x: 592673.73156738281
+                  y: 4134476.9501035213
                 }
                 point {
-                  x: 592677.07069396973
-                  y: 4134477.3594551086
+                  x: 592677.070690155
+                  y: 4134477.3594529629
                 }
               }
             }
@@ -3689,12 +3635,12 @@ road {
                   y: 4134472.7784781456
                 }
                 point {
-                  x: 592674.6689491272
+                  x: 592674.6689453125
                   y: 4134473.5779657364
                 }
                 point {
-                  x: 592677.47478485107
-                  y: 4134473.8828611374
+                  x: 592677.47478103638
+                  y: 4134473.8828582764
                 }
               }
             }
@@ -3723,12 +3669,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592677.16156005859
-                  y: 4134480.4803227186
+                  x: 592677.16156387329
+                  y: 4134480.4803217649
                 }
                 point {
                   x: 592672.75123214722
-                  y: 4134480.3959516287
+                  y: 4134480.3959515095
                 }
                 point {
                   x: 592668.733997345
@@ -3736,11 +3682,11 @@ road {
                 }
                 point {
                   x: 592668.13731384277
-                  y: 4134486.80868721
+                  y: 4134486.8086862564
                 }
                 point {
-                  x: 592668.35840606689
-                  y: 4134489.8747472763
+                  x: 592668.3584022522
+                  y: 4134489.8747444153
                 }
               }
             }
@@ -3752,12 +3698,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592677.04707336426
-                  y: 4134483.9784498215
+                  x: 592677.04708480835
+                  y: 4134483.9784488678
                 }
                 point {
                   x: 592673.54831314087
-                  y: 4134483.8039803505
+                  y: 4134483.8039808273
                 }
                 point {
                   x: 592671.61504745483
@@ -3765,11 +3711,11 @@ road {
                 }
                 point {
                   x: 592671.63706207275
-                  y: 4134486.8507900238
+                  y: 4134486.8507909775
                 }
                 point {
-                  x: 592671.84880065918
-                  y: 4134489.6156549454
+                  x: 592671.84879684448
+                  y: 4134489.615655899
                 }
               }
             }
@@ -3798,12 +3744,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592664.99814224243
-                  y: 4134489.5108995438
+                  x: 592664.99814605713
+                  y: 4134489.5109004974
                 }
                 point {
                   x: 592665.04998016357
-                  y: 4134484.6682562828
+                  y: 4134484.668255806
                 }
                 point {
                   x: 592665.04999542236
@@ -3827,12 +3773,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592661.49834060669
-                  y: 4134489.4734144211
+                  x: 592661.49834442139
+                  y: 4134489.4734172821
                 }
                 point {
                   x: 592661.55002593994
-                  y: 4134484.65075922
+                  y: 4134484.650759697
                 }
                 point {
                   x: 592661.54999542236
@@ -3873,12 +3819,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592664.99750137329
-                  y: 4134489.5430011749
+                  x: 592664.997505188
+                  y: 4134489.5430021286
                 }
                 point {
                   x: 592665.14156723022
-                  y: 4134483.3821110725
+                  y: 4134483.3821101189
                 }
                 point {
                   x: 592666.98973464966
@@ -3886,11 +3832,11 @@ road {
                 }
                 point {
                   x: 592670.97300338745
-                  y: 4134477.6404812336
+                  y: 4134477.6404809952
                 }
                 point {
-                  x: 592677.35823059082
-                  y: 4134477.3690686226
+                  x: 592677.35822677612
+                  y: 4134477.3690662384
                 }
               }
             }
@@ -3902,12 +3848,12 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592661.49898147583
-                  y: 4134489.44131279
+                  x: 592661.49898529053
+                  y: 4134489.4413156509
                 }
                 point {
                   x: 592661.73323440552
-                  y: 4134482.5863146782
+                  y: 4134482.5863153934
                 }
                 point {
                   x: 592664.52262496948
@@ -3918,8 +3864,8 @@ road {
                   y: 4134474.2629776
                 }
                 point {
-                  x: 592677.18724823
-                  y: 4134473.8732476234
+                  x: 592677.18724441528
+                  y: 4134473.8732452393
                 }
               }
             }
@@ -3948,11 +3894,11 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592677.15335464478
-                  y: 4134480.480073452
+                  x: 592677.15336227417
+                  y: 4134480.4800724983
                 }
                 point {
-                  x: 592671.6282081604
+                  x: 592671.6282043457
                   y: 4134480.3591243029
                 }
                 point {
@@ -3977,11 +3923,11 @@ road {
             segment {
               line_segment {
                 point {
-                  x: 592677.05527877808
-                  y: 4134483.9786992073
+                  x: 592677.05528640747
+                  y: 4134483.9786982536
                 }
                 point {
-                  x: 592670.84652328491
+                  x: 592670.84652709961
                   y: 4134483.7707185745
                 }
                 point {
@@ -4036,11 +3982,11 @@ road {
                 }
                 point {
                   x: 592668.2629776001
-                  y: 4134482.2025256157
+                  y: 4134482.2025249004
                 }
                 point {
-                  x: 592668.353729248
-                  y: 4134489.7661972046
+                  x: 592668.35372543335
+                  y: 4134489.7661952972
                 }
               }
             }
@@ -4065,10 +4011,10 @@ road {
                 }
                 point {
                   x: 592671.76272583008
-                  y: 4134482.1605348587
+                  y: 4134482.160535574
                 }
                 point {
-                  x: 592671.853477478
+                  x: 592671.85347366333
                   y: 4134489.7242050171
                 }
               }
