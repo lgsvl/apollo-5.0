@@ -92,8 +92,6 @@ Build Apollo:
 
 ## Launching Apollo alongside the simulator
 
-[![](images/apollo_simulator.png)](images/full_size_images/apollo_simulator.png)
-
 Here we only describe only a simple case of driving from point A to point B using Apollo and the simulator. 
 
 To launch apollo, first launch and enter a container as described in the previous steps.
@@ -108,12 +106,10 @@ To launch apollo, first launch and enter a container as described in the previou
 
         bridge.sh
 
-* Run the LG SVL Simulator outside of docker. See instructions in the [simulator repository](https://github.com/lgsvl/simulator)
+* Run the LG SVL Simulator outside of docker. See instructions in the [simulator repository](https://www.lgsvlsimulator.com/docs/getting-started/#simulator-instructions)
     - Select the `BorregasAve` map and the `Lincoln2017MKZ (Apollo 5.0)` vehicle.
     - Enable GPS, IMU, LIDAR, Main Camera, and Telephoto Camera.
     - (optional) Enable Sensor Effects, Traffic and Pedestrian.
-
-[![](images/apollo.png)](images/full_size_images/apollo.png)
 
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
