@@ -7,7 +7,7 @@ header:
 child_frame_id: velodyne128
 transform:
   translation:
-    x: 0.0
+    x: 0.2579201
     y: 0.980728924274446
     z: 2.31200003623962
   rotation:
