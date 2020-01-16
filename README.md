@@ -107,9 +107,10 @@ To launch apollo, first launch and enter a container as described in the previou
         bridge.sh
 
 * Run the LG SVL Simulator outside of docker. See instructions in the [simulator repository](https://www.lgsvlsimulator.com/docs/getting-started/#simulator-instructions)
-    - Select the `BorregasAve` map and the `Lincoln2017MKZ (Apollo 5.0)` vehicle.
-    - Enable GPS, IMU, LIDAR, Main Camera, and Telephoto Camera.
-    - (optional) Enable Sensor Effects, Traffic and Pedestrian.
+    - Create a simulation with `BorregasAve` map and the `Lincoln2017MKZ (Apollo 5.0)` vehicles.
+        - Next to the vehicle dropdown, enter the IP of the machine running Apollo and the port number of the bridge (default is 9090).
+            - Example: Apollo is running on the same computer as the simulator. Bridge connection string will be `localhost:9090`.
+    - (optional) Enable Traffic and Pedestrians.
 
 
 * Open Apollo dreamview in a browser by navigating to: `localhost:8888`
