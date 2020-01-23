@@ -26,6 +26,8 @@ VERSION_X86_64="latest"
 VERSION_AARCH64="dev-aarch64-20170927_1111"
 VERSION_OPT=""
 
+ulimit -c 0
+
 # Check whether user has agreed license agreement
 function check_agreement() {
   agreement_record="${HOME}/.apollo_agreement.txt"
