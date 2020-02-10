@@ -95,6 +95,9 @@ lane {
   speed_limit: 11.175999641418457
   type: CITY_DRIVING
   turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_1"
+  }
   direction: FORWARD
 }
 lane {
@@ -179,6 +182,9 @@ lane {
   speed_limit: 11.175999641418457
   type: CITY_DRIVING
   turn: NO_TURN
+  left_neighbor_reverse_lane_id {
+    id: "lane_0"
+  }
   direction: FORWARD
 }
 road {
@@ -191,6 +197,9 @@ road {
     }
     lane_id {
       id: "lane_0"
+    }
+    lane_id {
+      id: "lane_1"
     }
     boundary {
       outer_polygon {
@@ -236,23 +245,6 @@ road {
           }
           type: RIGHT_BOUNDARY
         }
-      }
-    }
-  }
-}
-road {
-  id {
-    id: "road_1"
-  }
-  section {
-    id {
-      id: "1"
-    }
-    lane_id {
-      id: "lane_1"
-    }
-    boundary {
-      outer_polygon {
         edge {
           curve {
             segment {
