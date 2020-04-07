@@ -8350,13 +8350,13 @@ node {
 }
 node {
   lane_id: "lane_187"
-  length: 83.195732116699219
+  length: 78.777679443359375
   left_out {
     start {
       s: 0
     }
     end {
-      s: 83.195732116699219
+      s: 78.777679443359375
     }
   }
   right_out {
@@ -8364,16 +8364,16 @@ node {
       s: 0
     }
     end {
-      s: 83.195732116699219
+      s: 78.777679443359375
     }
   }
-  cost: 37.975001549322371
+  cost: 35.958364964170038
   central_curve {
     segment {
       line_segment {
         point {
-          x: 553211.11996045068
-          y: 4182297.1297758548
+          x: 553206.701900148
+          y: 4182297.129760596
         }
         point {
           x: 553157.36068310693
@@ -8386,11 +8386,11 @@ node {
       }
       s: 0
       start_position {
-        x: 553211.11996045068
-        y: 4182297.1297758548
+        x: 553206.701900148
+        y: 4182297.129760596
         z: 0
       }
-      length: 83.195732116699219
+      length: 78.777679443359375
     }
   }
   is_virtual: false
@@ -30559,7 +30559,7 @@ node {
       s: 15.358062744140625
     }
   }
-  cost: 7.0102448967603319
+  cost: 57.010244896760334
   central_curve {
     segment {
       line_segment {
@@ -30895,7 +30895,7 @@ node {
       s: 15.136228561401367
     }
   }
-  cost: 6.9089878584617885
+  cost: 26.908987858461789
   central_curve {
     segment {
       line_segment {
@@ -31039,7 +31039,7 @@ node {
       s: 14.31749153137207
     }
   }
-  cost: 6.5352722940595447
+  cost: 56.535272294059546
   central_curve {
     segment {
       line_segment {
@@ -31375,7 +31375,7 @@ node {
       s: 15.076971054077148
     }
   }
-  cost: 6.8819395487084751
+  cost: 26.881939548708473
   central_curve {
     segment {
       line_segment {
@@ -31527,7 +31527,7 @@ node {
       s: 22.055971145629883
     }
   }
-  cost: 10.067530113831216
+  cost: 60.067530113831218
   central_curve {
     segment {
       line_segment {
@@ -31583,7 +31583,7 @@ node {
       s: 24.092655181884766
     }
   }
-  cost: 10.99718212198675
+  cost: 60.997182121986754
   central_curve {
     segment {
       line_segment {
@@ -31871,7 +31871,7 @@ node {
       s: 14.839365005493164
     }
   }
-  cost: 6.773483383547882
+  cost: 26.773483383547884
   central_curve {
     segment {
       line_segment {
@@ -31967,7 +31967,7 @@ node {
       s: 16.226282119750977
     }
   }
-  cost: 7.4065468619585788
+  cost: 27.406546861958578
   central_curve {
     segment {
       line_segment {
@@ -32119,7 +32119,7 @@ node {
       s: 28.106033325195312
     }
   }
-  cost: 12.82910351185385
+  cost: 62.829103511853852
   central_curve {
     segment {
       line_segment {
@@ -32175,7 +32175,7 @@ node {
       s: 24.933250427246094
     }
   }
-  cost: 11.380874950125733
+  cost: 61.38087495012573
   central_curve {
     segment {
       line_segment {
@@ -32231,7 +32231,7 @@ node {
       s: 22.07293701171875
     }
   }
-  cost: 10.075274246548345
+  cost: 60.075274246548346
   central_curve {
     segment {
       line_segment {
@@ -32383,7 +32383,7 @@ node {
       s: 24.521657943725586
     }
   }
-  cost: 11.193002029223297
+  cost: 61.193002029223294
   central_curve {
     segment {
       line_segment {
@@ -32439,7 +32439,7 @@ node {
       s: 32.927326202392578
     }
   }
-  cost: 15.029800588772213
+  cost: 65.029800588772218
   central_curve {
     segment {
       line_segment {
@@ -32491,7 +32491,7 @@ node {
       s: 15.782400131225586
     }
   }
-  cost: 7.2039352763267175
+  cost: 27.203935276326717
   central_curve {
     segment {
       line_segment {
@@ -32539,7 +32539,7 @@ node {
       s: 14.877557754516602
     }
   }
-  cost: 6.7909166059793344
+  cost: 26.790916605979334
   central_curve {
     segment {
       line_segment {
@@ -32587,7 +32587,7 @@ node {
       s: 15.749982833862305
     }
   }
-  cost: 7.1891382802997024
+  cost: 27.1891382802997
   central_curve {
     segment {
       line_segment {
@@ -32635,7 +32635,7 @@ node {
       s: 14.958515167236328
     }
   }
-  cost: 6.8278699183096867
+  cost: 26.827869918309688
   central_curve {
     segment {
       line_segment {
@@ -32787,7 +32787,7 @@ node {
       s: 29.678001403808594
     }
   }
-  cost: 13.546634191637873
+  cost: 63.546634191637871
   central_curve {
     segment {
       line_segment {
@@ -32843,7 +32843,7 @@ node {
       s: 33.156204223632812
     }
   }
-  cost: 15.134272813369165
+  cost: 65.134272813369165
   central_curve {
     segment {
       line_segment {
@@ -32999,7 +32999,7 @@ node {
       s: 30.547042846679688
     }
   }
-  cost: 13.943311392496724
+  cost: 63.943311392496724
   central_curve {
     segment {
       line_segment {
@@ -33055,7 +33055,7 @@ node {
       s: 32.143070220947266
     }
   }
-  cost: 14.671824027322215
+  cost: 64.671824027322216
   central_curve {
     segment {
       line_segment {
@@ -33207,7 +33207,7 @@ node {
       s: 33.004589080810547
     }
   }
-  cost: 15.065067517170798
+  cost: 65.0650675171708
   central_curve {
     segment {
       line_segment {
@@ -33267,7 +33267,7 @@ node {
       s: 29.629966735839844
     }
   }
-  cost: 13.524708588675743
+  cost: 63.524708588675743
   central_curve {
     segment {
       line_segment {
@@ -33699,7 +33699,7 @@ node {
       s: 13.867591857910156
     }
   }
-  cost: 6.329913913742744
+  cost: 26.329913913742743
   central_curve {
     segment {
       line_segment {
@@ -33747,7 +33747,7 @@ node {
       s: 14.290757179260254
     }
   }
-  cost: 6.5230692995424429
+  cost: 56.523069299542442
   central_curve {
     segment {
       line_segment {
@@ -33803,7 +33803,7 @@ node {
       s: 19.535591125488281
     }
   }
-  cost: 8.91709327368774
+  cost: 58.91709327368774
   central_curve {
     segment {
       line_segment {
@@ -33855,7 +33855,7 @@ node {
       s: 22.164642333984375
     }
   }
-  cost: 10.117133482190784
+  cost: 60.117133482190781
   central_curve {
     segment {
       line_segment {
@@ -34143,7 +34143,7 @@ node {
       s: 14.306571960449219
     }
   }
-  cost: 6.5302880152730856
+  cost: 26.530288015273086
   central_curve {
     segment {
       line_segment {
@@ -34239,7 +34239,7 @@ node {
       s: 14.814277648925781
     }
   }
-  cost: 6.7620321662765637
+  cost: 26.762032166276562
   central_curve {
     segment {
       line_segment {
@@ -34391,7 +34391,7 @@ node {
       s: 24.478824615478516
     }
   }
-  cost: 11.173450597134648
+  cost: 61.173450597134647
   central_curve {
     segment {
       line_segment {
@@ -34451,7 +34451,7 @@ node {
       s: 21.34095573425293
     }
   }
-  cost: 9.7411586682774729
+  cost: 59.741158668277471
   central_curve {
     segment {
       line_segment {
@@ -34511,7 +34511,7 @@ node {
       s: 15.67899227142334
     }
   }
-  cost: 7.1567343738730429
+  cost: 57.156734373873043
   central_curve {
     segment {
       line_segment {
@@ -34647,7 +34647,7 @@ node {
       s: 13.010166168212891
     }
   }
-  cost: 5.93853876664975
+  cost: 25.938538766649749
   central_curve {
     segment {
       line_segment {
@@ -34695,7 +34695,7 @@ node {
       s: 15.852138519287109
     }
   }
-  cost: 7.235767623098651
+  cost: 27.235767623098653
   central_curve {
     segment {
       line_segment {
@@ -34751,7 +34751,7 @@ node {
       s: 22.527256011962891
     }
   }
-  cost: 10.282649845022041
+  cost: 30.282649845022043
   central_curve {
     segment {
       line_segment {
@@ -34811,7 +34811,7 @@ node {
       s: 27.85981559753418
     }
   }
-  cost: 12.716716513728914
+  cost: 62.716716513728912
   central_curve {
     segment {
       line_segment {
@@ -34867,7 +34867,7 @@ node {
       s: 30.451345443725586
     }
   }
-  cost: 13.899629956766939
+  cost: 63.899629956766937
   central_curve {
     segment {
       line_segment {
@@ -35019,7 +35019,7 @@ node {
       s: 29.606685638427734
     }
   }
-  cost: 13.514081845118097
+  cost: 63.5140818451181
   central_curve {
     segment {
       line_segment {
@@ -35075,7 +35075,7 @@ node {
       s: 33.0733528137207
     }
   }
-  cost: 15.096454978971572
+  cost: 65.096454978971565
   central_curve {
     segment {
       line_segment {
@@ -35311,7 +35311,7 @@ node {
       s: 15.217442512512207
     }
   }
-  cost: 6.9460582686955092
+  cost: 26.946058268695509
   central_curve {
     segment {
       line_segment {
@@ -35367,7 +35367,7 @@ node {
       s: 16.615196228027344
     }
   }
-  cost: 7.5840681540800521
+  cost: 27.58406815408005
   central_curve {
     segment {
       line_segment {
@@ -35419,7 +35419,7 @@ node {
       s: 22.319536209106445
     }
   }
-  cost: 10.187835367949663
+  cost: 30.187835367949663
   central_curve {
     segment {
       line_segment {
@@ -35479,7 +35479,7 @@ node {
       s: 28.287498474121094
     }
   }
-  cost: 12.911933954429177
+  cost: 32.911933954429173
   central_curve {
     segment {
       line_segment {
@@ -35715,7 +35715,7 @@ node {
       s: 45.46337890625
     }
   }
-  cost: 20.75192850013676
+  cost: 40.751928500136756
   central_curve {
     segment {
       line_segment {
@@ -35767,7 +35767,7 @@ node {
       s: 33.106025695800781
     }
   }
-  cost: 15.111368637593763
+  cost: 65.111368637593756
   central_curve {
     segment {
       line_segment {
@@ -35827,7 +35827,7 @@ node {
       s: 41.008731842041016
     }
   }
-  cost: 18.718588269081021
+  cost: 68.718588269081025
   central_curve {
     segment {
       line_segment {
@@ -35887,7 +35887,7 @@ node {
       s: 51.083511352539062
     }
   }
-  cost: 23.317258871361236
+  cost: 73.317258871361233
   central_curve {
     segment {
       line_segment {
@@ -35947,7 +35947,7 @@ node {
       s: 23.169662475585938
     }
   }
-  cost: 10.57587866614907
+  cost: 60.575878666149066
   central_curve {
     segment {
       line_segment {
@@ -35999,7 +35999,7 @@ node {
       s: 25.285825729370117
     }
   }
-  cost: 11.541809258938974
+  cost: 61.541809258938976
   central_curve {
     segment {
       line_segment {
@@ -36335,7 +36335,7 @@ node {
       s: 14.481166839599609
     }
   }
-  cost: 6.6099824976407575
+  cost: 26.609982497640758
   central_curve {
     segment {
       line_segment {
@@ -36383,7 +36383,7 @@ node {
       s: 14.379587173461914
     }
   }
-  cost: 6.5636160809891466
+  cost: 26.563616080989146
   central_curve {
     segment {
       line_segment {
@@ -36535,7 +36535,7 @@ node {
       s: 23.0438232421875
     }
   }
-  cost: 10.518438879735893
+  cost: 60.518438879735896
   central_curve {
     segment {
       line_segment {
@@ -36591,7 +36591,7 @@ node {
       s: 19.457595825195312
     }
   }
-  cost: 8.8814920285985011
+  cost: 58.8814920285985
   central_curve {
     segment {
       line_segment {
@@ -36643,7 +36643,7 @@ node {
       s: 16.179960250854492
     }
   }
-  cost: 7.3854030725074082
+  cost: 57.385403072507408
   central_curve {
     segment {
       line_segment {
@@ -37079,7 +37079,7 @@ node {
       s: 22.453395843505859
     }
   }
-  cost: 10.248936096248791
+  cost: 60.248936096248791
   central_curve {
     segment {
       line_segment {
@@ -37131,7 +37131,7 @@ node {
       s: 24.96306037902832
     }
   }
-  cost: 11.394481813558672
+  cost: 61.39448181355867
   central_curve {
     segment {
       line_segment {
@@ -37179,7 +37179,7 @@ node {
       s: 14.681562423706055
     }
   }
-  cost: 6.7014538078065842
+  cost: 26.701453807806583
   central_curve {
     segment {
       line_segment {
@@ -37227,7 +37227,7 @@ node {
       s: 15.310099601745605
     }
   }
-  cost: 6.9883519419125237
+  cost: 26.988351941912523
   central_curve {
     segment {
       line_segment {
@@ -37283,7 +37283,7 @@ node {
       s: 23.138629913330078
     }
   }
-  cost: 10.561713737615325
+  cost: 60.561713737615321
   central_curve {
     segment {
       line_segment {
@@ -37339,7 +37339,7 @@ node {
       s: 20.522327423095703
     }
   }
-  cost: 9.3674927290089975
+  cost: 59.367492729009
   central_curve {
     segment {
       line_segment {
@@ -37395,7 +37395,7 @@ node {
       s: 16.543426513671875
     }
   }
-  cost: 7.5513086008613808
+  cost: 57.551308600861383
   central_curve {
     segment {
       line_segment {
@@ -37451,7 +37451,7 @@ node {
       s: 25.064380645751953
     }
   }
-  cost: 11.440729826382341
+  cost: 61.440729826382338
   central_curve {
     segment {
       line_segment {
@@ -37739,7 +37739,7 @@ node {
       s: 18.851884841918945
     }
   }
-  cost: 8.60501299604312
+  cost: 28.605012996043122
   central_curve {
     segment {
       line_segment {
@@ -37831,7 +37831,7 @@ node {
       s: 15.826973915100098
     }
   }
-  cost: 7.2242811458638645
+  cost: 27.224281145863863
   central_curve {
     segment {
       line_segment {
@@ -37983,7 +37983,7 @@ node {
       s: 34.360759735107422
     }
   }
-  cost: 15.684096659505036
+  cost: 65.68409665950503
   central_curve {
     segment {
       line_segment {
@@ -38039,7 +38039,7 @@ node {
       s: 31.525943756103516
     }
   }
-  cost: 14.390134355721077
+  cost: 64.390134355721074
   central_curve {
     segment {
       line_segment {
@@ -38095,7 +38095,7 @@ node {
       s: 27.367528915405273
     }
   }
-  cost: 12.492010425556831
+  cost: 62.492010425556828
   central_curve {
     segment {
       line_segment {
@@ -38143,7 +38143,7 @@ node {
       s: 8.6495304107666016
     }
   }
-  cost: 3.9481103464421858
+  cost: 53.948110346442185
   central_curve {
     segment {
       line_segment {
@@ -38475,7 +38475,7 @@ node {
       s: 10.247817039489746
     }
   }
-  cost: 4.6776542263720531
+  cost: 24.677654226372052
   central_curve {
     segment {
       line_segment {
@@ -38751,7 +38751,7 @@ node {
       s: 15.027741432189941
     }
   }
-  cost: 6.8594685045830763
+  cost: 56.859468504583077
   central_curve {
     segment {
       line_segment {
@@ -38807,7 +38807,7 @@ node {
       s: 16.649864196777344
     }
   }
-  cost: 7.5998924774377263
+  cost: 57.599892477437727
   central_curve {
     segment {
       line_segment {
@@ -38851,7 +38851,7 @@ node {
       s: 14.588207244873047
     }
   }
-  cost: 6.6588414889937884
+  cost: 56.658841488993787
   central_curve {
     segment {
       line_segment {
@@ -39187,7 +39187,7 @@ node {
       s: 9.0759162902832031
     }
   }
-  cost: 4.1427357680027468
+  cost: 24.142735768002748
   central_curve {
     segment {
       line_segment {
@@ -39327,7 +39327,7 @@ node {
       s: 9.7662572860717773
     }
   }
-  cost: 4.457844484731857
+  cost: 54.457844484731858
   central_curve {
     segment {
       line_segment {
@@ -39659,7 +39659,7 @@ node {
       s: 15.197290420532227
     }
   }
-  cost: 6.9368597713123936
+  cost: 26.936859771312392
   central_curve {
     segment {
       line_segment {
@@ -39803,7 +39803,7 @@ node {
       s: 9.4643831253051758
     }
   }
-  cost: 4.3200529005826613
+  cost: 54.32005290058266
   central_curve {
     segment {
       line_segment {
@@ -40135,7 +40135,7 @@ node {
       s: 14.951511383056641
     }
   }
-  cost: 6.8246730149552981
+  cost: 26.824673014955298
   central_curve {
     segment {
       line_segment {
@@ -40287,7 +40287,7 @@ node {
       s: 13.436540603637695
     }
   }
-  cost: 6.13315896451202
+  cost: 56.13315896451202
   central_curve {
     segment {
       line_segment {
@@ -40339,7 +40339,7 @@ node {
       s: 15.93458366394043
     }
   }
-  cost: 7.2734000162068968
+  cost: 57.2734000162069
   central_curve {
     segment {
       line_segment {
@@ -40395,7 +40395,7 @@ node {
       s: 22.589962005615234
     }
   }
-  cost: 10.311272229193856
+  cost: 60.311272229193854
   central_curve {
     segment {
       line_segment {
@@ -40451,7 +40451,7 @@ node {
       s: 28.76661491394043
     }
   }
-  cost: 13.130628436484141
+  cost: 63.130628436484145
   central_curve {
     segment {
       line_segment {
@@ -40691,7 +40691,7 @@ node {
       s: 24.232872009277344
     }
   }
-  cost: 11.061184614686798
+  cost: 61.061184614686795
   central_curve {
     segment {
       line_segment {
@@ -40979,7 +40979,7 @@ node {
       s: 19.976520538330078
     }
   }
-  cost: 9.1183571451603989
+  cost: 29.1183571451604
   central_curve {
     segment {
       line_segment {
@@ -41071,7 +41071,7 @@ node {
       s: 16.363611221313477
     }
   }
-  cost: 7.4692312414564093
+  cost: 27.469231241456409
   central_curve {
     segment {
       line_segment {
@@ -41223,7 +41223,7 @@ node {
       s: 30.258071899414062
     }
   }
-  cost: 13.811409528171179
+  cost: 63.811409528171183
   central_curve {
     segment {
       line_segment {
@@ -41279,7 +41279,7 @@ node {
       s: 26.559196472167969
     }
   }
-  cost: 12.12304407351793
+  cost: 62.123044073517931
   central_curve {
     segment {
       line_segment {
@@ -41335,7 +41335,7 @@ node {
       s: 22.504995346069336
     }
   }
-  cost: 10.272488881228718
+  cost: 60.272488881228718
   central_curve {
     segment {
       line_segment {
@@ -41374,13 +41374,13 @@ node {
 }
 node {
   lane_id: "lane_870"
-  length: 10.751334190368652
+  length: 17.490272521972656
   left_out {
     start {
       s: 0
     }
     end {
-      s: 10.751334190368652
+      s: 17.490272521972656
     }
   }
   right_out {
@@ -41388,16 +41388,28 @@ node {
       s: 0
     }
     end {
-      s: 10.751334190368652
+      s: 17.490272521972656
     }
   }
-  cost: 4.9074865038008477
+  cost: 57.983499985171278
   central_curve {
     segment {
       line_segment {
         point {
-          x: 552560.154079103
-          y: 4182479.8074797122
+          x: 552560.44729199365
+          y: 4182474.3586271731
+        }
+        point {
+          x: 552560.36745800928
+          y: 4182480.5173185794
+        }
+        point {
+          x: 552560.50429882959
+          y: 4182484.9923170535
+        }
+        point {
+          x: 552560.38302197412
+          y: 4182489.0622480838
         }
         point {
           x: 552557.90139355615
@@ -41406,11 +41418,11 @@ node {
       }
       s: 0
       start_position {
-        x: 552560.154079103
-        y: 4182479.8074797122
+        x: 552560.44729199365
+        y: 4182474.3586271731
         z: 0
       }
-      length: 10.751334190368652
+      length: 17.490272521972656
     }
   }
   is_virtual: false
@@ -41667,7 +41679,7 @@ node {
       s: 13.679349899291992
     }
   }
-  cost: 6.2439901711624755
+  cost: 26.243990171162476
   central_curve {
     segment {
       line_segment {
@@ -41763,7 +41775,7 @@ node {
       s: 14.251611709594727
     }
   }
-  cost: 6.505201204228225
+  cost: 26.505201204228225
   central_curve {
     segment {
       line_segment {
@@ -41915,7 +41927,7 @@ node {
       s: 23.049812316894531
     }
   }
-  cost: 10.521172615175104
+  cost: 60.521172615175104
   central_curve {
     segment {
       line_segment {
@@ -41971,7 +41983,7 @@ node {
       s: 21.08966064453125
     }
   }
-  cost: 9.62645408934388
+  cost: 59.626454089343881
   central_curve {
     segment {
       line_segment {
@@ -42027,7 +42039,7 @@ node {
       s: 16.758230209350586
     }
   }
-  cost: 7.649356547176188
+  cost: 57.64935654717619
   central_curve {
     segment {
       line_segment {
@@ -42075,7 +42087,7 @@ node {
       s: 7.68397855758667
     }
   }
-  cost: 3.5073806096207565
+  cost: 53.507380609620753
   central_curve {
     segment {
       line_segment {
@@ -42403,7 +42415,7 @@ node {
       s: 13.075121879577637
     }
   }
-  cost: 5.9681880428440328
+  cost: 25.968188042844034
   central_curve {
     segment {
       line_segment {
@@ -42547,7 +42559,7 @@ node {
       s: 9.1253805160522461
     }
   }
-  cost: 4.1653138979431219
+  cost: 54.165313897943122
   central_curve {
     segment {
       line_segment {
@@ -42595,7 +42607,7 @@ node {
       s: 15.375581741333008
     }
   }
-  cost: 7.0182415082282148
+  cost: 57.018241508228215
   central_curve {
     segment {
       line_segment {
@@ -42927,7 +42939,7 @@ node {
       s: 7.5161828994750977
     }
   }
-  cost: 3.4307896570005134
+  cost: 23.430789657000513
   central_curve {
     segment {
       line_segment {
@@ -43023,7 +43035,7 @@ node {
       s: 22.749322891235352
     }
   }
-  cost: 10.384013098519178
+  cost: 60.384013098519176
   central_curve {
     segment {
       line_segment {
@@ -43311,7 +43323,7 @@ node {
       s: 13.999406814575195
     }
   }
-  cost: 6.3900813412804593
+  cost: 26.39008134128046
   central_curve {
     segment {
       line_segment {
@@ -43403,7 +43415,7 @@ node {
       s: 14.162447929382324
     }
   }
-  cost: 6.4645020649146856
+  cost: 26.464502064914686
   central_curve {
     segment {
       line_segment {
@@ -43551,7 +43563,7 @@ node {
       s: 24.136508941650391
     }
   }
-  cost: 11.017199333839724
+  cost: 61.017199333839727
   central_curve {
     segment {
       line_segment {
@@ -43611,7 +43623,7 @@ node {
       s: 20.465919494628906
     }
   }
-  cost: 9.3417451201302644
+  cost: 59.341745120130263
   central_curve {
     segment {
       line_segment {
@@ -43671,7 +43683,7 @@ node {
       s: 15.891242027282715
     }
   }
-  cost: 7.2536165648524671
+  cost: 57.253616564852464
   central_curve {
     segment {
       line_segment {
@@ -44103,7 +44115,7 @@ node {
       s: 9.103607177734375
     }
   }
-  cost: 4.1553753766353791
+  cost: 24.15537537663538
   central_curve {
     segment {
       line_segment {
@@ -44143,7 +44155,7 @@ node {
       s: 14.595148086547852
     }
   }
-  cost: 6.6620096620075744
+  cost: 56.662009662007577
   central_curve {
     segment {
       line_segment {
@@ -44199,7 +44211,7 @@ node {
       s: 19.831508636474609
     }
   }
-  cost: 9.0521659228762186
+  cost: 59.05216592287622
   central_curve {
     segment {
       line_segment {
@@ -44247,7 +44259,7 @@ node {
       s: 16.012031555175781
     }
   }
-  cost: 7.3087513943945268
+  cost: 27.308751394394527
   central_curve {
     segment {
       line_segment {
@@ -44635,7 +44647,7 @@ node {
       s: 14.147732734680176
     }
   }
-  cost: 6.457785259528217
+  cost: 56.457785259528215
   central_curve {
     segment {
       line_segment {
@@ -44691,7 +44703,7 @@ node {
       s: 16.842769622802734
     }
   }
-  cost: 7.687944877071776
+  cost: 57.687944877071779
   central_curve {
     segment {
       line_segment {
@@ -44778,13 +44790,13 @@ node {
 }
 node {
   lane_id: "lane_940"
-  length: 27.147800445556641
+  length: 27.170753479003906
   left_out {
     start {
       s: 0
     }
     end {
-      s: 27.147800445556641
+      s: 27.170753479003906
     }
   }
   right_out {
@@ -44792,10 +44804,10 @@ node {
       s: 0
     }
     end {
-      s: 27.147800445556641
+      s: 27.170753479003906
     }
   }
-  cost: 12.391714547743922
+  cost: 12.402191545283879
   central_curve {
     segment {
       line_segment {
@@ -44808,8 +44820,8 @@ node {
           y: 4182297.1690977542
         }
         point {
-          x: 553206.72481884912
-          y: 4182297.194427344
+          x: 553206.701900148
+          y: 4182297.129760596
         }
       }
       s: 0
@@ -44818,7 +44830,7 @@ node {
         y: 4182296.7897032229
         z: 0
       }
-      length: 27.147800445556641
+      length: 27.170753479003906
     }
   }
   is_virtual: false
@@ -45171,7 +45183,7 @@ node {
       s: 12.217004776000977
     }
   }
-  cost: 5.5764972973125948
+  cost: 25.576497297312596
   central_curve {
     segment {
       line_segment {
@@ -45215,7 +45227,7 @@ node {
       s: 13.882231712341309
     }
   }
-  cost: 6.3365963297821271
+  cost: 56.336596329782125
   central_curve {
     segment {
       line_segment {
@@ -45254,13 +45266,13 @@ node {
 }
 node {
   lane_id: "lane_950"
-  length: 17.309036254882812
+  length: 17.271787643432617
   left_out {
     start {
       s: 0
     }
     end {
-      s: 17.309036254882812
+      s: 17.271787643432617
     }
   }
   right_out {
@@ -45268,10 +45280,10 @@ node {
       s: 0
     }
     end {
-      s: 17.309036254882812
+      s: 17.271787643432617
     }
   }
-  cost: 7.9007740165617832
+  cost: 57.883771749239379
   central_curve {
     segment {
       line_segment {
@@ -45292,8 +45304,8 @@ node {
           y: 4182297.053008887
         }
         point {
-          x: 553206.66399731592
-          y: 4182297.053008887
+          x: 553206.701900148
+          y: 4182297.129760596
         }
       }
       s: 0
@@ -45302,7 +45314,7 @@ node {
         y: 4182285.4505613772
         z: 0
       }
-      length: 17.309036254882812
+      length: 17.271787643432617
     }
   }
   is_virtual: false
@@ -45327,7 +45339,7 @@ node {
       s: 21.49812126159668
     }
   }
-  cost: 9.81289745814721
+  cost: 59.812897458147212
   central_curve {
     segment {
       line_segment {
@@ -45615,7 +45627,7 @@ node {
       s: 9.1194210052490234
     }
   }
-  cost: 4.1625936570578306
+  cost: 24.16259365705783
   central_curve {
     segment {
       line_segment {
@@ -45703,7 +45715,7 @@ node {
       s: 13.601531982421875
     }
   }
-  cost: 6.208469893396753
+  cost: 26.208469893396753
   central_curve {
     segment {
       line_segment {
@@ -45851,7 +45863,7 @@ node {
       s: 28.229759216308594
     }
   }
-  cost: 12.885578655315868
+  cost: 62.885578655315868
   central_curve {
     segment {
       line_segment {
@@ -45907,7 +45919,7 @@ node {
       s: 24.242101669311523
     }
   }
-  cost: 11.065397527358883
+  cost: 61.065397527358883
   central_curve {
     segment {
       line_segment {
@@ -45963,7 +45975,7 @@ node {
       s: 20.573843002319336
     }
   }
-  cost: 9.391007206868121
+  cost: 59.391007206868125
   central_curve {
     segment {
       line_segment {
@@ -46019,7 +46031,7 @@ node {
       s: 17.78131103515625
     }
   }
-  cost: 8.11634559765482
+  cost: 58.116345597654821
   central_curve {
     segment {
       line_segment {
@@ -46299,7 +46311,7 @@ node {
       s: 16.440650939941406
     }
   }
-  cost: 7.50439630773831
+  cost: 27.504396307738311
   central_curve {
     segment {
       line_segment {
@@ -46391,7 +46403,7 @@ node {
       s: 12.687825202941895
     }
   }
-  cost: 5.7914050334144234
+  cost: 25.791405033414424
   central_curve {
     segment {
       line_segment {
@@ -46539,7 +46551,7 @@ node {
       s: 22.126127243041992
     }
   }
-  cost: 10.099553125590788
+  cost: 60.099553125590788
   central_curve {
     segment {
       line_segment {
@@ -46595,7 +46607,7 @@ node {
       s: 19.379508972167969
     }
   }
-  cost: 8.84584899392293
+  cost: 58.845848993922928
   central_curve {
     segment {
       line_segment {
@@ -46651,7 +46663,7 @@ node {
       s: 15.225483894348145
     }
   }
-  cost: 6.94972878736166
+  cost: 56.949728787361657
   central_curve {
     segment {
       line_segment {
@@ -46831,7 +46843,7 @@ node {
       s: 14.383806228637695
     }
   }
-  cost: 6.5655418844259419
+  cost: 56.56554188442594
   central_curve {
     segment {
       line_segment {
@@ -46887,7 +46899,7 @@ node {
       s: 15.615456581115723
     }
   }
-  cost: 7.127733271575095
+  cost: 57.127733271575096
   central_curve {
     segment {
       line_segment {
@@ -46931,7 +46943,7 @@ node {
       s: 13.9088773727417
     }
   }
-  cost: 6.34875884063747
+  cost: 56.348758840637473
   central_curve {
     segment {
       line_segment {
@@ -47267,7 +47279,7 @@ node {
       s: 9.6732234954833984
     }
   }
-  cost: 4.4153788647794139
+  cost: 24.415378864779413
   central_curve {
     segment {
       line_segment {
@@ -47407,7 +47419,7 @@ node {
       s: 16.630203247070312
     }
   }
-  cost: 7.5909181637729537
+  cost: 27.590918163772955
   central_curve {
     segment {
       line_segment {
@@ -47455,7 +47467,7 @@ node {
       s: 16.115568161010742
     }
   }
-  cost: 7.3560110634539813
+  cost: 27.35601106345398
   central_curve {
     segment {
       line_segment {
@@ -48079,7 +48091,7 @@ node {
       s: 14.634542465209961
     }
   }
-  cost: 6.6799913727596323
+  cost: 26.679991372759631
   central_curve {
     segment {
       line_segment {
@@ -48127,7 +48139,7 @@ node {
       s: 15.134702682495117
     }
   }
-  cost: 6.9082913653562574
+  cost: 26.908291365356256
   central_curve {
     segment {
       line_segment {
@@ -48367,7 +48379,7 @@ node {
       s: 14.653116226196289
     }
   }
-  cost: 6.6884694350867138
+  cost: 26.688469435086713
   central_curve {
     segment {
       line_segment {
@@ -48607,7 +48619,7 @@ node {
       s: 15.666824340820312
     }
   }
-  cost: 7.15118027666462
+  cost: 27.151180276664618
   central_curve {
     segment {
       line_segment {
@@ -48847,7 +48859,7 @@ node {
       s: 14.687135696411133
     }
   }
-  cost: 6.7039977488745377
+  cost: 26.703997748874539
   central_curve {
     segment {
       line_segment {
@@ -49279,7 +49291,7 @@ node {
       s: 13.930607795715332
     }
   }
-  cost: 6.35867777307662
+  cost: 26.358677773076622
   central_curve {
     segment {
       line_segment {
@@ -49335,7 +49347,7 @@ node {
       s: 17.295017242431641
     }
   }
-  cost: 7.8943749861547134
+  cost: 57.894374986154716
   central_curve {
     segment {
       line_segment {
@@ -49370,13 +49382,13 @@ node {
 }
 node {
   lane_id: "lane_1035"
-  length: 18.449710845947266
+  length: 23.686929702758789
   left_out {
     start {
       s: 0
     }
     end {
-      s: 18.449710845947266
+      s: 23.686929702758789
     }
   }
   right_out {
@@ -49384,20 +49396,20 @@ node {
       s: 0
     }
     end {
-      s: 18.449710845947266
+      s: 23.686929702758789
     }
   }
-  cost: 8.4214391788345786
+  cost: 60.811987217075085
   central_curve {
     segment {
       line_segment {
         point {
-          x: 552802.76256909326
-          y: 4183219.5338743655
+          x: 552805.89861645654
+          y: 4183223.8946531741
         }
         point {
-          x: 552796.55135693506
-          y: 4183210.6795652835
+          x: 552797.10818066553
+          y: 4183211.459838721
         }
         point {
           x: 552796.51159253076
@@ -49410,11 +49422,11 @@ node {
       }
       s: 0
       start_position {
-        x: 552802.76256909326
-        y: 4183219.5338743655
+        x: 552805.89861645654
+        y: 4183223.8946531741
         z: 0
       }
-      length: 18.449710845947266
+      length: 23.686929702758789
     }
   }
   is_virtual: false
@@ -49575,7 +49587,7 @@ node {
       s: 25.112056732177734
     }
   }
-  cost: 11.46249175346467
+  cost: 61.462491753464668
   central_curve {
     segment {
       line_segment {
@@ -49631,7 +49643,7 @@ node {
       s: 30.450912475585938
     }
   }
-  cost: 13.899432326848244
+  cost: 63.899432326848242
   central_curve {
     segment {
       line_segment {
@@ -49679,7 +49691,7 @@ node {
       s: 13.655727386474609
     }
   }
-  cost: 6.2332075872724664
+  cost: 56.233207587272467
   central_curve {
     segment {
       line_segment {
@@ -49735,7 +49747,7 @@ node {
       s: 20.778604507446289
     }
   }
-  cost: 9.4844713579321489
+  cost: 59.484471357932151
   central_curve {
     segment {
       line_segment {
@@ -49791,7 +49803,7 @@ node {
       s: 27.666206359863281
     }
   }
-  cost: 12.628342856649938
+  cost: 62.628342856649937
   central_curve {
     segment {
       line_segment {
@@ -49847,7 +49859,7 @@ node {
       s: 34.739780426025391
     }
   }
-  cost: 15.857102064453519
+  cost: 65.857102064453514
   central_curve {
     segment {
       line_segment {
@@ -50263,7 +50275,7 @@ node {
       s: 14.985563278198242
     }
   }
-  cost: 6.8402161292216137
+  cost: 56.840216129221616
   central_curve {
     segment {
       line_segment {
@@ -50319,7 +50331,7 @@ node {
       s: 23.917097091674805
     }
   }
-  cost: 10.917047978346211
+  cost: 60.917047978346211
   central_curve {
     segment {
       line_segment {
@@ -50375,7 +50387,7 @@ node {
       s: 29.481170654296875
     }
   }
-  cost: 13.456790063489844
+  cost: 63.456790063489848
   central_curve {
     segment {
       line_segment {
@@ -50431,7 +50443,7 @@ node {
       s: 17.418554306030273
     }
   }
-  cost: 7.9507639385949211
+  cost: 57.950763938594918
   central_curve {
     segment {
       line_segment {
@@ -50623,7 +50635,7 @@ node {
       s: 17.645891189575195
     }
   }
-  cost: 8.0545327051552871
+  cost: 28.054532705155289
   central_curve {
     segment {
       line_segment {
@@ -50671,7 +50683,7 @@ node {
       s: 9.8573322296142578
     }
   }
-  cost: 4.4994159816600741
+  cost: 24.499415981660075
   central_curve {
     segment {
       line_segment {
@@ -50898,13 +50910,13 @@ node {
 }
 node {
   lane_id: "lane_1066"
-  length: 29.38636589050293
+  length: 34.766441345214844
   left_out {
     start {
       s: 0
     }
     end {
-      s: 29.38636589050293
+      s: 34.766441345214844
     }
   }
   right_out {
@@ -50912,10 +50924,10 @@ node {
       s: 0
     }
     end {
-      s: 29.38636589050293
+      s: 34.766441345214844
     }
   }
-  cost: 13.413516076226793
+  cost: 65.869271540239922
   central_curve {
     segment {
       line_segment {
@@ -50936,12 +50948,12 @@ node {
           y: 4183292.6701658694
         }
         point {
-          x: 553025.72863354639
-          y: 4183288.8352049319
+          x: 553026.18053784326
+          y: 4183288.8810423343
         }
         point {
-          x: 553029.05416455225
-          y: 4183286.5228270022
+          x: 553033.42806591943
+          y: 4183283.2243650882
         }
       }
       s: 0
@@ -50950,7 +50962,7 @@ node {
         y: 4183311.5729979007
         z: 0
       }
-      length: 29.38636589050293
+      length: 34.766441345214844
     }
   }
   is_virtual: false
@@ -50967,7 +50979,7 @@ node {
       s: 13.414872169494629
     }
   }
-  cost: 6.1232683271052828
+  cost: 26.123268327105283
   central_curve {
     segment {
       line_segment {
@@ -51027,7 +51039,7 @@ node {
       s: 15.834821701049805
     }
   }
-  cost: 7.2278632969672509
+  cost: 27.22786329696725
   central_curve {
     segment {
       line_segment {
@@ -51079,7 +51091,7 @@ node {
       s: 21.757566452026367
     }
   }
-  cost: 9.9313221808807235
+  cost: 29.931322180880723
   central_curve {
     segment {
       line_segment {
@@ -51139,7 +51151,7 @@ node {
       s: 31.096321105957031
     }
   }
-  cost: 14.194031498160408
+  cost: 34.194031498160406
   central_curve {
     segment {
       line_segment {
@@ -51199,7 +51211,7 @@ node {
       s: 23.317682266235352
     }
   }
-  cost: 10.64344285046753
+  cost: 60.64344285046753
   central_curve {
     segment {
       line_segment {
@@ -51259,7 +51271,7 @@ node {
       s: 18.029354095458984
     }
   }
-  cost: 8.22956577565725
+  cost: 58.22956577565725
   central_curve {
     segment {
       line_segment {
@@ -51307,7 +51319,7 @@ node {
       s: 14.37441349029541
     }
   }
-  cost: 6.5612545340532042
+  cost: 56.561254534053205
   central_curve {
     segment {
       line_segment {
@@ -51739,7 +51751,7 @@ node {
       s: 14.202631950378418
     }
   }
-  cost: 6.4828442108488566
+  cost: 26.482844210848857
   central_curve {
     segment {
       line_segment {
@@ -51787,7 +51799,7 @@ node {
       s: 18.671195983886719
     }
   }
-  cost: 8.5225368943352322
+  cost: 58.522536894335232
   central_curve {
     segment {
       line_segment {
@@ -52027,7 +52039,7 @@ node {
       s: 15.46196174621582
     }
   }
-  cost: 7.05766998293235
+  cost: 27.057669982932349
   central_curve {
     segment {
       line_segment {
@@ -52267,7 +52279,7 @@ node {
       s: 13.798517227172852
     }
   }
-  cost: 6.2983845414717168
+  cost: 56.298384541471719
   central_curve {
     segment {
       line_segment {
@@ -52555,7 +52567,7 @@ node {
       s: 13.630645751953125
     }
   }
-  cost: 6.221758981850293
+  cost: 26.221758981850293
   central_curve {
     segment {
       line_segment {
@@ -52603,7 +52615,7 @@ node {
       s: 15.497809410095215
     }
   }
-  cost: 7.0740327825222389
+  cost: 27.074032782522238
   central_curve {
     segment {
       line_segment {
@@ -52663,7 +52675,7 @@ node {
       s: 17.780494689941406
     }
   }
-  cost: 8.1159729738433626
+  cost: 58.115972973843363
   central_curve {
     segment {
       line_segment {
@@ -52923,7 +52935,7 @@ node {
       s: 26.936521530151367
     }
   }
-  cost: 12.295275500502893
+  cost: 62.295275500502896
   central_curve {
     segment {
       line_segment {
@@ -52983,7 +52995,7 @@ node {
       s: 31.248149871826172
     }
   }
-  cost: 14.263334303393551
+  cost: 64.263334303393549
   central_curve {
     segment {
       line_segment {
@@ -53043,7 +53055,7 @@ node {
       s: 37.177700042724609
     }
   }
-  cost: 16.969899546557691
+  cost: 66.969899546557684
   central_curve {
     segment {
       line_segment {
@@ -53095,7 +53107,7 @@ node {
       s: 17.064792633056641
     }
   }
-  cost: 7.7892881063921289
+  cost: 27.789288106392128
   central_curve {
     segment {
       line_segment {
@@ -53251,7 +53263,7 @@ node {
       s: 13.208820343017578
     }
   }
-  cost: 6.0292152040588887
+  cost: 26.02921520405889
   central_curve {
     segment {
       line_segment {
@@ -53419,7 +53431,7 @@ node {
       s: 28.981103897094727
     }
   }
-  cost: 13.228532731095934
+  cost: 63.228532731095932
   central_curve {
     segment {
       line_segment {
@@ -53487,7 +53499,7 @@ node {
       s: 27.403831481933594
     }
   }
-  cost: 12.508580867153807
+  cost: 62.50858086715381
   central_curve {
     segment {
       line_segment {
@@ -53547,7 +53559,7 @@ node {
       s: 33.133430480957031
     }
   }
-  cost: 15.123877653769108
+  cost: 65.123877653769114
   central_curve {
     segment {
       line_segment {
@@ -53747,7 +53759,7 @@ node {
       s: 26.906618118286133
     }
   }
-  cost: 12.28162597686724
+  cost: 62.28162597686724
   central_curve {
     segment {
       line_segment {
@@ -53807,7 +53819,7 @@ node {
       s: 35.059188842773438
     }
   }
-  cost: 16.002897225001654
+  cost: 66.002897225001647
   central_curve {
     segment {
       line_segment {
@@ -54043,7 +54055,7 @@ node {
       s: 15.482173919677734
     }
   }
-  cost: 7.0668959047314965
+  cost: 27.066895904731496
   central_curve {
     segment {
       line_segment {
@@ -54099,7 +54111,7 @@ node {
       s: 17.634300231933594
     }
   }
-  cost: 8.0492419694023933
+  cost: 58.049241969402395
   central_curve {
     segment {
       line_segment {
@@ -54159,7 +54171,7 @@ node {
       s: 22.173576354980469
     }
   }
-  cost: 10.12121144932367
+  cost: 60.121211449323667
   central_curve {
     segment {
       line_segment {
@@ -54215,7 +54227,7 @@ node {
       s: 28.887786865234375
     }
   }
-  cost: 13.185937824610775
+  cost: 63.185937824610775
   central_curve {
     segment {
       line_segment {
@@ -54271,7 +54283,7 @@ node {
       s: 21.323825836181641
     }
   }
-  cost: 9.733339662551499
+  cost: 29.7333396625515
   central_curve {
     segment {
       line_segment {
@@ -54319,7 +54331,7 @@ node {
       s: 13.932069778442383
     }
   }
-  cost: 6.359345100533357
+  cost: 26.359345100533357
   central_curve {
     segment {
       line_segment {
@@ -54687,7 +54699,7 @@ node {
       s: 16.024303436279297
     }
   }
-  cost: 7.3143529401957634
+  cost: 57.314352940195761
   central_curve {
     segment {
       line_segment {
@@ -54743,7 +54755,7 @@ node {
       s: 17.586490631103516
     }
   }
-  cost: 8.02741909917333
+  cost: 58.027419099173329
   central_curve {
     segment {
       line_segment {
@@ -55175,7 +55187,7 @@ node {
       s: 15.054712295532227
     }
   }
-  cost: 6.8717794555315352
+  cost: 56.871779455531538
   central_curve {
     segment {
       line_segment {
@@ -55223,7 +55235,7 @@ node {
       s: 13.355926513671875
     }
   }
-  cost: 6.096362363130412
+  cost: 26.09636236313041
   central_curve {
     segment {
       line_segment {
@@ -55455,7 +55467,7 @@ node {
       s: 14.640508651733398
     }
   }
-  cost: 6.6827146608022607
+  cost: 56.682714660802262
   central_curve {
     segment {
       line_segment {
@@ -55511,7 +55523,7 @@ node {
       s: 15.818710327148438
     }
   }
-  cost: 7.2205092003892206
+  cost: 57.220509200389223
   central_curve {
     segment {
       line_segment {
@@ -55567,7 +55579,7 @@ node {
       s: 22.991334915161133
     }
   }
-  cost: 10.494480387521993
+  cost: 60.494480387521989
   central_curve {
     segment {
       line_segment {
@@ -55623,7 +55635,7 @@ node {
       s: 28.1061954498291
     }
   }
-  cost: 12.829177514246313
+  cost: 62.829177514246311
   central_curve {
     segment {
       line_segment {
@@ -55806,13 +55818,13 @@ node {
 }
 node {
   lane_id: "lane_1163"
-  length: 22.181137084960938
+  length: 28.225444793701172
   left_out {
     start {
       s: 0
     }
     end {
-      s: 22.181137084960938
+      s: 28.225444793701172
     }
   }
   right_out {
@@ -55820,10 +55832,10 @@ node {
       s: 0
     }
     end {
-      s: 22.181137084960938
+      s: 28.225444793701172
     }
   }
-  cost: 10.124662572661579
+  cost: 12.883609321059977
   central_curve {
     segment {
       line_segment {
@@ -55832,12 +55844,20 @@ node {
           y: 4182861.6481626956
         }
         point {
+          x: 553469.70089306787
+          y: 4182865.9950560061
+        }
+        point {
           x: 553463.33706250146
           y: 4182870.3417967288
         }
         point {
-          x: 553457.8081318374
-          y: 4182874.2448729007
+          x: 553459.87752881006
+          y: 4182873.0769651858
+        }
+        point {
+          x: 553453.03780713037
+          y: 4182877.9566038577
         }
       }
       s: 0
@@ -55846,7 +55866,7 @@ node {
         y: 4182861.6481626956
         z: 0
       }
-      length: 22.181137084960938
+      length: 28.225444793701172
     }
   }
   is_virtual: false
@@ -55863,7 +55883,7 @@ node {
       s: 14.106047630310059
     }
   }
-  cost: 6.43875793850148
+  cost: 56.438757938501482
   central_curve {
     segment {
       line_segment {
@@ -55911,7 +55931,7 @@ node {
       s: 15.11794376373291
     }
   }
-  cost: 6.9006416945165672
+  cost: 26.900641694516565
   central_curve {
     segment {
       line_segment {
@@ -56343,7 +56363,7 @@ node {
       s: 14.934966087341309
     }
   }
-  cost: 6.8171208531503824
+  cost: 26.817120853150382
   central_curve {
     segment {
       line_segment {
@@ -56583,7 +56603,7 @@ node {
       s: 14.110877990722656
     }
   }
-  cost: 6.4409627744886775
+  cost: 56.440962774488675
   central_curve {
     segment {
       line_segment {
@@ -56815,7 +56835,7 @@ node {
       s: 15.112117767333984
     }
   }
-  cost: 6.89798239677801
+  cost: 56.897982396778012
   central_curve {
     segment {
       line_segment {
@@ -56871,7 +56891,7 @@ node {
       s: 17.974960327148438
     }
   }
-  cost: 8.2047375376778167
+  cost: 58.204737537677815
   central_curve {
     segment {
       line_segment {
@@ -56927,7 +56947,7 @@ node {
       s: 23.435089111328125
     }
   }
-  cost: 10.697033641856265
+  cost: 60.697033641856265
   central_curve {
     segment {
       line_segment {
@@ -56987,7 +57007,7 @@ node {
       s: 29.149879455566406
     }
   }
-  cost: 13.305570962882385
+  cost: 63.305570962882385
   central_curve {
     segment {
       line_segment {
@@ -57187,7 +57207,7 @@ node {
       s: 13.159829139709473
     }
   }
-  cost: 6.0068529869812295
+  cost: 56.006852986981229
   central_curve {
     segment {
       line_segment {
@@ -57243,7 +57263,7 @@ node {
       s: 19.610851287841797
     }
   }
-  cost: 8.9514460548853165
+  cost: 58.951446054885317
   central_curve {
     segment {
       line_segment {
@@ -57679,7 +57699,7 @@ node {
       s: 14.41425895690918
     }
   }
-  cost: 6.5794421455795851
+  cost: 56.579442145579584
   central_curve {
     segment {
       line_segment {
@@ -57727,7 +57747,7 @@ node {
       s: 14.394596099853516
     }
   }
-  cost: 6.5704669612984308
+  cost: 26.570466961298429
   central_curve {
     segment {
       line_segment {
@@ -57911,7 +57931,7 @@ node {
       s: 12.698155403137207
     }
   }
-  cost: 5.7961202917388714
+  cost: 25.796120291738873
   central_curve {
     segment {
       line_segment {
@@ -57967,7 +57987,7 @@ node {
       s: 16.270557403564453
     }
   }
-  cost: 7.4267564800319557
+  cost: 27.426756480031955
   central_curve {
     segment {
       line_segment {
@@ -58211,7 +58231,7 @@ node {
       s: 18.078298568725586
     }
   }
-  cost: 8.2519066626335515
+  cost: 58.251906662633552
   central_curve {
     segment {
       line_segment {
@@ -58271,7 +58291,7 @@ node {
       s: 23.462339401245117
     }
   }
-  cost: 10.709472138104674
+  cost: 60.709472138104672
   central_curve {
     segment {
       line_segment {
@@ -58331,7 +58351,7 @@ node {
       s: 29.360219955444336
     }
   }
-  cost: 13.401581666863512
+  cost: 63.401581666863514
   central_curve {
     segment {
       line_segment {
@@ -58391,7 +58411,7 @@ node {
       s: 35.609817504882812
     }
   }
-  cost: 16.254233727063731
+  cost: 66.254233727063735
   central_curve {
     segment {
       line_segment {
@@ -58591,7 +58611,7 @@ node {
       s: 15.740549087524414
     }
   }
-  cost: 7.1848322116747543
+  cost: 57.184832211674753
   central_curve {
     segment {
       line_segment {
@@ -58651,7 +58671,7 @@ node {
       s: 21.26434326171875
     }
   }
-  cost: 9.70618862006512
+  cost: 59.70618862006512
   central_curve {
     segment {
       line_segment {
@@ -58703,7 +58723,7 @@ node {
       s: 18.303438186645508
     }
   }
-  cost: 8.3546724791219535
+  cost: 28.354672479121952
   central_curve {
     segment {
       line_segment {
@@ -58755,7 +58775,7 @@ node {
       s: 25.557130813598633
     }
   }
-  cost: 11.665647474335229
+  cost: 31.665647474335231
   central_curve {
     segment {
       line_segment {
@@ -58995,7 +59015,7 @@ node {
       s: 26.17167854309082
     }
   }
-  cost: 11.946160072588018
+  cost: 61.946160072588015
   central_curve {
     segment {
       line_segment {
@@ -59051,7 +59071,7 @@ node {
       s: 34.395942687988281
     }
   }
-  cost: 15.700156049285827
+  cost: 65.700156049285823
   central_curve {
     segment {
       line_segment {
@@ -59111,7 +59131,7 @@ node {
       s: 31.285400390625
     }
   }
-  cost: 14.280337441332337
+  cost: 64.280337441332335
   central_curve {
     segment {
       line_segment {
@@ -59163,7 +59183,7 @@ node {
       s: 37.035079956054688
     }
   }
-  cost: 16.904800077216432
+  cost: 66.904800077216436
   central_curve {
     segment {
       line_segment {
@@ -59371,7 +59391,7 @@ node {
       s: 25.58790397644043
     }
   }
-  cost: 11.679693999041033
+  cost: 61.679693999041035
   central_curve {
     segment {
       line_segment {
@@ -59423,7 +59443,7 @@ node {
       s: 30.465217590332031
     }
   }
-  cost: 13.905961949712601
+  cost: 63.905961949712605
   central_curve {
     segment {
       line_segment {
@@ -59479,7 +59499,7 @@ node {
       s: 26.242168426513672
     }
   }
-  cost: 11.978335442214426
+  cost: 61.97833544221443
   central_curve {
     segment {
       line_segment {
@@ -59539,7 +59559,7 @@ node {
       s: 32.718841552734375
     }
   }
-  cost: 14.934636994530686
+  cost: 64.934636994530692
   central_curve {
     segment {
       line_segment {
@@ -59787,7 +59807,7 @@ node {
       s: 15.460498809814453
     }
   }
-  cost: 7.0570022201674218
+  cost: 57.057002220167419
   central_curve {
     segment {
       line_segment {
@@ -59843,7 +59863,7 @@ node {
       s: 21.899812698364258
     }
   }
-  cost: 9.9962510094111288
+  cost: 59.996251009411125
   central_curve {
     segment {
       line_segment {
@@ -59903,7 +59923,7 @@ node {
       s: 27.861370086669922
     }
   }
-  cost: 12.717426066080174
+  cost: 62.717426066080172
   central_curve {
     segment {
       line_segment {
@@ -59963,7 +59983,7 @@ node {
       s: 33.738132476806641
     }
   }
-  cost: 15.399896130258456
+  cost: 65.399896130258455
   central_curve {
     segment {
       line_segment {
@@ -60163,7 +60183,7 @@ node {
       s: 17.792278289794922
     }
   }
-  cost: 8.12135164185083
+  cost: 58.121351641850829
   central_curve {
     segment {
       line_segment {
@@ -60223,7 +60243,7 @@ node {
       s: 23.963874816894531
     }
   }
-  cost: 10.938399845112659
+  cost: 60.938399845112656
   central_curve {
     segment {
       line_segment {
@@ -60275,7 +60295,7 @@ node {
       s: 15.084918975830078
     }
   }
-  cost: 6.8855674071719122
+  cost: 56.885567407171912
   central_curve {
     segment {
       line_segment {
@@ -60335,7 +60355,7 @@ node {
       s: 21.430698394775391
     }
   }
-  cost: 9.7821220396629229
+  cost: 59.782122039662923
   central_curve {
     segment {
       line_segment {
@@ -60395,7 +60415,7 @@ node {
       s: 27.581680297851562
     }
   }
-  cost: 12.589760621069024
+  cost: 62.589760621069026
   central_curve {
     segment {
       line_segment {
@@ -60447,7 +60467,7 @@ node {
       s: 33.671531677246094
     }
   }
-  cost: 15.369495947434773
+  cost: 65.369495947434771
   central_curve {
     segment {
       line_segment {
@@ -60499,7 +60519,7 @@ node {
       s: 13.614772796630859
     }
   }
-  cost: 6.2145137123200023
+  cost: 26.214513712320002
   central_curve {
     segment {
       line_segment {
@@ -60559,7 +60579,7 @@ node {
       s: 19.487003326416016
     }
   }
-  cost: 8.8949151919748566
+  cost: 28.894915191974857
   central_curve {
     segment {
       line_segment {
@@ -60611,7 +60631,7 @@ node {
       s: 13.618701934814453
     }
   }
-  cost: 6.2163071820667462
+  cost: 56.216307182066743
   central_curve {
     segment {
       line_segment {
@@ -60671,7 +60691,7 @@ node {
       s: 19.814212799072266
     }
   }
-  cost: 9.0442711735250185
+  cost: 59.044271173525019
   central_curve {
     segment {
       line_segment {
@@ -60731,7 +60751,7 @@ node {
       s: 17.613590240478516
     }
   }
-  cost: 8.0397888167275688
+  cost: 28.039788816727569
   central_curve {
     segment {
       line_segment {
@@ -60783,7 +60803,7 @@ node {
       s: 11.71476936340332
     }
   }
-  cost: 5.3472500740924476
+  cost: 25.347250074092447
   central_curve {
     segment {
       line_segment {
@@ -60831,7 +60851,7 @@ node {
       s: 12.201674461364746
     }
   }
-  cost: 5.5694997181429589
+  cost: 55.569499718142957
   central_curve {
     segment {
       line_segment {
@@ -60887,7 +60907,7 @@ node {
       s: 19.429584503173828
     }
   }
-  cost: 8.8687061564137082
+  cost: 58.868706156413708
   central_curve {
     segment {
       line_segment {
@@ -60947,7 +60967,7 @@ node {
       s: 24.221321105957031
     }
   }
-  cost: 11.055912161877925
+  cost: 61.055912161877927
   central_curve {
     segment {
       line_segment {
@@ -61003,7 +61023,7 @@ node {
       s: 27.625873565673828
     }
   }
-  cost: 12.609932802637978
+  cost: 62.609932802637978
   central_curve {
     segment {
       line_segment {
@@ -61147,7 +61167,7 @@ node {
       s: 15.036696434020996
     }
   }
-  cost: 6.8635560484961635
+  cost: 26.863556048496164
   central_curve {
     segment {
       line_segment {
@@ -61199,7 +61219,7 @@ node {
       s: 16.242256164550781
     }
   }
-  cost: 7.4138382741571114
+  cost: 27.413838274157111
   central_curve {
     segment {
       line_segment {
@@ -61467,7 +61487,7 @@ node {
       s: 17.471406936645508
     }
   }
-  cost: 7.9748887185377662
+  cost: 57.97488871853777
   central_curve {
     segment {
       line_segment {
@@ -61523,7 +61543,7 @@ node {
       s: 26.02130126953125
     }
   }
-  cost: 11.877519806421512
+  cost: 61.87751980642151
   central_curve {
     segment {
       line_segment {
@@ -61763,7 +61783,7 @@ node {
       s: 15.040182113647461
     }
   }
-  cost: 6.865147099934112
+  cost: 26.865147099934113
   central_curve {
     segment {
       line_segment {
@@ -61823,7 +61843,7 @@ node {
       s: 20.889425277709961
     }
   }
-  cost: 9.5350559109541351
+  cost: 29.535055910954135
   central_curve {
     segment {
       line_segment {
@@ -61883,7 +61903,7 @@ node {
       s: 27.084445953369141
     }
   }
-  cost: 12.362796154002256
+  cost: 32.362796154002254
   central_curve {
     segment {
       line_segment {
@@ -61943,7 +61963,7 @@ node {
       s: 33.024002075195312
     }
   }
-  cost: 15.073928650705922
+  cost: 35.073928650705923
   central_curve {
     segment {
       line_segment {
@@ -62143,7 +62163,7 @@ node {
       s: 14.552230834960938
     }
   }
-  cost: 6.6424199227981209
+  cost: 26.642419922798119
   central_curve {
     segment {
       line_segment {
@@ -62199,7 +62219,7 @@ node {
       s: 21.277206420898438
     }
   }
-  cost: 9.71206005694475
+  cost: 29.71206005694475
   central_curve {
     segment {
       line_segment {
@@ -62251,7 +62271,7 @@ node {
       s: 16.501274108886719
     }
   }
-  cost: 7.5320679788210745
+  cost: 27.532067978821075
   central_curve {
     segment {
       line_segment {
@@ -62303,7 +62323,7 @@ node {
       s: 16.055349349975586
     }
   }
-  cost: 7.3285239630441827
+  cost: 57.328523963044184
   central_curve {
     segment {
       line_segment {
@@ -62947,7 +62967,7 @@ node {
       s: 32.895736694335938
     }
   }
-  cost: 15.015381440254947
+  cost: 65.015381440254941
   central_curve {
     segment {
       line_segment {
@@ -63007,7 +63027,7 @@ node {
       s: 27.712886810302734
     }
   }
-  cost: 12.649650321980909
+  cost: 62.649650321980907
   central_curve {
     segment {
       line_segment {
@@ -63063,7 +63083,7 @@ node {
       s: 20.828220367431641
     }
   }
-  cost: 9.5071187018748855
+  cost: 59.507118701874887
   central_curve {
     segment {
       line_segment {
@@ -63111,7 +63131,7 @@ node {
       s: 14.630733489990234
     }
   }
-  cost: 6.6782527518449495
+  cost: 56.678252751844951
   central_curve {
     segment {
       line_segment {
@@ -63255,7 +63275,7 @@ node {
       s: 18.730358123779297
     }
   }
-  cost: 8.54954167326945
+  cost: 58.549541673269452
   central_curve {
     segment {
       line_segment {
@@ -63315,7 +63335,7 @@ node {
       s: 25.394598007202148
     }
   }
-  cost: 11.591458769966783
+  cost: 61.591458769966785
   central_curve {
     segment {
       line_segment {
@@ -63367,7 +63387,7 @@ node {
       s: 17.040311813354492
     }
   }
-  cost: 7.7781137451302582
+  cost: 27.778113745130259
   central_curve {
     segment {
       line_segment {
@@ -63423,7 +63443,7 @@ node {
       s: 25.438745498657227
     }
   }
-  cost: 11.611610056742572
+  cost: 61.61161005674257
   central_curve {
     segment {
       line_segment {
@@ -63466,13 +63486,13 @@ node {
 }
 node {
   lane_id: "lane_1312"
-  length: 29.186199188232422
+  length: 21.174121856689453
   left_out {
     start {
       s: 0
     }
     end {
-      s: 29.186199188232422
+      s: 21.174121856689453
     }
   }
   right_out {
@@ -63480,24 +63500,28 @@ node {
       s: 0
     }
     end {
-      s: 29.186199188232422
+      s: 21.174121856689453
     }
   }
-  cost: 13.322149240026796
+  cost: 59.665006723967807
   central_curve {
     segment {
       line_segment {
         point {
-          x: 552833.15047802881
-          y: 4181724.4240721194
+          x: 552826.52117505029
+          y: 4181724.5537107913
         }
         point {
-          x: 552826.47240796045
-          y: 4181724.4222410647
+          x: 552834.72600903467
+          y: 4181725.5300291507
         }
         point {
-          x: 552842.85573925928
-          y: 4181727.1367186038
+          x: 552840.19375195459
+          y: 4181726.88714585
+        }
+        point {
+          x: 552843.11889233545
+          y: 4181730.0756834475
         }
         point {
           x: 552843.38204541162
@@ -63506,11 +63530,11 @@ node {
       }
       s: 0
       start_position {
-        x: 552833.15047802881
-        y: 4181724.4240721194
+        x: 552826.52117505029
+        y: 4181724.5537107913
         z: 0
       }
-      length: 29.186199188232422
+      length: 21.174121856689453
     }
   }
   is_virtual: false
@@ -63535,7 +63559,7 @@ node {
       s: 23.784460067749023
     }
   }
-  cost: 10.85650531514789
+  cost: 60.856505315147892
   central_curve {
     segment {
       line_segment {
@@ -63683,7 +63707,7 @@ node {
       s: 17.558944702148438
     }
   }
-  cost: 8.0148456573857239
+  cost: 58.01484565738572
   central_curve {
     segment {
       line_segment {
@@ -63739,7 +63763,7 @@ node {
       s: 29.675081253051758
     }
   }
-  cost: 13.545301277957162
+  cost: 63.545301277957165
   central_curve {
     segment {
       line_segment {
@@ -63791,7 +63815,7 @@ node {
       s: 17.330928802490234
     }
   }
-  cost: 7.9107669513933958
+  cost: 27.910766951393395
   central_curve {
     segment {
       line_segment {
@@ -63931,7 +63955,7 @@ node {
       s: 16.964393615722656
     }
   }
-  cost: 7.7434606012809235
+  cost: 27.743460601280923
   central_curve {
     segment {
       line_segment {
@@ -63987,7 +64011,7 @@ node {
       s: 26.078350067138672
     }
   }
-  cost: 11.90355994240457
+  cost: 61.90355994240457
   central_curve {
     segment {
       line_segment {
@@ -64147,7 +64171,7 @@ node {
       s: 30.262557983398438
     }
   }
-  cost: 13.813457217901442
+  cost: 63.813457217901444
   central_curve {
     segment {
       line_segment {
@@ -64199,7 +64223,7 @@ node {
       s: 16.820343017578125
     }
   }
-  cost: 7.6777081696532274
+  cost: 27.677708169653229
   central_curve {
     segment {
       line_segment {
@@ -64259,7 +64283,7 @@ node {
       s: 23.135845184326172
     }
   }
-  cost: 10.560442637697729
+  cost: 30.560442637697729
   central_curve {
     segment {
       line_segment {
@@ -64319,7 +64343,7 @@ node {
       s: 19.401405334472656
     }
   }
-  cost: 8.8558436699873067
+  cost: 58.855843669987308
   central_curve {
     segment {
       line_segment {
@@ -64371,7 +64395,7 @@ node {
       s: 25.686775207519531
     }
   }
-  cost: 11.724824140430327
+  cost: 61.724824140430329
   central_curve {
     segment {
       line_segment {
@@ -64558,13 +64582,13 @@ node {
 }
 node {
   lane_id: "lane_1333"
-  length: 21.096305847167969
+  length: 29.263343811035156
   left_out {
     start {
       s: 0
     }
     end {
-      s: 21.096305847167969
+      s: 29.263343811035156
     }
   }
   right_out {
@@ -64572,10 +64596,10 @@ node {
       s: 0
     }
     end {
-      s: 21.096305847167969
+      s: 29.263343811035156
     }
   }
-  cost: 9.62948731681847
+  cost: 13.357362190209702
   central_curve {
     segment {
       line_segment {
@@ -64591,6 +64615,10 @@ node {
           x: 553657.86202588037
           y: 4182097.1599119632
         }
+        point {
+          x: 553657.47701611475
+          y: 4182089.0019529788
+        }
       }
       s: 0
       start_position {
@@ -64598,7 +64626,7 @@ node {
         y: 4182117.9504393069
         z: 0
       }
-      length: 21.096305847167969
+      length: 29.263343811035156
     }
   }
   is_virtual: false
@@ -64615,7 +64643,7 @@ node {
       s: 16.918704986572266
     }
   }
-  cost: 7.7226058564685482
+  cost: 27.722605856468547
   central_curve {
     segment {
       line_segment {
@@ -64663,7 +64691,7 @@ node {
       s: 17.358074188232422
     }
   }
-  cost: 7.9231575637408005
+  cost: 27.9231575637408
   central_curve {
     segment {
       line_segment {
@@ -64907,7 +64935,7 @@ node {
       s: 24.888130187988281
     }
   }
-  cost: 11.360279648995167
+  cost: 61.360279648995167
   central_curve {
     segment {
       line_segment {
@@ -64959,7 +64987,7 @@ node {
       s: 16.997125625610352
     }
   }
-  cost: 7.7584012490109551
+  cost: 27.758401249010955
   central_curve {
     segment {
       line_segment {
@@ -65019,7 +65047,7 @@ node {
       s: 22.516092300415039
     }
   }
-  cost: 10.277554127338696
+  cost: 30.277554127338696
   central_curve {
     segment {
       line_segment {
@@ -65167,7 +65195,7 @@ node {
       s: 25.04231071472168
     }
   }
-  cost: 11.43065592422721
+  cost: 31.43065592422721
   central_curve {
     segment {
       line_segment {
@@ -65227,7 +65255,7 @@ node {
       s: 30.956211090087891
     }
   }
-  cost: 14.130077759977747
+  cost: 34.130077759977745
   central_curve {
     segment {
       line_segment {
@@ -65283,7 +65311,7 @@ node {
       s: 29.242946624755859
     }
   }
-  cost: 13.348051818621512
+  cost: 63.348051818621514
   central_curve {
     segment {
       line_segment {
@@ -65335,7 +65363,7 @@ node {
       s: 20.420881271362305
     }
   }
-  cost: 9.3211872555041211
+  cost: 59.321187255504121
   central_curve {
     segment {
       line_segment {
@@ -65387,7 +65415,7 @@ node {
       s: 18.259895324707031
     }
   }
-  cost: 8.3347971777392313
+  cost: 28.334797177739233
   central_curve {
     segment {
       line_segment {
@@ -65447,7 +65475,7 @@ node {
       s: 17.558200836181641
     }
   }
-  cost: 8.0145061169967775
+  cost: 28.014506116996778
   central_curve {
     segment {
       line_segment {
@@ -65507,7 +65535,7 @@ node {
       s: 18.117456436157227
     }
   }
-  cost: 8.2697804169542533
+  cost: 28.269780416954255
   central_curve {
     segment {
       line_segment {
@@ -65555,7 +65583,7 @@ node {
       s: 16.783962249755859
     }
   }
-  cost: 7.6611020327845942
+  cost: 27.661102032784594
   central_curve {
     segment {
       line_segment {
@@ -65935,7 +65963,7 @@ node {
       s: 14.896610260009766
     }
   }
-  cost: 6.7996131930182759
+  cost: 26.799613193018274
   central_curve {
     segment {
       line_segment {
@@ -66083,7 +66111,7 @@ node {
       s: 16.799896240234375
     }
   }
-  cost: 7.6683751620391059
+  cost: 27.668375162039105
   central_curve {
     segment {
       line_segment {
@@ -66139,7 +66167,7 @@ node {
       s: 23.672964096069336
     }
   }
-  cost: 10.805612563926708
+  cost: 60.805612563926708
   central_curve {
     segment {
       line_segment {
@@ -66427,7 +66455,7 @@ node {
       s: 16.947284698486328
     }
   }
-  cost: 7.7356511723351522
+  cost: 57.735651172335153
   central_curve {
     segment {
       line_segment {
@@ -66487,7 +66515,7 @@ node {
       s: 22.891572952270508
     }
   }
-  cost: 10.448943668282347
+  cost: 60.448943668282347
   central_curve {
     segment {
       line_segment {
@@ -66547,7 +66575,7 @@ node {
       s: 22.551376342773438
     }
   }
-  cost: 10.293659659787728
+  cost: 60.293659659787728
   central_curve {
     segment {
       line_segment {
@@ -66603,7 +66631,7 @@ node {
       s: 25.304914474487305
     }
   }
-  cost: 11.550522387689172
+  cost: 61.550522387689171
   central_curve {
     segment {
       line_segment {
@@ -66935,7 +66963,7 @@ node {
       s: 17.176332473754883
     }
   }
-  cost: 7.8402008817900954
+  cost: 27.840200881790096
   central_curve {
     segment {
       line_segment {
@@ -67087,7 +67115,7 @@ node {
       s: 17.153945922851562
     }
   }
-  cost: 7.829982457315567
+  cost: 57.829982457315566
   central_curve {
     segment {
       line_segment {
@@ -67139,7 +67167,7 @@ node {
       s: 14.236848831176758
     }
   }
-  cost: 6.498462633432208
+  cost: 26.498462633432208
   central_curve {
     segment {
       line_segment {
@@ -67187,7 +67215,7 @@ node {
       s: 13.259920120239258
     }
   }
-  cost: 6.0525398875467555
+  cost: 26.052539887546757
   central_curve {
     segment {
       line_segment {
@@ -67247,7 +67275,7 @@ node {
       s: 16.808752059936523
     }
   }
-  cost: 7.6724174339003337
+  cost: 57.672417433900335
   central_curve {
     segment {
       line_segment {
@@ -67691,7 +67719,7 @@ node {
       s: 16.672565460205078
     }
   }
-  cost: 7.61025455361527
+  cost: 57.61025455361527
   central_curve {
     segment {
       line_segment {
@@ -68131,7 +68159,7 @@ node {
       s: 16.468923568725586
     }
   }
-  cost: 7.5173014543674261
+  cost: 27.517301454367427
   central_curve {
     segment {
       line_segment {
@@ -68179,7 +68207,7 @@ node {
       s: 13.330073356628418
     }
   }
-  cost: 6.0845615933817543
+  cost: 56.084561593381757
   central_curve {
     segment {
       line_segment {
@@ -68371,7 +68399,7 @@ node {
       s: 16.732011795043945
     }
   }
-  cost: 7.6373890543903942
+  cost: 27.637389054390393
   central_curve {
     segment {
       line_segment {
@@ -68571,7 +68599,7 @@ node {
       s: 18.711986541748047
     }
   }
-  cost: 8.5411558962788519
+  cost: 58.541155896278852
   central_curve {
     segment {
       line_segment {
@@ -68675,7 +68703,7 @@ node {
       s: 13.334510803222656
     }
   }
-  cost: 6.0865870823942778
+  cost: 26.086587082394278
   central_curve {
     segment {
       line_segment {
@@ -68727,7 +68755,7 @@ node {
       s: 13.337160110473633
     }
   }
-  cost: 6.0877963685487568
+  cost: 26.087796368548759
   central_curve {
     segment {
       line_segment {
@@ -69067,7 +69095,7 @@ node {
       s: 18.886516571044922
     }
   }
-  cost: 8.6208207776895378
+  cost: 28.620820777689538
   central_curve {
     segment {
       line_segment {
@@ -69223,7 +69251,7 @@ node {
       s: 22.82746696472168
     }
   }
-  cost: 10.419682251686206
+  cost: 60.419682251686204
   central_curve {
     segment {
       line_segment {
@@ -69275,7 +69303,7 @@ node {
       s: 17.440841674804688
     }
   }
-  cost: 7.9609370910175894
+  cost: 27.960937091017591
   central_curve {
     segment {
       line_segment {
@@ -69327,7 +69355,7 @@ node {
       s: 17.643974304199219
     }
   }
-  cost: 8.0536577356914627
+  cost: 28.053657735691463
   central_curve {
     segment {
       line_segment {
@@ -69379,7 +69407,7 @@ node {
       s: 13.898712158203125
     }
   }
-  cost: 6.3441188906300576
+  cost: 26.344118890630057
   central_curve {
     segment {
       line_segment {
@@ -69427,7 +69455,7 @@ node {
       s: 17.702926635742188
     }
   }
-  cost: 8.08056674682367
+  cost: 28.080566746823671
   central_curve {
     segment {
       line_segment {
@@ -69583,7 +69611,7 @@ node {
       s: 26.919548034667969
     }
   }
-  cost: 12.287527885320236
+  cost: 62.287527885320237
   central_curve {
     segment {
       line_segment {
@@ -69743,7 +69771,7 @@ node {
       s: 29.09040641784668
     }
   }
-  cost: 13.278424273477915
+  cost: 63.278424273477917
   central_curve {
     segment {
       line_segment {
@@ -69903,7 +69931,7 @@ node {
       s: 27.209373474121094
     }
   }
-  cost: 12.419819785784879
+  cost: 62.419819785784881
   central_curve {
     segment {
       line_segment {
@@ -70059,7 +70087,7 @@ node {
       s: 26.42085075378418
     }
   }
-  cost: 12.059895655488539
+  cost: 62.059895655488539
   central_curve {
     segment {
       line_segment {
@@ -70111,7 +70139,7 @@ node {
       s: 17.133682250976562
     }
   }
-  cost: 7.82073302887411
+  cost: 27.820733028874109
   central_curve {
     segment {
       line_segment {
@@ -70159,7 +70187,7 @@ node {
       s: 15.800224304199219
     }
   }
-  cost: 7.2120711864157068
+  cost: 27.212071186415706
   central_curve {
     segment {
       line_segment {
@@ -70207,7 +70235,7 @@ node {
       s: 15.624833106994629
     }
   }
-  cost: 7.1320132217085863
+  cost: 27.132013221708586
   central_curve {
     segment {
       line_segment {
@@ -70255,7 +70283,7 @@ node {
       s: 16.375034332275391
     }
   }
-  cost: 7.4744453629676944
+  cost: 27.474445362967693
   central_curve {
     segment {
       line_segment {
@@ -70415,7 +70443,7 @@ node {
       s: 28.135801315307617
     }
   }
-  cost: 12.842691221726387
+  cost: 62.842691221726383
   central_curve {
     segment {
       line_segment {
@@ -70575,7 +70603,7 @@ node {
       s: 27.675712585449219
     }
   }
-  cost: 12.6326820086974
+  cost: 62.6326820086974
   central_curve {
     segment {
       line_segment {
@@ -70739,7 +70767,7 @@ node {
       s: 26.876218795776367
     }
   }
-  cost: 12.267750092972289
+  cost: 62.267750092972292
   central_curve {
     segment {
       line_segment {
@@ -70903,7 +70931,7 @@ node {
       s: 25.322769165039062
     }
   }
-  cost: 11.558672227640272
+  cost: 61.558672227640272
   central_curve {
     segment {
       line_segment {
@@ -70955,7 +70983,7 @@ node {
       s: 14.882713317871094
     }
   }
-  cost: 6.7932698820596489
+  cost: 26.793269882059647
   central_curve {
     segment {
       line_segment {
@@ -71003,7 +71031,7 @@ node {
       s: 17.567070007324219
     }
   }
-  cost: 8.0185544831726787
+  cost: 28.018554483172679
   central_curve {
     segment {
       line_segment {
@@ -71359,7 +71387,7 @@ node {
       s: 24.456731796264648
     }
   }
-  cost: 11.163366247582935
+  cost: 61.163366247582935
   central_curve {
     segment {
       line_segment {
@@ -71515,7 +71543,7 @@ node {
       s: 17.936260223388672
     }
   }
-  cost: 8.1870727312887759
+  cost: 58.187072731288779
   central_curve {
     segment {
       line_segment {
@@ -71567,7 +71595,7 @@ node {
       s: 23.24785041809082
     }
   }
-  cost: 10.611567843492884
+  cost: 30.611567843492885
   central_curve {
     segment {
       line_segment {
@@ -71707,7 +71735,7 @@ node {
       s: 14.501317977905273
     }
   }
-  cost: 6.6191805597156819
+  cost: 26.61918055971568
   central_curve {
     segment {
       line_segment {
@@ -71755,7 +71783,7 @@ node {
       s: 16.821483612060547
     }
   }
-  cost: 7.678228798249612
+  cost: 27.678228798249613
   central_curve {
     segment {
       line_segment {
@@ -71911,7 +71939,7 @@ node {
       s: 28.985546112060547
     }
   }
-  cost: 13.230560396649413
+  cost: 63.230560396649409
   central_curve {
     segment {
       line_segment {
@@ -71963,7 +71991,7 @@ node {
       s: 16.020156860351562
     }
   }
-  cost: 7.3124602201814817
+  cost: 27.312460220181482
   central_curve {
     segment {
       line_segment {
@@ -72071,7 +72099,7 @@ node {
       s: 25.097526550292969
     }
   }
-  cost: 11.455859397867247
+  cost: 61.455859397867243
   central_curve {
     segment {
       line_segment {
@@ -72123,7 +72151,7 @@ node {
       s: 17.48200798034668
     }
   }
-  cost: 7.9797276043884464
+  cost: 27.979727604388447
   central_curve {
     segment {
       line_segment {
@@ -72531,7 +72559,7 @@ node {
       s: 26.724189758300781
     }
   }
-  cost: 12.198355873019045
+  cost: 62.198355873019047
   central_curve {
     segment {
       line_segment {
@@ -72579,7 +72607,7 @@ node {
       s: 14.643110275268555
     }
   }
-  cost: 6.6839021815471913
+  cost: 26.68390218154719
   central_curve {
     segment {
       line_segment {
@@ -72635,7 +72663,7 @@ node {
       s: 20.432310104370117
     }
   }
-  cost: 9.326403988864552
+  cost: 59.326403988864556
   central_curve {
     segment {
       line_segment {
@@ -72687,7 +72715,7 @@ node {
       s: 13.62086296081543
     }
   }
-  cost: 6.2172935904274551
+  cost: 56.217293590427452
   central_curve {
     segment {
       line_segment {
@@ -73083,7 +73111,7 @@ node {
       s: 21.022666931152344
     }
   }
-  cost: 9.595874559545523
+  cost: 29.595874559545521
   central_curve {
     segment {
       line_segment {
@@ -73135,7 +73163,7 @@ node {
       s: 16.037662506103516
     }
   }
-  cost: 7.3204507373346912
+  cost: 27.320450737334692
   central_curve {
     segment {
       line_segment {
@@ -73183,7 +73211,7 @@ node {
       s: 17.629055023193359
     }
   }
-  cost: 8.04684777435213
+  cost: 28.046847774352131
   central_curve {
     segment {
       line_segment {
@@ -73231,7 +73259,7 @@ node {
       s: 12.881985664367676
     }
   }
-  cost: 5.8800302986277719
+  cost: 25.880030298627773
   central_curve {
     segment {
       line_segment {
@@ -73391,7 +73419,7 @@ node {
       s: 25.720729827880859
     }
   }
-  cost: 11.740322853261164
+  cost: 61.740322853261162
   central_curve {
     segment {
       line_segment {
@@ -73563,7 +73591,7 @@ node {
       s: 35.028522491455078
     }
   }
-  cost: 15.988899454813234
+  cost: 65.988899454813236
   central_curve {
     segment {
       line_segment {
@@ -73727,7 +73755,7 @@ node {
       s: 30.55247688293457
     }
   }
-  cost: 13.945791778568799
+  cost: 63.9457917785688
   central_curve {
     segment {
       line_segment {
@@ -73891,7 +73919,7 @@ node {
       s: 32.1066780090332
     }
   }
-  cost: 14.65521266675529
+  cost: 64.65521266675529
   central_curve {
     segment {
       line_segment {
@@ -76274,6 +76302,12 @@ edge {
 }
 edge {
   from_lane_id: "lane_136"
+  to_lane_id: "lane_870"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_136"
   to_lane_id: "lane_877"
   cost: 0
   direction_type: FORWARD
@@ -77969,6 +78003,12 @@ edge {
   to_lane_id: "lane_237"
   cost: 500
   direction_type: RIGHT
+}
+edge {
+  from_lane_id: "lane_239"
+  to_lane_id: "lane_1035"
+  cost: 0
+  direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_239"
@@ -81047,6 +81087,12 @@ edge {
   to_lane_id: "lane_434"
   cost: 500
   direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_436"
+  to_lane_id: "lane_1312"
+  cost: 0
+  direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_436"
@@ -86161,6 +86207,12 @@ edge {
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_940"
+  to_lane_id: "lane_187"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
   from_lane_id: "lane_941"
   to_lane_id: "lane_184"
   cost: 0
@@ -86211,6 +86263,12 @@ edge {
 edge {
   from_lane_id: "lane_949"
   to_lane_id: "lane_184"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_950"
+  to_lane_id: "lane_187"
   cost: 0
   direction_type: FORWARD
 }
@@ -86905,6 +86963,12 @@ edge {
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_1066"
+  to_lane_id: "lane_345"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
   from_lane_id: "lane_1067"
   to_lane_id: "lane_345"
   cost: 0
@@ -87477,6 +87541,12 @@ edge {
 edge {
   from_lane_id: "lane_1162"
   to_lane_id: "lane_334"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_1163"
+  to_lane_id: "lane_333"
   cost: 0
   direction_type: FORWARD
 }
@@ -88491,6 +88561,12 @@ edge {
 edge {
   from_lane_id: "lane_1332"
   to_lane_id: "lane_451"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_1333"
+  to_lane_id: "lane_450"
   cost: 0
   direction_type: FORWARD
 }
