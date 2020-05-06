@@ -6,21 +6,22 @@
  */
 #pragma once
 
+#include <memory>
 #include <unordered_set>
-#include <boost/asio.hpp>
+
+#include "boost/asio.hpp"
 
 class Client;
 
-class Clients
-{
-public:
-    Clients();
-    ~Clients();
+class Clients {
+ public:
+  Clients();
+  ~Clients();
 
-    void start(std::shared_ptr<Client> client);
-    void stop(std::shared_ptr<Client> client);
-    void stop_all();
+  void start(std::shared_ptr<Client> client);
+  void stop(std::shared_ptr<Client> client);
+  void stop_all();
 
-private:
-    std::unordered_set<std::shared_ptr<Client>> clients;
+ private:
+  std::unordered_set<std::shared_ptr<Client>> clients;
 };
