@@ -1,5 +1,4 @@
 # Bazel
-bazel
 bazel-apollo
 bazel-apollo_dev
 bazel-bin
@@ -87,3 +86,6 @@ docs/demo_guide/*.bag
 
 # Logs
 cyber/log/*
+
+# bazel cache and others
+.cache/

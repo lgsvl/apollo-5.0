@@ -16,6 +16,9 @@
 # limitations under the License.
 ###############################################################################
 
+APOLLO_ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd )"
+CACHE_ROOT_DIR="${APOLLO_ROOT_DIR}/.cache"
+
 INCHINA="no"
 LOCAL_IMAGE="yes"
 FAST_BUILD_MODE="no"
@@ -87,8 +90,6 @@ do
   fi
 done
 }
-
-APOLLO_ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd -P )"
 
 if [ "$DEV_START__BUILD_ONLY__LGSVL" != "1" ];then
   if [ "$(readlink -f /apollo)" != "${APOLLO_ROOT_DIR}" ]; then
@@ -201,8 +202,7 @@ IMG=lgsvl/apollo-5.0:${VERSION}
 
 function local_volumes() {
     # Apollo root and bazel cache dirs are required.
-    volumes="-v $APOLLO_ROOT_DIR:/apollo \
-             -v $HOME/.cache:${DOCKER_HOME}/.cache"
+    volumes="-v $APOLLO_ROOT_DIR:/apollo"
     case "$(uname -s)" in
         Linux)
             volumes="${volumes} -v /dev:/dev \
@@ -213,8 +213,6 @@ function local_volumes() {
                                 -v /lib/modules:/lib/modules"
             ;;
         Darwin)
-            # MacOS has strict limitations on mapping volumes.
-            chmod -R a+wr ~/.cache/bazel
             ;;
     esac
     echo "${volumes}"
@@ -236,6 +234,10 @@ function main(){
     APOLLO_DEV="apollo_dev_${USER}"
     docker ps -a --format "{{.Names}}" | grep "$APOLLO_DEV" 1>/dev/null
     if [ $? == 0 ]; then
+        if [[ "$(docker inspect --format='{{.Config.Image}}' $APOLLO_DEV 2> /dev/null)" != "$APOLLO_DEV_IMAGE" ]]; then
+            rm -rf $APOLLO_ROOT_DIR/bazel-*
+            rm -rf ${CACHE_ROOT_DIR}/bazel/*
+        fi
         docker stop $APOLLO_DEV 1>/dev/null
         docker rm -v -f $APOLLO_DEV 1>/dev/null
     fi
@@ -306,8 +308,8 @@ function main(){
     if [ "$USER" == "root" ];then
         DOCKER_HOME="/root"
     fi
-    if [ ! -d "$HOME/.cache" ];then
-        mkdir "$HOME/.cache"
+    if [ ! -d "${CACHE_ROOT_DIR}" ]; then
+        mkdir "${CACHE_ROOT_DIR}"
     fi
 
     info "Starting docker container \"${APOLLO_DEV}\" ..."
