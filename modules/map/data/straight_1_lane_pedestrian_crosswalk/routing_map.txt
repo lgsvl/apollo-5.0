@@ -1,0 +1,34 @@
+hdmap_version: "1.500000"
+hdmap_district: "0"
+node {
+  lane_id: "lane_0"
+  length: 144.386474609375
+  cost: 88.164768863160148
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 587141.57849884033
+          y: 4141576.2363295555
+        }
+        point {
+          x: 587061.20886993408
+          y: 4141575.956515789
+        }
+        point {
+          x: 586997.19289398193
+          y: 4141575.733645916
+        }
+      }
+      s: 0
+      start_position {
+        x: 587141.57849884033
+        y: 4141576.2363295555
+        z: 0
+      }
+      length: 144.386474609375
+    }
+  }
+  is_virtual: false
+  road_id: "road_0"
+}

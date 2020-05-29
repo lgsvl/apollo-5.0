@@ -1,0 +1,209 @@
+header {
+  version: "1.500000"
+  date: "2018-03-23T13:27:54"
+  projection {
+    proj: "+proj=utm +zone=10 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
+  }
+  district: "0"
+  rev_major: "1"
+  rev_minor: "0"
+  left: -122.01603666045537
+  top: 37.416905633399246
+  right: -122.01603666045537
+  bottom: 37.416905633399246
+  vendor: "LGSVL"
+}
+crosswalk {
+  id {
+    id: "CW_0"
+  }
+  polygon {
+    point {
+      x: 587077.66615200043
+      y: 4141573.2940826416
+    }
+    point {
+      x: 587075.04000043869
+      y: 4141573.2465515137
+    }
+    point {
+      x: 587075.03683805466
+      y: 4141581.1488876343
+    }
+    point {
+      x: 587077.588080883
+      y: 4141581.1355628967
+    }
+  }
+  overlap_id {
+    id: "overlap_CW_0_lane_0"
+  }
+}
+lane {
+  id {
+    id: "lane_0"
+  }
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 587141.57849884033
+          y: 4141576.2363295555
+        }
+        point {
+          x: 586997.19289398193
+          y: 4141575.733645916
+        }
+      }
+      s: 0
+      start_position {
+        x: 587141.57849884033
+        y: 4141576.2363295555
+        z: 0
+      }
+      length: 144.386474609375
+    }
+  }
+  left_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 587141.58459472656
+            y: 4141574.4863400459
+          }
+          point {
+            x: 586997.19898986816
+            y: 4141573.9836564064
+          }
+        }
+        s: 0
+        start_position {
+          x: 587141.58459472656
+          y: 4141574.4863400459
+        }
+        length: 144.386474609375
+      }
+    }
+    length: 144.386474609375
+    boundary_type {
+      s: 0
+      types: CURB
+    }
+  }
+  right_boundary {
+    curve {
+      segment {
+        line_segment {
+          point {
+            x: 587141.5724029541
+            y: 4141577.9863189459
+          }
+          point {
+            x: 586997.1867980957
+            y: 4141577.4836353064
+          }
+        }
+        s: 0
+        start_position {
+          x: 587141.58459472656
+          y: 4141574.4863400459
+        }
+        length: 144.386474609375
+      }
+    }
+    length: 144.386474609375
+    boundary_type {
+      types: UNKNOWN
+    }
+  }
+  length: 144.386474609375
+  speed_limit: 11.175999641418457
+  overlap_id {
+    id: "overlap_CW_0_lane_0"
+  }
+  type: CITY_DRIVING
+  turn: NO_TURN
+  direction: FORWARD
+}
+overlap {
+  id {
+    id: "overlap_CW_0_lane_0"
+  }
+  object {
+    id {
+      id: "lane_0"
+    }
+    lane_overlap_info {
+      start_s: 63.922206878662109
+      end_s: 66.548500061035156
+      is_merge: false
+    }
+  }
+  object {
+    id {
+      id: "CW_0"
+    }
+    crosswalk_overlap_info {
+    }
+  }
+}
+road {
+  id {
+    id: "road_0"
+  }
+  section {
+    id {
+      id: "1"
+    }
+    lane_id {
+      id: "lane_0"
+    }
+    boundary {
+      outer_polygon {
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 587141.58459472656
+                  y: 4141574.4863400459
+                }
+                point {
+                  x: 587061.21496295929
+                  y: 4141574.2065262794
+                }
+                point {
+                  x: 586997.19898986816
+                  y: 4141573.9836564064
+                }
+              }
+            }
+          }
+          type: LEFT_BOUNDARY
+        }
+        edge {
+          curve {
+            segment {
+              line_segment {
+                point {
+                  x: 587141.5724029541
+                  y: 4141577.9863189459
+                }
+                point {
+                  x: 587061.20277690887
+                  y: 4141577.7065052986
+                }
+                point {
+                  x: 586997.1867980957
+                  y: 4141577.4836353064
+                }
+              }
+            }
+          }
+          type: RIGHT_BOUNDARY
+        }
+      }
+    }
+  }
+}
