@@ -7,10 +7,10 @@ header {
   district: "0"
   rev_major: "1"
   rev_minor: "0"
-  left: -121.95376484077559
-  top: 37.352927563787389
-  right: -121.95240956327645
-  bottom: 37.3518469869874
+  left: -121.95308626709043
+  top: 37.352387462798447
+  right: -121.95308626709043
+  bottom: 37.352387462798447
   vendor: "LGSVL"
 }
 junction {

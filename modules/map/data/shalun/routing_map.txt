@@ -82,16 +82,16 @@ node {
 }
 node {
   lane_id: "lane_2"
-  length: 47.664844512939453
+  length: 46.49688720703125
   left_out {
     start {
       s: 0
     }
     end {
-      s: 47.664844512939453
+      s: 46.49688720703125
     }
   }
-  cost: 29.189950323520844
+  cost: 28.474693280561254
   central_curve {
     segment {
       line_segment {
@@ -108,28 +108,28 @@ node {
           y: 2546115.3110046387
         }
         point {
-          x: 215794.66340789796
-          y: 2546110.1173400879
+          x: 215793.53477630616
+          y: 2546110.2929077148
         }
         point {
-          x: 215789.77749023438
-          y: 2546104.85395813
+          x: 215788.29773864747
+          y: 2546105.7317810059
         }
         point {
-          x: 215784.08754119874
-          y: 2546101.4625015259
+          x: 215783.10939941407
+          y: 2546103.3435440063
         }
         point {
-          x: 215779.66867980958
-          y: 2546099.0226135254
+          x: 215778.58922348023
+          y: 2546101.13558197
         }
         point {
-          x: 215774.53692207337
-          y: 2546096.677772522
+          x: 215772.7684627533
+          y: 2546099.0204086304
         }
         point {
-          x: 215769.37536964417
-          y: 2546094.2886123657
+          x: 215768.36481819153
+          y: 2546097.3662109375
         }
       }
       s: 0
@@ -138,7 +138,7 @@ node {
         y: 2546126.8635559082
         z: 0
       }
-      length: 47.664844512939453
+      length: 46.49688720703125
     }
   }
   is_virtual: false
@@ -432,7 +432,7 @@ node {
     segment {
       line_segment {
         point {
-          x: 215737.98900756837
+          x: 215737.98900566102
           y: 2546151.0227222443
         }
         point {
@@ -454,7 +454,7 @@ node {
       }
       s: 0
       start_position {
-        x: 215737.98900756837
+        x: 215737.98900566102
         y: 2546151.0227222443
         z: 0
       }
@@ -834,102 +834,6 @@ node {
 }
 node {
   lane_id: "lane_18"
-  length: 23.523139953613281
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 23.523139953613281
-    }
-  }
-  cost: 14.405570682451296
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215744.58510932923
-          y: 2546195.5544471741
-        }
-        point {
-          x: 215746.69224510193
-          y: 2546189.8536243439
-        }
-        point {
-          x: 215748.7993880272
-          y: 2546184.1528024673
-        }
-        point {
-          x: 215750.90653429032
-          y: 2546178.4519748688
-        }
-        point {
-          x: 215752.68464241028
-          y: 2546173.4699840546
-        }
-      }
-      s: 0
-      start_position {
-        x: 215744.58510932923
-        y: 2546195.5544471741
-        z: 0
-      }
-      length: 23.523139953613281
-    }
-  }
-  is_virtual: false
-  road_id: "road_8"
-}
-node {
-  lane_id: "lane_19"
-  length: 23.384017944335938
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 23.384017944335938
-    }
-  }
-  cost: 14.320372365301395
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215747.80325517655
-          y: 2546196.7412414551
-        }
-        point {
-          x: 215749.91040000916
-          y: 2546191.04041481
-        }
-        point {
-          x: 215752.01754531861
-          y: 2546185.3395910263
-        }
-        point {
-          x: 215754.12469062806
-          y: 2546179.6387662888
-        }
-        point {
-          x: 215755.91040573121
-          y: 2546174.807557106
-        }
-      }
-      s: 0
-      start_position {
-        x: 215747.80325517655
-        y: 2546196.7412414551
-        z: 0
-      }
-      length: 23.384017944335938
-    }
-  }
-  is_virtual: false
-  road_id: "road_8"
-}
-node {
-  lane_id: "lane_20"
   length: 24.868062973022461
   right_out {
     start {
@@ -944,8 +848,8 @@ node {
     segment {
       line_segment {
         point {
-          x: 215762.49226150513
-          y: 2546175.6635789871
+          x: 215762.49226913453
+          y: 2546175.6635808945
         }
         point {
           x: 215759.89685211182
@@ -966,18 +870,18 @@ node {
       }
       s: 0
       start_position {
-        x: 215762.49226150513
-        y: 2546175.6635789871
+        x: 215762.49226913453
+        y: 2546175.6635808945
         z: 0
       }
       length: 24.868062973022461
     }
   }
   is_virtual: false
-  road_id: "road_9"
+  road_id: "road_8"
 }
 node {
-  lane_id: "lane_21"
+  lane_id: "lane_19"
   length: 24.506607055664062
   left_out {
     start {
@@ -1019,6 +923,102 @@ node {
         z: 0
       }
       length: 24.506607055664062
+    }
+  }
+  is_virtual: false
+  road_id: "road_8"
+}
+node {
+  lane_id: "lane_20"
+  length: 23.523126602172852
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 23.523126602172852
+    }
+  }
+  cost: 14.405562506029304
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215744.58510932923
+          y: 2546195.5544471741
+        }
+        point {
+          x: 215746.69224510193
+          y: 2546189.8536243439
+        }
+        point {
+          x: 215748.7993880272
+          y: 2546184.1528024673
+        }
+        point {
+          x: 215750.90653429032
+          y: 2546178.4519748688
+        }
+        point {
+          x: 215752.68464527131
+          y: 2546173.4699983597
+        }
+      }
+      s: 0
+      start_position {
+        x: 215744.58510932923
+        y: 2546195.5544471741
+        z: 0
+      }
+      length: 23.523126602172852
+    }
+  }
+  is_virtual: false
+  road_id: "road_9"
+}
+node {
+  lane_id: "lane_21"
+  length: 23.384017944335938
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 23.384017944335938
+    }
+  }
+  cost: 14.320372365301395
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215747.80325517655
+          y: 2546196.7412414551
+        }
+        point {
+          x: 215749.91040000916
+          y: 2546191.04041481
+        }
+        point {
+          x: 215752.01754531861
+          y: 2546185.3395910263
+        }
+        point {
+          x: 215754.12469062806
+          y: 2546179.6387662888
+        }
+        point {
+          x: 215755.91040573121
+          y: 2546174.807557106
+        }
+      }
+      s: 0
+      start_position {
+        x: 215747.80325517655
+        y: 2546196.7412414551
+        z: 0
+      }
+      length: 23.384017944335938
     }
   }
   is_virtual: false
@@ -1394,22 +1394,22 @@ node {
 }
 node {
   lane_id: "lane_30"
-  length: 26.884624481201172
+  length: 26.884628295898438
   left_out {
     start {
       s: 0
     }
     end {
-      s: 26.884624481201172
+      s: 26.884628295898438
     }
   }
-  cost: 16.464143774973135
+  cost: 16.464146111093704
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215768.51846847535
-          y: 2546205.9323711395
+          x: 215768.5184703827
+          y: 2546205.9323749542
         }
         point {
           x: 215770.625598526
@@ -1430,11 +1430,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215768.51846847535
-        y: 2546205.9323711395
+        x: 215768.5184703827
+        y: 2546205.9323749542
         z: 0
       }
-      length: 26.884624481201172
+      length: 26.884628295898438
     }
   }
   is_virtual: false
@@ -1442,22 +1442,22 @@ node {
 }
 node {
   lane_id: "lane_31"
-  length: 26.853046417236328
+  length: 26.853031158447266
   right_out {
     start {
       s: 0
     }
     end {
-      s: 26.853046417236328
+      s: 26.853031158447266
     }
   }
-  cost: 16.444805368903303
+  cost: 16.444796024421027
   central_curve {
     segment {
       line_segment {
         point {
           x: 215771.73660430909
-          y: 2546207.11917305
+          y: 2546207.1191558838
         }
         point {
           x: 215773.84375724793
@@ -1479,10 +1479,10 @@ node {
       s: 0
       start_position {
         x: 215771.73660430909
-        y: 2546207.11917305
+        y: 2546207.1191558838
         z: 0
       }
-      length: 26.853046417236328
+      length: 26.853031158447266
     }
   }
   is_virtual: false
@@ -1538,16 +1538,16 @@ node {
 }
 node {
   lane_id: "lane_33"
-  length: 27.5233211517334
+  length: 27.18385124206543
   left_out {
     start {
       s: 0
     }
     end {
-      s: 27.5233211517334
+      s: 27.18385124206543
     }
   }
-  cost: 16.855281609894064
+  cost: 16.647390240462489
   central_curve {
     segment {
       line_segment {
@@ -1556,20 +1556,20 @@ node {
           y: 2546184.2493495941
         }
         point {
-          x: 215783.6828704834
-          y: 2546193.1947803497
+          x: 215784.29763183594
+          y: 2546193.3177280426
         }
         point {
-          x: 215781.47512969971
-          y: 2546197.76477623
+          x: 215782.52021942139
+          y: 2546198.1951084137
         }
         point {
-          x: 215778.77165374756
-          y: 2546203.2451858521
+          x: 215780.37002716065
+          y: 2546203.6140384674
         }
         point {
-          x: 215775.09980926514
-          y: 2546208.7109584808
+          x: 215778.17360076905
+          y: 2546209.7560462952
         }
       }
       s: 0
@@ -1578,7 +1578,7 @@ node {
         y: 2546184.2493495941
         z: 0
       }
-      length: 27.5233211517334
+      length: 27.18385124206543
     }
   }
   is_virtual: false
@@ -1698,13 +1698,13 @@ node {
 }
 node {
   lane_id: "lane_37"
-  length: 29.331607818603516
-  cost: 17.962676347378096
+  length: 29.331596374511719
+  cost: 17.96266933901639
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215730.6250530243
+          x: 215730.62502250672
           y: 2546117.3020019531
         }
         point {
@@ -1726,11 +1726,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215730.6250530243
+        x: 215730.62502250672
         y: 2546117.3020019531
         z: 0
       }
-      length: 29.331607818603516
+      length: 29.331596374511719
     }
   }
   is_virtual: false
@@ -1738,22 +1738,26 @@ node {
 }
 node {
   lane_id: "lane_38"
-  length: 18.809534072875977
+  length: 24.126693725585938
   right_out {
     start {
       s: 0
     }
     end {
-      s: 18.809534072875977
+      s: 24.126693725585938
     }
   }
-  cost: 11.518958486201994
+  cost: 14.775187006630699
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215757.35745010377
-          y: 2546242.6217651367
+          x: 215753.65432319642
+          y: 2546245.9494628906
+        }
+        point {
+          x: 215757.84235534669
+          y: 2546243.2278900146
         }
         point {
           x: 215760.77337608338
@@ -1770,11 +1774,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215757.35745010377
-        y: 2546242.6217651367
+        x: 215753.65432319642
+        y: 2546245.9494628906
         z: 0
       }
-      length: 18.809534072875977
+      length: 24.126693725585938
     }
   }
   is_virtual: false
@@ -1782,13 +1786,13 @@ node {
 }
 node {
   lane_id: "lane_39"
-  length: 19.408571243286133
-  cost: 11.88580884362775
+  length: 19.408573150634766
+  cost: 11.885810011688035
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215767.71700248719
+          x: 215767.71700630189
           y: 2546227.8438873291
         }
         point {
@@ -1814,11 +1818,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215767.71700248719
+        x: 215767.71700630189
         y: 2546227.8438873291
         z: 0
       }
-      length: 19.408571243286133
+      length: 19.408573150634766
     }
   }
   is_virtual: false
@@ -1826,22 +1830,22 @@ node {
 }
 node {
   lane_id: "lane_40"
-  length: 19.106243133544922
+  length: 20.50872802734375
   left_out {
     start {
       s: 0
     }
     end {
-      s: 19.106243133544922
+      s: 20.50872802734375
     }
   }
-  cost: 11.700663112115834
+  cost: 12.559544847654964
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215757.35745010377
-          y: 2546242.6217651367
+          x: 215754.51524124146
+          y: 2546243.3496856689
         }
         point {
           x: 215757.8738685608
@@ -1858,11 +1862,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215757.35745010377
-        y: 2546242.6217651367
+        x: 215754.51524124146
+        y: 2546243.3496856689
         z: 0
       }
-      length: 19.106243133544922
+      length: 20.50872802734375
     }
   }
   is_virtual: false
@@ -1906,8 +1910,8 @@ node {
 }
 node {
   lane_id: "lane_42"
-  length: 15.406032562255859
-  cost: 9.4346541936733654
+  length: 10.423460006713867
+  cost: 6.3833268083479693
   central_curve {
     segment {
       line_segment {
@@ -1920,12 +1924,8 @@ node {
           y: 2546245.8752288818
         }
         point {
-          x: 215753.71583709717
-          y: 2546245.9320983887
-        }
-        point {
-          x: 215757.35745010377
-          y: 2546242.6217651367
+          x: 215753.65432319642
+          y: 2546245.9494628906
         }
       }
       s: 0
@@ -1934,7 +1934,7 @@ node {
         y: 2546243.614112854
         z: 0
       }
-      length: 15.406032562255859
+      length: 10.423460006713867
     }
   }
   is_virtual: false
@@ -2158,22 +2158,22 @@ node {
 }
 node {
   lane_id: "lane_48"
-  length: 6.5510859489440918
+  length: 6.5510616302490234
   right_out {
     start {
       s: 0
     }
     end {
-      s: 6.5510859489440918
+      s: 6.5510616302490234
     }
   }
-  cost: 4.0118849724324992
+  cost: 4.011870079663872
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215735.11379871369
-          y: 2546206.856546402
+          x: 215735.11377677918
+          y: 2546206.8565349579
         }
         point {
           x: 215732.58419761658
@@ -2186,11 +2186,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215735.11379871369
-        y: 2546206.856546402
+        x: 215735.11377677918
+        y: 2546206.8565349579
         z: 0
       }
-      length: 6.5510859489440918
+      length: 6.5510616302490234
     }
   }
   is_virtual: false
@@ -2238,16 +2238,16 @@ node {
 }
 node {
   lane_id: "lane_50"
-  length: 6.9875645637512207
+  length: 6.98757266998291
   left_out {
     start {
       s: 0
     }
     end {
-      s: 6.9875645637512207
+      s: 6.98757266998291
     }
   }
-  cost: 4.27918447196282
+  cost: 4.2791894362190286
   central_curve {
     segment {
       line_segment {
@@ -2260,8 +2260,8 @@ node {
           y: 2546197.93724823
         }
         point {
-          x: 215738.32506141663
-          y: 2546198.961555481
+          x: 215738.32506904603
+          y: 2546198.9615592957
         }
       }
       s: 0
@@ -2270,7 +2270,7 @@ node {
         y: 2546196.6638565063
         z: 0
       }
-      length: 6.9875645637512207
+      length: 6.98757266998291
     }
   }
   is_virtual: false
@@ -2278,31 +2278,31 @@ node {
 }
 node {
   lane_id: "lane_51"
-  length: 7.9134740829467773
-  cost: 4.84621145265624
+  length: 7.9134535789489746
+  cost: 4.8461988960081817
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215751.0503736496
-          y: 2546165.1494674683
+          x: 215751.05034646988
+          y: 2546165.1494636536
         }
         point {
           x: 215747.62385044098
           y: 2546164.1231822968
         }
         point {
-          x: 215743.52844581605
-          y: 2546162.6972084045
+          x: 215743.52844200135
+          y: 2546162.6971988678
         }
       }
       s: 0
       start_position {
-        x: 215751.0503736496
-        y: 2546165.1494674683
+        x: 215751.05034646988
+        y: 2546165.1494636536
         z: 0
       }
-      length: 7.9134740829467773
+      length: 7.9134535789489746
     }
   }
   is_virtual: false
@@ -2310,8 +2310,8 @@ node {
 }
 node {
   lane_id: "lane_52"
-  length: 8.4501438140869141
-  cost: 5.1748679908699593
+  length: 8.45013427734375
+  cost: 5.1748621505685364
   central_curve {
     segment {
       line_segment {
@@ -2324,8 +2324,8 @@ node {
           y: 2546160.4595165253
         }
         point {
-          x: 215752.65641555787
-          y: 2546161.649433136
+          x: 215752.65640602112
+          y: 2546161.6494350433
         }
       }
       s: 0
@@ -2334,7 +2334,7 @@ node {
         y: 2546159.056558609
         z: 0
       }
-      length: 8.4501438140869141
+      length: 8.45013427734375
     }
   }
   is_virtual: false
@@ -2374,8 +2374,8 @@ node {
 }
 node {
   lane_id: "lane_54"
-  length: 8.2477264404296875
-  cost: 5.0509075931796232
+  length: 8.2476634979248047
+  cost: 5.0508690471902353
   central_curve {
     segment {
       line_segment {
@@ -2388,8 +2388,8 @@ node {
           y: 2546152.3869400024
         }
         point {
-          x: 215731.28336868287
-          y: 2546153.8256244659
+          x: 215731.28330955506
+          y: 2546153.8256034851
         }
       }
       s: 0
@@ -2398,7 +2398,7 @@ node {
         y: 2546151.1135501862
         z: 0
       }
-      length: 8.2477264404296875
+      length: 8.2476634979248047
     }
   }
   is_virtual: false
@@ -2722,22 +2722,22 @@ node {
 }
 node {
   lane_id: "lane_64"
-  length: 3.8182351589202881
+  length: 3.8181965351104736
   right_out {
     start {
       s: 0
     }
     end {
-      s: 3.8182351589202881
+      s: 3.8181965351104736
     }
   }
-  cost: 2.3382871747782112
+  cost: 2.3382635215574505
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215790.92243347169
-          y: 2546130.6537094116
+          x: 215790.92247161866
+          y: 2546130.653717041
         }
         point {
           x: 215794.52833709717
@@ -2746,11 +2746,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215790.92243347169
-        y: 2546130.6537094116
+        x: 215790.92247161866
+        y: 2546130.653717041
         z: 0
       }
-      length: 3.8182351589202881
+      length: 3.8181965351104736
     }
   }
   is_virtual: false
@@ -3022,16 +3022,16 @@ node {
 }
 node {
   lane_id: "lane_72"
-  length: 6.551109790802002
+  length: 6.5511131286621094
   right_out {
     start {
       s: 0
     }
     end {
-      s: 6.551109790802002
+      s: 6.5511131286621094
     }
   }
-  cost: 4.0118995731860547
+  cost: 4.0119016172915529
   central_curve {
     segment {
       line_segment {
@@ -3044,7 +3044,7 @@ node {
           y: 2546216.0507507324
         }
         point {
-          x: 215756.00331649781
+          x: 215756.00331268311
           y: 2546214.7773666382
         }
       }
@@ -3054,7 +3054,7 @@ node {
         y: 2546216.9315261841
         z: 0
       }
-      length: 6.551109790802002
+      length: 6.5511131286621094
     }
   }
   is_virtual: false
@@ -3062,16 +3062,16 @@ node {
 }
 node {
   lane_id: "lane_73"
-  length: 5.6563358306884766
+  length: 5.6563377380371094
   right_out {
     start {
       s: 0
     }
     end {
-      s: 5.6563358306884766
+      s: 5.6563377380371094
     }
   }
-  cost: 3.4639400085764707
+  cost: 3.4639411766367552
   central_curve {
     segment {
       line_segment {
@@ -3084,7 +3084,7 @@ node {
           y: 2546211.2131576538
         }
         point {
-          x: 215763.28386650086
+          x: 215763.28386840821
           y: 2546211.7997131348
         }
       }
@@ -3094,7 +3094,7 @@ node {
         y: 2546209.9397716522
         z: 0
       }
-      length: 5.6563358306884766
+      length: 5.6563377380371094
     }
   }
   is_virtual: false
@@ -3102,22 +3102,22 @@ node {
 }
 node {
   lane_id: "lane_74"
-  length: 5.9225897789001465
+  length: 5.9225826263427734
   left_out {
     start {
       s: 0
     }
     end {
-      s: 5.9225897789001465
+      s: 5.9225826263427734
     }
   }
-  cost: 3.626993923912964
+  cost: 3.6269895436868973
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215758.80241069794
-          y: 2546206.7388362885
+          x: 215758.80241737366
+          y: 2546206.7388381958
         }
         point {
           x: 215762.45955429078
@@ -3130,11 +3130,11 @@ node {
       }
       s: 0
       start_position {
-        x: 215758.80241069794
-        y: 2546206.7388362885
+        x: 215758.80241737366
+        y: 2546206.7388381958
         z: 0
       }
-      length: 5.9225897789001465
+      length: 5.9225826263427734
     }
   }
   is_virtual: false
@@ -3142,6 +3142,326 @@ node {
 }
 node {
   lane_id: "lane_75"
+  length: 3.2506165504455566
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 3.2506165504455566
+    }
+  }
+  cost: 1.9906775443809999
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215769.72206459046
+          y: 2546131.864906311
+        }
+        point {
+          x: 215769.15630111695
+          y: 2546130.460899353
+        }
+        point {
+          x: 215769.02004776002
+          y: 2546128.729347229
+        }
+      }
+      s: 0
+      start_position {
+        x: 215769.72206459046
+        y: 2546131.864906311
+        z: 0
+      }
+      length: 3.2506165504455566
+    }
+  }
+  is_virtual: false
+  road_id: "road_33"
+}
+node {
+  lane_id: "lane_76"
+  length: 4.3964686393737793
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 4.3964686393737793
+    }
+  }
+  cost: 2.69239735267362
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215766.72247085572
+          y: 2546132.9397125244
+        }
+        point {
+          x: 215765.89865646363
+          y: 2546130.9981689453
+        }
+        point {
+          x: 215765.70420989991
+          y: 2546128.7190704346
+        }
+      }
+      s: 0
+      start_position {
+        x: 215766.72247085572
+        y: 2546132.9397125244
+        z: 0
+      }
+      length: 4.3964686393737793
+    }
+  }
+  is_virtual: false
+  road_id: "road_33"
+}
+node {
+  lane_id: "lane_77"
+  length: 9.6263113021850586
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 9.6263113021850586
+    }
+  }
+  cost: 5.8951529493240882
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215781.30627593995
+          y: 2546117.422492981
+        }
+        point {
+          x: 215784.73578796387
+          y: 2546119.8438720703
+        }
+        point {
+          x: 215787.77105865479
+          y: 2546124.344078064
+        }
+      }
+      s: 0
+      start_position {
+        x: 215781.30627593995
+        y: 2546117.422492981
+        z: 0
+      }
+      length: 9.6263113021850586
+    }
+  }
+  is_virtual: false
+  road_id: "road_34"
+}
+node {
+  lane_id: "lane_78"
+  length: 4.1721234321594238
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 4.1721234321594238
+    }
+  }
+  cost: 2.5550083499227707
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215780.29056701661
+          y: 2546120.8671722412
+        }
+        point {
+          x: 215781.89194641114
+          y: 2546121.8050537109
+        }
+        point {
+          x: 215783.57736358643
+          y: 2546123.3939743042
+        }
+      }
+      s: 0
+      start_position {
+        x: 215780.29056701661
+        y: 2546120.8671722412
+        z: 0
+      }
+      length: 4.1721234321594238
+    }
+  }
+  is_virtual: false
+  road_id: "road_34"
+}
+node {
+  lane_id: "lane_79"
+  length: 11.92209529876709
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 11.92209529876709
+    }
+  }
+  cost: 7.3010910468578292
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215769.86633644105
+          y: 2546118.3237228394
+        }
+        point {
+          x: 215776.004296875
+          y: 2546116.2255172729
+        }
+        point {
+          x: 215781.30627593995
+          y: 2546117.422492981
+        }
+      }
+      s: 0
+      start_position {
+        x: 215769.86633644105
+        y: 2546118.3237228394
+        z: 0
+      }
+      length: 11.92209529876709
+    }
+  }
+  is_virtual: false
+  road_id: "road_35"
+}
+node {
+  lane_id: "lane_80"
+  length: 7.5936737060546875
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 7.5936737060546875
+    }
+  }
+  cost: 4.6503657049083538
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215772.87798461915
+          y: 2546121.2111358643
+        }
+        point {
+          x: 215776.72875747681
+          y: 2546120.2264099121
+        }
+        point {
+          x: 215780.29056701661
+          y: 2546120.8671722412
+        }
+      }
+      s: 0
+      start_position {
+        x: 215772.87798461915
+        y: 2546121.2111358643
+        z: 0
+      }
+      length: 7.5936737060546875
+    }
+  }
+  is_virtual: false
+  road_id: "road_35"
+}
+node {
+  lane_id: "lane_81"
+  length: 5.2760357856750488
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 5.2760357856750488
+    }
+  }
+  cost: 3.2310442646501238
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215784.39944610596
+          y: 2546135.4279327393
+        }
+        point {
+          x: 215782.23819122315
+          y: 2546137.0065612793
+        }
+        point {
+          x: 215780.40936431885
+          y: 2546138.854133606
+        }
+      }
+      s: 0
+      start_position {
+        x: 215784.39944610596
+        y: 2546135.4279327393
+        z: 0
+      }
+      length: 5.2760357856750488
+    }
+  }
+  is_virtual: false
+  road_id: "road_36"
+}
+node {
+  lane_id: "lane_82"
+  length: 5.2332124710083008
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 5.2332124710083008
+    }
+  }
+  cost: 3.2048192671580717
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215782.48082122803
+          y: 2546133.0257949829
+        }
+        point {
+          x: 215780.53386840821
+          y: 2546134.7189559937
+        }
+        point {
+          x: 215778.21275482178
+          y: 2546136.0038375854
+        }
+      }
+      s: 0
+      start_position {
+        x: 215782.48082122803
+        y: 2546133.0257949829
+        z: 0
+      }
+      length: 5.2332124710083008
+    }
+  }
+  is_virtual: false
+  road_id: "road_36"
+}
+node {
+  lane_id: "lane_83"
   length: 8.2731742858886719
   cost: 25.066491853495144
   central_curve {
@@ -3178,10 +3498,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_33"
+  road_id: "road_37"
 }
 node {
-  lane_id: "lane_76"
+  lane_id: "lane_84"
   length: 7.223841667175293
   cost: 24.4238805678383
   central_curve {
@@ -3218,10 +3538,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_34"
+  road_id: "road_38"
 }
 node {
-  lane_id: "lane_77"
+  lane_id: "lane_85"
   length: 14.127052307128906
   cost: 8.65140669767482
   central_curve {
@@ -3258,10 +3578,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_35"
+  road_id: "road_39"
 }
 node {
-  lane_id: "lane_78"
+  lane_id: "lane_86"
   length: 13.507909774780273
   cost: 58.272243816790372
   central_curve {
@@ -3298,10 +3618,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_36"
+  road_id: "road_40"
 }
 node {
-  lane_id: "lane_79"
+  lane_id: "lane_87"
   length: 14.233336448669434
   cost: 58.716495104936989
   central_curve {
@@ -3338,10 +3658,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_37"
+  road_id: "road_41"
 }
 node {
-  lane_id: "lane_80"
+  lane_id: "lane_88"
   length: 14.879025459289551
   cost: 9.1119150488608156
   central_curve {
@@ -3378,10 +3698,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_38"
+  road_id: "road_42"
 }
 node {
-  lane_id: "lane_81"
+  lane_id: "lane_89"
   length: 15.485818862915039
   cost: 59.483515323433409
   central_curve {
@@ -3418,10 +3738,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_39"
+  road_id: "road_43"
 }
 node {
-  lane_id: "lane_82"
+  lane_id: "lane_90"
   length: 9.5751218795776367
   cost: 25.863804547409242
   central_curve {
@@ -3458,10 +3778,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_40"
+  road_id: "road_44"
 }
 node {
-  lane_id: "lane_83"
+  lane_id: "lane_91"
   length: 8.7352094650268555
   cost: 25.349442192777197
   central_curve {
@@ -3498,10 +3818,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_41"
+  road_id: "road_45"
 }
 node {
-  lane_id: "lane_84"
+  lane_id: "lane_92"
   length: 13.970850944519043
   cost: 8.5557489847075541
   central_curve {
@@ -3538,10 +3858,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_42"
+  road_id: "road_46"
 }
 node {
-  lane_id: "lane_85"
+  lane_id: "lane_93"
   length: 15.629650115966797
   cost: 59.571597581425685
   central_curve {
@@ -3578,10 +3898,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_43"
+  road_id: "road_47"
 }
 node {
-  lane_id: "lane_86"
+  lane_id: "lane_94"
   length: 15.335396766662598
   cost: 59.391396833128113
   central_curve {
@@ -3618,10 +3938,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_44"
+  road_id: "road_48"
 }
 node {
-  lane_id: "lane_87"
+  lane_id: "lane_95"
   length: 14.664758682250977
   cost: 8.9806980766531534
   central_curve {
@@ -3658,10 +3978,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_45"
+  road_id: "road_49"
 }
 node {
-  lane_id: "lane_88"
+  lane_id: "lane_96"
   length: 14.864500045776367
   cost: 9.1030196857643659
   central_curve {
@@ -3698,10 +4018,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_46"
+  road_id: "road_50"
 }
 node {
-  lane_id: "lane_89"
+  lane_id: "lane_97"
   length: 15.268815994262695
   cost: 9.3506227687476589
   central_curve {
@@ -3738,10 +4058,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_47"
+  road_id: "road_51"
 }
 node {
-  lane_id: "lane_90"
+  lane_id: "lane_98"
   length: 15.532985687255859
   cost: 59.51240028620829
   central_curve {
@@ -3778,10 +4098,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_48"
+  road_id: "road_52"
 }
 node {
-  lane_id: "lane_91"
+  lane_id: "lane_99"
   length: 9.0554237365722656
   cost: 25.545541409606816
   central_curve {
@@ -3818,10 +4138,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_49"
+  road_id: "road_53"
 }
 node {
-  lane_id: "lane_92"
+  lane_id: "lane_100"
   length: 9.2635011672973633
   cost: 25.672968026191342
   central_curve {
@@ -3858,18 +4178,18 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_50"
+  road_id: "road_54"
 }
 node {
-  lane_id: "lane_93"
-  length: 15.539875984191895
-  cost: 59.516619903985969
+  lane_id: "lane_101"
+  length: 15.53986930847168
+  cost: 59.516615815774969
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215743.52844581605
-          y: 2546162.6972084045
+          x: 215743.52844200135
+          y: 2546162.6971988678
         }
         point {
           x: 215739.69920024872
@@ -3884,32 +4204,32 @@ node {
           y: 2546155.4293804169
         }
         point {
-          x: 215737.98900756837
+          x: 215737.98900566102
           y: 2546151.0227222443
         }
       }
       s: 0
       start_position {
-        x: 215743.52844581605
-        y: 2546162.6972084045
+        x: 215743.52844200135
+        y: 2546162.6971988678
         z: 0
       }
-      length: 15.539875984191895
+      length: 15.53986930847168
     }
   }
   is_virtual: false
-  road_id: "road_51"
+  road_id: "road_55"
 }
 node {
-  lane_id: "lane_94"
-  length: 9.6791048049926758
-  cost: 25.927483689938185
+  lane_id: "lane_102"
+  length: 9.6790990829467773
+  cost: 25.927480185757329
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215743.52844581605
-          y: 2546162.6972084045
+          x: 215743.52844200135
+          y: 2546162.6971988678
         }
         point {
           x: 215741.41003952027
@@ -3930,18 +4250,18 @@ node {
       }
       s: 0
       start_position {
-        x: 215743.52844581605
-        y: 2546162.6972084045
+        x: 215743.52844200135
+        y: 2546162.6971988678
         z: 0
       }
-      length: 9.6791048049926758
+      length: 9.6790990829467773
     }
   }
   is_virtual: false
-  road_id: "road_52"
+  road_id: "road_56"
 }
 node {
-  lane_id: "lane_95"
+  lane_id: "lane_103"
   length: 8.5776996612548828
   cost: 25.252983190454778
   central_curve {
@@ -3978,18 +4298,18 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_53"
+  road_id: "road_57"
 }
 node {
-  lane_id: "lane_96"
-  length: 14.334627151489258
-  cost: 8.7785255303743881
+  lane_id: "lane_104"
+  length: 14.334690093994141
+  cost: 8.7785640763637751
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215731.28336868287
-          y: 2546153.8256244659
+          x: 215731.28330955506
+          y: 2546153.8256034851
         }
         point {
           x: 215735.09492454529
@@ -4010,26 +4330,26 @@ node {
       }
       s: 0
       start_position {
-        x: 215731.28336868287
-        y: 2546153.8256244659
+        x: 215731.28330955506
+        y: 2546153.8256034851
         z: 0
       }
-      length: 14.334627151489258
+      length: 14.334690093994141
     }
   }
   is_virtual: false
-  road_id: "road_54"
+  road_id: "road_58"
 }
 node {
-  lane_id: "lane_97"
-  length: 15.858604431152344
-  cost: 59.711809201853981
+  lane_id: "lane_105"
+  length: 15.858663558959961
+  cost: 59.7118454117228
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215731.28336868287
-          y: 2546153.8256244659
+          x: 215731.28330955506
+          y: 2546153.8256034851
         }
         point {
           x: 215734.63515052796
@@ -4050,18 +4370,18 @@ node {
       }
       s: 0
       start_position {
-        x: 215731.28336868287
-        y: 2546153.8256244659
+        x: 215731.28330955506
+        y: 2546153.8256034851
         z: 0
       }
-      length: 15.858604431152344
+      length: 15.858663558959961
     }
   }
   is_virtual: false
-  road_id: "road_55"
+  road_id: "road_59"
 }
 node {
-  lane_id: "lane_98"
+  lane_id: "lane_106"
   length: 15.284295082092285
   cost: 59.360102161986347
   central_curve {
@@ -4098,18 +4418,18 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_56"
+  road_id: "road_60"
 }
 node {
-  lane_id: "lane_99"
-  length: 14.759960174560547
-  cost: 9.0389994696323548
+  lane_id: "lane_107"
+  length: 14.759953498840332
+  cost: 9.03899538142136
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215743.52844581605
-          y: 2546162.6972084045
+          x: 215743.52844200135
+          y: 2546162.6971988678
         }
         point {
           x: 215739.99259815217
@@ -4130,20 +4450,20 @@ node {
       }
       s: 0
       start_position {
-        x: 215743.52844581605
-        y: 2546162.6972084045
+        x: 215743.52844200135
+        y: 2546162.6971988678
         z: 0
       }
-      length: 14.759960174560547
+      length: 14.759953498840332
     }
   }
   is_virtual: false
-  road_id: "road_57"
+  road_id: "road_61"
 }
 node {
-  lane_id: "lane_100"
-  length: 14.629857063293457
-  cost: 8.9593243255376152
+  lane_id: "lane_108"
+  length: 14.629856109619141
+  cost: 8.9593237415074718
   central_curve {
     segment {
       line_segment {
@@ -4164,7 +4484,7 @@ node {
           y: 2546154.4923000336
         }
         point {
-          x: 215737.98900756837
+          x: 215737.98900566102
           y: 2546151.0227222443
         }
       }
@@ -4174,14 +4494,14 @@ node {
         y: 2546164.7500476837
         z: 0
       }
-      length: 14.629857063293457
+      length: 14.629856109619141
     }
   }
   is_virtual: false
-  road_id: "road_58"
+  road_id: "road_62"
 }
 node {
-  lane_id: "lane_101"
+  lane_id: "lane_109"
   length: 15.331161499023438
   cost: 9.3888031552664248
   central_curve {
@@ -4218,10 +4538,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_59"
+  road_id: "road_63"
 }
 node {
-  lane_id: "lane_102"
+  lane_id: "lane_110"
   length: 15.586738586425781
   cost: 59.545318561145478
   central_curve {
@@ -4258,18 +4578,18 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_60"
+  road_id: "road_64"
 }
 node {
-  lane_id: "lane_103"
-  length: 9.22876262664795
-  cost: 25.651694144230127
+  lane_id: "lane_111"
+  length: 9.2288246154785156
+  cost: 25.651732106189371
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215731.28336868287
-          y: 2546153.8256244659
+          x: 215731.28330955506
+          y: 2546153.8256034851
         }
         point {
           x: 215733.64136466981
@@ -4284,24 +4604,24 @@ node {
           y: 2546153.0222911835
         }
         point {
-          x: 215737.98900756837
+          x: 215737.98900566102
           y: 2546151.0227222443
         }
       }
       s: 0
       start_position {
-        x: 215731.28336868287
-        y: 2546153.8256244659
+        x: 215731.28330955506
+        y: 2546153.8256034851
         z: 0
       }
-      length: 9.22876262664795
+      length: 9.2288246154785156
     }
   }
   is_virtual: false
-  road_id: "road_61"
+  road_id: "road_65"
 }
 node {
-  lane_id: "lane_104"
+  lane_id: "lane_112"
   length: 9.4760456085205078
   cost: 25.803130239962119
   central_curve {
@@ -4338,10 +4658,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_62"
+  road_id: "road_66"
 }
 node {
-  lane_id: "lane_105"
+  lane_id: "lane_113"
   length: 16.218173980712891
   cost: 59.932009590563396
   central_curve {
@@ -4378,12 +4698,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_63"
+  road_id: "road_67"
 }
 node {
-  lane_id: "lane_106"
-  length: 7.4780678749084473
-  cost: 24.579568695020868
+  lane_id: "lane_114"
+  length: 7.478083610534668
+  cost: 24.579578331518213
   central_curve {
     segment {
       line_segment {
@@ -4404,7 +4724,7 @@ node {
           y: 2546115.4108886719
         }
         point {
-          x: 215730.6250530243
+          x: 215730.62502250672
           y: 2546117.3020019531
         }
       }
@@ -4414,14 +4734,14 @@ node {
         y: 2546114.6980285645
         z: 0
       }
-      length: 7.4780678749084473
+      length: 7.478083610534668
     }
   }
   is_virtual: false
-  road_id: "road_64"
+  road_id: "road_68"
 }
 node {
-  lane_id: "lane_107"
+  lane_id: "lane_115"
   length: 14.29201602935791
   cost: 58.75243047958898
   central_curve {
@@ -4458,10 +4778,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_65"
+  road_id: "road_69"
 }
 node {
-  lane_id: "lane_108"
+  lane_id: "lane_116"
   length: 14.514287948608398
   cost: 8.8885498008106048
   central_curve {
@@ -4498,12 +4818,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_66"
+  road_id: "road_70"
 }
 node {
-  lane_id: "lane_109"
-  length: 14.46651554107666
-  cost: 8.8592939788954013
+  lane_id: "lane_117"
+  length: 14.466526985168457
+  cost: 8.8593009872571074
   central_curve {
     segment {
       line_segment {
@@ -4524,7 +4844,7 @@ node {
           y: 2546115.1927642822
         }
         point {
-          x: 215730.6250530243
+          x: 215730.62502250672
           y: 2546117.3020019531
         }
       }
@@ -4534,14 +4854,14 @@ node {
         y: 2546103.4339294434
         z: 0
       }
-      length: 14.46651554107666
+      length: 14.466526985168457
     }
   }
   is_virtual: false
-  road_id: "road_67"
+  road_id: "road_71"
 }
 node {
-  lane_id: "lane_110"
+  lane_id: "lane_118"
   length: 10.275516510009766
   cost: 26.292726212382355
   central_curve {
@@ -4578,10 +4898,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_68"
+  road_id: "road_72"
 }
 node {
-  lane_id: "lane_111"
+  lane_id: "lane_119"
   length: 14.741001129150391
   cost: 59.027388950404635
   central_curve {
@@ -4618,10 +4938,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_69"
+  road_id: "road_73"
 }
 node {
-  lane_id: "lane_112"
+  lane_id: "lane_120"
   length: 10.361518859863281
   cost: 26.345394050609514
   central_curve {
@@ -4658,10 +4978,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_70"
+  road_id: "road_74"
 }
 node {
-  lane_id: "lane_113"
+  lane_id: "lane_121"
   length: 17.199996948242188
   cost: 60.533277966481243
   central_curve {
@@ -4698,10 +5018,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_71"
+  road_id: "road_75"
 }
 node {
-  lane_id: "lane_114"
+  lane_id: "lane_122"
   length: 16.214632034301758
   cost: 9.9298405026151162
   central_curve {
@@ -4738,10 +5058,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_72"
+  road_id: "road_76"
 }
 node {
-  lane_id: "lane_115"
+  lane_id: "lane_123"
   length: 15.806085586547852
   cost: 9.679646661920847
   central_curve {
@@ -4778,10 +5098,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_73"
+  road_id: "road_77"
 }
 node {
-  lane_id: "lane_116"
+  lane_id: "lane_124"
   length: 8.1149778366088867
   cost: 24.96961234947031
   central_curve {
@@ -4818,10 +5138,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_74"
+  road_id: "road_78"
 }
 node {
-  lane_id: "lane_117"
+  lane_id: "lane_125"
   length: 14.234498023986816
   cost: 8.7172064536502347
   central_curve {
@@ -4858,10 +5178,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_75"
+  road_id: "road_79"
 }
 node {
-  lane_id: "lane_118"
+  lane_id: "lane_126"
   length: 3.288672924041748
   cost: 22.013983267207067
   central_curve {
@@ -4890,10 +5210,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_76"
+  road_id: "road_80"
 }
 node {
-  lane_id: "lane_119"
+  lane_id: "lane_127"
   length: 2.8387248516082764
   cost: 21.738435071955291
   central_curve {
@@ -4922,10 +5242,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_77"
+  road_id: "road_81"
 }
 node {
-  lane_id: "lane_120"
+  lane_id: "lane_128"
   length: 13.9320707321167
   cost: 8.5319999830035265
   central_curve {
@@ -4962,10 +5282,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_78"
+  road_id: "road_82"
 }
 node {
-  lane_id: "lane_121"
+  lane_id: "lane_129"
   length: 14.759515762329102
   cost: 59.038727311586072
   central_curve {
@@ -5002,10 +5322,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_79"
+  road_id: "road_83"
 }
 node {
-  lane_id: "lane_122"
+  lane_id: "lane_130"
   length: 14.059555053710938
   cost: 8.6100713803276765
   central_curve {
@@ -5042,10 +5362,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_80"
+  road_id: "road_84"
 }
 node {
-  lane_id: "lane_123"
+  lane_id: "lane_131"
   length: 15.235198020935059
   cost: 9.330035122203574
   central_curve {
@@ -5082,10 +5402,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_81"
+  road_id: "road_85"
 }
 node {
-  lane_id: "lane_124"
+  lane_id: "lane_132"
   length: 14.685697555541992
   cost: 58.993521042456166
   central_curve {
@@ -5122,10 +5442,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_82"
+  road_id: "road_86"
 }
 node {
-  lane_id: "lane_125"
+  lane_id: "lane_133"
   length: 8.5538740158081055
   cost: 25.238392365411208
   central_curve {
@@ -5162,10 +5482,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_83"
+  road_id: "road_87"
 }
 node {
-  lane_id: "lane_126"
+  lane_id: "lane_134"
   length: 12.989541053771973
   cost: 7.9547948170062277
   central_curve {
@@ -5202,10 +5522,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_84"
+  road_id: "road_88"
 }
 node {
-  lane_id: "lane_127"
+  lane_id: "lane_135"
   length: 5.6411118507385254
   cost: 23.454616843400832
   central_curve {
@@ -5242,10 +5562,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_85"
+  road_id: "road_89"
 }
 node {
-  lane_id: "lane_128"
+  lane_id: "lane_136"
   length: 6.0055832862854
   cost: 23.677819147041358
   central_curve {
@@ -5282,10 +5602,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_86"
+  road_id: "road_90"
 }
 node {
-  lane_id: "lane_129"
+  lane_id: "lane_137"
   length: 13.31746768951416
   cost: 8.1556170855961359
   central_curve {
@@ -5322,10 +5642,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_87"
+  road_id: "road_91"
 }
 node {
-  lane_id: "lane_130"
+  lane_id: "lane_138"
   length: 16.754035949707031
   cost: 60.260171455246635
   central_curve {
@@ -5362,10 +5682,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_88"
+  road_id: "road_92"
 }
 node {
-  lane_id: "lane_131"
+  lane_id: "lane_139"
   length: 13.343547821044922
   cost: 8.17158855789596
   central_curve {
@@ -5402,10 +5722,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_89"
+  road_id: "road_93"
 }
 node {
-  lane_id: "lane_132"
+  lane_id: "lane_140"
   length: 15.187896728515625
   cost: 9.3010678111786369
   central_curve {
@@ -5442,10 +5762,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_90"
+  road_id: "road_94"
 }
 node {
-  lane_id: "lane_133"
+  lane_id: "lane_141"
   length: 16.374893188476562
   cost: 60.0279844318979
   central_curve {
@@ -5482,12 +5802,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_91"
+  road_id: "road_95"
 }
 node {
-  lane_id: "lane_134"
-  length: 5.1973381042480469
-  cost: 23.182849805297447
+  lane_id: "lane_142"
+  length: 5.1973366737365723
+  cost: 23.182848929252234
   central_curve {
     segment {
       line_segment {
@@ -5500,8 +5820,8 @@ node {
           y: 2546207.919626236
         }
         point {
-          x: 215768.51846847535
-          y: 2546205.9323711395
+          x: 215768.5184703827
+          y: 2546205.9323749542
         }
       }
       s: 0
@@ -5510,14 +5830,14 @@ node {
         y: 2546208.6863536835
         z: 0
       }
-      length: 5.1973381042480469
+      length: 5.1973366737365723
     }
   }
   is_virtual: false
-  road_id: "road_92"
+  road_id: "road_96"
 }
 node {
-  lane_id: "lane_135"
+  lane_id: "lane_143"
   length: 4.3461642265319824
   cost: 22.661590930730771
   central_curve {
@@ -5546,12 +5866,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_93"
+  road_id: "road_97"
 }
 node {
-  lane_id: "lane_136"
-  length: 19.461584091186523
-  cost: 11.918273911174561
+  lane_id: "lane_144"
+  length: 19.461582183837891
+  cost: 11.918272743114276
   central_curve {
     segment {
       line_segment {
@@ -5572,8 +5892,8 @@ node {
           y: 2546209.5045642853
         }
         point {
-          x: 215768.51846847535
-          y: 2546205.9323711395
+          x: 215768.5184703827
+          y: 2546205.9323749542
         }
       }
       s: 0
@@ -5582,21 +5902,21 @@ node {
         y: 2546224.2772827148
         z: 0
       }
-      length: 19.461584091186523
+      length: 19.461582183837891
     }
   }
   is_virtual: false
-  road_id: "road_94"
+  road_id: "road_98"
 }
 node {
-  lane_id: "lane_137"
-  length: 19.764270782470703
-  cost: 62.103639238019959
+  lane_id: "lane_145"
+  length: 19.764266967773438
+  cost: 62.103636901899392
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215763.28386650086
+          x: 215763.28386840821
           y: 2546211.7997131348
         }
         point {
@@ -5612,26 +5932,26 @@ node {
           y: 2546220.9781799316
         }
         point {
-          x: 215767.71700248719
+          x: 215767.71700630189
           y: 2546227.8438873291
         }
       }
       s: 0
       start_position {
-        x: 215763.28386650086
+        x: 215763.28386840821
         y: 2546211.7997131348
         z: 0
       }
-      length: 19.764270782470703
+      length: 19.764266967773438
     }
   }
   is_virtual: false
-  road_id: "road_95"
+  road_id: "road_99"
 }
 node {
-  lane_id: "lane_138"
-  length: 19.579854965209961
-  cost: 11.990702993294535
+  lane_id: "lane_146"
+  length: 19.579870223999023
+  cost: 11.990712337776811
   central_curve {
     segment {
       line_segment {
@@ -5653,7 +5973,7 @@ node {
         }
         point {
           x: 215771.73660430909
-          y: 2546207.11917305
+          y: 2546207.1191558838
         }
       }
       s: 0
@@ -5662,16 +5982,16 @@ node {
         y: 2546225.453453064
         z: 0
       }
-      length: 19.579854965209961
+      length: 19.579870223999023
     }
   }
   is_virtual: false
-  road_id: "road_96"
+  road_id: "road_100"
 }
 node {
-  lane_id: "lane_139"
-  length: 20.515829086303711
-  cost: 12.56389353609408
+  lane_id: "lane_147"
+  length: 20.515827178955078
+  cost: 12.563892368033795
   central_curve {
     segment {
       line_segment {
@@ -5692,7 +6012,7 @@ node {
           y: 2546220.4981613159
         }
         point {
-          x: 215767.71700248719
+          x: 215767.71700630189
           y: 2546227.8438873291
         }
       }
@@ -5702,14 +6022,14 @@ node {
         y: 2546208.7109584808
         z: 0
       }
-      length: 20.515829086303711
+      length: 20.515827178955078
     }
   }
   is_virtual: false
-  road_id: "road_97"
+  road_id: "road_101"
 }
 node {
-  lane_id: "lane_140"
+  lane_id: "lane_148"
   length: 16.781032562255859
   cost: 60.27670418051315
   central_curve {
@@ -5746,10 +6066,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_98"
+  road_id: "road_102"
 }
 node {
-  lane_id: "lane_141"
+  lane_id: "lane_149"
   length: 20.056838989257812
   cost: 62.2828080050562
   central_curve {
@@ -5786,10 +6106,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_99"
+  road_id: "road_103"
 }
 node {
-  lane_id: "lane_142"
+  lane_id: "lane_150"
   length: 20.616409301757812
   cost: 62.62548885907551
   central_curve {
@@ -5830,10 +6150,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_100"
+  road_id: "road_104"
 }
 node {
-  lane_id: "lane_143"
+  lane_id: "lane_151"
   length: 23.084989547729492
   cost: 14.137247378081629
   central_curve {
@@ -5870,10 +6190,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_101"
+  road_id: "road_105"
 }
 node {
-  lane_id: "lane_144"
+  lane_id: "lane_152"
   length: 23.122074127197266
   cost: 14.159957974192753
   central_curve {
@@ -5910,10 +6230,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_102"
+  road_id: "road_106"
 }
 node {
-  lane_id: "lane_145"
+  lane_id: "lane_153"
   length: 9.69528579711914
   cost: 25.937392929361561
   central_curve {
@@ -5950,10 +6270,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_103"
+  road_id: "road_107"
 }
 node {
-  lane_id: "lane_146"
+  lane_id: "lane_154"
   length: 9.2167453765869141
   cost: 25.644334780407767
   central_curve {
@@ -5990,10 +6310,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_104"
+  road_id: "road_108"
 }
 node {
-  lane_id: "lane_147"
+  lane_id: "lane_155"
   length: 19.819801330566406
   cost: 62.137646145142284
   central_curve {
@@ -6030,10 +6350,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_105"
+  road_id: "road_109"
 }
 node {
-  lane_id: "lane_148"
+  lane_id: "lane_156"
   length: 8.1060256958007812
   cost: 24.964130058525107
   central_curve {
@@ -6070,18 +6390,18 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_106"
+  road_id: "road_110"
 }
 node {
-  lane_id: "lane_149"
-  length: 9.17613697052002
-  cost: 25.619466192921067
+  lane_id: "lane_157"
+  length: 9.17617130279541
+  cost: 25.619487218006185
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215752.68464241028
-          y: 2546173.4699840546
+          x: 215752.68464527131
+          y: 2546173.4699983597
         }
         point {
           x: 215753.43944892884
@@ -6096,32 +6416,32 @@ node {
           y: 2546167.0587654114
         }
         point {
-          x: 215751.0503736496
-          y: 2546165.1494674683
+          x: 215751.05034646988
+          y: 2546165.1494636536
         }
       }
       s: 0
       start_position {
-        x: 215752.68464241028
-        y: 2546173.4699840546
+        x: 215752.68464527131
+        y: 2546173.4699983597
         z: 0
       }
-      length: 9.17613697052002
+      length: 9.17617130279541
     }
   }
   is_virtual: false
-  road_id: "road_107"
+  road_id: "road_111"
 }
 node {
-  lane_id: "lane_150"
-  length: 22.148521423339844
-  cost: 13.563754307668404
+  lane_id: "lane_158"
+  length: 22.148529052734375
+  cost: 13.563758979909542
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215752.65641555787
-          y: 2546161.649433136
+          x: 215752.65640602112
+          y: 2546161.6494350433
         }
         point {
           x: 215756.34172687531
@@ -6142,26 +6462,26 @@ node {
       }
       s: 0
       start_position {
-        x: 215752.65641555787
-        y: 2546161.649433136
+        x: 215752.65640602112
+        y: 2546161.6494350433
         z: 0
       }
-      length: 22.148521423339844
+      length: 22.148529052734375
     }
   }
   is_virtual: false
-  road_id: "road_108"
+  road_id: "road_112"
 }
 node {
-  lane_id: "lane_151"
-  length: 18.588191986083984
-  cost: 61.383408594369058
+  lane_id: "lane_159"
+  length: 18.588203430175781
+  cost: 61.383415602730764
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215752.65641555787
-          y: 2546161.649433136
+          x: 215752.65640602112
+          y: 2546161.6494350433
         }
         point {
           x: 215756.27857646943
@@ -6176,24 +6496,24 @@ node {
           y: 2546170.4857406616
         }
         point {
-          x: 215762.49226150513
-          y: 2546175.6635789871
+          x: 215762.49226913453
+          y: 2546175.6635808945
         }
       }
       s: 0
       start_position {
-        x: 215752.65641555787
-        y: 2546161.649433136
+        x: 215752.65640602112
+        y: 2546161.6494350433
         z: 0
       }
-      length: 18.588191986083984
+      length: 18.588203430175781
     }
   }
   is_virtual: false
-  road_id: "road_109"
+  road_id: "road_113"
 }
 node {
-  lane_id: "lane_152"
+  lane_id: "lane_160"
   length: 21.402488708496094
   cost: 63.106883880238421
   central_curve {
@@ -6230,12 +6550,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_110"
+  road_id: "road_114"
 }
 node {
-  lane_id: "lane_153"
-  length: 22.267768859863281
-  cost: 13.636781436654033
+  lane_id: "lane_161"
+  length: 22.267795562744141
+  cost: 13.636797789498015
   central_curve {
     segment {
       line_segment {
@@ -6256,8 +6576,8 @@ node {
           y: 2546166.6153240204
         }
         point {
-          x: 215751.0503736496
-          y: 2546165.1494674683
+          x: 215751.05034646988
+          y: 2546165.1494636536
         }
       }
       s: 0
@@ -6266,22 +6586,22 @@ node {
         y: 2546173.4610233307
         z: 0
       }
-      length: 22.267768859863281
+      length: 22.267795562744141
     }
   }
   is_virtual: false
-  road_id: "road_111"
+  road_id: "road_115"
 }
 node {
-  lane_id: "lane_154"
-  length: 14.979451179504395
-  cost: 9.1734157589592051
+  lane_id: "lane_162"
+  length: 16.134891510009766
+  cost: 9.8810074063019
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215752.68464241028
-          y: 2546173.4699840546
+          x: 215752.68464527131
+          y: 2546173.4699983597
         }
         point {
           x: 215753.8329902649
@@ -6296,24 +6616,24 @@ node {
           y: 2546162.9913082123
         }
         point {
-          x: 215757.74923381806
-          y: 2546159.3727302551
+          x: 215758.45440921784
+          y: 2546158.4108867645
         }
       }
       s: 0
       start_position {
-        x: 215752.68464241028
-        y: 2546173.4699840546
+        x: 215752.68464527131
+        y: 2546173.4699983597
         z: 0
       }
-      length: 14.979451179504395
+      length: 16.134891510009766
     }
   }
   is_virtual: false
-  road_id: "road_112"
+  road_id: "road_116"
 }
 node {
-  lane_id: "lane_155"
+  lane_id: "lane_163"
   length: 16.122669219970703
   cost: 9.8735224759989588
   central_curve {
@@ -6350,12 +6670,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_113"
+  road_id: "road_117"
 }
 node {
-  lane_id: "lane_156"
-  length: 20.807518005371094
-  cost: 62.74252382733917
+  lane_id: "lane_164"
+  length: 20.807544708251953
+  cost: 62.742540180183155
   central_curve {
     segment {
       line_segment {
@@ -6376,8 +6696,8 @@ node {
           y: 2546167.9387083054
         }
         point {
-          x: 215751.0503736496
-          y: 2546165.1494674683
+          x: 215751.05034646988
+          y: 2546165.1494636536
         }
       }
       s: 0
@@ -6386,22 +6706,22 @@ node {
         y: 2546160.8336734772
         z: 0
       }
-      length: 20.807518005371094
+      length: 20.807544708251953
     }
   }
   is_virtual: false
-  road_id: "road_114"
+  road_id: "road_118"
 }
 node {
-  lane_id: "lane_157"
-  length: 8.3327465057373047
-  cost: 25.102973880360274
+  lane_id: "lane_165"
+  length: 8.3327541351318359
+  cost: 25.102978552601414
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215752.65641555787
-          y: 2546161.649433136
+          x: 215752.65640602112
+          y: 2546161.6494350433
         }
         point {
           x: 215754.88817462922
@@ -6422,18 +6742,18 @@ node {
       }
       s: 0
       start_position {
-        x: 215752.65641555787
-        y: 2546161.649433136
+        x: 215752.65640602112
+        y: 2546161.6494350433
         z: 0
       }
-      length: 8.3327465057373047
+      length: 8.3327541351318359
     }
   }
   is_virtual: false
-  road_id: "road_115"
+  road_id: "road_119"
 }
 node {
-  lane_id: "lane_158"
+  lane_id: "lane_166"
   length: 9.1935873031616211
   cost: 25.630152776463763
   central_curve {
@@ -6470,12 +6790,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_116"
+  road_id: "road_120"
 }
 node {
-  lane_id: "lane_159"
-  length: 15.815366744995117
-  cost: 9.6853304432651228
+  lane_id: "lane_167"
+  length: 15.8153657913208
+  cost: 9.68532985923498
   central_curve {
     segment {
       line_segment {
@@ -6496,8 +6816,8 @@ node {
           y: 2546172.3888397217
         }
         point {
-          x: 215762.49226150513
-          y: 2546175.6635789871
+          x: 215762.49226913453
+          y: 2546175.6635808945
         }
       }
       s: 0
@@ -6506,14 +6826,14 @@ node {
         y: 2546160.8336734772
         z: 0
       }
-      length: 15.815366744995117
+      length: 15.8153657913208
     }
   }
   is_virtual: false
-  road_id: "road_117"
+  road_id: "road_121"
 }
 node {
-  lane_id: "lane_160"
+  lane_id: "lane_168"
   length: 16.281135559082031
   cost: 9.970567260554045
   central_curve {
@@ -6550,17 +6870,17 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_118"
+  road_id: "road_122"
 }
 node {
-  lane_id: "lane_161"
-  length: 23.545478820800781
-  cost: 64.41925100450311
+  lane_id: "lane_169"
+  length: 23.545475006103516
+  cost: 64.419248668382551
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215756.00331649781
+          x: 215756.00331268311
           y: 2546214.7773666382
         }
         point {
@@ -6582,18 +6902,18 @@ node {
       }
       s: 0
       start_position {
-        x: 215756.00331649781
+        x: 215756.00331268311
         y: 2546214.7773666382
         z: 0
       }
-      length: 23.545478820800781
+      length: 23.545475006103516
     }
   }
   is_virtual: false
-  road_id: "road_119"
+  road_id: "road_123"
 }
 node {
-  lane_id: "lane_162"
+  lane_id: "lane_170"
   length: 7.5083522796630859
   cost: 24.598114864202753
   central_curve {
@@ -6630,12 +6950,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_120"
+  road_id: "road_124"
 }
 node {
-  lane_id: "lane_163"
-  length: 10.640124320983887
-  cost: 26.516012032333222
+  lane_id: "lane_171"
+  length: 10.64014720916748
+  cost: 26.516026049056634
   central_curve {
     segment {
       line_segment {
@@ -6656,8 +6976,8 @@ node {
           y: 2546208.9025249481
         }
         point {
-          x: 215735.11379871369
-          y: 2546206.856546402
+          x: 215735.11377677918
+          y: 2546206.8565349579
         }
       }
       s: 0
@@ -6666,22 +6986,22 @@ node {
         y: 2546216.6139221191
         z: 0
       }
-      length: 10.640124320983887
+      length: 10.64014720916748
     }
   }
   is_virtual: false
-  road_id: "road_121"
+  road_id: "road_125"
 }
 node {
-  lane_id: "lane_164"
-  length: 21.912178039550781
-  cost: 13.419017621698041
+  lane_id: "lane_172"
+  length: 21.912174224853516
+  cost: 13.419015285577471
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215738.32506141663
-          y: 2546198.961555481
+          x: 215738.32506904603
+          y: 2546198.9615592957
         }
         point {
           x: 215741.69353256226
@@ -6696,24 +7016,24 @@ node {
           y: 2546203.8586559296
         }
         point {
-          x: 215758.80241069794
-          y: 2546206.7388362885
+          x: 215758.80241737366
+          y: 2546206.7388381958
         }
       }
       s: 0
       start_position {
-        x: 215738.32506141663
-        y: 2546198.961555481
+        x: 215738.32506904603
+        y: 2546198.9615592957
         z: 0
       }
-      length: 21.912178039550781
+      length: 21.912174224853516
     }
   }
   is_virtual: false
-  road_id: "road_122"
+  road_id: "road_126"
 }
 node {
-  lane_id: "lane_165"
+  lane_id: "lane_173"
   length: 21.528549194335938
   cost: 63.184083320560205
   central_curve {
@@ -6750,10 +7070,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_123"
+  road_id: "road_127"
 }
 node {
-  lane_id: "lane_166"
+  lane_id: "lane_174"
   length: 22.56410026550293
   cost: 63.818254786631549
   central_curve {
@@ -6790,17 +7110,17 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_124"
+  road_id: "road_128"
 }
 node {
-  lane_id: "lane_167"
-  length: 22.341894149780273
-  cost: 13.68217576348974
+  lane_id: "lane_175"
+  length: 22.341915130615234
+  cost: 13.682188612152871
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215756.00331649781
+          x: 215756.00331268311
           y: 2546214.7773666382
         }
         point {
@@ -6816,24 +7136,24 @@ node {
           y: 2546208.3045635223
         }
         point {
-          x: 215735.11379871369
-          y: 2546206.856546402
+          x: 215735.11377677918
+          y: 2546206.8565349579
         }
       }
       s: 0
       start_position {
-        x: 215756.00331649781
+        x: 215756.00331268311
         y: 2546214.7773666382
         z: 0
       }
-      length: 22.341894149780273
+      length: 22.341915130615234
     }
   }
   is_virtual: false
-  road_id: "road_125"
+  road_id: "road_129"
 }
 node {
-  lane_id: "lane_168"
+  lane_id: "lane_176"
   length: 22.609703063964844
   cost: 13.846181939973155
   central_curve {
@@ -6870,10 +7190,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_126"
+  road_id: "road_130"
 }
 node {
-  lane_id: "lane_169"
+  lane_id: "lane_177"
   length: 22.59913444519043
   cost: 13.839709717936858
   central_curve {
@@ -6910,12 +7230,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_127"
+  road_id: "road_131"
 }
 node {
-  lane_id: "lane_170"
-  length: 24.629459381103516
-  cost: 65.083080689257656
+  lane_id: "lane_178"
+  length: 24.629482269287109
+  cost: 65.083094705981068
   central_curve {
     segment {
       line_segment {
@@ -6936,8 +7256,8 @@ node {
           y: 2546209.1238861084
         }
         point {
-          x: 215735.11379871369
-          y: 2546206.856546402
+          x: 215735.11377677918
+          y: 2546206.8565349579
         }
       }
       s: 0
@@ -6946,22 +7266,22 @@ node {
         y: 2546199.0265350342
         z: 0
       }
-      length: 24.629459381103516
+      length: 24.629482269287109
     }
   }
   is_virtual: false
-  road_id: "road_128"
+  road_id: "road_132"
 }
 node {
-  lane_id: "lane_171"
-  length: 8.4367733001708984
-  cost: 25.166679888275759
+  lane_id: "lane_179"
+  length: 8.4367637634277344
+  cost: 25.16667404797434
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215738.32506141663
-          y: 2546198.961555481
+          x: 215738.32506904603
+          y: 2546198.9615592957
         }
         point {
           x: 215740.17491111756
@@ -6982,20 +7302,20 @@ node {
       }
       s: 0
       start_position {
-        x: 215738.32506141663
-        y: 2546198.961555481
+        x: 215738.32506904603
+        y: 2546198.9615592957
         z: 0
       }
-      length: 8.4367733001708984
+      length: 8.4367637634277344
     }
   }
   is_virtual: false
-  road_id: "road_129"
+  road_id: "road_133"
 }
 node {
-  lane_id: "lane_172"
-  length: 8.4031867980957031
-  cost: 25.146111514726371
+  lane_id: "lane_180"
+  length: 8.403193473815918
+  cost: 25.146115602937364
   central_curve {
     segment {
       line_segment {
@@ -7016,8 +7336,8 @@ node {
           y: 2546205.7705574036
         }
         point {
-          x: 215758.80241069794
-          y: 2546206.7388362885
+          x: 215758.80241737366
+          y: 2546206.7388381958
         }
       }
       s: 0
@@ -7026,14 +7346,14 @@ node {
         y: 2546200.1087169647
         z: 0
       }
-      length: 8.4031867980957031
+      length: 8.403193473815918
     }
   }
   is_virtual: false
-  road_id: "road_130"
+  road_id: "road_134"
 }
 node {
-  lane_id: "lane_173"
+  lane_id: "lane_181"
   length: 22.608985900878906
   cost: 13.845742749306192
   central_curve {
@@ -7070,10 +7390,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_131"
+  road_id: "road_135"
 }
 node {
-  lane_id: "lane_174"
+  lane_id: "lane_182"
   length: 27.44935417175293
   cost: 66.809984232061964
   central_curve {
@@ -7110,10 +7430,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_132"
+  road_id: "road_136"
 }
 node {
-  lane_id: "lane_175"
+  lane_id: "lane_183"
   length: 7.5343413352966309
   cost: 24.614030561623995
   central_curve {
@@ -7150,10 +7470,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_133"
+  road_id: "road_137"
 }
 node {
-  lane_id: "lane_176"
+  lane_id: "lane_184"
   length: 22.598482131958008
   cost: 13.839310241319565
   central_curve {
@@ -7190,12 +7510,12 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_134"
+  road_id: "road_138"
 }
 node {
-  lane_id: "lane_177"
-  length: 24.19691276550293
-  cost: 64.818189146003789
+  lane_id: "lane_185"
+  length: 24.196918487548828
+  cost: 64.818192650184642
   central_curve {
     segment {
       line_segment {
@@ -7216,8 +7536,8 @@ node {
           y: 2546206.6903305054
         }
         point {
-          x: 215758.80241069794
-          y: 2546206.7388362885
+          x: 215758.80241737366
+          y: 2546206.7388381958
         }
       }
       s: 0
@@ -7226,14 +7546,14 @@ node {
         y: 2546217.9055099487
         z: 0
       }
-      length: 24.19691276550293
+      length: 24.196918487548828
     }
   }
   is_virtual: false
-  road_id: "road_135"
+  road_id: "road_139"
 }
 node {
-  lane_id: "lane_178"
+  lane_id: "lane_186"
   length: 22.372453689575195
   cost: 13.700890425367664
   central_curve {
@@ -7270,10 +7590,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_136"
+  road_id: "road_140"
 }
 node {
-  lane_id: "lane_179"
+  lane_id: "lane_187"
   length: 22.124324798583984
   cost: 13.548936294899503
   central_curve {
@@ -7310,10 +7630,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_137"
+  road_id: "road_141"
 }
 node {
-  lane_id: "lane_180"
+  lane_id: "lane_188"
   length: 17.514440536499023
   cost: 60.725843216920168
   central_curve {
@@ -7350,10 +7670,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_138"
+  road_id: "road_142"
 }
 node {
-  lane_id: "lane_181"
+  lane_id: "lane_189"
   length: 6.2016053199768066
   cost: 23.797863038597836
   central_curve {
@@ -7390,10 +7710,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_139"
+  road_id: "road_143"
 }
 node {
-  lane_id: "lane_182"
+  lane_id: "lane_190"
   length: 20.854209899902344
   cost: 12.771117943103217
   central_curve {
@@ -7430,10 +7750,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_140"
+  road_id: "road_144"
 }
 node {
-  lane_id: "lane_183"
+  lane_id: "lane_191"
   length: 18.945430755615234
   cost: 61.602181613410842
   central_curve {
@@ -7470,10 +7790,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_141"
+  road_id: "road_145"
 }
 node {
-  lane_id: "lane_184"
+  lane_id: "lane_192"
   length: 18.886611938476562
   cost: 61.566160970358077
   central_curve {
@@ -7510,10 +7830,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_142"
+  road_id: "road_146"
 }
 node {
-  lane_id: "lane_185"
+  lane_id: "lane_193"
   length: 20.966142654418945
   cost: 12.839665560897869
   central_curve {
@@ -7550,10 +7870,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_143"
+  road_id: "road_147"
 }
 node {
-  lane_id: "lane_186"
+  lane_id: "lane_194"
   length: 7.489652156829834
   cost: 24.586662909158651
   central_curve {
@@ -7590,10 +7910,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_144"
+  road_id: "road_148"
 }
 node {
-  lane_id: "lane_187"
+  lane_id: "lane_195"
   length: 18.82916259765625
   cost: 11.530978994589567
   central_curve {
@@ -7630,10 +7950,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_145"
+  road_id: "road_149"
 }
 node {
-  lane_id: "lane_188"
+  lane_id: "lane_196"
   length: 18.833812713623047
   cost: 11.533826725563127
   central_curve {
@@ -7670,10 +7990,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_146"
+  road_id: "road_150"
 }
 node {
-  lane_id: "lane_189"
+  lane_id: "lane_197"
   length: 14.316161155700684
   cost: 58.7672169547302
   central_curve {
@@ -7710,10 +8030,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_147"
+  road_id: "road_151"
 }
 node {
-  lane_id: "lane_190"
+  lane_id: "lane_198"
   length: 8.3096275329589844
   cost: 25.088815821652105
   central_curve {
@@ -7750,10 +8070,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_148"
+  road_id: "road_152"
 }
 node {
-  lane_id: "lane_191"
+  lane_id: "lane_199"
   length: 13.082159042358398
   cost: 8.011514072330101
   central_curve {
@@ -7786,10 +8106,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_149"
+  road_id: "road_153"
 }
 node {
-  lane_id: "lane_192"
+  lane_id: "lane_200"
   length: 14.575138092041016
   cost: 58.925814428066339
   central_curve {
@@ -7826,10 +8146,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_150"
+  road_id: "road_154"
 }
 node {
-  lane_id: "lane_193"
+  lane_id: "lane_201"
   length: 12.928606033325195
   cost: 7.9174782110678334
   central_curve {
@@ -7862,10 +8182,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_151"
+  road_id: "road_155"
 }
 node {
-  lane_id: "lane_194"
+  lane_id: "lane_202"
   length: 7.3205204010009766
   cost: 24.48308662350783
   central_curve {
@@ -7902,10 +8222,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_152"
+  road_id: "road_156"
 }
 node {
-  lane_id: "lane_195"
+  lane_id: "lane_203"
   length: 20.166908264160156
   cost: 62.350214427952906
   central_curve {
@@ -7942,10 +8262,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_153"
+  road_id: "road_157"
 }
 node {
-  lane_id: "lane_196"
+  lane_id: "lane_204"
   length: 9.9899358749389648
   cost: 26.117836634198305
   central_curve {
@@ -7982,10 +8302,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_154"
+  road_id: "road_158"
 }
 node {
-  lane_id: "lane_197"
+  lane_id: "lane_205"
   length: 8.9709539413452148
   cost: 25.493812107818236
   central_curve {
@@ -8022,10 +8342,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_155"
+  road_id: "road_159"
 }
 node {
-  lane_id: "lane_198"
+  lane_id: "lane_206"
   length: 15.891355514526367
   cost: 9.7318659649987662
   central_curve {
@@ -8062,10 +8382,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_156"
+  road_id: "road_160"
 }
 node {
-  lane_id: "lane_199"
+  lane_id: "lane_207"
   length: 18.864246368408203
   cost: 61.552464295462272
   central_curve {
@@ -8102,10 +8422,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_157"
+  road_id: "road_161"
 }
 node {
-  lane_id: "lane_200"
+  lane_id: "lane_208"
   length: 19.426673889160156
   cost: 61.896894903787739
   central_curve {
@@ -8142,10 +8462,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_158"
+  road_id: "road_162"
 }
 node {
-  lane_id: "lane_201"
+  lane_id: "lane_209"
   length: 16.710634231567383
   cost: 10.233592243473316
   central_curve {
@@ -8182,10 +8502,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_159"
+  road_id: "road_163"
 }
 node {
-  lane_id: "lane_202"
+  lane_id: "lane_210"
   length: 22.492399215698242
   cost: 13.77434506441741
   central_curve {
@@ -8222,10 +8542,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_160"
+  road_id: "road_164"
 }
 node {
-  lane_id: "lane_203"
+  lane_id: "lane_211"
   length: 22.351058959960938
   cost: 13.687788293156663
   central_curve {
@@ -8262,10 +8582,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_161"
+  road_id: "road_165"
 }
 node {
-  lane_id: "lane_204"
+  lane_id: "lane_212"
   length: 20.627458572387695
   cost: 62.632255432303495
   central_curve {
@@ -8302,10 +8622,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_162"
+  road_id: "road_166"
 }
 node {
-  lane_id: "lane_205"
+  lane_id: "lane_213"
   length: 9.26762580871582
   cost: 25.675493956556529
   central_curve {
@@ -8342,10 +8662,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_163"
+  road_id: "road_167"
 }
 node {
-  lane_id: "lane_206"
+  lane_id: "lane_214"
   length: 10.439357757568359
   cost: 26.393062590819103
   central_curve {
@@ -8382,10 +8702,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_164"
+  road_id: "road_168"
 }
 node {
-  lane_id: "lane_207"
+  lane_id: "lane_215"
   length: 16.754940032958984
   cost: 10.260725115821479
   central_curve {
@@ -8422,10 +8742,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_165"
+  road_id: "road_169"
 }
 node {
-  lane_id: "lane_208"
+  lane_id: "lane_216"
   length: 16.353858947753906
   cost: 10.015103063080662
   central_curve {
@@ -8462,10 +8782,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_166"
+  road_id: "road_170"
 }
 node {
-  lane_id: "lane_209"
+  lane_id: "lane_217"
   length: 21.840600967407227
   cost: 63.375183823402395
   central_curve {
@@ -8502,10 +8822,10 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_167"
+  road_id: "road_171"
 }
 node {
-  lane_id: "lane_210"
+  lane_id: "lane_218"
   length: 22.50605583190918
   cost: 63.782708376054281
   central_curve {
@@ -8542,901 +8862,65 @@ node {
     }
   }
   is_virtual: false
-  road_id: "road_168"
-}
-node {
-  lane_id: "lane_211"
-  length: 7.7991447448730469
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 7.7991447448730469
-    }
-  }
-  cost: 4.7761961671141409
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215784.44645843506
-          y: 2546129.8480224609
-        }
-        point {
-          x: 215782.34454498292
-          y: 2546133.4043807983
-        }
-        point {
-          x: 215779.31115112305
-          y: 2546135.46673584
-        }
-      }
-      s: 0
-      start_position {
-        x: 215784.44645843506
-        y: 2546129.8480224609
-        z: 0
-      }
-      length: 7.7991447448730469
-    }
-  }
-  is_virtual: false
-  road_id: "road_169"
-}
-node {
-  lane_id: "lane_212"
-  length: 8.0676116943359375
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 8.0676116943359375
-    }
-  }
-  cost: 4.9406053243957
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215787.86252746583
-          y: 2546131.0764389038
-        }
-        point {
-          x: 215785.93599853516
-          y: 2546134.7335739136
-        }
-        point {
-          x: 215782.76703033448
-          y: 2546137.0647888184
-        }
-      }
-      s: 0
-      start_position {
-        x: 215787.86252746583
-        y: 2546131.0764389038
-        z: 0
-      }
-      length: 8.0676116943359375
-    }
-  }
-  is_virtual: false
-  road_id: "road_170"
-}
-node {
-  lane_id: "lane_213"
-  length: 7.9055871963500977
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 7.9055871963500977
-    }
-  }
-  cost: 4.8413815233799191
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215765.87538681031
-          y: 2546125.0267333984
-        }
-        point {
-          x: 215767.21540603638
-          y: 2546121.5260543823
-        }
-        point {
-          x: 215769.86633644105
-          y: 2546118.3237304688
-        }
-      }
-      s: 0
-      start_position {
-        x: 215765.87538681031
-        y: 2546125.0267333984
-        z: 0
-      }
-      length: 7.9055871963500977
-    }
-  }
-  is_virtual: false
-  road_id: "road_171"
-}
-node {
-  lane_id: "lane_214"
-  length: 5.0414495468139648
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 5.0414495468139648
-    }
-  }
-  cost: 3.0873836542168358
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215769.49803886414
-          y: 2546124.8418731689
-        }
-        point {
-          x: 215770.97355422974
-          y: 2546122.5979309082
-        }
-        point {
-          x: 215772.87797698975
-          y: 2546121.2111282349
-        }
-      }
-      s: 0
-      start_position {
-        x: 215769.49803886414
-        y: 2546124.8418731689
-        z: 0
-      }
-      length: 5.0414495468139648
-    }
-  }
-  is_virtual: false
   road_id: "road_172"
 }
 node {
-  lane_id: "lane_215"
-  length: 5.241663932800293
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 5.241663932800293
-    }
-  }
-  cost: 3.2099949422785983
+  lane_id: "lane_219"
+  length: 7.7799797058105469
+  cost: 4.7644594973756949
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215772.74790725709
-          y: 2546134.5048294067
+          x: 215762.45059165955
+          y: 2546120.6211242676
         }
         point {
-          x: 215771.05687675477
-          y: 2546132.8566436768
+          x: 215764.64817008973
+          y: 2546120.1311340332
         }
         point {
-          x: 215769.6114440918
-          y: 2546130.3653030396
+          x: 215766.59105644227
+          y: 2546119.58870697
+        }
+        point {
+          x: 215768.32567558289
+          y: 2546118.9376831055
+        }
+        point {
+          x: 215769.86633644105
+          y: 2546118.3237228394
         }
       }
       s: 0
       start_position {
-        x: 215772.74790725709
-        y: 2546134.5048294067
+        x: 215762.45059165955
+        y: 2546120.6211242676
         z: 0
       }
-      length: 5.241663932800293
+      length: 7.7799797058105469
     }
   }
   is_virtual: false
   road_id: "road_173"
 }
 node {
-  lane_id: "lane_216"
-  length: 10.462142944335938
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 10.462142944335938
-    }
-  }
-  cost: 6.4070162389774881
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215773.22425994874
-          y: 2546138.293838501
-        }
-        point {
-          x: 215768.95530662537
-          y: 2546136.0412216187
-        }
-        point {
-          x: 215766.21541366578
-          y: 2546131.1168136597
-        }
-      }
-      s: 0
-      start_position {
-        x: 215773.22425994874
-        y: 2546138.293838501
-        z: 0
-      }
-      length: 10.462142944335938
-    }
-  }
-  is_virtual: false
-  road_id: "road_174"
-}
-node {
-  lane_id: "lane_217"
-  length: 6.1412620544433594
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 6.1412620544433594
-    }
-  }
-  cost: 3.7609088233627013
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215766.21541366578
-          y: 2546131.1168136597
-        }
-        point {
-          x: 215765.73290023804
-          y: 2546128.7382507324
-        }
-        point {
-          x: 215765.87538681031
-          y: 2546125.0267333984
-        }
-      }
-      s: 0
-      start_position {
-        x: 215766.21541366578
-        y: 2546131.1168136597
-        z: 0
-      }
-      length: 6.1412620544433594
-    }
-  }
-  is_virtual: false
-  road_id: "road_175"
-}
-node {
-  lane_id: "lane_218"
-  length: 5.6057710647583008
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 5.6057710647583008
-    }
-  }
-  cost: 3.43297414640479
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215769.6114440918
-          y: 2546130.3653030396
-        }
-        point {
-          x: 215769.08084640504
-          y: 2546127.6706085205
-        }
-        point {
-          x: 215769.49803886414
-          y: 2546124.8418731689
-        }
-      }
-      s: 0
-      start_position {
-        x: 215769.6114440918
-        y: 2546130.3653030396
-        z: 0
-      }
-      length: 5.6057710647583008
-    }
-  }
-  is_virtual: false
-  road_id: "road_176"
-}
-node {
-  lane_id: "lane_219"
-  length: 6.7396631240844727
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 6.7396631240844727
-    }
-  }
-  cost: 4.1273696326835836
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215779.31115112305
-          y: 2546135.46673584
-        }
-        point {
-          x: 215776.03132781983
-          y: 2546135.5883636475
-        }
-        point {
-          x: 215772.74790725709
-          y: 2546134.5048294067
-        }
-      }
-      s: 0
-      start_position {
-        x: 215779.31115112305
-        y: 2546135.46673584
-        z: 0
-      }
-      length: 6.7396631240844727
-    }
-  }
-  is_virtual: false
-  road_id: "road_177"
-}
-node {
   lane_id: "lane_220"
-  length: 9.9307937622070312
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 9.9307937622070312
-    }
-  }
-  cost: 6.0816180049273232
+  length: 6.3632087707519531
+  cost: 3.8968289903058175
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215782.76703033448
-          y: 2546137.0647888184
+          x: 215765.70420989991
+          y: 2546128.7190704346
         }
         point {
-          x: 215778.02829132081
-          y: 2546138.9142608643
-        }
-        point {
-          x: 215773.22425994874
-          y: 2546138.293838501
-        }
-      }
-      s: 0
-      start_position {
-        x: 215782.76703033448
-        y: 2546137.0647888184
-        z: 0
-      }
-      length: 9.9307937622070312
-    }
-  }
-  is_virtual: false
-  road_id: "road_178"
-}
-node {
-  lane_id: "lane_221"
-  length: 6.622828483581543
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 6.622828483581543
-    }
-  }
-  cost: 4.0558200999578213
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215783.57734832764
-          y: 2546123.3939743042
-        }
-        point {
-          x: 215784.60910186768
-          y: 2546126.5416412354
-        }
-        point {
-          x: 215784.44645843506
-          y: 2546129.8480224609
-        }
-      }
-      s: 0
-      start_position {
-        x: 215783.57734832764
-        y: 2546123.3939743042
-        z: 0
-      }
-      length: 6.622828483581543
-    }
-  }
-  is_virtual: false
-  road_id: "road_179"
-}
-node {
-  lane_id: "lane_222"
-  length: 6.8464698791503906
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 6.8464698791503906
-    }
-  }
-  cost: 4.1927780884636983
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215787.77108917237
-          y: 2546124.3440704346
-        }
-        point {
-          x: 215788.43755493165
-          y: 2546127.7106323242
-        }
-        point {
-          x: 215787.86252746583
-          y: 2546131.0764389038
-        }
-      }
-      s: 0
-      start_position {
-        x: 215787.77108917237
-        y: 2546124.3440704346
-        z: 0
-      }
-      length: 6.8464698791503906
-    }
-  }
-  is_virtual: false
-  road_id: "road_180"
-}
-node {
-  lane_id: "lane_223"
-  length: 4.1721200942993164
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 4.1721200942993164
-    }
-  }
-  cost: 2.5550063058172729
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215780.29056320191
-          y: 2546120.8671646118
-        }
-        point {
-          x: 215781.89193878174
-          y: 2546121.8050460815
-        }
-        point {
-          x: 215783.57734832764
-          y: 2546123.3939743042
-        }
-      }
-      s: 0
-      start_position {
-        x: 215780.29056320191
-        y: 2546120.8671646118
-        z: 0
-      }
-      length: 4.1721200942993164
-    }
-  }
-  is_virtual: false
-  road_id: "road_181"
-}
-node {
-  lane_id: "lane_224"
-  length: 9.6263313293457031
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 9.6263313293457031
-    }
-  }
-  cost: 5.8951652139570756
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215781.30627593995
-          y: 2546117.4224700928
-        }
-        point {
-          x: 215784.73578033448
-          y: 2546119.8438796997
-        }
-        point {
-          x: 215787.77108917237
-          y: 2546124.3440704346
-        }
-      }
-      s: 0
-      start_position {
-        x: 215781.30627593995
-        y: 2546117.4224700928
-        z: 0
-      }
-      length: 9.6263313293457031
-    }
-  }
-  is_virtual: false
-  road_id: "road_182"
-}
-node {
-  lane_id: "lane_225"
-  length: 7.5936741828918457
-  right_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 7.5936741828918457
-    }
-  }
-  cost: 4.6503659969234246
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215772.87797698975
-          y: 2546121.2111282349
-        }
-        point {
-          x: 215776.72874984742
-          y: 2546120.2264099121
-        }
-        point {
-          x: 215780.29056320191
-          y: 2546120.8671646118
-        }
-      }
-      s: 0
-      start_position {
-        x: 215772.87797698975
-        y: 2546121.2111282349
-        z: 0
-      }
-      length: 7.5936741828918457
-    }
-  }
-  is_virtual: false
-  road_id: "road_183"
-}
-node {
-  lane_id: "lane_226"
-  length: 11.922096252441406
-  left_out {
-    start {
-      s: 0
-    }
-    end {
-      s: 11.922096252441406
-    }
-  }
-  cost: 7.3010916308879708
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215769.86633644105
-          y: 2546118.3237304688
-        }
-        point {
-          x: 215776.00428924561
-          y: 2546116.2255096436
-        }
-        point {
-          x: 215781.30627593995
-          y: 2546117.4224700928
-        }
-      }
-      s: 0
-      start_position {
-        x: 215769.86633644105
-        y: 2546118.3237304688
-        z: 0
-      }
-      length: 11.922096252441406
-    }
-  }
-  is_virtual: false
-  road_id: "road_184"
-}
-node {
-  lane_id: "lane_227"
-  length: 14.348310470581055
-  cost: 58.786905194855237
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215788.75749359131
-          y: 2546136.0589294434
-        }
-        point {
-          x: 215785.66228637696
-          y: 2546135.4805908203
-        }
-        point {
-          x: 215783.19812927247
-          y: 2546136.8325958252
-        }
-        point {
-          x: 215780.37496337891
-          y: 2546138.9304351807
-        }
-        point {
-          x: 215778.35069808961
-          y: 2546143.3615264893
-        }
-      }
-      s: 0
-      start_position {
-        x: 215788.75749359131
-        y: 2546136.0589294434
-        z: 0
-      }
-      length: 14.348310470581055
-    }
-  }
-  is_virtual: false
-  road_id: "road_185"
-}
-node {
-  lane_id: "lane_228"
-  length: 17.495038986206055
-  cost: 30.713961707706449
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215789.73484954835
-          y: 2546133.4996414185
-        }
-        point {
-          x: 215787.67680511475
-          y: 2546132.9368972778
-        }
-        point {
-          x: 215784.25100097657
-          y: 2546133.6494750977
-        }
-        point {
-          x: 215780.32287750245
-          y: 2546135.26902771
-        }
-        point {
-          x: 215772.74790725709
-          y: 2546134.5048294067
-        }
-      }
-      s: 0
-      start_position {
-        x: 215789.73484954835
-        y: 2546133.4996414185
-        z: 0
-      }
-      length: 17.495038986206055
-    }
-  }
-  is_virtual: false
-  road_id: "road_186"
-}
-node {
-  lane_id: "lane_229"
-  length: 7.879638671875
-  cost: 54.825490647239725
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215782.76703033448
-          y: 2546137.0647888184
-        }
-        point {
-          x: 215781.29259643555
-          y: 2546138.2965316772
-        }
-        point {
-          x: 215779.92540893555
-          y: 2546139.9999084473
-        }
-        point {
-          x: 215778.88311920167
-          y: 2546141.4233932495
-        }
-        point {
-          x: 215778.35069808961
-          y: 2546143.3615264893
-        }
-      }
-      s: 0
-      start_position {
-        x: 215782.76703033448
-        y: 2546137.0647888184
-        z: 0
-      }
-      length: 7.879638671875
-    }
-  }
-  is_virtual: false
-  road_id: "road_187"
-}
-node {
-  lane_id: "lane_230"
-  length: 8.3454189300537109
-  cost: 25.110734472890353
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215779.31115112305
-          y: 2546135.46673584
-        }
-        point {
-          x: 215777.40761718751
-          y: 2546136.7430114746
-        }
-        point {
-          x: 215776.09620819092
-          y: 2546138.4152374268
-        }
-        point {
-          x: 215775.22696647645
-          y: 2546140.2388916016
-        }
-        point {
-          x: 215774.83307037354
-          y: 2546142.1060791016
-        }
-      }
-      s: 0
-      start_position {
-        x: 215779.31115112305
-        y: 2546135.46673584
-        z: 0
-      }
-      length: 8.3454189300537109
-    }
-  }
-  is_virtual: false
-  road_id: "road_188"
-}
-node {
-  lane_id: "lane_231"
-  length: 13.612751007080078
-  cost: 28.336448586447329
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215765.79494247437
-          y: 2546138.5512542725
-        }
-        point {
-          x: 215766.60823783875
-          y: 2546131.1689682007
-        }
-        point {
-          x: 215765.87538681031
-          y: 2546125.0267333984
-        }
-      }
-      s: 0
-      start_position {
-        x: 215765.79494247437
-        y: 2546138.5512542725
-        z: 0
-      }
-      length: 13.612751007080078
-    }
-  }
-  is_virtual: false
-  road_id: "road_189"
-}
-node {
-  lane_id: "lane_232"
-  length: 9.2597637176513672
-  cost: 5.6706792120639058
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215769.40537033082
-          y: 2546139.5556335449
-        }
-        point {
-          x: 215769.86717758179
-          y: 2546137.8081970215
-        }
-        point {
-          x: 215769.89115867615
-          y: 2546135.608833313
-        }
-        point {
-          x: 215769.84154472352
-          y: 2546133.3843383789
-        }
-        point {
-          x: 215769.6114440918
-          y: 2546130.3653030396
-        }
-      }
-      s: 0
-      start_position {
-        x: 215769.40537033082
-        y: 2546139.5556335449
-        z: 0
-      }
-      length: 9.2597637176513672
-    }
-  }
-  is_virtual: false
-  road_id: "road_190"
-}
-node {
-  lane_id: "lane_233"
-  length: 8.7268505096435547
-  cost: 5.344323168580468
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215766.21541366578
-          y: 2546131.1168136597
-        }
-        point {
-          x: 215765.47520217896
-          y: 2546128.9294281006
-        }
-        point {
-          x: 215764.45338401795
+          x: 215764.45339164734
           y: 2546127.0382461548
         }
         point {
-          x: 215763.02165946961
+          x: 215763.021667099
           y: 2546125.4298019409
         }
         point {
@@ -9446,110 +8930,274 @@ node {
       }
       s: 0
       start_position {
-        x: 215766.21541366578
-        y: 2546131.1168136597
+        x: 215765.70420989991
+        y: 2546128.7190704346
         z: 0
       }
-      length: 8.7268505096435547
+      length: 6.3632087707519531
     }
   }
   is_virtual: false
-  road_id: "road_191"
+  road_id: "road_174"
 }
 node {
-  lane_id: "lane_234"
-  length: 7.7799739837646484
-  cost: 4.7644559931948418
+  lane_id: "lane_221"
+  length: 8.8624515533447266
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 8.8624515533447266
+    }
+  }
+  cost: 5.42736524644522
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215762.45059165955
-          y: 2546120.6211242676
+          x: 215769.02004776002
+          y: 2546128.729347229
         }
         point {
-          x: 215764.64816436768
-          y: 2546120.1311187744
+          x: 215769.71527633668
+          y: 2546124.9864501953
         }
         point {
-          x: 215766.59105262757
-          y: 2546119.5886917114
+          x: 215770.97356567383
+          y: 2546122.5979309082
         }
         point {
-          x: 215768.32567939759
-          y: 2546118.9376754761
+          x: 215772.87798461915
+          y: 2546121.2111358643
+        }
+      }
+      s: 0
+      start_position {
+        x: 215769.02004776002
+        y: 2546128.729347229
+        z: 0
+      }
+      length: 8.8624515533447266
+    }
+  }
+  is_virtual: false
+  road_id: "road_175"
+}
+node {
+  lane_id: "lane_222"
+  length: 11.335592269897461
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 11.335592269897461
+    }
+  }
+  cost: 6.9419165975915265
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215765.70420989991
+          y: 2546128.7190704346
+        }
+        point {
+          x: 215766.85336265565
+          y: 2546123.4805526733
         }
         point {
           x: 215769.86633644105
-          y: 2546118.3237304688
+          y: 2546118.3237228394
         }
       }
       s: 0
       start_position {
-        x: 215762.45059165955
-        y: 2546120.6211242676
+        x: 215765.70420989991
+        y: 2546128.7190704346
         z: 0
       }
-      length: 7.7799739837646484
+      length: 11.335592269897461
     }
   }
   is_virtual: false
-  road_id: "road_192"
+  road_id: "road_176"
 }
 node {
-  lane_id: "lane_235"
-  length: 10.407294273376465
-  cost: 6.3734269134068677
+  lane_id: "lane_223"
+  length: 10.158973693847656
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 10.158973693847656
+    }
+  }
+  cost: 6.2213553928801177
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215783.57734832764
+          x: 215783.57736358643
           y: 2546123.3939743042
         }
         point {
-          x: 215784.88606414796
-          y: 2546125.3173599243
+          x: 215784.21071014405
+          y: 2546125.9596252441
         }
         point {
-          x: 215786.58471069337
-          y: 2546127.1526489258
+          x: 215784.5030532837
+          y: 2546128.4015274048
         }
         point {
-          x: 215788.53208312989
-          y: 2546128.8877029419
+          x: 215783.66262207032
+          y: 2546130.7171173096
         }
         point {
-          x: 215790.92243347169
-          y: 2546130.6537094116
+          x: 215782.48082122803
+          y: 2546133.0257949829
         }
       }
       s: 0
       start_position {
-        x: 215783.57734832764
+        x: 215783.57736358643
         y: 2546123.3939743042
         z: 0
       }
-      length: 10.407294273376465
+      length: 10.158973693847656
     }
   }
   is_virtual: false
-  road_id: "road_193"
+  road_id: "road_177"
 }
 node {
-  lane_id: "lane_236"
-  length: 5.5043745040893555
-  cost: 3.3708788936216005
+  lane_id: "lane_224"
+  length: 11.753532409667969
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 11.753532409667969
+    }
+  }
+  cost: 7.1978631351868536
   central_curve {
     segment {
       line_segment {
         point {
-          x: 215787.77108917237
-          y: 2546124.3440704346
+          x: 215787.77105865479
+          y: 2546124.344078064
         }
         point {
-          x: 215789.690423584
-          y: 2546126.3931503296
+          x: 215787.50763092042
+          y: 2546126.7894058228
+        }
+        point {
+          x: 215787.22029266358
+          y: 2546129.2601776123
+        }
+        point {
+          x: 215786.24418029786
+          y: 2546132.081703186
+        }
+        point {
+          x: 215784.39944610596
+          y: 2546135.4279327393
+        }
+      }
+      s: 0
+      start_position {
+        x: 215787.77105865479
+        y: 2546124.344078064
+        z: 0
+      }
+      length: 11.753532409667969
+    }
+  }
+  is_virtual: false
+  road_id: "road_178"
+}
+node {
+  lane_id: "lane_225"
+  length: 7.3008108139038086
+  cost: 24.471016472558166
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215789.73484954835
+          y: 2546133.4996414185
+        }
+        point {
+          x: 215787.1361404419
+          y: 2546133.0045852661
+        }
+        point {
+          x: 215782.48082122803
+          y: 2546133.0257949829
+        }
+      }
+      s: 0
+      start_position {
+        x: 215789.73484954835
+        y: 2546133.4996414185
+        z: 0
+      }
+      length: 7.3008108139038086
+    }
+  }
+  is_virtual: false
+  road_id: "road_179"
+}
+node {
+  lane_id: "lane_226"
+  length: 10.465164184570312
+  cost: 6.4088664464681031
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215783.57736358643
+          y: 2546123.3939743042
+        }
+        point {
+          x: 215787.13676605225
+          y: 2546128.0921707153
+        }
+        point {
+          x: 215790.92247161866
+          y: 2546130.653717041
+        }
+      }
+      s: 0
+      start_position {
+        x: 215783.57736358643
+        y: 2546123.3939743042
+        z: 0
+      }
+      length: 10.465164184570312
+    }
+  }
+  is_virtual: false
+  road_id: "road_180"
+}
+node {
+  lane_id: "lane_227"
+  length: 5.5043902397155762
+  cost: 3.3708885301189477
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215787.77105865479
+          y: 2546124.344078064
+        }
+        point {
+          x: 215789.69043121338
+          y: 2546126.393157959
         }
         point {
           x: 215791.83567962647
@@ -9558,60 +9206,20 @@ node {
       }
       s: 0
       start_position {
-        x: 215787.77108917237
-        y: 2546124.3440704346
+        x: 215787.77105865479
+        y: 2546124.344078064
         z: 0
       }
-      length: 5.5043745040893555
+      length: 5.5043902397155762
     }
   }
   is_virtual: false
-  road_id: "road_194"
+  road_id: "road_181"
 }
 node {
-  lane_id: "lane_237"
-  length: 15.867568016052246
-  cost: 29.717298501160887
-  central_curve {
-    segment {
-      line_segment {
-        point {
-          x: 215765.79494247437
-          y: 2546138.5512542725
-        }
-        point {
-          x: 215766.0409236908
-          y: 2546135.5467300415
-        }
-        point {
-          x: 215766.01216468812
-          y: 2546132.0972824097
-        }
-        point {
-          x: 215764.55731925965
-          y: 2546127.8656387329
-        }
-        point {
-          x: 215761.37743530274
-          y: 2546124.0999832153
-        }
-      }
-      s: 0
-      start_position {
-        x: 215765.79494247437
-        y: 2546138.5512542725
-        z: 0
-      }
-      length: 15.867568016052246
-    }
-  }
-  is_virtual: false
-  road_id: "road_195"
-}
-node {
-  lane_id: "lane_238"
-  length: 16.078517913818359
-  cost: 59.846484216533838
+  lane_id: "lane_228"
+  length: 4.4390926361083984
+  cost: 52.718500287865943
   central_curve {
     segment {
       line_segment {
@@ -9620,20 +9228,12 @@ node {
           y: 2546136.0589294434
         }
         point {
-          x: 215786.16911468506
-          y: 2546135.422088623
+          x: 215786.77749023438
+          y: 2546135.4895248413
         }
         point {
-          x: 215783.39740905762
-          y: 2546136.585723877
-        }
-        point {
-          x: 215779.25888214112
-          y: 2546137.968788147
-        }
-        point {
-          x: 215773.22425994874
-          y: 2546138.293838501
+          x: 215784.39944610596
+          y: 2546135.4279327393
         }
       }
       s: 0
@@ -9642,63 +9242,283 @@ node {
         y: 2546136.0589294434
         z: 0
       }
-      length: 16.078517913818359
+      length: 4.4390926361083984
     }
   }
   is_virtual: false
-  road_id: "road_196"
+  road_id: "road_182"
+}
+node {
+  lane_id: "lane_229"
+  length: 5.0179977416992188
+  cost: 53.073021768989022
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215780.40936431885
+          y: 2546138.854133606
+        }
+        point {
+          x: 215779.92540893555
+          y: 2546139.9999008179
+        }
+        point {
+          x: 215778.88312683106
+          y: 2546141.4233932495
+        }
+        point {
+          x: 215778.35069808961
+          y: 2546143.3615264893
+        }
+      }
+      s: 0
+      start_position {
+        x: 215780.40936431885
+        y: 2546138.854133606
+        z: 0
+      }
+      length: 5.0179977416992188
+    }
+  }
+  is_virtual: false
+  road_id: "road_183"
+}
+node {
+  lane_id: "lane_230"
+  length: 7.1370258331298828
+  cost: 24.370714551899809
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215778.21275482178
+          y: 2546136.0038375854
+        }
+        point {
+          x: 215776.09621582032
+          y: 2546138.4152374268
+        }
+        point {
+          x: 215775.22696838379
+          y: 2546140.2388839722
+        }
+        point {
+          x: 215774.83307037354
+          y: 2546142.1060791016
+        }
+      }
+      s: 0
+      start_position {
+        x: 215778.21275482178
+        y: 2546136.0038375854
+        z: 0
+      }
+      length: 7.1370258331298828
+    }
+  }
+  is_virtual: false
+  road_id: "road_184"
+}
+node {
+  lane_id: "lane_231"
+  length: 5.7062845230102539
+  cost: 23.494528587276264
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215765.79494247437
+          y: 2546138.5512542725
+        }
+        point {
+          x: 215766.37363204957
+          y: 2546136.4245376587
+        }
+        point {
+          x: 215766.72247085572
+          y: 2546132.9397125244
+        }
+      }
+      s: 0
+      start_position {
+        x: 215765.79494247437
+        y: 2546138.5512542725
+        z: 0
+      }
+      length: 5.7062845230102539
+    }
+  }
+  is_virtual: false
+  road_id: "road_185"
+}
+node {
+  lane_id: "lane_232"
+  length: 7.72432804107666
+  cost: 4.7303784184253086
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215769.40537033082
+          y: 2546139.5556335449
+        }
+        point {
+          x: 215769.89115867615
+          y: 2546135.6088104248
+        }
+        point {
+          x: 215769.72206459046
+          y: 2546131.864906311
+        }
+      }
+      s: 0
+      start_position {
+        x: 215769.40537033082
+        y: 2546139.5556335449
+        z: 0
+      }
+      length: 7.72432804107666
+    }
+  }
+  is_virtual: false
+  road_id: "road_186"
+}
+node {
+  lane_id: "lane_233"
+  length: 9.80095100402832
+  right_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 9.80095100402832
+    }
+  }
+  cost: 6.0021023010614138
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215778.21275482178
+          y: 2546136.0038375854
+        }
+        point {
+          x: 215775.91555175782
+          y: 2546135.5005645752
+        }
+        point {
+          x: 215773.00593910218
+          y: 2546134.5619812012
+        }
+        point {
+          x: 215770.85111579896
+          y: 2546133.5070037842
+        }
+        point {
+          x: 215769.72206459046
+          y: 2546131.864906311
+        }
+      }
+      s: 0
+      start_position {
+        x: 215778.21275482178
+        y: 2546136.0038375854
+        z: 0
+      }
+      length: 9.80095100402832
+    }
+  }
+  is_virtual: false
+  road_id: "road_187"
+}
+node {
+  lane_id: "lane_234"
+  length: 15.242912292480469
+  left_out {
+    start {
+      s: 0
+    }
+    end {
+      s: 15.242912292480469
+    }
+  }
+  cost: 9.33475934202415
+  central_curve {
+    segment {
+      line_segment {
+        point {
+          x: 215780.40936431885
+          y: 2546138.854133606
+        }
+        point {
+          x: 215776.15665588379
+          y: 2546137.8005218506
+        }
+        point {
+          x: 215771.97749099732
+          y: 2546136.9154434204
+        }
+        point {
+          x: 215769.3053718567
+          y: 2546134.93044281
+        }
+        point {
+          x: 215766.72247085572
+          y: 2546132.9397125244
+        }
+      }
+      s: 0
+      start_position {
+        x: 215780.40936431885
+        y: 2546138.854133606
+        z: 0
+      }
+      length: 15.242912292480469
+    }
+  }
+  is_virtual: false
+  road_id: "road_188"
 }
 edge {
   from_lane_id: "lane_0"
-  to_lane_id: "lane_77"
+  to_lane_id: "lane_85"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_0"
-  to_lane_id: "lane_78"
+  to_lane_id: "lane_86"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_1"
-  to_lane_id: "lane_109"
+  to_lane_id: "lane_117"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_1"
-  to_lane_id: "lane_110"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_2"
-  to_lane_id: "lane_75"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_2"
-  to_lane_id: "lane_80"
+  to_lane_id: "lane_118"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_2"
   to_lane_id: "lane_3"
-  cost: 537.18977778590056
+  cost: 557.55689598861022
   direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_3"
-  to_lane_id: "lane_75"
+  to_lane_id: "lane_83"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_3"
-  to_lane_id: "lane_80"
+  to_lane_id: "lane_88"
   cost: 0
   direction_type: FORWARD
 }
@@ -9710,13 +9530,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_4"
-  to_lane_id: "lane_123"
+  to_lane_id: "lane_131"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_4"
-  to_lane_id: "lane_124"
+  to_lane_id: "lane_132"
   cost: 0
   direction_type: FORWARD
 }
@@ -9728,7 +9548,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_5"
-  to_lane_id: "lane_117"
+  to_lane_id: "lane_125"
   cost: 0
   direction_type: FORWARD
 }
@@ -9740,163 +9560,163 @@ edge {
 }
 edge {
   from_lane_id: "lane_6"
-  to_lane_id: "lane_76"
+  to_lane_id: "lane_84"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_6"
-  to_lane_id: "lane_79"
+  to_lane_id: "lane_87"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_7"
-  to_lane_id: "lane_89"
+  to_lane_id: "lane_97"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_7"
-  to_lane_id: "lane_90"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_7"
-  to_lane_id: "lane_92"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_8"
-  to_lane_id: "lane_83"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_8"
-  to_lane_id: "lane_86"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_8"
-  to_lane_id: "lane_88"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_9"
-  to_lane_id: "lane_101"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_9"
-  to_lane_id: "lane_102"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_9"
-  to_lane_id: "lane_104"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_10"
-  to_lane_id: "lane_95"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_10"
   to_lane_id: "lane_98"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_10"
+  from_lane_id: "lane_7"
   to_lane_id: "lane_100"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_11"
-  to_lane_id: "lane_203"
+  from_lane_id: "lane_8"
+  to_lane_id: "lane_91"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_8"
+  to_lane_id: "lane_94"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_8"
+  to_lane_id: "lane_96"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_9"
+  to_lane_id: "lane_109"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_9"
+  to_lane_id: "lane_110"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_9"
+  to_lane_id: "lane_112"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_10"
+  to_lane_id: "lane_103"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_10"
+  to_lane_id: "lane_106"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_10"
+  to_lane_id: "lane_108"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_11"
-  to_lane_id: "lane_204"
+  to_lane_id: "lane_211"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_11"
-  to_lane_id: "lane_206"
+  to_lane_id: "lane_212"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_11"
+  to_lane_id: "lane_214"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_11"
+  to_lane_id: "lane_218"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_12"
+  to_lane_id: "lane_205"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_12"
+  to_lane_id: "lane_208"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_12"
   to_lane_id: "lane_210"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_12"
-  to_lane_id: "lane_197"
+  to_lane_id: "lane_217"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_12"
+  from_lane_id: "lane_13"
+  to_lane_id: "lane_198"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_13"
   to_lane_id: "lane_200"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_12"
-  to_lane_id: "lane_202"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_12"
-  to_lane_id: "lane_209"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_13"
-  to_lane_id: "lane_190"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_13"
-  to_lane_id: "lane_192"
+  from_lane_id: "lane_14"
+  to_lane_id: "lane_171"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_14"
-  to_lane_id: "lane_163"
+  to_lane_id: "lane_176"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_14"
-  to_lane_id: "lane_168"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_14"
-  to_lane_id: "lane_175"
+  to_lane_id: "lane_183"
   cost: 0
   direction_type: FORWARD
 }
@@ -9908,19 +9728,19 @@ edge {
 }
 edge {
   from_lane_id: "lane_15"
-  to_lane_id: "lane_166"
+  to_lane_id: "lane_174"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_15"
-  to_lane_id: "lane_176"
+  to_lane_id: "lane_184"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_15"
-  to_lane_id: "lane_177"
+  to_lane_id: "lane_185"
   cost: 0
   direction_type: FORWARD
 }
@@ -9932,7 +9752,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_16"
-  to_lane_id: "lane_183"
+  to_lane_id: "lane_191"
   cost: 0
   direction_type: FORWARD
 }
@@ -9944,7 +9764,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_17"
-  to_lane_id: "lane_181"
+  to_lane_id: "lane_189"
   cost: 0
   direction_type: FORWARD
 }
@@ -9956,91 +9776,85 @@ edge {
 }
 edge {
   from_lane_id: "lane_18"
-  to_lane_id: "lane_149"
+  to_lane_id: "lane_178"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_18"
-  to_lane_id: "lane_154"
+  to_lane_id: "lane_181"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_18"
+  to_lane_id: "lane_182"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_18"
   to_lane_id: "lane_19"
-  cost: 1549.46607563859
-  direction_type: LEFT
+  cost: 1425.4831010382366
+  direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_19"
-  to_lane_id: "lane_152"
+  to_lane_id: "lane_177"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_19"
-  to_lane_id: "lane_160"
+  to_lane_id: "lane_180"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_19"
   to_lane_id: "lane_18"
-  cost: 1563.3143249011291
-  direction_type: RIGHT
+  cost: 1457.1364762454975
+  direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_20"
-  to_lane_id: "lane_170"
+  to_lane_id: "lane_157"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_20"
-  to_lane_id: "lane_173"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_20"
-  to_lane_id: "lane_174"
+  to_lane_id: "lane_162"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_20"
   to_lane_id: "lane_21"
-  cost: 1425.4831010382366
-  direction_type: RIGHT
+  cost: 1549.4673948259133
+  direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_21"
-  to_lane_id: "lane_169"
+  to_lane_id: "lane_160"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_21"
-  to_lane_id: "lane_172"
+  to_lane_id: "lane_168"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_21"
   to_lane_id: "lane_20"
-  cost: 1457.1364762454975
-  direction_type: LEFT
+  cost: 1563.3143249011291
+  direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_22"
   to_lane_id: "lane_231"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_22"
-  to_lane_id: "lane_237"
   cost: 0
   direction_type: FORWARD
 }
@@ -10064,13 +9878,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_24"
-  to_lane_id: "lane_156"
+  to_lane_id: "lane_164"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_24"
-  to_lane_id: "lane_159"
+  to_lane_id: "lane_167"
   cost: 0
   direction_type: FORWARD
 }
@@ -10082,13 +9896,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_25"
-  to_lane_id: "lane_155"
+  to_lane_id: "lane_163"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_25"
-  to_lane_id: "lane_158"
+  to_lane_id: "lane_166"
   cost: 0
   direction_type: FORWARD
 }
@@ -10100,13 +9914,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_26"
-  to_lane_id: "lane_119"
+  to_lane_id: "lane_127"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_26"
-  to_lane_id: "lane_120"
+  to_lane_id: "lane_128"
   cost: 0
   direction_type: FORWARD
 }
@@ -10118,7 +9932,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_27"
-  to_lane_id: "lane_122"
+  to_lane_id: "lane_130"
   cost: 0
   direction_type: FORWARD
 }
@@ -10130,13 +9944,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_28"
-  to_lane_id: "lane_132"
+  to_lane_id: "lane_140"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_28"
-  to_lane_id: "lane_133"
+  to_lane_id: "lane_141"
   cost: 0
   direction_type: FORWARD
 }
@@ -10148,7 +9962,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_29"
-  to_lane_id: "lane_126"
+  to_lane_id: "lane_134"
   cost: 0
   direction_type: FORWARD
 }
@@ -10160,43 +9974,43 @@ edge {
 }
 edge {
   from_lane_id: "lane_30"
-  to_lane_id: "lane_128"
+  to_lane_id: "lane_136"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_30"
-  to_lane_id: "lane_129"
+  to_lane_id: "lane_137"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_30"
   to_lane_id: "lane_31"
-  cost: 1268.1453943164877
+  cost: 1268.1451244081288
   direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_31"
-  to_lane_id: "lane_131"
+  to_lane_id: "lane_139"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_31"
   to_lane_id: "lane_30"
-  cost: 1270.3829810561103
+  cost: 1270.3840638673155
   direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_32"
-  to_lane_id: "lane_139"
+  to_lane_id: "lane_147"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_32"
-  to_lane_id: "lane_140"
+  to_lane_id: "lane_148"
   cost: 0
   direction_type: FORWARD
 }
@@ -10208,80 +10022,68 @@ edge {
 }
 edge {
   from_lane_id: "lane_33"
-  to_lane_id: "lane_139"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_33"
-  to_lane_id: "lane_140"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_33"
   to_lane_id: "lane_32"
-  cost: 1224.2602656582924
+  cost: 1247.2644193440237
   direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_34"
-  to_lane_id: "lane_113"
+  to_lane_id: "lane_121"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_34"
-  to_lane_id: "lane_114"
+  to_lane_id: "lane_122"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_35"
-  to_lane_id: "lane_144"
+  to_lane_id: "lane_152"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_35"
-  to_lane_id: "lane_145"
+  to_lane_id: "lane_153"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_36"
-  to_lane_id: "lane_107"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_36"
-  to_lane_id: "lane_108"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_37"
   to_lane_id: "lane_115"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_37"
+  from_lane_id: "lane_36"
   to_lane_id: "lane_116"
   cost: 0
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_37"
+  to_lane_id: "lane_123"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_37"
+  to_lane_id: "lane_124"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
   from_lane_id: "lane_38"
-  to_lane_id: "lane_138"
+  to_lane_id: "lane_146"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_38"
   to_lane_id: "lane_40"
-  cost: 2166.9952234862471
+  cost: 1491.6890239635211
   direction_type: RIGHT
 }
 edge {
@@ -10292,103 +10094,97 @@ edge {
 }
 edge {
   from_lane_id: "lane_40"
-  to_lane_id: "lane_135"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_40"
-  to_lane_id: "lane_136"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_40"
-  to_lane_id: "lane_38"
-  cost: 2116.7134083354972
-  direction_type: LEFT
-}
-edge {
-  from_lane_id: "lane_41"
-  to_lane_id: "lane_180"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_41"
-  to_lane_id: "lane_185"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_42"
-  to_lane_id: "lane_38"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_42"
-  to_lane_id: "lane_40"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_43"
-  to_lane_id: "lane_142"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_43"
   to_lane_id: "lane_143"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_44"
-  to_lane_id: "lane_191"
+  from_lane_id: "lane_40"
+  to_lane_id: "lane_144"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_44"
-  to_lane_id: "lane_194"
+  from_lane_id: "lane_40"
+  to_lane_id: "lane_38"
+  cost: 1903.3423991833713
+  direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_41"
+  to_lane_id: "lane_188"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_45"
-  to_lane_id: "lane_189"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_45"
+  from_lane_id: "lane_41"
   to_lane_id: "lane_193"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_46"
-  to_lane_id: "lane_182"
+  from_lane_id: "lane_42"
+  to_lane_id: "lane_38"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_46"
-  to_lane_id: "lane_186"
+  from_lane_id: "lane_43"
+  to_lane_id: "lane_150"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_47"
-  to_lane_id: "lane_196"
+  from_lane_id: "lane_43"
+  to_lane_id: "lane_151"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_47"
+  from_lane_id: "lane_44"
+  to_lane_id: "lane_199"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_44"
+  to_lane_id: "lane_202"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_45"
+  to_lane_id: "lane_197"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_45"
   to_lane_id: "lane_201"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_46"
+  to_lane_id: "lane_190"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_46"
+  to_lane_id: "lane_194"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_47"
+  to_lane_id: "lane_204"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_47"
+  to_lane_id: "lane_209"
   cost: 0
   direction_type: FORWARD
 }
@@ -10400,31 +10196,31 @@ edge {
 }
 edge {
   from_lane_id: "lane_48"
-  to_lane_id: "lane_195"
+  to_lane_id: "lane_203"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_48"
-  to_lane_id: "lane_207"
+  to_lane_id: "lane_215"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_48"
   to_lane_id: "lane_47"
-  cost: 10542.778077796975
+  cost: 10542.836782826249
   direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_49"
-  to_lane_id: "lane_165"
+  to_lane_id: "lane_173"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_49"
-  to_lane_id: "lane_179"
+  to_lane_id: "lane_187"
   cost: 0
   direction_type: FORWARD
 }
@@ -10436,121 +10232,121 @@ edge {
 }
 edge {
   from_lane_id: "lane_50"
-  to_lane_id: "lane_164"
+  to_lane_id: "lane_172"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_50"
-  to_lane_id: "lane_171"
+  to_lane_id: "lane_179"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_50"
   to_lane_id: "lane_49"
-  cost: 9570.5359792253184
+  cost: 9570.5193251674955
   direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_51"
-  to_lane_id: "lane_93"
+  to_lane_id: "lane_101"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_51"
-  to_lane_id: "lane_94"
+  to_lane_id: "lane_102"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_51"
-  to_lane_id: "lane_99"
+  to_lane_id: "lane_107"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_52"
-  to_lane_id: "lane_150"
+  to_lane_id: "lane_158"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_52"
-  to_lane_id: "lane_151"
+  to_lane_id: "lane_159"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_52"
-  to_lane_id: "lane_157"
+  to_lane_id: "lane_165"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_53"
-  to_lane_id: "lane_111"
+  to_lane_id: "lane_119"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_53"
-  to_lane_id: "lane_112"
+  to_lane_id: "lane_120"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_54"
-  to_lane_id: "lane_96"
+  to_lane_id: "lane_104"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_54"
-  to_lane_id: "lane_97"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_54"
-  to_lane_id: "lane_103"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_55"
   to_lane_id: "lane_105"
   cost: 0
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_54"
+  to_lane_id: "lane_111"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
   from_lane_id: "lane_55"
-  to_lane_id: "lane_106"
+  to_lane_id: "lane_113"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_55"
+  to_lane_id: "lane_114"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_56"
-  to_lane_id: "lane_84"
+  to_lane_id: "lane_92"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_56"
-  to_lane_id: "lane_85"
+  to_lane_id: "lane_93"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_56"
-  to_lane_id: "lane_91"
+  to_lane_id: "lane_99"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_57"
-  to_lane_id: "lane_146"
+  to_lane_id: "lane_154"
   cost: 0
   direction_type: FORWARD
 }
@@ -10562,7 +10358,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_58"
-  to_lane_id: "lane_141"
+  to_lane_id: "lane_149"
   cost: 0
   direction_type: FORWARD
 }
@@ -10574,13 +10370,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_59"
-  to_lane_id: "lane_199"
+  to_lane_id: "lane_207"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_59"
-  to_lane_id: "lane_208"
+  to_lane_id: "lane_216"
   cost: 0
   direction_type: FORWARD
 }
@@ -10592,13 +10388,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_60"
-  to_lane_id: "lane_198"
+  to_lane_id: "lane_206"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_60"
-  to_lane_id: "lane_205"
+  to_lane_id: "lane_213"
   cost: 0
   direction_type: FORWARD
 }
@@ -10610,31 +10406,31 @@ edge {
 }
 edge {
   from_lane_id: "lane_61"
-  to_lane_id: "lane_81"
+  to_lane_id: "lane_89"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_61"
-  to_lane_id: "lane_82"
+  to_lane_id: "lane_90"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_61"
-  to_lane_id: "lane_87"
+  to_lane_id: "lane_95"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_62"
-  to_lane_id: "lane_234"
+  to_lane_id: "lane_219"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_63"
-  to_lane_id: "lane_228"
+  to_lane_id: "lane_225"
   cost: 0
   direction_type: FORWARD
 }
@@ -10646,25 +10442,25 @@ edge {
 }
 edge {
   from_lane_id: "lane_64"
-  to_lane_id: "lane_121"
+  to_lane_id: "lane_129"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_64"
-  to_lane_id: "lane_125"
+  to_lane_id: "lane_133"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_64"
   to_lane_id: "lane_65"
-  cost: 23693.597268886351
+  cost: 23693.956786514886
   direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_65"
-  to_lane_id: "lane_118"
+  to_lane_id: "lane_126"
   cost: 0
   direction_type: FORWARD
 }
@@ -10676,13 +10472,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_66"
-  to_lane_id: "lane_227"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_66"
-  to_lane_id: "lane_238"
+  to_lane_id: "lane_228"
   cost: 0
   direction_type: FORWARD
 }
@@ -10694,37 +10484,37 @@ edge {
 }
 edge {
   from_lane_id: "lane_67"
-  to_lane_id: "lane_147"
+  to_lane_id: "lane_155"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_67"
-  to_lane_id: "lane_148"
+  to_lane_id: "lane_156"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_67"
-  to_lane_id: "lane_153"
+  to_lane_id: "lane_161"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_68"
-  to_lane_id: "lane_127"
+  to_lane_id: "lane_135"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_68"
-  to_lane_id: "lane_130"
+  to_lane_id: "lane_138"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_69"
-  to_lane_id: "lane_188"
+  to_lane_id: "lane_196"
   cost: 0
   direction_type: FORWARD
 }
@@ -10736,13 +10526,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_70"
-  to_lane_id: "lane_184"
+  to_lane_id: "lane_192"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_70"
-  to_lane_id: "lane_187"
+  to_lane_id: "lane_195"
   cost: 0
   direction_type: FORWARD
 }
@@ -10754,13 +10544,13 @@ edge {
 }
 edge {
   from_lane_id: "lane_71"
-  to_lane_id: "lane_162"
+  to_lane_id: "lane_170"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_71"
-  to_lane_id: "lane_178"
+  to_lane_id: "lane_186"
   cost: 0
   direction_type: FORWARD
 }
@@ -10772,145 +10562,223 @@ edge {
 }
 edge {
   from_lane_id: "lane_72"
-  to_lane_id: "lane_161"
+  to_lane_id: "lane_169"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_72"
-  to_lane_id: "lane_167"
+  to_lane_id: "lane_175"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_72"
   to_lane_id: "lane_71"
-  cost: 10542.720524375591
+  cost: 10542.712466938388
   direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_73"
-  to_lane_id: "lane_137"
+  to_lane_id: "lane_145"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_73"
   to_lane_id: "lane_74"
-  cost: 13140.812869087282
+  cost: 13140.806222354759
   direction_type: RIGHT
 }
 edge {
   from_lane_id: "lane_74"
-  to_lane_id: "lane_134"
+  to_lane_id: "lane_142"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_74"
   to_lane_id: "lane_73"
-  cost: 12264.717001123552
+  cost: 12264.739218825871
   direction_type: LEFT
 }
 edge {
   from_lane_id: "lane_75"
-  to_lane_id: "lane_7"
+  to_lane_id: "lane_221"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_75"
+  to_lane_id: "lane_76"
+  cost: 30163.129418401619
+  direction_type: RIGHT
+}
+edge {
+  from_lane_id: "lane_76"
+  to_lane_id: "lane_220"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_76"
-  to_lane_id: "lane_1"
+  to_lane_id: "lane_222"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_76"
+  to_lane_id: "lane_75"
+  cost: 19176.486604204143
+  direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_77"
+  to_lane_id: "lane_224"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_77"
-  to_lane_id: "lane_4"
+  to_lane_id: "lane_227"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_77"
+  to_lane_id: "lane_78"
+  cost: 5918.8203418422345
+  direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_78"
+  to_lane_id: "lane_223"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_78"
-  to_lane_id: "lane_7"
+  to_lane_id: "lane_226"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_78"
+  to_lane_id: "lane_77"
+  cost: 20743.846402077786
+  direction_type: RIGHT
+}
+edge {
+  from_lane_id: "lane_79"
+  to_lane_id: "lane_77"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_79"
-  to_lane_id: "lane_4"
+  to_lane_id: "lane_80"
+  cost: 4294.337043680127
+  direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_80"
+  to_lane_id: "lane_78"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_80"
-  to_lane_id: "lane_1"
+  to_lane_id: "lane_79"
+  cost: 8447.8678767782476
+  direction_type: RIGHT
+}
+edge {
+  from_lane_id: "lane_81"
+  to_lane_id: "lane_229"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_81"
-  to_lane_id: "lane_6"
+  to_lane_id: "lane_234"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_81"
+  to_lane_id: "lane_82"
+  cost: 14586.913647221256
+  direction_type: LEFT
+}
+edge {
+  from_lane_id: "lane_82"
+  to_lane_id: "lane_230"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_82"
-  to_lane_id: "lane_9"
+  to_lane_id: "lane_233"
   cost: 0
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_82"
+  to_lane_id: "lane_81"
+  cost: 14766.326241891944
+  direction_type: RIGHT
+}
+edge {
   from_lane_id: "lane_83"
-  to_lane_id: "lane_55"
+  to_lane_id: "lane_7"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_84"
-  to_lane_id: "lane_62"
+  to_lane_id: "lane_1"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_85"
-  to_lane_id: "lane_9"
+  to_lane_id: "lane_4"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_86"
-  to_lane_id: "lane_62"
+  to_lane_id: "lane_7"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_87"
-  to_lane_id: "lane_55"
+  to_lane_id: "lane_4"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_88"
-  to_lane_id: "lane_6"
+  to_lane_id: "lane_1"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_89"
-  to_lane_id: "lane_9"
+  to_lane_id: "lane_6"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_90"
-  to_lane_id: "lane_55"
+  to_lane_id: "lane_9"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_91"
-  to_lane_id: "lane_6"
+  to_lane_id: "lane_55"
   cost: 0
   direction_type: FORWARD
 }
@@ -10922,67 +10790,67 @@ edge {
 }
 edge {
   from_lane_id: "lane_93"
-  to_lane_id: "lane_8"
+  to_lane_id: "lane_9"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_94"
-  to_lane_id: "lane_11"
+  to_lane_id: "lane_62"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_95"
-  to_lane_id: "lane_53"
+  to_lane_id: "lane_55"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_96"
-  to_lane_id: "lane_52"
+  to_lane_id: "lane_6"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_97"
-  to_lane_id: "lane_11"
+  to_lane_id: "lane_9"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_98"
-  to_lane_id: "lane_52"
+  to_lane_id: "lane_55"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_99"
-  to_lane_id: "lane_53"
+  to_lane_id: "lane_6"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_100"
-  to_lane_id: "lane_8"
+  to_lane_id: "lane_62"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_101"
-  to_lane_id: "lane_11"
+  to_lane_id: "lane_8"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_102"
-  to_lane_id: "lane_53"
+  to_lane_id: "lane_11"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_103"
-  to_lane_id: "lane_8"
+  to_lane_id: "lane_53"
   cost: 0
   direction_type: FORWARD
 }
@@ -10994,313 +10862,319 @@ edge {
 }
 edge {
   from_lane_id: "lane_105"
-  to_lane_id: "lane_0"
+  to_lane_id: "lane_11"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_106"
-  to_lane_id: "lane_37"
+  to_lane_id: "lane_52"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_107"
-  to_lane_id: "lane_56"
+  to_lane_id: "lane_53"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_108"
-  to_lane_id: "lane_0"
+  to_lane_id: "lane_8"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_109"
-  to_lane_id: "lane_37"
+  to_lane_id: "lane_11"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_110"
-  to_lane_id: "lane_56"
+  to_lane_id: "lane_53"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_111"
-  to_lane_id: "lane_36"
+  to_lane_id: "lane_8"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_112"
-  to_lane_id: "lane_35"
+  to_lane_id: "lane_52"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_113"
-  to_lane_id: "lane_54"
+  to_lane_id: "lane_0"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_114"
-  to_lane_id: "lane_36"
+  to_lane_id: "lane_37"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_115"
-  to_lane_id: "lane_35"
+  to_lane_id: "lane_56"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_116"
-  to_lane_id: "lane_54"
+  to_lane_id: "lane_0"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_117"
-  to_lane_id: "lane_29"
+  to_lane_id: "lane_37"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_118"
-  to_lane_id: "lane_2"
+  to_lane_id: "lane_56"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_119"
-  to_lane_id: "lane_66"
+  to_lane_id: "lane_36"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_120"
-  to_lane_id: "lane_2"
+  to_lane_id: "lane_35"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_121"
-  to_lane_id: "lane_28"
+  to_lane_id: "lane_54"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_122"
-  to_lane_id: "lane_3"
+  to_lane_id: "lane_36"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_123"
-  to_lane_id: "lane_28"
+  to_lane_id: "lane_35"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_124"
-  to_lane_id: "lane_63"
+  to_lane_id: "lane_54"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_125"
-  to_lane_id: "lane_3"
+  to_lane_id: "lane_29"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_126"
-  to_lane_id: "lane_33"
+  to_lane_id: "lane_2"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_127"
-  to_lane_id: "lane_26"
+  to_lane_id: "lane_66"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_128"
-  to_lane_id: "lane_67"
+  to_lane_id: "lane_2"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_129"
-  to_lane_id: "lane_26"
+  to_lane_id: "lane_28"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_130"
-  to_lane_id: "lane_32"
+  to_lane_id: "lane_3"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_131"
-  to_lane_id: "lane_27"
+  to_lane_id: "lane_28"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_132"
-  to_lane_id: "lane_32"
+  to_lane_id: "lane_63"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_133"
-  to_lane_id: "lane_67"
+  to_lane_id: "lane_3"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_134"
-  to_lane_id: "lane_30"
+  to_lane_id: "lane_33"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_135"
-  to_lane_id: "lane_71"
+  to_lane_id: "lane_26"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_136"
-  to_lane_id: "lane_30"
+  to_lane_id: "lane_67"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_137"
-  to_lane_id: "lane_39"
+  to_lane_id: "lane_26"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_138"
-  to_lane_id: "lane_31"
+  to_lane_id: "lane_32"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_139"
-  to_lane_id: "lane_39"
+  to_lane_id: "lane_27"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_140"
-  to_lane_id: "lane_72"
+  to_lane_id: "lane_32"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_141"
-  to_lane_id: "lane_34"
+  to_lane_id: "lane_67"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_142"
-  to_lane_id: "lane_59"
+  to_lane_id: "lane_30"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_143"
-  to_lane_id: "lane_34"
+  to_lane_id: "lane_71"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_144"
-  to_lane_id: "lane_44"
+  to_lane_id: "lane_30"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_145"
-  to_lane_id: "lane_60"
+  to_lane_id: "lane_39"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_146"
-  to_lane_id: "lane_44"
+  to_lane_id: "lane_31"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_147"
-  to_lane_id: "lane_23"
+  to_lane_id: "lane_39"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_148"
-  to_lane_id: "lane_21"
+  to_lane_id: "lane_72"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_149"
-  to_lane_id: "lane_51"
+  to_lane_id: "lane_34"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_150"
-  to_lane_id: "lane_68"
+  to_lane_id: "lane_59"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_151"
-  to_lane_id: "lane_20"
+  to_lane_id: "lane_34"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_152"
-  to_lane_id: "lane_68"
+  to_lane_id: "lane_44"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_153"
-  to_lane_id: "lane_51"
+  to_lane_id: "lane_60"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_154"
+  to_lane_id: "lane_44"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_155"
-  to_lane_id: "lane_21"
+  to_lane_id: "lane_23"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_156"
-  to_lane_id: "lane_51"
+  to_lane_id: "lane_19"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_157"
-  to_lane_id: "lane_22"
+  to_lane_id: "lane_51"
   cost: 0
   direction_type: FORWARD
 }
@@ -11312,79 +11186,79 @@ edge {
 }
 edge {
   from_lane_id: "lane_159"
-  to_lane_id: "lane_20"
+  to_lane_id: "lane_18"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_160"
-  to_lane_id: "lane_23"
+  to_lane_id: "lane_68"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_161"
-  to_lane_id: "lane_19"
+  to_lane_id: "lane_51"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_162"
-  to_lane_id: "lane_17"
+  to_lane_id: "lane_22"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_163"
-  to_lane_id: "lane_48"
+  to_lane_id: "lane_19"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_164"
-  to_lane_id: "lane_74"
+  to_lane_id: "lane_51"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_165"
-  to_lane_id: "lane_16"
+  to_lane_id: "lane_22"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_166"
-  to_lane_id: "lane_73"
+  to_lane_id: "lane_68"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_167"
-  to_lane_id: "lane_48"
+  to_lane_id: "lane_18"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_168"
-  to_lane_id: "lane_18"
+  to_lane_id: "lane_23"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_169"
-  to_lane_id: "lane_17"
+  to_lane_id: "lane_21"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_170"
-  to_lane_id: "lane_48"
+  to_lane_id: "lane_17"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_171"
-  to_lane_id: "lane_18"
+  to_lane_id: "lane_48"
   cost: 0
   direction_type: FORWARD
 }
@@ -11402,193 +11276,193 @@ edge {
 }
 edge {
   from_lane_id: "lane_174"
-  to_lane_id: "lane_47"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_175"
-  to_lane_id: "lane_47"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_176"
-  to_lane_id: "lane_19"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_177"
-  to_lane_id: "lane_74"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_178"
-  to_lane_id: "lane_47"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_179"
   to_lane_id: "lane_73"
   cost: 0
   direction_type: FORWARD
 }
 edge {
+  from_lane_id: "lane_175"
+  to_lane_id: "lane_48"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_176"
+  to_lane_id: "lane_20"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_177"
+  to_lane_id: "lane_17"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_178"
+  to_lane_id: "lane_48"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
+  from_lane_id: "lane_179"
+  to_lane_id: "lane_20"
+  cost: 0
+  direction_type: FORWARD
+}
+edge {
   from_lane_id: "lane_180"
-  to_lane_id: "lane_15"
+  to_lane_id: "lane_74"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_181"
-  to_lane_id: "lane_42"
+  to_lane_id: "lane_16"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_182"
-  to_lane_id: "lane_42"
+  to_lane_id: "lane_47"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_183"
-  to_lane_id: "lane_45"
+  to_lane_id: "lane_47"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_184"
-  to_lane_id: "lane_42"
+  to_lane_id: "lane_21"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_185"
-  to_lane_id: "lane_45"
+  to_lane_id: "lane_74"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_186"
-  to_lane_id: "lane_14"
+  to_lane_id: "lane_47"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_187"
-  to_lane_id: "lane_15"
+  to_lane_id: "lane_73"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_188"
-  to_lane_id: "lane_14"
+  to_lane_id: "lane_15"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_189"
-  to_lane_id: "lane_12"
+  to_lane_id: "lane_42"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_190"
-  to_lane_id: "lane_46"
+  to_lane_id: "lane_42"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_191"
-  to_lane_id: "lane_46"
+  to_lane_id: "lane_45"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_192"
-  to_lane_id: "lane_43"
+  to_lane_id: "lane_42"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_193"
-  to_lane_id: "lane_43"
+  to_lane_id: "lane_45"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_194"
-  to_lane_id: "lane_12"
+  to_lane_id: "lane_14"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_195"
-  to_lane_id: "lane_10"
+  to_lane_id: "lane_15"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_196"
-  to_lane_id: "lane_13"
+  to_lane_id: "lane_14"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_197"
-  to_lane_id: "lane_57"
+  to_lane_id: "lane_12"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_198"
-  to_lane_id: "lane_50"
+  to_lane_id: "lane_46"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_199"
-  to_lane_id: "lane_13"
+  to_lane_id: "lane_46"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_200"
-  to_lane_id: "lane_49"
+  to_lane_id: "lane_43"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_201"
-  to_lane_id: "lane_57"
+  to_lane_id: "lane_43"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_202"
-  to_lane_id: "lane_10"
+  to_lane_id: "lane_12"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_203"
-  to_lane_id: "lane_13"
+  to_lane_id: "lane_10"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_204"
-  to_lane_id: "lane_58"
+  to_lane_id: "lane_13"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_205"
-  to_lane_id: "lane_10"
+  to_lane_id: "lane_57"
   cost: 0
   direction_type: FORWARD
 }
@@ -11600,7 +11474,7 @@ edge {
 }
 edge {
   from_lane_id: "lane_207"
-  to_lane_id: "lane_58"
+  to_lane_id: "lane_13"
   cost: 0
   direction_type: FORWARD
 }
@@ -11612,151 +11486,121 @@ edge {
 }
 edge {
   from_lane_id: "lane_209"
-  to_lane_id: "lane_50"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_210"
   to_lane_id: "lane_57"
   cost: 0
   direction_type: FORWARD
 }
 edge {
-  from_lane_id: "lane_211"
-  to_lane_id: "lane_219"
+  from_lane_id: "lane_210"
+  to_lane_id: "lane_10"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_211"
-  to_lane_id: "lane_230"
+  to_lane_id: "lane_13"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_212"
-  to_lane_id: "lane_220"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_212"
-  to_lane_id: "lane_229"
+  to_lane_id: "lane_58"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_213"
-  to_lane_id: "lane_226"
+  to_lane_id: "lane_10"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_214"
-  to_lane_id: "lane_225"
+  to_lane_id: "lane_50"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_215"
-  to_lane_id: "lane_218"
+  to_lane_id: "lane_58"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_216"
-  to_lane_id: "lane_217"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_216"
-  to_lane_id: "lane_233"
+  to_lane_id: "lane_49"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_217"
-  to_lane_id: "lane_213"
+  to_lane_id: "lane_50"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_218"
-  to_lane_id: "lane_214"
+  to_lane_id: "lane_57"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_219"
-  to_lane_id: "lane_215"
+  to_lane_id: "lane_79"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_220"
-  to_lane_id: "lane_216"
+  to_lane_id: "lane_61"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_221"
-  to_lane_id: "lane_211"
+  to_lane_id: "lane_80"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_222"
-  to_lane_id: "lane_212"
+  to_lane_id: "lane_79"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_223"
-  to_lane_id: "lane_221"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_223"
-  to_lane_id: "lane_235"
+  to_lane_id: "lane_82"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_224"
-  to_lane_id: "lane_222"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_224"
-  to_lane_id: "lane_236"
+  to_lane_id: "lane_81"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_225"
-  to_lane_id: "lane_223"
+  to_lane_id: "lane_82"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_226"
-  to_lane_id: "lane_224"
+  to_lane_id: "lane_64"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_227"
-  to_lane_id: "lane_25"
+  to_lane_id: "lane_65"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_228"
-  to_lane_id: "lane_215"
+  to_lane_id: "lane_81"
   cost: 0
   direction_type: FORWARD
 }
@@ -11774,49 +11618,25 @@ edge {
 }
 edge {
   from_lane_id: "lane_231"
-  to_lane_id: "lane_213"
+  to_lane_id: "lane_76"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_232"
-  to_lane_id: "lane_218"
+  to_lane_id: "lane_75"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_233"
-  to_lane_id: "lane_61"
+  to_lane_id: "lane_75"
   cost: 0
   direction_type: FORWARD
 }
 edge {
   from_lane_id: "lane_234"
-  to_lane_id: "lane_226"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_235"
-  to_lane_id: "lane_64"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_236"
-  to_lane_id: "lane_65"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_237"
-  to_lane_id: "lane_61"
-  cost: 0
-  direction_type: FORWARD
-}
-edge {
-  from_lane_id: "lane_238"
-  to_lane_id: "lane_216"
+  to_lane_id: "lane_76"
   cost: 0
   direction_type: FORWARD
 }
