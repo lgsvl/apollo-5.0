@@ -9,6 +9,7 @@
 #include <cstdint>
 #include <string>
 #include <vector>
+#include <mutex>
 
 #include "boost/asio.hpp"
 
