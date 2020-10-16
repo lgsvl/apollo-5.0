@@ -90,16 +90,20 @@ done
 
 APOLLO_ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd -P )"
 
-if [ "$(readlink -f /apollo)" != "${APOLLO_ROOT_DIR}" ]; then
-    sudo ln -snf ${APOLLO_ROOT_DIR} /apollo
-fi
+if [ "$DEV_START__BUILD_ONLY__LGSVL" != "1" ];then
+  if [ "$(readlink -f /apollo)" != "${APOLLO_ROOT_DIR}" ]; then
+      sudo ln -snf ${APOLLO_ROOT_DIR} /apollo
+  fi
 
-if [ -e /proc/sys/kernel ]; then
-    echo "/apollo/data/core/core_%e.%p" | sudo tee /proc/sys/kernel/core_pattern > /dev/null
+  if [ -e /proc/sys/kernel ]; then
+      echo "/apollo/data/core/core_%e.%p" | sudo tee /proc/sys/kernel/core_pattern > /dev/null
+  fi
 fi
 
 source ${APOLLO_ROOT_DIR}/scripts/apollo_base.sh
-check_agreement
+if [ "$DEV_START__BUILD_ONLY__LGSVL" != "1" ];then
+  check_agreement
+fi
 
 VOLUME_VERSION="latest"
 DEFAULT_MAPS=(
@@ -290,7 +294,9 @@ function main(){
         display="${DISPLAY}"
     fi
 
-    setup_device
+    if [ "$DEV_START__BUILD_ONLY__LGSVL" != "1" ];then
+        setup_device
+    fi
 
     USER_ID=$(id -u)
     GRP=apollo
