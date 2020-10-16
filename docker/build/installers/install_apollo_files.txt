@@ -1,0 +1,172 @@
+# Copyright (c) 2020 LG Electronics, Inc. All Rights Reserved
+
+# List of files to include in tarball when moving built Apollo from development image to runtime
+
+# for LD_PRELOAD
+# apt install libgomp1 libopenmpi1.6 libopenblas-base libopencv-core2.4
+usr/local/apollo/libtorch_gpu/lib/libcaffe2_gpu.so
+usr/local/apollo/libtorch_gpu/lib/libc10_cuda.so
+# usr/local/apollo/libtorch/lib/libc10.so
+usr/local/apollo/libtorch_gpu/lib/libc10.so
+# usr/local/apollo/libtorch/lib/libcaffe2.so
+usr/local/apollo/libtorch_gpu/lib/libcaffe2.so
+# usr/local/apollo/libtorch/lib/libmklml_intel.so
+# apollo/local_third_party/mklml/lib/libmklml_intel.so
+usr/local/apollo/libtorch_gpu/lib/libmklml_intel.so
+# usr/local/apollo/libtorch/lib/libiomp5.so
+# apollo/local_third_party/mklml/lib/libiomp5.so
+usr/local/apollo/libtorch_gpu/lib/libiomp5.so
+usr/local/lib/libnccl.so.2.4.2
+usr/local/lib/libnccl.so.2
+
+# need symlink, because it's listed in LD_PRELOAD without a version, but not worth installing libopencv-core2.4-dev package and it's dependencies
+usr/lib/x86_64-linux-gnu/libopencv_core.so
+
+# for cyber_bridge
+# apt install libboost-system1.54.0 libboost-signals1.54.0 libboost-thread1.54.0 libpocofoundation9 libatomic1
+usr/local/fast-rtps/lib/libfastcdr.so.1.0.7
+usr/local/fast-rtps/lib/libfastcdr.so.1
+usr/local/fast-rtps/lib/libfastrtps.so.1.5.0
+usr/local/fast-rtps/lib/libfastrtps.so.1
+usr/local/lib/libglog.so.0.0.0
+usr/local/lib/libglog.so.0
+usr/local/lib/libgflags.so.2.2.0
+usr/local/lib/libgflags.so.2.2
+usr/lib/libprotobuf.so.13.0.0
+usr/lib/libprotobuf.so.13
+
+# for cyber_launch
+# head -n 1 ./cyber/tools/cyber_launch/cyber_launch
+# #!/usr/bin/python
+# apt install python
+
+# for bootstrap.sh
+# /apollo/scripts/bootstrap.sh: line 35: curl: command not found
+# /apollo/scripts/bootstrap.sh: line 36: [: -eq: unary operator expected
+# apt install curl
+
+# [mainboard_default_660]  E0930 20:58:21.040480   917 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libopencv_highgui.so.2.4: cannot open shared object file: No such file or directory
+# [mainboard_default_660]  E0930 20:58:21.040671   917 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/drivers/tools/image_decompress/libimage_decompress.so
+# apt install libopencv-highgui2.4
+
+# [monitor]  E0930 20:58:21.630393  1641 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libboost_filesystem.so.1.54.0: cannot open shared object file: No such file or directory
+# [monitor]  E0930 20:58:21.630602  1641 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/monitor/libmonitor.so
+# apt install libboost-filesystem1.54.0
+
+# [monitor]  E0930 21:51:25.614399  1647 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libosqp.so: cannot open shared object file: No such file or directory
+# [monitor]  E0930 21:51:25.614615  1647 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/monitor/libmonitor.so
+usr/local/lib/libosqp.so
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  /apollo/bazel-bin/modules/dreamview/dreamview: error while loading shared libraries: libboost_iostreams.so.1.54.0: cannot open shared object file: No such file or directory
+# apt install libboost-iostreams1.54.0 libboost-chrono1.54.0 libvtk5.8 libpcap0.8 libqhull6
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:22.770901  3768 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libsnappy.so.1: cannot open shared object file: No such file or directory
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:22.770979  3768 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/perception/onboard/component/libperception_component_lidar.so
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.804850  6159 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libnvinfer_plugin.so.4: cannot open shared object file: No such file or directory
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.804914  6159 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/perception/onboard/component/libperception_component_camera.so
+# apt install libsnappy1 ocl-icd-libopencl1 libboost-program-options1.54.0 libatlas3-base cuda-command-line-tools-8-0 libvtk5.8-qt4
+usr/lib/x86_64-linux-gnu/libcaffe.so.1.0.0
+usr/lib/x86_64-linux-gnu/libnvinfer.so.4.0.4
+usr/lib/x86_64-linux-gnu/libnvinfer.so.4
+usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so.4.0.4
+usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so.4
+usr/lib/x86_64-linux-gnu/libnvparsers.so.4.0.4
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.079712  4440 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libcaffe2_detectron_ops.so: cannot open shared object file: No such file or directory
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.079970  4440 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/prediction/libprediction_component.so
+# apt install libpython2.7
+usr/local/apollo/libtorch/lib/libcaffe2_detectron_ops.so
+usr/local/apollo/libtorch_gpu/lib/libcaffe2_module_test_dynamic.so
+usr/local/apollo/libtorch_gpu/lib/libcaffe2_observers.so
+usr/local/apollo/libtorch_gpu/lib/libfoxi.so
+usr/local/apollo/libtorch_gpu/lib/libfoxi_dummy.so
+usr/local/apollo/libtorch_gpu/lib/libonnxifi.so
+usr/local/apollo/libtorch_gpu/lib/libonnxifi_dummy.so
+usr/local/apollo/libtorch_gpu/lib/libshm.so
+usr/local/apollo/libtorch_gpu/lib/libtorch.so.1
+usr/local/apollo/libtorch_gpu/lib/libtorch_python.so
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.648830  5797 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libadolc.so.2: cannot open shared object file: No such file or directory
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 22:21:23.649166  5797 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/planning/libplanning_component.so
+# apt install liblapack3
+usr/local/adolc/lib64/libadolc.so.2.1.0
+usr/local/adolc/lib64/libadolc.so.2
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  Traceback (most recent call last):
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]    File "/apollo/scripts/record_bag.py", line 44, in <module>
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]      import psutil
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  ImportError: No module named 'psutil'
+# record_bag.py uses Python 3 => need to install python3-psutil
+# apt install python3-psutil
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  Traceback (most recent call last):
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]    File "/apollo/modules/tools/extrinsics_broadcaster/extrinsics_broadcaster.py", line 25, in <module>
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]      import yaml
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  ImportError: No module named yaml
+# uses /usr/local/lib/python2.7/dist-packages/yaml but lets try with regular python
+# apt install python-yaml
+
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 23:20:34.096324 10220 class_loader_utility.cc:220] [mainboard] poco LibraryLoadException: libColPack.so.0: cannot open shared object file: No such file or directory
+# [/apollo/bazel-bin/modules/dreamview/dreamview --flagfile=/apollo/modules/common/data/global_flagfile.txt]  E0930 23:20:34.096619 10220 class_loader_utility.cc:236] [mainboard] poco shared library failed: /apollo/bazel-bin/modules/planning/libplanning_component.so
+usr/local/colpack/lib/libColPack.so.0.0.0
+usr/local/colpack/lib/libColPack.so.0
+
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/map/tools/map_datachecker/* (requires  libgrpc++.so.1)
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/v2x/v2x (requires  libgrpc++.so.1)
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/v2x/v2x_proxy/obu_interface/grpc_interface/* (requires  libgrpc++.so.1)
+usr/local/lib/libgrpc++.so.1.14.2
+usr/local/lib/libgrpc++.so.1
+
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/data/tools/rosbag_to_record/rosbag_to_record (requires  libactionlib.so libclass_loader.so libcpp_common.so libcv_bridge.so libeigen_conversions.so libimage_transport.so libmessage_filters.so liborocos-kdl.so.1.3 librosbag.so librosbag_storage.so librosconsole.so librosconsole_backend_interface.so librosconsole_log4cxx.so librosconsole_print.so libroscpp.so libroscpp_serialization.so libroslib.so libroslz4.so librospack.so librostime.so libtopic_tools.so libxmlrpcpp.so)
+home/tmp/ros
+
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/drivers/video/tools/decode_video/video2jpg (requires  libavcodec.so.58 libavdevice.so.58 libavfilter.so.7 libavformat.so.58 libavutil.so.56 libpostproc.so.55 libswresample.so.3 libswscale.so.5)
+usr/local/apollo/ffmpeg/lib/libavcodec.so.58.50.100
+usr/local/apollo/ffmpeg/lib/libavcodec.so.58
+usr/local/apollo/ffmpeg/lib/libavdevice.so.58.7.100
+usr/local/apollo/ffmpeg/lib/libavdevice.so.58
+usr/local/apollo/ffmpeg/lib/libavfilter.so.7.48.100
+usr/local/apollo/ffmpeg/lib/libavfilter.so.7
+usr/local/apollo/ffmpeg/lib/libavformat.so.58.27.102
+usr/local/apollo/ffmpeg/lib/libavformat.so.58
+usr/local/apollo/ffmpeg/lib/libavutil.so.56.26.100
+usr/local/apollo/ffmpeg/lib/libavutil.so.56
+usr/local/apollo/ffmpeg/lib/libpostproc.so.55.4.100
+usr/local/apollo/ffmpeg/lib/libpostproc.so.55
+usr/local/apollo/ffmpeg/lib/libswresample.so.3.4.100
+usr/local/apollo/ffmpeg/lib/libswresample.so.3
+usr/local/apollo/ffmpeg/lib/libswscale.so.5.4.100
+usr/local/apollo/ffmpeg/lib/libswscale.so.5
+
+# broken /usr/local/apollo/ffmpeg/lib/libavdevice.so.58.7.100 (requires  libavcodec.so.58 libavfilter.so.7 libavformat.so.58 libavutil.so.56 libxcb-shape.so.0 libxcb-xfixes.so.0)
+# apt install libxcb-shape0 libxcb-xfixes0
+
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/tools/visualizer/cyber_visualizer (requires  libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libconsole_bridge.so.0.2)
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Core.so.5.5.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Core.so.5
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Gui.so.5.5.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Gui.so.5
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Widgets.so.5.5.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Widgets.so.5
+usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.2
+
+# broken /usr/local/Qt5.5.1/5.5/gcc_64/lib/libQt5Core.so.5.5.1 (requires  libicudata.so.54 libicui18n.so.54 libicuuc.so.54)
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicudata.so.54.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicudata.so.54
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicui18n.so.54.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicui18n.so.54
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicuuc.so.54.1
+usr/local/Qt5.5.1/5.5/gcc_64/lib/libicuuc.so.54
+
+# broken /usr/local/lib/libgrpc++.so.1.14.2 (requires  libgrpc.so.6)
+usr/local/lib/libgrpc.so.6.0.0
+usr/local/lib/libgrpc.so.6
+
+# broken /apollo/bazel/540135163923dd7d5820f3ee4b306b32/execroot/apollo/bazel-out/local-opt/bin/modules/perception/* (requires  libcuda.so.1 libnvidia-ml.so.1)
+# but don't copy these files from dev container, because they are created dynamically by nvidia docker runtime
+# based on the nvidia-drivers on host and we don't want to include the libraries from host which created the
+# docker image, the runtime should provide the matching version when the container is started in final deployment
+# usr/lib/x86_64-linux-gnu/libcuda.so.450.66
+# usr/lib/x86_64-linux-gnu/libcuda.so.1
+# usr/lib/x86_64-linux-gnu/libnvidia-ml.so.450.66
+# usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
