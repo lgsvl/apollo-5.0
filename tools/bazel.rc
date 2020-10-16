@@ -5,6 +5,9 @@ startup --batch_cpu_scheduling
 
 startup --host_jvm_args=-XX:-UseParallelGC
 
+# Don't use user's $HOME for bazel workspace, because we want to include it all in docker container
+startup --output_user_root=/apollo/bazel
+
 # +------------------------------------------------------------+
 # | Test Configurations                                        |
 # +------------------------------------------------------------+
