@@ -120,8 +120,6 @@ DEFAULT_TEST_MAPS=(
 MAP_VOLUME_CONF=""
 OTHER_VOLUME_CONF=""
 
-LOG_DIR_LGSVL=$APOLLO_ROOT_DIR/lgsvlsimulator-output/autopilot/log
-
 while [ $# -gt 0 ]
 do
     case "$1" in
@@ -222,8 +220,7 @@ function local_volumes() {
     echo \
         -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
         -v /etc/localtime:/etc/localtime:ro \
-        -v $LOG_DIR_LGSVL:/apollo/data/log:rw
-
+        -v $APOLLO_ROOT_DIR/modules/map/data/:/apollo/modules/map/data/
 }
 
 function main(){
@@ -315,8 +312,6 @@ function main(){
     GRP_ID=1001
     LOCAL_HOST=`hostname`
     DOCKER_HOME="/home/$USER"
-
-    mkdir -p $LOG_DIR_LGSVL
 
     info "Starting docker container \"${APOLLO_DEV}\" ..."
 
