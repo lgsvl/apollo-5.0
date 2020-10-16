@@ -99,7 +99,6 @@ function main() {
         -v $HOME/.cache:${DOCKER_HOME}/.cache \
         -w /apollo \
         -e DISPLAY=${display} \
-        -e RELEASE_DOCKER=1 \
         -e DOCKER_USER=$USER \
         -e USER=$USER \
         -e DOCKER_USER_ID=$USER_ID \
