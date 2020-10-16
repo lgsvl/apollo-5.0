@@ -76,6 +76,13 @@ IMAGE_UUID=$(uuidgen)
 docker cp image-info-lgsvl.source apollo_runtime_$USER:/apollo/image-info-lgsvl.source
 rm -f image-info-lgsvl.source
 
+# Use apollo user with UID 1001
+# This was used to be called from docker/scripts/dev_start.sh (or docker/scripts/runtime_start.sh),
+# but we want the container to be as ready to use as possible out of the registry and we don't use
+# $HOME/.cache anymore, so different UID in container shouldn't cause (m)any issues
+docker exec -e DOCKER_GRP_ID=1001 -e DOCKER_USER_ID=1001 -e DOCKER_USER=apollo -e DOCKER_GRP=apollo apollo_runtime_$USER /apollo/scripts/docker_adduser.sh
+docker exec apollo_runtime_$USER chown -R apollo:apollo /apollo
+
 docker commit -m "With prebuilt files" apollo_runtime_$USER lgsvl/apollo-5.0-runtime:latest
 
 /bin/echo -e "Docker image with prebuilt files was built and tagged as lgsvl/apollo-5.0-runtime:latest, you can start it with: \n\

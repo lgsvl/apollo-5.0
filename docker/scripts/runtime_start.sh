@@ -309,17 +309,12 @@ function main(){
     # LGSVL:
     # setup_device
 
-    USER_ID=$(id -u)
+    USER=apollo
+    USER_ID=1001
     GRP=apollo
-    GRP_ID=$(id -g)
+    GRP_ID=1001
     LOCAL_HOST=`hostname`
     DOCKER_HOME="/home/$USER"
-    if [ "$USER" == "root" ];then
-        DOCKER_HOME="/root"
-    fi
-    if [ ! -d "$HOME/.cache" ];then
-        mkdir "$HOME/.cache"
-    fi
 
     mkdir -p $LOG_DIR_LGSVL
 
