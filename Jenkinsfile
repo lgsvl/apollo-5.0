@@ -2,7 +2,7 @@ pipeline {
   agent {
     node {
       label "gpu-builder"
-      customWorkspace "/home/jenkins/workspace/apollo-jansa-docker-wise-adaptation"
+      customWorkspace "/home/jenkins/workspace/apollo-5.0"
     }
   }
 
@@ -14,7 +14,7 @@ pipeline {
   }
 
   parameters {
-    string(name: 'BRANCH_NAME', defaultValue: 'jansa/docker-wise-adaptation', description: 'Branch from duckietown/apollo-5.0 to build', trim: true)
+    string(name: 'BRANCH_NAME', defaultValue: 'simulator', description: 'Branch from duckietown/apollo-5.0 to build', trim: true)
     string(name: 'WISE_AWS_ECR_ACCOUNT_ID', defaultValue: '853285614468', description: 'The AWS account ID whose ECR will be used', trim: true)
     string(name: 'WISE_AWS_ECR_REGION', defaultValue: 'us-east-1', description: 'The AWS region where the ECR is located', trim: true)
     credentials( name: 'WISE_AWS_ECR_CREDENTIALS_ID', required: true, defaultValue: "simulator--aws-credentials", description: 'The credentials to be used for accessing the ECR', credentialType: 'com.cloudbees.jenkins.plugins.awscredentials.AWSCredentialsImpl')
@@ -27,8 +27,8 @@ pipeline {
     DOCKER_TAG = "build__${JENKINS_BUILD_ID}"
     GITLAB_REPO = "duckietown/apollo-5.0"
     ECR_REPO = "wise/apollo-5.0"
-    // used to keep DOCKER_REPO_SUFFIX empty (normally for master branch, but for apollo this needs to be changed to "simulator" after my MR is merged there)
-    DEFAULT_BRANCH_NAME = "jansa/docker-wise-adaptation"
+    // used to keep DOCKER_REPO_SUFFIX empty (normally for master branch, but for apollo this needs to be "simulator")
+    DEFAULT_BRANCH_NAME = "simulator"
   }
 
   stages {
@@ -53,7 +53,7 @@ pipeline {
     stage("Docker") {
       steps {
         sh """
-          docker/scripts/runtime.x86_64.sh rebuild
+          docker/build/runtime.x86_64.sh rebuild
         """
       }
     }
