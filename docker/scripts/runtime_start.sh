@@ -210,10 +210,6 @@ function local_volumes() {
                                 -v /usr/src:/usr/src \
                                 -v /lib/modules:/lib/modules"
             ;;
-        Darwin)
-            # MacOS has strict limitations on mapping volumes.
-            chmod -R a+wr ~/.cache/bazel
-            ;;
     esac
     # LGSVL:
     # echo "${volumes}"

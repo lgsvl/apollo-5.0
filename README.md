@@ -101,7 +101,7 @@ To build the docker image, run:
 If the development container is not running, you will see this message:
 
     Error: No such container: apollo_dev_USER
-    ERROR: apollo_dev_USER isn't running or doesn't have /apollo/bazel directory
+    ERROR: apollo_dev_USER isn't running or doesn't have /apollo/.cache/bazel directory
            make sure it's running (you can use docker/scripts/dev_start.sh)
            and build Apollo there or add "rebuild" parameter to this script
            and it will be started and built automatically

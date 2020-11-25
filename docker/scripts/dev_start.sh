@@ -201,7 +201,7 @@ fi
 IMG=lgsvl/apollo-5.0:${VERSION}
 
 function local_volumes() {
-    # Apollo root and bazel cache dirs are required.
+    # Apollo root dir is required.
     volumes="-v $APOLLO_ROOT_DIR:/apollo"
     case "$(uname -s)" in
         Linux)
@@ -211,8 +211,6 @@ function local_volumes() {
                                 -v /etc/localtime:/etc/localtime:ro \
                                 -v /usr/src:/usr/src \
                                 -v /lib/modules:/lib/modules"
-            ;;
-        Darwin)
             ;;
     esac
     echo "${volumes}"

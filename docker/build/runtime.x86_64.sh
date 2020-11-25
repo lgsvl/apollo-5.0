@@ -11,8 +11,8 @@ if [ "$1" == "rebuild" ] ; then
 fi
 
 # Expects that the Apollo was already built in apollo_dev_$USER
-if ! docker exec -u $USER -t apollo_dev_$USER ls /apollo/bazel >/dev/null; then
-  echo "ERROR: apollo_dev_$USER isn't running or doesn't have /apollo/bazel directory"
+if ! docker exec -u $USER -t apollo_dev_$USER ls /apollo/.cache/bazel >/dev/null; then
+  echo "ERROR: apollo_dev_$USER isn't running or doesn't have /apollo/.cache/bazel directory"
   echo "       make sure it's running (you can use docker/scripts/dev_start.sh)"
   echo "       and build Apollo there or add \"rebuild\" parameter to this script"
   echo "       and it will be started and built automatically"
@@ -33,7 +33,7 @@ docker run lgsvl/apollo-5.0-pcl sh -c 'tar -cf - /usr/local/lib/libpcl_*.so.*' |
 # Copy apollo repository
 docker exec apollo_runtime_$USER mkdir /apollo
 docker exec apollo_runtime_$USER mkdir /usr/local/apollo
-tar -cf - --exclude ./bazel/install --exclude=./modules/map/data/* --exclude=./data/log/* --exclude=**/.git --exclude=**/_objs --exclude=**/*.a --exclude=./lgsvlsimulator-output . | docker cp -a - apollo_runtime_$USER:/apollo
+tar -cf - --exclude ./.cache/bazel/install --exclude=./modules/map/data/* --exclude=./data/log/* --exclude=**/.git --exclude=**/_objs --exclude=**/*.a --exclude=./lgsvlsimulator-output . | docker cp -a - apollo_runtime_$USER:/apollo
 
 grep -v ^# docker/build/installers/install_apollo_files.txt > docker/build/installers/install_apollo_files.txt.tmp
 docker exec apollo_dev_$USER sh -c 'tar -C / -cf - --files-from=/apollo/docker/build/installers/install_apollo_files.txt.tmp' | docker cp -a - apollo_runtime_$USER:/
