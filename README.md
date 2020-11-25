@@ -75,7 +75,7 @@ This repository includes a couple of submodules for HD Maps and lgsvl msgs. To m
 
 
 ### Building Apollo and bridge
-Now everything should be in place to build apollo. Apollo must be built from the container. To launch the container navigate to the directory where the repository was cloned and enter:
+Now everything should be in place to build Apollo. Apollo must be built from the container. To launch the container navigate to the directory where the repository was cloned and enter:
 
     ./docker/scripts/dev_start.sh
 
@@ -90,11 +90,84 @@ Build Apollo:
     ./apollo.sh build_gpu
 
 
+### Building and Publishing a Runtime Docker Image
+
+After you have tested your changes to Apollo 5.0 locally, you can create a much smaller docker image, which cannot be used to re-build modified Apollo, but can be shared with other people using it to run Apollo without the need to build it locally. You can also publish it to a publicly accessible docker registry (e.g., [Docker Hub](https://hub.docker.com/)).
+
+To build the docker image, run:
+
+    ./docker/build/runtime.x86_64.sh
+
+If the development container is not running, you will see this message:
+
+    Error: No such container: apollo_dev_USER
+    ERROR: apollo_dev_USER isn't running or doesn't have /apollo/bazel directory
+           make sure it's running (you can use docker/scripts/dev_start.sh)
+           and build Apollo there or add "rebuild" parameter to this script
+           and it will be started and built automatically
+
+Upon successful completion, you will see:
+
+    ...
+    Docker image with prebuilt files was built and tagged as lgsvl/apollo-5.0-runtime:latest, you can start it with:
+      docker/scripts/runtime_start.sh
+    and switch into it with:
+      docker/scripts/runtime_into.sh
+
+Confirm operation of the image by starting it:
+
+    ./docker/scripts/runtime_start.sh
+
+entering into it:
+
+    ./docker/scripts/runtime_into.sh
+
+and running the appropriate commands to verify its functionality.
+
+Finally, tag the image and push it to the publicly accessible Docker registry:
+
+    docker image tag lgsvl/apollo-5.0-runtime:latest REGISTRY/IMAGE:TAG
+    docker image push REGISTRY/IMAGE:TAG
+
+To use such an image from Docker registry (without git checkout of Apollo 5.0 repository):
+
+    docker image pull REGISTRY/IMAGE:TAG
+    docker image tag REGISTRY/IMAGE:TAG lgsvl/apollo-5.0-runtime
+
+    mkdir -p docker/scripts scripts modules/map/data
+
+    wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/docker/scripts/runtime_start.sh -O docker/scripts/runtime_start.sh
+    wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/docker/scripts/runtime_into.sh -O docker/scripts/runtime_into.sh
+    wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/scripts/apollo_base.sh -O scripts/apollo_base.sh
+
+    bash docker/scripts/runtime_start.sh
+    bash docker/scripts/runtime_into.sh
+
+    The modules/map/data directory is used as a volume for maps, you can either use the maps included
+    in `simulator` branch of LGSVL Apollo 5.0 [here](https://github.com/lgsvl/apollo-5.0/tree/simulator/modules/map/data)
+    or download individual HD Maps as described in the next section.
+
+### Adding an HD Map
+
+* The default maps have their HD map files included in the [LGSVL Branch of Apollo 5.0](https://github.com/lgsvl/apollo-5.0/).
+
+* More map AssetBundles and HD maps are available on our [content website](https://content.lgsvlsimulator.com/maps/).
+
+* If you want to add a new HD map to Apollo 5.0 using our simulator, following steps are needed:
+    - Export map annotations as `base_map.bin` file for Apollo 5.0 by following [Export Map Annotations](https://www.lgsvlsimulator.com/docs/map-annotation/#export-map-annotations)
+    - Create a new map folder under `APOLLO_ROOT/modules/map/data/` and put `base_map.bin` in the folder.
+    - Inside Apollo docker container
+        - `cd /apollo`
+        - Generate Apollo required map files
+            - `generate_map.sh YOUR_MAP_FOLDER_NAME`
+        - You need to restart dreamview to refresh the map list
+            - `bootstrap.sh stop && bootstrap.sh`
+
 ## Launching Apollo alongside the simulator
 
 Here we only describe only a simple case of driving from point A to point B using Apollo and the simulator. 
 
-To launch apollo, first launch and enter a container as described in the previous steps.
+To launch Apollo, first launch and enter a container as described in the previous steps.
 
 * To start Apollo:
 
