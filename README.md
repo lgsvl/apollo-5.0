@@ -1,7 +1,7 @@
-# LG Silicon Valley Lab Apollo 5.0 Fork
-This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) maintained by the LG Electronics Silicon Valley Lab which has modified and configured to facilitate use with [LG's Automotive Simulator](https://github.com/lgsvl/simulator).
+# LGSVL fork of Apollo 5.0
+This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) maintained by LG Electronics which was modified and configured to facilitate use with [LGSVL Simulator](https://github.com/lgsvl/simulator).
 
-**The software and source code in this repository are intended only for use with LG Automotive Simulator and *should not* be used in a real vehicle.**
+**The software and source code in this repository are intended only for use with LGSVL Simulator and *should not* be used in a real vehicle.**
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) main
 4. [Launching Apollo Alongside the Simulator](#launching-apollo-alongside-the-simulator)
 
 ## Getting Started
-The guide outlines the steps required to setup Apollo for use with the LG Automotive Simulator. If you have not already set up the simulator, please do so first by following the instructions [here](https://github.com/lgsvl/simulator).
+The guide outlines the steps required to setup Apollo for use with the LGSVL Simulator. If you have not already set up the simulator, please do so first by following the instructions [here](https://github.com/lgsvl/simulator).
 
 ## Prerequisites
 * Linux operating system (preferably Ubuntu 14.04 or later)
@@ -149,7 +149,7 @@ To use such an image from Docker registry (without git checkout of Apollo 5.0 re
 
 ### Adding an HD Map
 
-* The default maps have their HD map files included in the [LGSVL Branch of Apollo 5.0](https://github.com/lgsvl/apollo-5.0/).
+* The default maps have their HD map files included in the [simulator branch of the LGSVL fork of Apollo 5.0](https://github.com/lgsvl/apollo-5.0/).
 
 * More map AssetBundles and HD maps are available on our [content website](https://content.lgsvlsimulator.com/maps/).
 
