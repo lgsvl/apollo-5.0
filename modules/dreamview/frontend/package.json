@@ -57,7 +57,7 @@
         "html-webpack-plugin": "^3.2.0",
         "image-webpack-loader": "^3.6.0",
         "json-loader": "^0.5.4",
-        "node-sass": "^4.5.3",
+        "node-sass": "^4.13.1",
         "progress-bar-webpack-plugin": "^1.9.3",
         "sass-loader": "^6.0.5",
         "style-loader": "^0.18.1",
