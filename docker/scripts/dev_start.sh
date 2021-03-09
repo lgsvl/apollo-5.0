@@ -247,13 +247,19 @@ function main(){
               source ${APOLLO_ROOT_DIR}/docker/scripts/restart_map_volume.sh ${map_name} "${VOLUME_VERSION}"
             done
             YOLO3D_VOLUME=apollo_yolo3d_volume_$USER
+            YOLO3D_VOLUME1=apollo_yolo3d_lane13d_volume_$USER
+            YOLO3D_VOLUME2=apollo_yolo3d_lane2d_volume_$USER
+            YOLO3D_VOLUME3=apollo_yolo3d_yolo3d_volume_$USER
+            YOLO3D_VOLUME1_PATH=/apollo/modules/perception/model/yolo_camera_detector/lane13d_0716
+            YOLO3D_VOLUME2_PATH=/apollo/modules/perception/model/yolo_camera_detector/lane2d_0627
+            YOLO3D_VOLUME3_PATH=/apollo/modules/perception/model/yolo_camera_detector/yolo3d_1128
             docker stop ${YOLO3D_VOLUME} > /dev/null 2>&1
 
             YOLO3D_VOLUME_IMAGE=${DOCKER_REPO}:yolo3d_volume-${ARCH}-latest
             docker pull ${YOLO3D_VOLUME_IMAGE}
-            docker run -it -d --rm --name ${YOLO3D_VOLUME} ${YOLO3D_VOLUME_IMAGE}
+            docker run -it -d --rm --name ${YOLO3D_VOLUME} -v ${YOLO3D_VOLUME1}:${YOLO3D_VOLUME1_PATH} -v ${YOLO3D_VOLUME2}:${YOLO3D_VOLUME2_PATH} -v ${YOLO3D_VOLUME3}:${YOLO3D_VOLUME3_PATH} ${YOLO3D_VOLUME_IMAGE} true
 
-            OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} --volumes-from ${YOLO3D_VOLUME}"
+            OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${YOLO3D_VOLUME1}:${YOLO3D_VOLUME1_PATH} -v ${YOLO3D_VOLUME2}:${YOLO3D_VOLUME2_PATH} -v ${YOLO3D_VOLUME3}:${YOLO3D_VOLUME3_PATH}"
         else
             # Included default maps.
             for map_name in ${DEFAULT_TEST_MAPS[@]}; do
@@ -263,29 +269,34 @@ function main(){
     fi
 
     LOCALIZATION_VOLUME=apollo_localization_volume_$USER
+    LOCALIZATION_VOLUME_PATH=/usr/local/apollo/local_integ
     docker stop ${LOCALIZATION_VOLUME} > /dev/null 2>&1
 
     LOCALIZATION_VOLUME_IMAGE=${DOCKER_REPO}:localization_volume-${ARCH}-latest
     docker pull ${LOCALIZATION_VOLUME_IMAGE}
-    docker run -it -d --rm --name ${LOCALIZATION_VOLUME} ${LOCALIZATION_VOLUME_IMAGE}
+    docker run -it -d --rm --name ${LOCALIZATION_VOLUME} -v ${LOCALIZATION_VOLUME}:${LOCALIZATION_VOLUME_PATH} ${LOCALIZATION_VOLUME_IMAGE} true
+    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${LOCALIZATION_VOLUME}:${LOCALIZATION_VOLUME_PATH}"
 
     PADDLE_VOLUME=apollo_paddlepaddle_volume_$USER
+    PADDLE_VOLUME1=apollo_paddlepaddle_volume_$USER
+    PADDLE_VOLUME2=apollo_paddlepaddle_dep_volume_$USER
+    PADDLE_VOLUME1_PATH=/usr/local/apollo/paddlepaddle
+    PADDLE_VOLUME2_PATH=/usr/local/apollo/paddlepaddle_dep
     docker stop ${PADDLE_VOLUME} > /dev/null 2>&1
 
     PADDLE_VOLUME_IMAGE=${DOCKER_REPO}:paddlepaddle_volume-${ARCH}-latest
     docker pull ${PADDLE_VOLUME_IMAGE}
-    docker run -it -d --rm --name ${PADDLE_VOLUME} ${PADDLE_VOLUME_IMAGE}
+    docker run -it -d --rm --name ${PADDLE_VOLUME} -v ${PADDLE_VOLUME1}:${PADDLE_VOLUME1_PATH} -v ${PADDLE_VOLUME2}:${PADDLE_VOLUME2_PATH} ${PADDLE_VOLUME_IMAGE} true
+    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${PADDLE_VOLUME1}:${PADDLE_VOLUME1_PATH} -v ${PADDLE_VOLUME2}:${PADDLE_VOLUME2_PATH}"
 
     LOCAL_THIRD_PARTY_VOLUME=apollo_local_third_party_volume_$USER
+    LOCAL_THIRD_PARTY_VOLUME_PATH=/usr/local/apollo/local_third_party
     docker stop ${LOCAL_THIRD_PARTY_VOLUME} > /dev/null 2>&1
 
     LOCAL_THIRD_PARTY_VOLUME_IMAGE=${DOCKER_REPO}:local_third_party_volume-${ARCH}-latest
     docker pull ${LOCAL_THIRD_PARTY_VOLUME_IMAGE}
-    docker run -it -d --rm --name ${LOCAL_THIRD_PARTY_VOLUME} ${LOCAL_THIRD_PARTY_VOLUME_IMAGE}
-
-    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} --volumes-from ${LOCALIZATION_VOLUME} "
-    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} --volumes-from ${PADDLE_VOLUME}"
-    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} --volumes-from ${LOCAL_THIRD_PARTY_VOLUME}"
+    docker run -it -d --rm --name ${LOCAL_THIRD_PARTY_VOLUME} -v ${LOCAL_THIRD_PARTY_VOLUME}:${LOCAL_THIRD_PARTY_VOLUME_PATH} ${LOCAL_THIRD_PARTY_VOLUME_IMAGE} true
+    OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${LOCAL_THIRD_PARTY_VOLUME}:${LOCAL_THIRD_PARTY_VOLUME_PATH}"
 
     local display=""
     if [[ -z ${DISPLAY} ]];then

@@ -29,7 +29,8 @@ else
   docker stop ${MAP_VOLUME} > /dev/null 2>&1
 
   MAP_VOLUME_IMAGE=${DOCKER_REPO}:map_volume-${map_name}-${map_version}
+  MAP_VOLUME_PATH=/apollo/modules/map/data/${map_name}
   docker pull ${MAP_VOLUME_IMAGE}
-  docker run -it -d --rm --name ${MAP_VOLUME} ${MAP_VOLUME_IMAGE}
-  MAP_VOLUME_CONF="${MAP_VOLUME_CONF} --volumes-from ${MAP_VOLUME}"
+  docker run -it -d --rm --name ${MAP_VOLUME} -v ${MAP_VOLUME}:${MAP_VOLUME_PATH} ${MAP_VOLUME_IMAGE}
+  MAP_VOLUME_CONF="${MAP_VOLUME_CONF} -v ${MAP_VOLUME}:${MAP_VOLUME_PATH}"
 fi
