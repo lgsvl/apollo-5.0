@@ -39,8 +39,15 @@ pipeline {
           $class: "GitSCM",
           branches: [[name: "refs/heads/${BRANCH_NAME}"]],
           browser: [$class: "GitLab", repoUrl: "https://${GITLAB_HOST}/duckietown/apollo-5.0", version: env.GITLAB_VERSION],
+          doGenerateSubmoduleConfigurations: false,
           extensions: [
-            [$class: "GitLFSPull"]
+            [$class: "GitLFSPull"],
+            [$class: 'SubmoduleOption',
+            disableSubmodules: false,
+            parentCredentials: true,
+            recursiveSubmodules: true,
+            reference: '',
+            trackingSubmodules: false]
           ],
           userRemoteConfigs: [[
             credentialsId: "Jenkins-Gitlab",
