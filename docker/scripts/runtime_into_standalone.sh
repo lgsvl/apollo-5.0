@@ -21,6 +21,6 @@
 xhost +local:root 1>/dev/null 2>&1
 docker exec \
     -u apollo \
-    -it apollo_runtime_$USER \
+    -it apollo_5.0_runtime_standalone_$USER \
     /bin/bash
 xhost -local:root 1>/dev/null 2>&1

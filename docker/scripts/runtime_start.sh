@@ -198,7 +198,7 @@ fi
 #fi
 
 # LGSVL:
-IMG=lgsvl/apollo-5.0-runtime:${VERSION}
+IMG=lgsvl/apollo-5.0:standalone-x86_64-14.04-5.0-20210319
 
 function local_volumes() {
     case "$(uname -s)" in
@@ -235,7 +235,7 @@ function main(){
     fi
 
     # LGSVL:
-    APOLLO_DEV="apollo_runtime_${USER}"
+    APOLLO_DEV="apollo_5.0_runtime_standalone_${USER}"
     docker ps -a --format "{{.Names}}" | grep "$APOLLO_DEV" 1>/dev/null
     if [ $? == 0 ]; then
         docker stop $APOLLO_DEV 1>/dev/null
@@ -374,7 +374,7 @@ function main(){
     fi
 
     # LGSVL:
-    ok "Finished setting up Apollo docker environment. Now you can enter with: \nbash docker/scripts/runtime_into.sh"
+    ok "Finished setting up Apollo docker environment. Now you can enter with: \nbash docker/scripts/runtime_into_standalone.sh"
     ok "Enjoy!"
 }
 
