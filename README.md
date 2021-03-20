@@ -65,11 +65,10 @@ To use such an image (without having to clone this repository):
 docker image pull REGISTRY/IMAGE:TAG
 docker image tag REGISTRY/IMAGE:TAG lgsvl/apollo-5.0:standalone-x86_64-14.04-5.0-20210319
 
-mkdir -p docker/scripts scripts modules/map/data
+docker run --rm lgsvl/apollo:standalone-x86_64-18.04-5.0-20210319 sh -c 'tar -cf - -C /apollo standalone-scripts' | tar -xf -
+cd standalone-scripts
 
-wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/docker/scripts/runtime_start.sh -O docker/scripts/runtime_start.sh
-wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/docker/scripts/runtime_into.sh -O docker/scripts/runtime_into.sh
-wget https://raw.githubusercontent.com/lgsvl/apollo-5.0/simulator/scripts/apollo_base.sh -O scripts/apollo_base.sh
+mkdir -p modules/map/data
 
 bash docker/scripts/runtime_start.sh
 bash docker/scripts/runtime_into_standalone.sh

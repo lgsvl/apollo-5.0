@@ -51,6 +51,13 @@ grep -v ^# docker/build/installers/install_apollo_files.txt > docker/build/insta
 docker exec apollo_dev_$USER sh -c 'tar -C / -cf - --files-from=/apollo/docker/build/installers/install_apollo_files.txt.tmp' | tar xf - -C docker/build/output/
 rm -f docker/build/installers/install_apollo_files.txt.tmp
 
+# Add the startup scripts, so that they could be extracted from image you pull with docker
+# docker run --rm ${STANDALONE_IMAGE} sh -c 'tar -cf - -C /apollo standalone-scripts' | tar -xf -
+mkdir -p docker/build/output/apollo/standalone-scripts/docker/scripts
+cp docker/scripts/runtime_start.sh docker/scripts/runtime_into_standalone.sh docker/build/output/apollo/standalone-scripts/docker/scripts
+mkdir -p docker/build/output/apollo/standalone-scripts/scripts
+cp scripts/apollo_base.sh docker/build/output/apollo/standalone-scripts/scripts
+
 cat <<! > docker/build/output/apollo/image-info-lgsvl.source
 IMAGE_APP=apollo-5.0
 IMAGE_CREATED_BY=standalone.x86_64.sh
