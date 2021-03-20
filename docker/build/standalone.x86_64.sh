@@ -64,7 +64,7 @@ IMAGE_CREATED_BY=standalone.x86_64.sh
 IMAGE_CREATED_FROM=$(git describe --tags --always)
 IMAGE_CREATED_ON=$(date --iso-8601=seconds --utc)
 # Increment IMAGE_INTERFACE_VERSION whenever changes to the image require that the launcher be updated.
-IMAGE_INTERFACE_VERSION=1
+IMAGE_INTERFACE_VERSION=2
 IMAGE_UUID=$(uuidgen)
 !
 

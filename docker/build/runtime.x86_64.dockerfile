@@ -58,6 +58,8 @@ RUN apt-get update && \
     python-yaml \
     libxcb-shape0 \
     libxcb-xfixes0 \
+    jq \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=nvidia/opengl:1.1-glvnd-runtime-ubuntu14.04 \

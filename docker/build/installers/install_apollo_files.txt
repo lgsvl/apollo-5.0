@@ -1,4 +1,4 @@
-# Copyright (c) 2020 LG Electronics, Inc. All Rights Reserved
+# Copyright (c) 2020-2021 LG Electronics, Inc. All Rights Reserved
 
 # List of files to include in tarball when moving built Apollo from development image to runtime
 
@@ -170,3 +170,6 @@ usr/local/lib/libgrpc.so.6
 # usr/lib/x86_64-linux-gnu/libcuda.so.1
 # usr/lib/x86_64-linux-gnu/libnvidia-ml.so.450.66
 # usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
+
+# miscellaneous other packages for IMAGE_INTERFACE_VERSION 2
+# apt install jq wget
