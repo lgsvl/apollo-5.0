@@ -124,7 +124,7 @@ pipeline {
     stage("cleanup docker") {
       steps {
         sh """
-          docker stop apollo_dev_$USER
+          docker stop apollo_5.0_dev_$USER
 
           docker container prune -f
 

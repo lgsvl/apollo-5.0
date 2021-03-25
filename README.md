@@ -21,8 +21,8 @@ docker/build/standalone.x86_64.sh
 
 If the development container is not running, you will see this message:
 ```console
-Error: No such container: apollo_dev_USER
-ERROR: apollo_dev_USER isn't running or doesn't have /apollo/bazel directory
+Error: No such container: apollo_5.0_dev_USER
+ERROR: apollo_5.0_dev_USER isn't running or doesn't have /apollo/bazel directory
        make sure it's running (you can use docker/scripts/dev_start.sh)
        and build Apollo there or add "rebuild" parameter to this script
        and it will be started and built automatically

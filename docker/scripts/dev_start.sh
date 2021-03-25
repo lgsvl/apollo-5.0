@@ -235,7 +235,8 @@ function main(){
         fi
     fi
 
-    APOLLO_DEV="apollo_dev_${USER}"
+    # LGSVL:
+    APOLLO_DEV="apollo_5.0_dev_${USER}"
     docker ps -a --format "{{.Names}}" | grep "$APOLLO_DEV" 1>/dev/null
     if [ $? == 0 ]; then
         if [[ "$(docker inspect --format='{{.Config.Image}}' $APOLLO_DEV 2> /dev/null)" != "$APOLLO_DEV_IMAGE" ]]; then
@@ -361,9 +362,9 @@ function main(){
         $(local_volumes) \
         --net host \
         -w /apollo \
-        --add-host in_dev_docker:127.0.0.1 \
+        --add-host in_5_0_dev_docker:127.0.0.1 \
         --add-host ${LOCAL_HOST}:127.0.0.1 \
-        --hostname in_dev_docker \
+        --hostname in_5_0_dev_docker \
         --shm-size 2G \
         --pid=host \
         -v /dev/null:/dev/raw1394 \

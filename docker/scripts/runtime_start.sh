@@ -360,9 +360,9 @@ function main(){
         $(local_volumes) \
         --net host \
         -w /apollo \
-        --add-host in_runtime_docker:127.0.0.1 \
+        --add-host in_5_0_runtime_docker:127.0.0.1 \
         --add-host ${LOCAL_HOST}:127.0.0.1 \
-        --hostname in_runtime_docker \
+        --hostname in_5_0_runtime_docker \
         $IMG \
         /bin/bash
     set +x

@@ -15,13 +15,13 @@ set -e
 
 if [ "$1" == "rebuild" ] ; then
   DEV_START__BUILD_ONLY__LGSVL=1 docker/scripts/dev_start.sh
-  docker exec -u $USER -t apollo_dev_$USER bazel clean --expunge || true
-  docker exec -u $USER -t apollo_dev_$USER /apollo/apollo.sh build_opt_gpu
+  docker exec -u $USER -t apollo_5.0_dev_$USER bazel clean --expunge || true
+  docker exec -u $USER -t apollo_5.0_dev_$USER /apollo/apollo.sh build_opt_gpu
 fi
 
-# Expects that the Apollo was already built in apollo_dev_$USER
-if ! docker exec -u $USER -t apollo_dev_$USER ls /apollo/.cache/bazel >/dev/null; then
-  echo "ERROR: apollo_dev_$USER isn't running or doesn't have /apollo/.cache/bazel directory"
+# Expects that the Apollo was already built in apollo_5.0_dev_$USER
+if ! docker exec -u $USER -t apollo_5.0_dev_$USER ls /apollo/.cache/bazel >/dev/null; then
+  echo "ERROR: apollo_5.0_dev_$USER isn't running or doesn't have /apollo/.cache/bazel directory"
   echo "       make sure it's running (you can use docker/scripts/dev_start.sh)"
   echo "       and build Apollo there or add \"rebuild\" parameter to this script"
   echo "       and it will be started and built automatically"
@@ -48,7 +48,7 @@ mkdir -p docker/build/output/apollo
 tar -cf - --exclude ./docker/build/output --exclude ./.cache/bazel/install --exclude=./modules/map/data/* --exclude=./data/log/* --exclude=**/.git --exclude=**/_objs --exclude=**/*.a --exclude=./lgsvlsimulator-output . | tar xf - -C docker/build/output/apollo
 
 grep -v ^# docker/build/installers/install_apollo_files.txt > docker/build/installers/install_apollo_files.txt.tmp
-docker exec apollo_dev_$USER sh -c 'tar -C / -cf - --files-from=/apollo/docker/build/installers/install_apollo_files.txt.tmp' | tar xf - -C docker/build/output/
+docker exec apollo_5.0_dev_$USER sh -c 'tar -C / -cf - --files-from=/apollo/docker/build/installers/install_apollo_files.txt.tmp' | tar xf - -C docker/build/output/
 rm -f docker/build/installers/install_apollo_files.txt.tmp
 
 # Add the startup scripts, so that they could be extracted from image you pull with docker
