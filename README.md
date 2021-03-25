@@ -65,7 +65,7 @@ To use such an image (without having to clone this repository):
 docker image pull REGISTRY/IMAGE:TAG
 docker image tag REGISTRY/IMAGE:TAG lgsvl/apollo-5.0:standalone-x86_64-14.04-5.0-20210319
 
-docker run --rm lgsvl/apollo:standalone-x86_64-18.04-5.0-20210319 sh -c 'tar -cf - -C /apollo standalone-scripts' | tar -xf -
+docker run --rm lgsvl/apollo-5.0:standalone-x86_64-18.04-5.0-20210319 sh -c 'tar -cf - -C /apollo standalone-scripts' | tar -xf -
 cd standalone-scripts
 
 mkdir -p modules/map/data

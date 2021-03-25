@@ -20,14 +20,15 @@ APOLLO_ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../.." && pwd )"
 CACHE_ROOT_DIR="${APOLLO_ROOT_DIR}/.cache"
 
 INCHINA="no"
-LOCAL_IMAGE="yes"
+LOCAL_IMAGE="no"
 FAST_BUILD_MODE="no"
 FAST_TEST_MODE="no"
 VERSION=""
 ARCH=$(uname -m)
-VERSION_X86_64="latest"
+VERSION_X86_64="dev-x86_64-20190617_1100"
 VERSION_AARCH64="dev-aarch64-20170927_1111"
-VERSION_OPT=""
+# LGSVL:
+VERSION_OPT="latest"
 
 ulimit -c 0
 
@@ -108,6 +109,7 @@ fi
 
 VOLUME_VERSION="latest"
 DEFAULT_MAPS=(
+#  LGSVL:
 #  sunnyvale_big_loop
 #  sunnyvale_loop
 #  sunnyvale_with_two_offices
@@ -185,20 +187,24 @@ else
     exit 0
 fi
 
+# LGSVL:
+if [ -z "${DOCKER_REPO_VOLUME}" ]; then
+    DOCKER_REPO_VOLUME=apolloauto/apollo
+fi
 if [ -z "${DOCKER_REPO}" ]; then
-    DOCKER_REPO=apolloauto/apollo
+    DOCKER_REPO=lgsvl/apollo-5.0
 fi
 
 if [ "$INCHINA" == "yes" ]; then
+    DOCKER_REPO_VOLUME=registry.docker-cn.com/apolloauto/apollo
     DOCKER_REPO=registry.docker-cn.com/apolloauto/apollo
 fi
 
-#if [ "$LOCAL_IMAGE" == "yes" ] && [ -z "$VERSION_OPT" ]; then
-#    VERSION="local_dev"
-#fi
+if [ "$LOCAL_IMAGE" == "yes" ] && [ -z "$VERSION_OPT" ]; then
+    VERSION="local_dev"
+fi
 
-
-IMG=lgsvl/apollo-5.0:${VERSION}
+IMG=${DOCKER_REPO}:$VERSION
 
 function local_volumes() {
     # Apollo root dir is required.
@@ -255,7 +261,7 @@ function main(){
             YOLO3D_VOLUME3_PATH=/apollo/modules/perception/model/yolo_camera_detector/yolo3d_1128
             docker stop ${YOLO3D_VOLUME} > /dev/null 2>&1
 
-            YOLO3D_VOLUME_IMAGE=${DOCKER_REPO}:yolo3d_volume-${ARCH}-latest
+            YOLO3D_VOLUME_IMAGE=${DOCKER_REPO_VOLUME}:yolo3d_volume-${ARCH}-latest
             docker pull ${YOLO3D_VOLUME_IMAGE}
             docker run -it -d --rm --name ${YOLO3D_VOLUME} -v ${YOLO3D_VOLUME1}:${YOLO3D_VOLUME1_PATH} -v ${YOLO3D_VOLUME2}:${YOLO3D_VOLUME2_PATH} -v ${YOLO3D_VOLUME3}:${YOLO3D_VOLUME3_PATH} ${YOLO3D_VOLUME_IMAGE} true
 
@@ -272,7 +278,7 @@ function main(){
     LOCALIZATION_VOLUME_PATH=/usr/local/apollo/local_integ
     docker stop ${LOCALIZATION_VOLUME} > /dev/null 2>&1
 
-    LOCALIZATION_VOLUME_IMAGE=${DOCKER_REPO}:localization_volume-${ARCH}-latest
+    LOCALIZATION_VOLUME_IMAGE=${DOCKER_REPO_VOLUME}:localization_volume-${ARCH}-latest
     docker pull ${LOCALIZATION_VOLUME_IMAGE}
     docker run -it -d --rm --name ${LOCALIZATION_VOLUME} -v ${LOCALIZATION_VOLUME}:${LOCALIZATION_VOLUME_PATH} ${LOCALIZATION_VOLUME_IMAGE} true
     OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${LOCALIZATION_VOLUME}:${LOCALIZATION_VOLUME_PATH}"
@@ -284,7 +290,7 @@ function main(){
     PADDLE_VOLUME2_PATH=/usr/local/apollo/paddlepaddle_dep
     docker stop ${PADDLE_VOLUME} > /dev/null 2>&1
 
-    PADDLE_VOLUME_IMAGE=${DOCKER_REPO}:paddlepaddle_volume-${ARCH}-latest
+    PADDLE_VOLUME_IMAGE=${DOCKER_REPO_VOLUME}:paddlepaddle_volume-${ARCH}-latest
     docker pull ${PADDLE_VOLUME_IMAGE}
     docker run -it -d --rm --name ${PADDLE_VOLUME} -v ${PADDLE_VOLUME1}:${PADDLE_VOLUME1_PATH} -v ${PADDLE_VOLUME2}:${PADDLE_VOLUME2_PATH} ${PADDLE_VOLUME_IMAGE} true
     OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${PADDLE_VOLUME1}:${PADDLE_VOLUME1_PATH} -v ${PADDLE_VOLUME2}:${PADDLE_VOLUME2_PATH}"
@@ -293,7 +299,7 @@ function main(){
     LOCAL_THIRD_PARTY_VOLUME_PATH=/usr/local/apollo/local_third_party
     docker stop ${LOCAL_THIRD_PARTY_VOLUME} > /dev/null 2>&1
 
-    LOCAL_THIRD_PARTY_VOLUME_IMAGE=${DOCKER_REPO}:local_third_party_volume-${ARCH}-latest
+    LOCAL_THIRD_PARTY_VOLUME_IMAGE=${DOCKER_REPO_VOLUME}:local_third_party_volume-${ARCH}-latest
     docker pull ${LOCAL_THIRD_PARTY_VOLUME_IMAGE}
     docker run -it -d --rm --name ${LOCAL_THIRD_PARTY_VOLUME} -v ${LOCAL_THIRD_PARTY_VOLUME}:${LOCAL_THIRD_PARTY_VOLUME_PATH} ${LOCAL_THIRD_PARTY_VOLUME_IMAGE} true
     OTHER_VOLUME_CONF="${OTHER_VOLUME_CONF} -v ${LOCAL_THIRD_PARTY_VOLUME}:${LOCAL_THIRD_PARTY_VOLUME_PATH}"
@@ -336,6 +342,7 @@ function main(){
     fi
 
     set -x
+
     ${DOCKER_CMD} run -it \
         -d \
         --privileged \
