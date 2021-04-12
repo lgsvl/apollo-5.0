@@ -74,4 +74,4 @@ bash docker/scripts/runtime_start.sh
 bash docker/scripts/runtime_into_standalone.sh
 ```
 
-The `modules/map/data` directory is used as a volume for maps. You can either use the maps included in [simulator branch](https://github.com/lgsvl/apollo-5.0/tree/simulator/modules/map/data) of the LGSVL fork of Apollo 5.0 or download individual HD Maps as described above.
+The `modules/map/data` directory is used as a volume for maps. You can either use the maps included in [simulator branch](https://github.com/lgsvl/apollo-5.0/tree/simulator/modules/map/data) of the LGSVL fork of Apollo 5.0 or download individual HD Maps.
