@@ -58,7 +58,22 @@ pipeline {
       }
     }
 
-    stage("Docker") {
+    stage("DockerLogin") {
+      environment {
+        DOCKERHUB_DOCKER_REGISTRY = credentials("dockerhub-docker-registry")
+        AUTO_GITLAB_DOCKER_REGISTRY = credentials("auto-gitlab-docker-registry")
+      }
+      steps {
+        dir("Jenkins") {
+          sh """
+            docker login -u "${DOCKERHUB_DOCKER_REGISTRY_USR}" -p "${DOCKERHUB_DOCKER_REGISTRY_PSW}"
+            docker login -u "${AUTO_GITLAB_DOCKER_REGISTRY_USR}" -p "${AUTO_GITLAB_DOCKER_REGISTRY_PSW}" ${GITLAB_HOST}:4567
+          """
+        }
+      }
+    }
+
+    stage("DockerBuild") {
       steps {
         sh """
           docker/build/standalone.x86_64.sh rebuild
@@ -66,17 +81,14 @@ pipeline {
         """
       }
     }
+
     stage("uploadGitlab") {
-      environment {
-        DOCKER = credentials("Jenkins-Gitlab")
-      }
       steps {
         sh """
           if [ "${BRANCH_NAME}" != "${DEFAULT_BRANCH_NAME}" ]; then
               DOCKER_REPO_SUFFIX="/`echo ${BRANCH_NAME} | tr / -  | tr [:upper:] [:lower:]`"
           fi
           docker tag ${DOCKER_IMAGE_NAME} ${GITLAB_HOST}:4567/${GITLAB_REPO}\$DOCKER_REPO_SUFFIX:\$DOCKER_TAG
-          docker login -u ${DOCKER_USR} -p ${DOCKER_PSW} ${GITLAB_HOST}:4567
           docker push ${GITLAB_HOST}:4567/${GITLAB_REPO}\$DOCKER_REPO_SUFFIX:\$DOCKER_TAG
 
           docker image rm ${GITLAB_HOST}:4567/${GITLAB_REPO}\$DOCKER_REPO_SUFFIX:\$DOCKER_TAG
