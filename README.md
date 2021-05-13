@@ -5,7 +5,7 @@ This repository is a fork of [Apollo](https://github.com/ApolloAuto/apollo) main
 
 ## How to Use
 
-Instructions for using this repository appear in the **Running Apollo 5.0 with SVL Simulator** section of the [SVL Simulator documentation](https://www.svlsimulator.com/docs/installation-guide/system-under-test/apollo5-0-instructions.md).
+Instructions for using this repository appear in the **Running Apollo 5.0 with SVL Simulator** section of the [SVL Simulator documentation](https://www.svlsimulator.com/docs/system-under-test/apollo5-0-instructions/).
 
 
 ## Other Information
