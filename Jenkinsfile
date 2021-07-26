@@ -114,7 +114,7 @@ pipeline {
               DOCKER_REGISTRY="${WISE_AWS_ECR_ACCOUNT_ID}.dkr.ecr.${WISE_AWS_ECR_REGION}.amazonaws.com"
 
               # According to https://hub.docker.com/r/amazon/aws-cli, the version tags are immutable => no need to force pulling.
-              AWSCLI="amazon/aws-cli:2.2.4"
+              AWSCLI="amazon/aws-cli:2.2.20"
 
               if [ "${APOLLO_BRANCH}" != "${DEFAULT_BRANCH_NAME}" ]; then
                   DOCKER_REPO_SUFFIX="/`echo ${APOLLO_BRANCH} | tr / -  | tr [:upper:] [:lower:]`"
