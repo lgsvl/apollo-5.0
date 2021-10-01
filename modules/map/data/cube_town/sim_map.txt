@@ -961,7 +961,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_6"
   }
   overlap_id {
-    id: "overlap_stopsign_1_lane_6"
+    id: "overlap_stop_sign_1_lane_6"
   }
   predecessor_id {
     id: "lane_16"
@@ -1093,7 +1093,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_7"
   }
   overlap_id {
-    id: "overlap_stopsign_0_lane_7"
+    id: "overlap_stop_sign_0_lane_7"
   }
   predecessor_id {
     id: "lane_12"
@@ -1213,7 +1213,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_8"
   }
   overlap_id {
-    id: "overlap_stopsign_2_lane_8"
+    id: "overlap_stop_sign_2_lane_8"
   }
   predecessor_id {
     id: "lane_15"
@@ -1337,7 +1337,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_9"
   }
   overlap_id {
-    id: "overlap_stopsign_2_lane_9"
+    id: "overlap_stop_sign_2_lane_9"
   }
   predecessor_id {
     id: "lane_15"
@@ -1461,7 +1461,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_10"
   }
   overlap_id {
-    id: "overlap_stopsign_0_lane_10"
+    id: "overlap_stop_sign_0_lane_10"
   }
   predecessor_id {
     id: "lane_12"
@@ -1557,7 +1557,7 @@ lane {
     id: "overlap_junction_I1_J0_lane_11"
   }
   overlap_id {
-    id: "overlap_stopsign_1_lane_11"
+    id: "overlap_stop_sign_1_lane_11"
   }
   predecessor_id {
     id: "lane_16"
@@ -2829,7 +2829,7 @@ lane {
 }
 stop_sign {
   id {
-    id: "stopsign_0"
+    id: "stop_sign_0"
   }
   stop_line {
     segment {
@@ -2850,10 +2850,10 @@ stop_sign {
     }
   }
   overlap_id {
-    id: "overlap_stopsign_0_lane_7"
+    id: "overlap_stop_sign_0_lane_7"
   }
   overlap_id {
-    id: "overlap_stopsign_0_lane_10"
+    id: "overlap_stop_sign_0_lane_10"
   }
   overlap_id {
     id: "overlap_junction_I1_J0_stopsign0"
@@ -2862,7 +2862,7 @@ stop_sign {
 }
 stop_sign {
   id {
-    id: "stopsign_1"
+    id: "stop_sign_1"
   }
   stop_line {
     segment {
@@ -2883,10 +2883,10 @@ stop_sign {
     }
   }
   overlap_id {
-    id: "overlap_stopsign_1_lane_6"
+    id: "overlap_stop_sign_1_lane_6"
   }
   overlap_id {
-    id: "overlap_stopsign_1_lane_11"
+    id: "overlap_stop_sign_1_lane_11"
   }
   overlap_id {
     id: "overlap_junction_I1_J0_stopsign1"
@@ -2895,7 +2895,7 @@ stop_sign {
 }
 stop_sign {
   id {
-    id: "stopsign_2"
+    id: "stop_sign_2"
   }
   stop_line {
     segment {
@@ -2916,10 +2916,10 @@ stop_sign {
     }
   }
   overlap_id {
-    id: "overlap_stopsign_2_lane_8"
+    id: "overlap_stop_sign_2_lane_8"
   }
   overlap_id {
-    id: "overlap_stopsign_2_lane_9"
+    id: "overlap_stop_sign_2_lane_9"
   }
   overlap_id {
     id: "overlap_junction_I1_J0_stopsign2"
@@ -3324,7 +3324,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_0_lane_7"
+    id: "overlap_stop_sign_0_lane_7"
   }
   object {
     id {
@@ -3338,7 +3338,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_0"
+      id: "stop_sign_0"
     }
     stop_sign_overlap_info {
     }
@@ -3346,7 +3346,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_0_lane_10"
+    id: "overlap_stop_sign_0_lane_10"
   }
   object {
     id {
@@ -3360,7 +3360,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_0"
+      id: "stop_sign_0"
     }
     stop_sign_overlap_info {
     }
@@ -3368,7 +3368,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_1_lane_6"
+    id: "overlap_stop_sign_1_lane_6"
   }
   object {
     id {
@@ -3382,7 +3382,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_1"
+      id: "stop_sign_1"
     }
     stop_sign_overlap_info {
     }
@@ -3390,7 +3390,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_1_lane_11"
+    id: "overlap_stop_sign_1_lane_11"
   }
   object {
     id {
@@ -3404,7 +3404,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_1"
+      id: "stop_sign_1"
     }
     stop_sign_overlap_info {
     }
@@ -3412,7 +3412,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_2_lane_8"
+    id: "overlap_stop_sign_2_lane_8"
   }
   object {
     id {
@@ -3426,7 +3426,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_2"
+      id: "stop_sign_2"
     }
     stop_sign_overlap_info {
     }
@@ -3434,7 +3434,7 @@ overlap {
 }
 overlap {
   id {
-    id: "overlap_stopsign_2_lane_9"
+    id: "overlap_stop_sign_2_lane_9"
   }
   object {
     id {
@@ -3448,7 +3448,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_2"
+      id: "stop_sign_2"
     }
     stop_sign_overlap_info {
     }
@@ -3781,7 +3781,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_0"
+      id: "stop_sign_0"
     }
     stop_sign_overlap_info {
     }
@@ -3800,7 +3800,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_1"
+      id: "stop_sign_1"
     }
     stop_sign_overlap_info {
     }
@@ -3819,7 +3819,7 @@ overlap {
   }
   object {
     id {
-      id: "stopsign_2"
+      id: "stop_sign_2"
     }
     stop_sign_overlap_info {
     }
